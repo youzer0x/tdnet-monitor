@@ -17,8 +17,7 @@ jobs:
       GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
       GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
       NOTIFY_TO: ${{ secrets.NOTIFY_TO }}
-      JQUANTS_EMAIL: ${{ secrets.JQUANTS_EMAIL }}
-      JQUANTS_PASSWORD: ${{ secrets.JQUANTS_PASSWORD }}
+      JQUANTS_API_KEY: ${{ secrets.JQUANTS_API_KEY }}
       TZ: Asia/Tokyo
 
     steps:
