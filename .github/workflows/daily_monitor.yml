@@ -35,6 +35,8 @@ jobs:
 
       - name: Run TDnet Monitor
         working-directory: scripts
+        env:
+          TARGET_DATE: "2025-04-10"   # ← 直近の営業日を指定
         run: python main.py
 
       - name: Commit and push GitHub Pages
