@@ -1,99 +1,160 @@
 """REIT / ETF のフィルタリング
 
-JPX が公開する上場銘柄一覧 Excel を取得し、
+JPX が公開する上場銘柄一覧を取得し、
 「市場・商品区分」列から ETF/ETN/REIT/インフラファンド等を正確に判定する。
 証券コード範囲による近似判定は使用しない。
+
+JPX は .xls 形式で公開しているため、CSV版を優先的に使用する。
+CSV が取得できない場合は xlrd で .xls を読み取る。
 """
 
-import os
 import requests
-import openpyxl
-from io import BytesIO
+import csv
+from io import StringIO
 
-# JPX 上場銘柄一覧 Excel のURL
-# ※ JPX は定期的にURLを更新するため、取得失敗時はフォールバック
-JPX_LIST_URL = "https://www.jpx.co.jp/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_j.xls"
-JPX_LIST_URL_XLSX = "https://www.jpx.co.jp/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_j.xlsx"
+# JPX 上場銘柄一覧（CSV版）
+JPX_CSV_URL = "https://www.jpx.co.jp/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_j.csv"
 
-# キャッシュファイルパス
-CACHE_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "jpx_listed.xlsx")
+# Excel版のURL（フォールバック用）
+JPX_XLS_URL = "https://www.jpx.co.jp/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_j.xls"
+
+# 除外キーワード
+EXCLUDE_KEYWORDS = [
+    "ETF", "ETN",
+    "REIT", "不動産投資信託",
+    "インフラファンド", "インフラ投資法人",
+    "出資証券",
+    "ベンチャーファンド",
+]
 
 
-def _download_jpx_list() -> bytes:
-    """JPX 上場銘柄一覧をダウンロードする"""
-    for url in [JPX_LIST_URL_XLSX, JPX_LIST_URL]:
+def _fetch_from_csv() -> set[str]:
+    """CSV版の上場銘柄一覧からREIT/ETFコードを取得"""
+    print(f"  Downloading JPX list (CSV): {JPX_CSV_URL}")
+    resp = requests.get(JPX_CSV_URL, timeout=60)
+    resp.raise_for_status()
+
+    # エンコーディング判定
+    for encoding in ["utf-8", "shift_jis", "cp932"]:
         try:
-            print(f"  Downloading JPX list from: {url}")
-            resp = requests.get(url, timeout=60)
-            if resp.status_code == 200 and len(resp.content) > 1000:
-                return resp.content
-        except requests.RequestException:
+            text = resp.content.decode(encoding)
+            break
+        except UnicodeDecodeError:
             continue
-    raise RuntimeError("JPX 上場銘柄一覧のダウンロードに失敗しました")
+    else:
+        raise RuntimeError("JPX CSV のデコードに失敗しました")
+
+    reader = csv.reader(StringIO(text))
+    header = next(reader)
+
+    # ヘッダーから列インデックスを特定
+    code_col = None
+    segment_col = None
+    for i, col_name in enumerate(header):
+        col_name = col_name.strip()
+        if "コード" in col_name and code_col is None:
+            code_col = i
+        if "市場・商品区分" in col_name or "市場商品区分" in col_name:
+            segment_col = i
+
+    if code_col is None or segment_col is None:
+        print(f"  Warning: Header detection failed. Headers: {header[:6]}")
+        code_col = 0
+        segment_col = 2
+
+    excluded: set[str] = set()
+    for row in reader:
+        if len(row) <= max(code_col, segment_col):
+            continue
+        code = row[code_col].strip()
+        code = code[:4] if len(code) >= 4 else code
+        if not code.isdigit():
+            continue
+
+        segment = row[segment_col].strip()
+        if any(kw in segment for kw in EXCLUDE_KEYWORDS):
+            excluded.add(code)
+
+    return excluded
+
+
+def _fetch_from_xls() -> set[str]:
+    """XLS版の上場銘柄一覧からREIT/ETFコードを取得（フォールバック）"""
+    try:
+        import xlrd
+    except ImportError:
+        raise RuntimeError(
+            "xlrd がインストールされていません。"
+            "pip install xlrd でインストールしてください。"
+        )
+
+    print(f"  Downloading JPX list (XLS): {JPX_XLS_URL}")
+    resp = requests.get(JPX_XLS_URL, timeout=60)
+    resp.raise_for_status()
+
+    wb = xlrd.open_workbook(file_contents=resp.content)
+    ws = wb.sheet_by_index(0)
+
+    # ヘッダー行を探す
+    code_col = None
+    segment_col = None
+    header_row = 0
+
+    for row_idx in range(min(5, ws.nrows)):
+        for col_idx in range(ws.ncols):
+            val = str(ws.cell_value(row_idx, col_idx)).strip()
+            if "コード" in val and code_col is None:
+                code_col = col_idx
+                header_row = row_idx
+            if "市場・商品区分" in val or "市場商品区分" in val:
+                segment_col = col_idx
+                header_row = row_idx
+
+    if code_col is None or segment_col is None:
+        code_col = 0
+        segment_col = 2
+        header_row = 0
+
+    excluded: set[str] = set()
+    for row_idx in range(header_row + 1, ws.nrows):
+        code_val = ws.cell_value(row_idx, code_col)
+        if isinstance(code_val, float):
+            code = str(int(code_val))
+        else:
+            code = str(code_val).strip()
+        code = code[:4] if len(code) >= 4 else code
+        if not code.isdigit():
+            continue
+
+        segment = str(ws.cell_value(row_idx, segment_col)).strip()
+        if any(kw in segment for kw in EXCLUDE_KEYWORDS):
+            excluded.add(code)
+
+    return excluded
 
 
 def get_excluded_codes() -> set[str]:
     """
     REIT / ETF / ETN / インフラファンド 等の証券コードセットを返す。
-
-    JPX Excel の「市場・商品区分」列に以下が含まれるものを除外対象とする:
-      - ETF/ETN
-      - REIT（不動産投資信託）
-      - インフラファンド
-      - 出資証券 等
-
-    返り値: 4桁証券コードの set
+    CSV版を優先し、失敗時はXLS版にフォールバックする。
     """
-    content = _download_jpx_list()
-    wb = openpyxl.load_workbook(BytesIO(content), read_only=True, data_only=True)
-    ws = wb.active
+    try:
+        excluded = _fetch_from_csv()
+        if excluded:
+            print(f"  Excluded codes (REIT/ETF/etc.): {len(excluded)} companies")
+            return excluded
+        print("  CSV returned no results, trying XLS...")
+    except Exception as e:
+        print(f"  CSV fetch failed ({e}), trying XLS...")
 
-    # ヘッダー行を探す
-    header_row = None
-    code_col = None
-    segment_col = None
-
-    for row_idx, row in enumerate(ws.iter_rows(min_row=1, max_row=5, values_only=False), start=1):
-        for cell in row:
-            val = str(cell.value or "").strip()
-            if "コード" in val and code_col is None:
-                code_col = cell.column - 1
-                header_row = row_idx
-            if "市場・商品区分" in val or "市場商品区分" in val:
-                segment_col = cell.column - 1
-                header_row = row_idx
-
-    if code_col is None or segment_col is None:
-        # フォールバック: 一般的な列位置 (A=コード, C=市場・商品区分)
-        print("  Warning: Header detection failed, using default columns")
-        code_col = 0
-        segment_col = 2
-        header_row = 1
-
-    # 除外キーワード
-    exclude_keywords = [
-        "ETF", "ETN",
-        "REIT", "不動産投資信託",
-        "インフラファンド", "インフラ投資法人",
-        "出資証券",
-        "ベンチャーファンド",
-    ]
-
-    excluded: set[str] = set()
-    for row in ws.iter_rows(min_row=header_row + 1, values_only=True):
-        if row[code_col] is None:
-            continue
-        code = str(row[code_col]).strip()
-        # 4桁に正規化
-        code = code[:4] if len(code) >= 4 else code
-
-        segment = str(row[segment_col] or "").strip()
-        if any(kw in segment for kw in exclude_keywords):
-            excluded.add(code)
-
-    wb.close()
-    print(f"  Excluded codes (REIT/ETF/etc.): {len(excluded)} companies")
-    return excluded
+    try:
+        excluded = _fetch_from_xls()
+        print(f"  Excluded codes (REIT/ETF/etc.): {len(excluded)} companies")
+        return excluded
+    except Exception as e:
+        print(f"  WARNING: XLS fetch also failed ({e})")
+        print("  Proceeding without REIT/ETF filtering.")
+        return set()
 
 
 def filter_disclosures(disclosures: list, excluded_codes: set[str]) -> list:
