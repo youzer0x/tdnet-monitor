@@ -264,6 +264,38 @@ def generate_pages_html(available_dates: list[str]) -> str:
       transition: color 0.15s;
     }
     .title-cell a:hover { color: var(--accent); text-decoration: underline; }
+    .title-cell a.visited {
+      color: #b0b8c0;
+    }
+    .title-cell a.visited:hover { color: #90979e; }
+
+    /* ページネーション */
+    .pagination {
+      display: flex; align-items: center; justify-content: center;
+      gap: 4px; padding: 12px 16px;
+      border-bottom: 1px solid var(--border);
+    }
+    .pagination button {
+      padding: 5px 12px; border: 1px solid var(--border);
+      border-radius: 4px; background: var(--card);
+      font-size: 13px; font-family: 'Noto Sans JP', sans-serif;
+      cursor: pointer; color: var(--text);
+      transition: all 0.15s;
+    }
+    .pagination button:hover:not(:disabled) {
+      background: var(--hover); border-color: var(--primary-light);
+    }
+    .pagination button:disabled {
+      opacity: 0.4; cursor: default;
+    }
+    .pagination button.active {
+      background: var(--primary); color: #fff;
+      border-color: var(--primary);
+    }
+    .pagination .page-info {
+      font-size: 12px; color: var(--text-sub);
+      margin: 0 8px;
+    }
 
     /* ローディング */
     .loading {
@@ -343,6 +375,31 @@ def generate_pages_html(available_dates: list[str]) -> str:
 
 <script>
 let currentData = null;
+let currentPage = 1;
+const PAGE_SIZE = 100;
+let filteredItems = [];
+let visitedUrls = {};
+
+// 既読状態の保存・復元（ブラウザのローカルストレージ）
+function loadVisited() {
+  try {
+    const stored = localStorage.getItem('tdnet_visited');
+    if (stored) visitedUrls = JSON.parse(stored);
+  } catch(e) {}
+}
+function saveVisited() {
+  try {
+    localStorage.setItem('tdnet_visited', JSON.stringify(visitedUrls));
+  } catch(e) {}
+}
+function markVisited(url) {
+  visitedUrls[url] = true;
+  saveVisited();
+  const links = document.querySelectorAll('.title-cell a[href="' + CSS.escape(url) + '"]');
+  links.forEach(a => a.classList.add('visited'));
+}
+
+loadVisited();
 
 async function init() {
   try {
@@ -383,8 +440,9 @@ async function loadDate(dateStr) {
   try {
     const resp = await fetch('data/' + dateStr + '.json?' + Date.now());
     currentData = await resp.json();
-    renderTable(currentData);
-    renderSummary(currentData);
+    filteredItems = currentData.items || [];
+    currentPage = 1;
+    renderAll();
     document.getElementById('filterInput').value = '';
   } catch (e) {
     tableArea.innerHTML = '<div class="empty">この日付のデータを読み込めませんでした。</div>';
@@ -392,10 +450,17 @@ async function loadDate(dateStr) {
   }
 }
 
-function renderSummary(data) {
+function renderAll() {
+  renderSummary();
+  renderPaginationAndTable();
+}
+
+function renderSummary() {
+  const total = filteredItems.length;
+  const companies = new Set(filteredItems.map(i => i.code)).size;
   document.getElementById('summaryArea').innerHTML =
-    '<div class="summary-chip"><span class="num">' + data.company_count + '</span>社</div>' +
-    '<div class="summary-chip"><span class="num">' + data.total_count + '</span>件の開示</div>';
+    '<div class="summary-chip"><span class="num">' + companies + '</span>社</div>' +
+    '<div class="summary-chip"><span class="num">' + total + '</span>件の開示</div>';
 }
 
 function formatMcap(v) {
@@ -405,23 +470,49 @@ function formatMcap(v) {
   return v.toFixed(1) + '億円';
 }
 
-function renderTable(data) {
-  if (!data.items || data.items.length === 0) {
-    document.getElementById('tableArea').innerHTML =
-      '<div class="empty">この日の開示はありません。</div>';
-    return;
+function renderPaginationAndTable() {
+  const total = filteredItems.length;
+  const totalPages = Math.max(1, Math.ceil(total / PAGE_SIZE));
+  if (currentPage > totalPages) currentPage = totalPages;
+
+  const start = (currentPage - 1) * PAGE_SIZE;
+  const end = Math.min(start + PAGE_SIZE, total);
+  const pageItems = filteredItems.slice(start, end);
+
+  // ページネーション HTML
+  let pagHtml = '';
+  if (totalPages > 1) {
+    pagHtml = '<div class="pagination">';
+    pagHtml += '<button onclick="goPage(1)" ' + (currentPage===1?'disabled':'') + '>«</button>';
+    pagHtml += '<button onclick="goPage(' + (currentPage-1) + ')" ' + (currentPage===1?'disabled':'') + '>‹</button>';
+
+    // ページ番号ボタン（最大7個表示）
+    let pageStart = Math.max(1, currentPage - 3);
+    let pageEnd = Math.min(totalPages, pageStart + 6);
+    if (pageEnd - pageStart < 6) pageStart = Math.max(1, pageEnd - 6);
+
+    for (let p = pageStart; p <= pageEnd; p++) {
+      pagHtml += '<button onclick="goPage(' + p + ')" class="' + (p===currentPage?'active':'') + '">' + p + '</button>';
+    }
+
+    pagHtml += '<button onclick="goPage(' + (currentPage+1) + ')" ' + (currentPage===totalPages?'disabled':'') + '>›</button>';
+    pagHtml += '<button onclick="goPage(' + totalPages + ')" ' + (currentPage===totalPages?'disabled':'') + '>»</button>';
+    pagHtml += '<span class="page-info">' + start + '–' + end + ' / ' + total + '件</span>';
+    pagHtml += '</div>';
   }
 
-  let html = '<table id="disclosureTable"><thead><tr>' +
+  // テーブル HTML
+  let tblHtml = '<table id="disclosureTable"><thead><tr>' +
     '<th>コード</th><th>会社名</th><th class="right">時価総額</th><th>時刻</th><th>開示内容</th>' +
     '</tr></thead><tbody>';
 
-  data.items.forEach(item => {
+  pageItems.forEach(item => {
     const mcap = formatMcap(item.market_cap);
+    const isVisited = visitedUrls[item.pdf_url] ? ' visited' : '';
     const titleHtml = item.pdf_url
-      ? '<a href="' + item.pdf_url + '" target="_blank">' + escapeHtml(item.title) + '</a>'
+      ? '<a href="' + escapeAttr(item.pdf_url) + '" target="_blank" class="disclosure-link' + isVisited + '" onclick="markVisited(\'' + escapeAttr(item.pdf_url) + '\')">' + escapeHtml(item.title) + '</a>'
       : escapeHtml(item.title);
-    html += '<tr>' +
+    tblHtml += '<tr>' +
       '<td class="code-cell">' + item.code + '</td>' +
       '<td class="company-cell">' + escapeHtml(item.company_name) + '</td>' +
       '<td class="mcap-cell">' + mcap + '</td>' +
@@ -430,21 +521,35 @@ function renderTable(data) {
       '</tr>';
   });
 
-  html += '</tbody></table>';
-  document.getElementById('tableArea').innerHTML = html;
-  updateResultCount(data.items.length, data.items.length);
+  tblHtml += '</tbody></table>';
+
+  document.getElementById('tableArea').innerHTML = pagHtml + tblHtml;
+  updateResultCount(total, currentData ? currentData.total_count : total);
+}
+
+function goPage(p) {
+  const totalPages = Math.max(1, Math.ceil(filteredItems.length / PAGE_SIZE));
+  currentPage = Math.max(1, Math.min(p, totalPages));
+  renderPaginationAndTable();
+  // テーブル先頭にスクロール
+  document.querySelector('.card').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 function filterTable() {
   const q = document.getElementById('filterInput').value.toLowerCase();
-  const rows = document.querySelectorAll('#disclosureTable tbody tr');
-  let visible = 0;
-  rows.forEach(row => {
-    const match = row.textContent.toLowerCase().includes(q);
-    row.style.display = match ? '' : 'none';
-    if (match) visible++;
-  });
-  updateResultCount(visible, rows.length);
+  if (!currentData || !currentData.items) return;
+
+  if (q === '') {
+    filteredItems = currentData.items;
+  } else {
+    filteredItems = currentData.items.filter(item =>
+      item.code.includes(q) ||
+      item.company_name.toLowerCase().includes(q) ||
+      item.title.toLowerCase().includes(q)
+    );
+  }
+  currentPage = 1;
+  renderAll();
 }
 
 function updateResultCount(visible, total) {
@@ -460,6 +565,10 @@ function escapeHtml(str) {
   const d = document.createElement('div');
   d.textContent = str;
   return d.innerHTML;
+}
+
+function escapeAttr(str) {
+  return str.replace(/&/g,'&amp;').replace(/'/g,"\\'").replace(/"/g,'&quot;');
 }
 
 init();
