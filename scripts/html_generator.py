@@ -395,8 +395,9 @@ function saveVisited() {
 function markVisited(url) {
   visitedUrls[url] = true;
   saveVisited();
-  const links = document.querySelectorAll('.title-cell a[href="' + CSS.escape(url) + '"]');
-  links.forEach(a => a.classList.add('visited'));
+  document.querySelectorAll('.disclosure-link').forEach(a => {
+    if (a.dataset.url === url) a.classList.add('visited');
+  });
 }
 
 loadVisited();
@@ -506,12 +507,17 @@ function renderPaginationAndTable() {
     '<th>コード</th><th>会社名</th><th class="right">時価総額</th><th>時刻</th><th>開示内容</th>' +
     '</tr></thead><tbody>';
 
-  pageItems.forEach(item => {
+  pageItems.forEach((item, idx) => {
     const mcap = formatMcap(item.market_cap);
     const isVisited = visitedUrls[item.pdf_url] ? ' visited' : '';
-    const titleHtml = item.pdf_url
-      ? '<a href="' + escapeAttr(item.pdf_url) + '" target="_blank" class="disclosure-link' + isVisited + '" onclick="markVisited(\'' + escapeAttr(item.pdf_url) + '\')">' + escapeHtml(item.title) + '</a>'
-      : escapeHtml(item.title);
+    const rowId = 'row-' + currentPage + '-' + idx;
+    let titleHtml;
+    if (item.pdf_url) {
+      const safeUrl = escapeHtml(item.pdf_url);
+      titleHtml = '<a href="' + safeUrl + '" target="_blank" class="disclosure-link' + isVisited + '" data-url="' + safeUrl + '" onclick="markVisited(this.dataset.url)">' + escapeHtml(item.title) + '</a>';
+    } else {
+      titleHtml = escapeHtml(item.title);
+    }
     tblHtml += '<tr>' +
       '<td class="code-cell">' + item.code + '</td>' +
       '<td class="company-cell">' + escapeHtml(item.company_name) + '</td>' +
@@ -568,7 +574,7 @@ function escapeHtml(str) {
 }
 
 function escapeAttr(str) {
-  return str.replace(/&/g,'&amp;').replace(/'/g,"\\'").replace(/"/g,'&quot;');
+  return str.replace(/&/g,'&amp;').replace(/"/g,'&quot;');
 }
 
 init();
