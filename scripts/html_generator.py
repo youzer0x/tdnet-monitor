@@ -69,12 +69,17 @@ def generate_email_html(
     items: list[DisplayItem],
     target_date: date,
     pages_url: str,
+    max_items: int | None = 30,
+    subject_suffix: str = "",
 ) -> str:
-    """Gmail 通知用の HTML を生成する（上位30件）"""
+    """Gmail 通知用の HTML を生成する"""
     date_str = target_date.strftime("%Y年%m月%d日")
     total_count = len(items)
     company_count = len(set(item.code for item in items))
-    table_rows = _email_table_html(items, max_items=30)
+    display_count = min(total_count, max_items) if max_items else total_count
+    table_rows = _email_table_html(items, max_items=max_items)
+    truncated = max_items is not None and total_count > max_items
+    subtitle = f"{date_str}{subject_suffix}｜{company_count}社・{total_count}件"
 
     return f"""<!DOCTYPE html>
 <html>
@@ -83,7 +88,7 @@ def generate_email_html(
   <div style="max-width:960px;margin:20px auto;background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
     <div style="background:#1a237e;color:#fff;padding:20px 24px;">
       <h1 style="margin:0;font-size:20px;font-weight:600;">📋 適時開示モニター</h1>
-      <p style="margin:6px 0 0;font-size:14px;opacity:0.9;">{date_str}｜{company_count}社・{total_count}件</p>
+      <p style="margin:6px 0 0;font-size:14px;opacity:0.9;">{subtitle}</p>
     </div>
     <div style="padding:16px 24px;">
       <table style="width:100%;border-collapse:collapse;font-size:13px;">
@@ -100,11 +105,11 @@ def generate_email_html(
 {table_rows}
         </tbody>
       </table>
-      {"<p style='margin:16px 0 0;font-size:13px;color:#666;'>※ 上位30件を表示。</p>" if total_count > 30 else ""}
+      {"<p style='margin:16px 0 0;font-size:13px;color:#666;'>※ 上位" + str(max_items) + "件を表示。</p>" if truncated else ""}
       <div style="margin:20px 0;text-align:center;">
         <a href="{pages_url}" target="_blank"
            style="display:inline-block;background:#1a237e;color:#fff;padding:10px 28px;border-radius:6px;text-decoration:none;font-size:14px;font-weight:500;">
-          全{total_count}件を表示 →
+          全件を表示 →
         </a>
       </div>
     </div>

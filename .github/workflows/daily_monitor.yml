@@ -2,12 +2,23 @@ name: TDnet Daily Monitor
 
 on:
   schedule:
-    # 毎日 09:00 UTC = 18:00 JST
+    # 18:00 JST = 09:00 UTC
     - cron: "0 9 * * *"
-  workflow_dispatch:  # 手動実行ボタンを有効化
+    # 24:00 JST = 15:00 UTC
+    - cron: "0 15 * * *"
+  workflow_dispatch:
+    inputs:
+      run_mode:
+        description: "Run mode: evening (00:00-18:00) or night (18:01-24:00)"
+        required: false
+        default: "evening"
+        type: choice
+        options:
+          - evening
+          - night
 
 permissions:
-  contents: write  # docs/ への push に必要
+  contents: write
 
 jobs:
   monitor:
@@ -31,10 +42,20 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Determine run mode
+        id: mode
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "RUN_MODE=${{ github.event.inputs.run_mode }}" >> $GITHUB_ENV
+          elif [ "$(date +%H)" -ge 12 ]; then
+            echo "RUN_MODE=night" >> $GITHUB_ENV
+          else
+            echo "RUN_MODE=evening" >> $GITHUB_ENV
+          fi
+          echo "Run mode: $RUN_MODE"
+
       - name: Run TDnet Monitor
         working-directory: scripts
-        env:
-          TARGET_DATE: "2026-04-09"   # ← 直近の営業日を指定
         run: python main.py
 
       - name: Commit and push GitHub Pages
@@ -44,7 +65,7 @@ jobs:
           if [ -d "docs" ] && [ -n "$(ls -A docs/ 2>/dev/null)" ]; then
             git add --force docs/index.html
             git add --force docs/data/
-            git diff --cached --quiet || (git commit -m "Update disclosures $(date +%Y-%m-%d)" && git push)
+            git diff --cached --quiet || (git commit -m "Update disclosures $(date +%Y-%m-%d) [${RUN_MODE}]" && git push)
           else
             echo "No docs to commit (market closed or no disclosures)."
           fi
