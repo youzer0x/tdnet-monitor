@@ -42,7 +42,8 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           if [ -d "docs" ] && [ -n "$(ls -A docs/ 2>/dev/null)" ]; then
-            git add docs/
+            git add --force docs/index.html
+            git add --force docs/data/
             git diff --cached --quiet || (git commit -m "Update disclosures $(date +%Y-%m-%d)" && git push)
           else
             echo "No docs to commit (market closed or no disclosures)."
