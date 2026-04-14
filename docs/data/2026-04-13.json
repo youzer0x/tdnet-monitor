@@ -1,0 +1,23 @@
+{
+  "date": "2026-04-13",
+  "company_count": 2,
+  "total_count": 2,
+  "items": [
+    {
+      "code": "5821",
+      "company_name": "平河ヒューテ",
+      "market_cap": 784.0,
+      "time": "18:30",
+      "title": "株式無償割当てによる１株に満たない端数の処理に伴う自己株式の買取りに関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502395.pdf"
+    },
+    {
+      "code": "3323",
+      "company_name": "レカム",
+      "market_cap": 74.4,
+      "time": "18:15",
+      "title": "子会社の年次決算情報に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502857.pdf"
+    }
+  ]
+}
