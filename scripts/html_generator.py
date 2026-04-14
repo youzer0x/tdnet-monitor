@@ -329,13 +329,75 @@ def generate_pages_html(available_dates: list[str]) -> str:
       font-size: 11px; color: var(--text-sub);
     }
 
-    /* レスポンシブ */
+    /* レスポンシブ - スマホではカード型表示 */
     @media (max-width: 768px) {
+      .header { padding: 20px 16px 16px; }
       .header-inner { flex-direction: column; align-items: flex-start; }
+      .header h1 { font-size: 18px; }
+      .date-selector { width: 100%; }
+      .date-selector select { width: 100%; }
       .toolbar input[type="text"] { width: 100%; }
-      .summary { flex-direction: column; }
-      table { font-size: 12px; }
-      thead th, tbody td { padding: 6px 8px; }
+      .summary { flex-direction: row; }
+      .summary-chip { flex: 1; justify-content: center; }
+      .container { padding: 0 8px; }
+
+      /* テーブルを非表示にしてカード表示 */
+      table thead { display: none; }
+      table, table tbody, table tr, table td {
+        display: block; width: 100%;
+      }
+      table tbody tr {
+        padding: 12px 14px;
+        border-bottom: 1px solid var(--border);
+        position: relative;
+      }
+      table tbody tr:hover td { background: transparent; }
+      table tbody tr:hover { background: var(--hover); }
+
+      /* 各セルのレイアウト */
+      tbody td { padding: 0; border: none; }
+
+      /* 1行目: コード・会社名・時価総額 */
+      .code-cell {
+        display: inline;
+        font-size: 13px;
+        color: var(--primary);
+      }
+      .company-cell {
+        display: inline;
+        font-size: 13px;
+        font-weight: 500;
+        margin-left: 6px;
+      }
+      .mcap-cell {
+        display: inline;
+        float: right;
+        font-size: 12px;
+        color: var(--text-sub);
+        text-align: right;
+      }
+
+      /* 2行目: 時刻 */
+      .time-cell {
+        display: block;
+        font-size: 11px;
+        color: var(--text-sub);
+        margin-top: 4px;
+      }
+
+      /* 3行目: 開示タイトル */
+      .title-cell {
+        display: block;
+        margin-top: 4px;
+        font-size: 13px;
+        line-height: 1.5;
+        word-break: break-all;
+      }
+
+      /* ページネーション */
+      .pagination { flex-wrap: wrap; gap: 3px; padding: 10px 8px; }
+      .pagination button { padding: 6px 10px; font-size: 12px; }
+      .pagination .page-info { width: 100%; text-align: center; margin-top: 4px; }
     }
   </style>
 </head>
