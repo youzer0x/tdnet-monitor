@@ -5,11 +5,11 @@ on:
     # 18:00 JST = 09:00 UTC → evening
     - cron: "0 9 * * *"
     # 24:00 JST = 15:00 UTC → night
-    - cron: "0 15 * * *"
+    - cron: "59 14 * * *"
   workflow_dispatch:
     inputs:
       run_mode:
-        description: "Run mode: evening (00:00-18:00) or night (18:01-24:00)"
+        description: "Run mode: evening (00:00-18:00) or night (18:01-23:59)"
         required: false
         default: "evening"
         type: choice
@@ -50,7 +50,7 @@ jobs:
           elif [ "${{ github.event.schedule }}" = "0 9 * * *" ]; then
             # cron 09:00 UTC = 18:00 JST → evening
             echo "RUN_MODE=evening" >> $GITHUB_ENV
-          elif [ "${{ github.event.schedule }}" = "0 15 * * *" ]; then
+          elif [ "${{ github.event.schedule }}" = "59 14 * * *" ]; then
             # cron 15:00 UTC = 24:00 JST → night
             echo "RUN_MODE=night" >> $GITHUB_ENV
           else
