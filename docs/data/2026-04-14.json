@@ -1,7 +1,7 @@
 {
   "date": "2026-04-14",
-  "company_count": 292,
-  "total_count": 658,
+  "company_count": 297,
+  "total_count": 674,
   "items": [
     {
       "code": "8591",
@@ -410,6 +410,14 @@
       "time": "15:30",
       "title": "当社取締役および執行役員に対する業績連動型株式報酬制度の継続に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260414503714.pdf"
+    },
+    {
+      "code": "3050",
+      "company_name": "ＤＣＭ",
+      "market_cap": 2302.0,
+      "time": "20:30",
+      "title": "（訂正）「剰余金の配当（増配）に関するお知らせ」の一部訂正について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260414504354.pdf"
     },
     {
       "code": "8273",
@@ -2660,6 +2668,30 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502719.pdf"
     },
     {
+      "code": "2901",
+      "company_name": "ウェルディッシュ",
+      "market_cap": 100.0,
+      "time": "19:57",
+      "title": "2026年８月期第２四半期（中間期）決算短信〔日本基準〕(連結)",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260414504312.pdf"
+    },
+    {
+      "code": "2901",
+      "company_name": "ウェルディッシュ",
+      "market_cap": 100.0,
+      "time": "19:57",
+      "title": "特別利益計上のお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260414504343.pdf"
+    },
+    {
+      "code": "2901",
+      "company_name": "ウェルディッシュ",
+      "market_cap": 100.0,
+      "time": "20:50",
+      "title": "2026年８月期半期報告書提出遅延及び当社株式の監理銘柄（確認中）指定の見込みに関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260414504363.pdf"
+    },
+    {
       "code": "2798",
       "company_name": "Ｙ’ｓ",
       "market_cap": 97.4,
@@ -2922,6 +2954,14 @@
       "time": "17:00",
       "title": "特別損失（減損損失）の計上及び貸倒引当金繰入額の計上並びに2026年２月期通期業績予想と実績値との差異に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260414504175.pdf"
+    },
+    {
+      "code": "7603",
+      "company_name": "ジーイエット",
+      "market_cap": 79.0,
+      "time": "18:40",
+      "title": "（訂正）「特別損失（減損損失）の計上及び貸倒引当金繰入額の計上並びに2026年２月期通期業績予想と実績値との差異に関するお知らせ」の一部訂正について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260414504306.pdf"
     },
     {
       "code": "3189",
@@ -3338,6 +3378,46 @@
       "time": "15:30",
       "title": "株式会社バロンによる当社株式に対する公開買付けの結果並びに親会社、主要株主である筆頭株主及び主要株主の異動に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502838.pdf"
+    },
+    {
+      "code": "3823",
+      "company_name": "ＷＨＹ　ＨＯＷ　ＤＯ",
+      "market_cap": 56.5,
+      "time": "18:50",
+      "title": "2026年４月期　第２四半期（中間期）決算短信〔日本基準〕（連結）",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260409501155.pdf"
+    },
+    {
+      "code": "3823",
+      "company_name": "ＷＨＹ　ＨＯＷ　ＤＯ",
+      "market_cap": 56.5,
+      "time": "19:00",
+      "title": "営業外費用、特別損失及び法人税等調整額の計上に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502943.pdf"
+    },
+    {
+      "code": "3823",
+      "company_name": "ＷＨＹ　ＨＯＷ　ＤＯ",
+      "market_cap": 56.5,
+      "time": "19:00",
+      "title": "業績予想の修正（取り下げ）に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502954.pdf"
+    },
+    {
+      "code": "3823",
+      "company_name": "ＷＨＹ　ＨＯＷ　ＤＯ",
+      "market_cap": 56.5,
+      "time": "19:10",
+      "title": "債権譲渡及び営業外費用の計上に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502940.pdf"
+    },
+    {
+      "code": "3823",
+      "company_name": "ＷＨＹ　ＨＯＷ　ＤＯ",
+      "market_cap": 56.5,
+      "time": "19:15",
+      "title": "第22期（2026年４月期）半期報告書の提出に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260414504323.pdf"
     },
     {
       "code": "6901",
@@ -4044,6 +4124,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260414503865.pdf"
     },
     {
+      "code": "2139",
+      "company_name": "中広",
+      "market_cap": 35.8,
+      "time": "18:30",
+      "title": "連結子会社における債権の取立不能のおそれに関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260414504117.pdf"
+    },
+    {
       "code": "353A",
       "company_name": "エレコミ",
       "market_cap": 35.6,
@@ -4460,6 +4548,30 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413503078.pdf"
     },
     {
+      "code": "469A",
+      "company_name": "Ｇ－フィットクルー",
+      "market_cap": 27.2,
+      "time": "19:00",
+      "title": "2026年11月期 第１四半期決算短信〔日本基準〕（非連結）",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260414504313.pdf"
+    },
+    {
+      "code": "469A",
+      "company_name": "Ｇ－フィットクルー",
+      "market_cap": 27.2,
+      "time": "19:10",
+      "title": "2026年11月期第１四半期決算短信補足説明資料",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260414504350.pdf"
+    },
+    {
+      "code": "469A",
+      "company_name": "Ｇ－フィットクルー",
+      "market_cap": 27.2,
+      "time": "21:25",
+      "title": "業績予想の修正に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260414504314.pdf"
+    },
+    {
       "code": "2683",
       "company_name": "魚喜",
       "market_cap": 25.7,
@@ -4666,6 +4778,22 @@
       "time": "15:30",
       "title": "2026年２月期 通期決算説明資料",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260413502935.pdf"
+    },
+    {
+      "code": "5025",
+      "company_name": "Ｇ－マーキュリー",
+      "market_cap": 19.9,
+      "time": "18:15",
+      "title": "2026年２月期決算短信〔日本基準〕(非連結)",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413503039.pdf"
+    },
+    {
+      "code": "5025",
+      "company_name": "Ｇ－マーキュリー",
+      "market_cap": 19.9,
+      "time": "18:15",
+      "title": "2026年２月期　通期決算説明資料",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260413503041.pdf"
     },
     {
       "code": "4016",
