@@ -65,12 +65,19 @@ def fetch_disclosures(target_date: date | None = None) -> list[Disclosure]:
             if not re.match(r"^\d{2}:\d{2}$", time_text):
                 continue
 
-            # 証券コード (4桁 + 0 の5桁形式で来る場合がある)
+            # 証券コード
+            # 数字4桁 (例: 7203) またはアルファベット混在4桁 (例: 464A) + 末尾0の5桁形式
             code_text = cells[1].get_text(strip=True)
-            code_match = re.match(r"^(\d{4})", code_text)
+            code_match = re.match(r"^([\dA-Z]{3,4})", code_text)
             if not code_match:
                 continue
             code = code_match.group(1)
+            # 5桁の場合は先頭4桁を取得 (例: 464A0 → 464A)
+            if len(code) > 4:
+                code = code[:4]
+            # 最低限の検証: 少なくとも1つの数字を含むこと
+            if not any(c.isdigit() for c in code):
+                continue
 
             # 会社名
             company_name = cells[2].get_text(strip=True)

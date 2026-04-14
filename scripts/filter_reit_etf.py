@@ -68,7 +68,7 @@ def _fetch_from_csv() -> set[str]:
             continue
         code = row[code_col].strip()
         code = code[:4] if len(code) >= 4 else code
-        if not code.isdigit():
+        if not any(c.isdigit() for c in code):
             continue
 
         segment = row[segment_col].strip()
@@ -123,7 +123,7 @@ def _fetch_from_xls() -> set[str]:
         else:
             code = str(code_val).strip()
         code = code[:4] if len(code) >= 4 else code
-        if not code.isdigit():
+        if not any(c.isdigit() for c in code):
             continue
 
         segment = str(ws.cell_value(row_idx, segment_col)).strip()
