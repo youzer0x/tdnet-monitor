@@ -1,20 +1,24 @@
 # TDnet 適時開示モニター
 
-TDnet（適時開示情報閲覧サービス）から適時開示資料を毎営業日18時に自動取得し、時価総額順に整形してGmailで通知するシステムです。全件一覧はGitHub Pagesで閲覧できます。
+TDnet（適時開示情報閲覧サービス）から適時開示資料を毎営業日に自動取得し、時価総額順に整形してGmailで通知するシステムです。全件一覧はGitHub Pagesで閲覧できます。
 
 ---
 
 ## システム構成
 
 ```
-GitHub Actions (毎日18時 JST)
-  ├─ 休場日判定 → 休場なら終了
-  ├─ TDnet スクレイピング（当日の適時開示取得）
-  ├─ JPX 上場銘柄リストで REIT/ETF を除外
-  ├─ J-Quants API で時価総額データ取得・ソート
-  ├─ GitHub Pages 用 HTML 生成（全件一覧）
-  ├─ docs/ に HTML を commit & push
-  └─ Gmail で上位30件を通知
+GitHub Actions (毎営業日 2回)
+  ├─ 18:00 JST [evening] ─┬─ 休場日判定 → 休場なら終了
+  │                        ├─ TDnet スクレイピング (00:00〜18:00)
+  │                        ├─ JPX 上場銘柄リストで REIT/ETF 除外
+  │                        ├─ 株探から時価総額取得・ソート
+  │                        ├─ JSON 保存 → GitHub Pages 更新
+  │                        └─ Gmail 通知 (上位30件)
+  │
+  └─ 24:00 JST [night]  ──┬─ TDnet スクレイピング (18:01〜23:59)
+                           ├─ 既存データとマージ (重複排除)
+                           ├─ JSON 更新 → GitHub Pages 更新
+                           └─ Gmail 通知 (差分全件)
 ```
 
 ---
@@ -36,13 +40,9 @@ GitHub Actions (毎日18時 JST)
 PowerShell を開き、以下を順に実行します。
 
 ```powershell
-# 作業フォルダに移動
 cd ~\Documents
-
-# ダウンロードした tdnet-monitor フォルダが Documents 配下にある想定
 cd tdnet-monitor
 
-# Git 初期化と初回 push
 git init
 git remote add origin https://github.com/あなたのユーザー名/tdnet-monitor.git
 git add .
@@ -51,16 +51,12 @@ git branch -M main
 git push -u origin main
 ```
 
-> **補足**: `あなたのユーザー名` の部分は GitHub のユーザー名に置き換えてください。
-
 ### Step 3：GitHub Pages の有効化
 
 1. GitHub リポジトリの「Settings」タブ → 左メニュー「Pages」
 2. **Source**: 「Deploy from a branch」
 3. **Branch**: 「main」、フォルダを「/docs」
 4. 「Save」をクリック
-
-数分後に `https://あなたのユーザー名.github.io/tdnet-monitor/` でページが公開されます。
 
 ### Step 4：Gmail アプリパスワードの取得
 
@@ -80,26 +76,13 @@ git push -u origin main
 | `GMAIL_APP_PASSWORD` | Step 4 の16桁パスワード |
 | `NOTIFY_TO` | 通知先メールアドレス |
 
-### Step 6：J-Quants API の登録
-
-時価総額データの取得に [J-Quants API](https://jpx-jquants.com/)（JPX公式・無料プラン）を使用します。
-
-1. https://jpx-jquants.com/ でアカウント作成（Free プラン）
-2. メール認証を完了
-
-GitHub Secrets に追加：
-
-| Name | Value |
-|------|-------|
-| `JQUANTS_EMAIL` | J-Quants 登録メールアドレス |
-| `JQUANTS_PASSWORD` | J-Quants パスワード |
-
-### Step 7：動作テスト
+### Step 6：動作テスト
 
 1. GitHub リポジトリの「Actions」タブ
-2. 「TDnet Daily Monitor」→「Run workflow」→「Run workflow」
-3. 実行ログでエラーがないことを確認
-4. Gmailに通知が届くことを確認
+2. 「TDnet Daily Monitor」→「Run workflow」
+3. `evening` または `night` を選択 →「Run workflow」
+4. 実行ログでエラーがないことを確認
+5. Gmailに通知が届くことを確認
 
 ---
 
@@ -108,19 +91,32 @@ GitHub Secrets に追加：
 ```
 tdnet-monitor/
 ├── .github/workflows/
-│   └── daily_monitor.yml    # GitHub Actions 定義
+│   └── daily_monitor.yml    # GitHub Actions 定義（2回/日）
 ├── scripts/
 │   ├── main.py              # メイン処理
 │   ├── tdnet_scraper.py     # TDnet スクレイピング
 │   ├── filter_reit_etf.py   # REIT/ETF 除外
-│   ├── market_cap.py        # 時価総額取得
+│   ├── market_cap.py        # 時価総額取得（株探）
 │   ├── html_generator.py    # HTML 生成
 │   └── gmail_sender.py      # Gmail 送信
 ├── docs/
-│   └── index.html           # GitHub Pages（自動更新）
+│   ├── index.html           # GitHub Pages（自動更新）
+│   └── data/                # 日次 JSON データ（14日分保持）
 ├── requirements.txt
 └── README.md
 ```
+
+---
+
+## 実行スケジュール
+
+| 時刻 (JST) | モード | 取得範囲 | メール |
+|------------|--------|---------|--------|
+| 18:00 | evening | 00:00〜18:00 | 上位30件 |
+| 24:00 | night | 18:01〜23:59（差分） | 差分全件 |
+
+- 土日祝日・東証休場日はスキップされます
+- 実行履歴は GitHub の Actions タブで確認できます
 
 ---
 
@@ -130,14 +126,14 @@ tdnet-monitor/
 |------|------|
 | Actions が動かない | Settings → Actions → General →「Allow all actions」を確認 |
 | メールが届かない | Secrets の値を再確認。アプリパスワードにスペースが入っていないか確認 |
-| J-Quants エラー | Free プランの日次リクエスト上限の可能性。翌日再実行 |
 | Pages が表示されない | Settings → Pages で Branch: main / Folder: /docs を確認 |
+| 時価総額が「—」 | 株探のページ構造変更の可能性。Issue で報告してください |
 
 ---
 
 ## 技術仕様
 
-- **REIT/ETF 除外**: JPX 上場銘柄一覧 Excel の「市場・商品区分」列から正確に判定（証券コード範囲は不使用）
-- **時価総額**: J-Quants API（Free プランは2営業日遅延あり）
+- **REIT/ETF 除外**: JPX 上場銘柄一覧の「市場・商品区分」列から正確に判定（証券コード範囲は不使用）
+- **時価総額**: 株探 (kabutan.jp) から取得（リアルタイム）
 - **休場日判定**: `jpholiday`（祝日）+ 土日 + 年末年始（12/31〜1/3）
-- **スケジュール**: GitHub Actions cron `0 9 * * *`（UTC）= 毎日18:00 JST
+- **データ保持**: 直近14日分の JSON を GitHub Pages で公開
