@@ -167,7 +167,16 @@ def main():
 
     # 実行モード: evening (18:00) or night (24:00)
     run_mode = os.environ.get("RUN_MODE", "evening")
-    print(f"\nTarget date: {target_date}")
+    print(f"\nRUN_MODE env: '{run_mode}'")
+    print(f"date.today(): {date.today()}")
+
+    # night モードは JST 24:00 = 翌日 0:00 に実行されるため、
+    # date.today() が翌日を返す → 前日に戻す
+    if run_mode == "night" and not date_arg:
+        target_date = target_date - timedelta(days=1)
+        print(f"Night mode: adjusted target_date to previous day")
+
+    print(f"Target date: {target_date}")
     print(f"Run mode: {run_mode}")
 
     if not is_market_open(target_date):
