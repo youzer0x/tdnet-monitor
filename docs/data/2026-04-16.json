@@ -1,7 +1,7 @@
 {
   "date": "2026-04-16",
-  "company_count": 112,
-  "total_count": 132,
+  "company_count": 115,
+  "total_count": 135,
   "items": [
     {
       "code": "9984",
@@ -116,6 +116,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260416505440.pdf"
     },
     {
+      "code": "8366",
+      "company_name": "滋賀銀",
+      "market_cap": 5064.0,
+      "time": "19:10",
+      "title": "一部報道について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260416505655.pdf"
+    },
+    {
       "code": "429A",
       "company_name": "テクセンド",
       "market_cap": 3883.0,
@@ -164,6 +172,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260416505505.pdf"
     },
     {
+      "code": "8714",
+      "company_name": "池田泉州",
+      "market_cap": 2748.0,
+      "time": "19:10",
+      "title": "一部報道について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260416505598.pdf"
+    },
+    {
       "code": "7826",
       "company_name": "フルヤ金属",
       "market_cap": 1914.0,
@@ -186,6 +202,14 @@
       "time": "15:00",
       "title": "役員人事に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260416505319.pdf"
+    },
+    {
+      "code": "4722",
+      "company_name": "フューチャー",
+      "market_cap": 1603.0,
+      "time": "19:30",
+      "title": "当社取締役（監査等委員であるものを除く）及び従業員、並びに、当社子会社の取締役に対する譲渡制限付株式としての自己株式処分に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260416505646.pdf"
     },
     {
       "code": "2685",
