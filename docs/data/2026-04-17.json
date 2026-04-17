@@ -1,7 +1,7 @@
 {
   "date": "2026-04-17",
-  "company_count": 123,
-  "total_count": 160,
+  "company_count": 126,
+  "total_count": 167,
   "items": [
     {
       "code": "8058",
@@ -404,6 +404,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260417505732.pdf"
     },
     {
+      "code": "6085",
+      "company_name": "Ｇ－アーキテクツＳＪ",
+      "market_cap": 416.0,
+      "time": "18:50",
+      "title": "2026年２月期決算短信〔日本基準〕（連結）",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260417506268.pdf"
+    },
+    {
       "code": "523A",
       "company_name": "Ｇ－セイワＨＤ",
       "market_cap": 353.0,
@@ -668,6 +676,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260415505014.pdf"
     },
     {
+      "code": "7050",
+      "company_name": "Ｇ－フロンティアＩ",
+      "market_cap": 150.0,
+      "time": "18:15",
+      "title": "通期連結業績予想の修正（再上方修正）及び配当予想の修正（増配） に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260417506247.pdf"
+    },
+    {
       "code": "9753",
       "company_name": "ＩＸナレッジ",
       "market_cap": 145.0,
@@ -802,6 +818,46 @@
       "time": "13:00",
       "title": "譲渡制限付株式報酬としての自己株式の処分に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260408500093.pdf"
+    },
+    {
+      "code": "3083",
+      "company_name": "スターシーズ",
+      "market_cap": 102.0,
+      "time": "22:15",
+      "title": "特別利益及び特別損失の計上に関するお知らせ（個別）",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260417506291.pdf"
+    },
+    {
+      "code": "3083",
+      "company_name": "スターシーズ",
+      "market_cap": 102.0,
+      "time": "22:15",
+      "title": "通期連結業績予想と実績値との差異に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260417506271.pdf"
+    },
+    {
+      "code": "3083",
+      "company_name": "スターシーズ",
+      "market_cap": 102.0,
+      "time": "22:15",
+      "title": "剰余金の配当に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260417506292.pdf"
+    },
+    {
+      "code": "3083",
+      "company_name": "スターシーズ",
+      "market_cap": 102.0,
+      "time": "22:15",
+      "title": "中期経営計画 FY2027.2 - FY2029.2",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260417506293.pdf"
+    },
+    {
+      "code": "3083",
+      "company_name": "スターシーズ",
+      "market_cap": 102.0,
+      "time": "22:15",
+      "title": "2026年２月期 決算短信〔日本基準〕（連結）",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260417506294.pdf"
     },
     {
       "code": "254A",
