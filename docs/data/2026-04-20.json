@@ -1,7 +1,7 @@
 {
   "date": "2026-04-20",
-  "company_count": 122,
-  "total_count": 148,
+  "company_count": 125,
+  "total_count": 152,
   "items": [
     {
       "code": "8309",
@@ -116,6 +116,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260420506370.pdf"
     },
     {
+      "code": "9449",
+      "company_name": "ＧＭＯ",
+      "market_cap": 3474.0,
+      "time": "18:01",
+      "title": "連結子会社株式の売出しに伴う売出価格等の決定及び個別業績における特別利益の発生に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260420506529.pdf"
+    },
+    {
       "code": "3105",
       "company_name": "日清紡ＨＤ",
       "market_cap": 3310.0,
@@ -164,6 +172,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260420506409.pdf"
     },
     {
+      "code": "2337",
+      "company_name": "いちご",
+      "market_cap": 2180.0,
+      "time": "19:05",
+      "title": "当社役員人事のお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260420506553.pdf"
+    },
+    {
       "code": "1515",
       "company_name": "日鉄鉱",
       "market_cap": 2141.0,
@@ -186,6 +202,14 @@
       "time": "15:30",
       "title": "譲渡制限付株式報酬としての新株式発行の払込完了に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260420506662.pdf"
+    },
+    {
+      "code": "4784",
+      "company_name": "ＧＭＯインターネット",
+      "market_cap": 2099.0,
+      "time": "18:01",
+      "title": "発行価格及び売出価格等の決定に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260420506823.pdf"
     },
     {
       "code": "9948",
@@ -802,6 +826,14 @@
       "time": "16:00",
       "title": "税制適格ストックオプション（新株予約権）に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260420506594.pdf"
+    },
+    {
+      "code": "2338",
+      "company_name": "クオンタムＳ",
+      "market_cap": 58.6,
+      "time": "18:15",
+      "title": "連結子会社による資金の借入の返済の完了に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260420507012.pdf"
     },
     {
       "code": "3260",
