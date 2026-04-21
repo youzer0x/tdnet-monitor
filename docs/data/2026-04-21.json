@@ -1,7 +1,7 @@
 {
   "date": "2026-04-21",
-  "company_count": 98,
-  "total_count": 116,
+  "company_count": 101,
+  "total_count": 121,
   "items": [
     {
       "code": "6501",
@@ -380,6 +380,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260417505944.pdf"
     },
     {
+      "code": "9278",
+      "company_name": "ブックオフＧＨＤ",
+      "market_cap": 442.0,
+      "time": "18:35",
+      "title": "連結子会社間の会社分割（吸収分割）に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260421507675.pdf"
+    },
+    {
       "code": "9740",
       "company_name": "ＣＳＰ",
       "market_cap": 422.0,
@@ -418,6 +426,14 @@
       "time": "16:00",
       "title": "人事異動に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260421507214.pdf"
+    },
+    {
+      "code": "6238",
+      "company_name": "フリュー",
+      "market_cap": 375.0,
+      "time": "18:10",
+      "title": "（訂正）「2026年3月度 月次概況（速報）のお知らせ」の一部訂正について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260421507741.pdf"
     },
     {
       "code": "6469",
@@ -492,12 +508,28 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260421507419.pdf"
     },
     {
+      "code": "3922",
+      "company_name": "ＰＲＴＩＭＥＳ",
+      "market_cap": 279.0,
+      "time": "19:00",
+      "title": "（訂正）「剰余金の配当に関するお知らせ」の一部訂正について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260421507805.pdf"
+    },
+    {
       "code": "5845",
       "company_name": "全保連",
       "market_cap": 265.0,
       "time": "12:30",
       "title": "2026年3月期通期業績予想の上方修正に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260417506270.pdf"
+    },
+    {
+      "code": "218A",
+      "company_name": "Ｇ－リベラウェア",
+      "market_cap": 244.0,
+      "time": "18:30",
+      "title": "臨時株主総会招集のための基準日設定及び臨時株主総会の開催並びに資本金及び資本準備金の額の減少に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260421507736.pdf"
     },
     {
       "code": "5537",
@@ -746,6 +778,14 @@
       "time": "10:00",
       "title": "2026年８月期　中間決算説明会資料",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260420506954.pdf"
+    },
+    {
+      "code": "6543",
+      "company_name": "日宣",
+      "market_cap": 49.3,
+      "time": "19:00",
+      "title": "2026年2月期 決算説明資料及び新中期経営計画説明資料",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260421507816.pdf"
     },
     {
       "code": "5900",
