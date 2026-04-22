@@ -1,7 +1,7 @@
 {
   "date": "2026-04-22",
-  "company_count": 110,
-  "total_count": 144,
+  "company_count": 111,
+  "total_count": 145,
   "items": [
     {
       "code": "6146",
@@ -186,6 +186,14 @@
       "time": "15:31",
       "title": "2026年12月期第１四半期連結決算（速報）及び配当予想の修正に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260422508217.pdf"
+    },
+    {
+      "code": "8715",
+      "company_name": "アニコム　ＨＤ",
+      "market_cap": 1104.0,
+      "time": "20:00",
+      "title": "新任社外取締役候補者の選任に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260421507661.pdf"
     },
     {
       "code": "7995",
