@@ -1,7 +1,7 @@
 {
   "date": "2026-04-23",
-  "company_count": 141,
-  "total_count": 176,
+  "company_count": 143,
+  "total_count": 179,
   "items": [
     {
       "code": "4519",
@@ -188,6 +188,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260422508556.pdf"
     },
     {
+      "code": "6890",
+      "company_name": "フェローテック",
+      "market_cap": 3392.0,
+      "time": "18:10",
+      "title": "（開示事項の経過）2028年満期ユーロ円建転換社債型新株予約権付社債の130％コールオプション条項による繰上償還の権利行使に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260423509482.pdf"
+    },
+    {
       "code": "4194",
       "company_name": "ビジョナル",
       "market_cap": 3013.0,
@@ -250,6 +258,14 @@
       "time": "18:00",
       "title": "取締役候補者の決定に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260423509223.pdf"
+    },
+    {
+      "code": "8698",
+      "company_name": "マネックスＧ",
+      "market_cap": 1726.0,
+      "time": "18:15",
+      "title": "定款の一部変更に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260423509538.pdf"
     },
     {
       "code": "4592",
@@ -1170,6 +1186,14 @@
       "time": "15:00",
       "title": "期末配当予想の修正（増配）に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260423508959.pdf"
+    },
+    {
+      "code": "7037",
+      "company_name": "テノ．",
+      "market_cap": 42.2,
+      "time": "18:30",
+      "title": "資本コストや株価を意識した経営の実現に向けた対応に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260422508532.pdf"
     },
     {
       "code": "7443",
