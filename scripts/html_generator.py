@@ -76,7 +76,6 @@ def generate_email_html(
     date_str = target_date.strftime("%Y年%m月%d日")
     total_count = len(items)
     company_count = len(set(item.code for item in items))
-    display_count = min(total_count, max_items) if max_items else total_count
     table_rows = _email_table_html(items, max_items=max_items)
     truncated = max_items is not None and total_count > max_items
     subtitle = f"{date_str}{subject_suffix}｜{company_count}社・{total_count}件"
@@ -91,6 +90,12 @@ def generate_email_html(
       <p style="margin:6px 0 0;font-size:14px;opacity:0.9;">{subtitle}</p>
     </div>
     <div style="padding:16px 24px;">
+      <div style="margin:0 0 16px;text-align:center;">
+        <a href="{pages_url}" target="_blank"
+           style="display:inline-block;background:#1a237e;color:#fff;padding:10px 28px;border-radius:6px;text-decoration:none;font-size:14px;font-weight:500;">
+          全件を表示 →
+        </a>
+      </div>
       <table style="width:100%;border-collapse:collapse;font-size:13px;">
         <thead>
           <tr style="background:#f8f9fa;">
@@ -106,12 +111,6 @@ def generate_email_html(
         </tbody>
       </table>
       {"<p style='margin:16px 0 0;font-size:13px;color:#666;'>※ 上位" + str(max_items) + "件を表示。</p>" if truncated else ""}
-      <div style="margin:20px 0;text-align:center;">
-        <a href="{pages_url}" target="_blank"
-           style="display:inline-block;background:#1a237e;color:#fff;padding:10px 28px;border-radius:6px;text-decoration:none;font-size:14px;font-weight:500;">
-          全件を表示 →
-        </a>
-      </div>
     </div>
     <div style="background:#f8f9fa;padding:12px 24px;font-size:11px;color:#999;text-align:center;">
       TDnet 適時開示モニター｜GitHub Actions 自動送信
@@ -230,9 +229,34 @@ def generate_pages_html(available_dates: list[str]) -> str:
     .toolbar input[type="text"]:focus {
       outline: none; border-color: var(--primary-light);
     }
-    .toolbar .result-count {
-      font-size: 12px; color: var(--text-sub);
-      margin-left: auto;
+
+    /* ソートタブ */
+    .sort-tabs {
+      display: flex; gap: 0; margin-left: 4px;
+    }
+    .sort-tab {
+      padding: 5px 14px;
+      font-size: 12px; font-family: 'Noto Sans JP', sans-serif;
+      border: 1px solid var(--border);
+      background: var(--card);
+      cursor: pointer;
+      color: var(--text-sub);
+      transition: all 0.15s;
+    }
+    .sort-tab:first-child {
+      border-radius: 4px 0 0 4px;
+    }
+    .sort-tab:last-child {
+      border-radius: 0 4px 4px 0;
+      border-left: none;
+    }
+    .sort-tab.active {
+      background: var(--primary);
+      color: #fff;
+      border-color: var(--primary);
+    }
+    .sort-tab:hover:not(.active) {
+      background: var(--hover);
     }
 
     /* テーブル */
@@ -329,75 +353,14 @@ def generate_pages_html(available_dates: list[str]) -> str:
       font-size: 11px; color: var(--text-sub);
     }
 
-    /* レスポンシブ - スマホではカード型表示 */
+    /* レスポンシブ */
     @media (max-width: 768px) {
-      .header { padding: 20px 16px 16px; }
       .header-inner { flex-direction: column; align-items: flex-start; }
-      .header h1 { font-size: 18px; }
-      .date-selector { width: 100%; }
-      .date-selector select { width: 100%; }
       .toolbar input[type="text"] { width: 100%; }
-      .summary { flex-direction: row; }
-      .summary-chip { flex: 1; justify-content: center; }
-      .container { padding: 0 8px; }
-
-      /* テーブルを非表示にしてカード表示 */
-      table thead { display: none; }
-      table, table tbody, table tr, table td {
-        display: block; width: 100%;
-      }
-      table tbody tr {
-        padding: 12px 14px;
-        border-bottom: 1px solid var(--border);
-        position: relative;
-      }
-      table tbody tr:hover td { background: transparent; }
-      table tbody tr:hover { background: var(--hover); }
-
-      /* 各セルのレイアウト */
-      tbody td { padding: 0; border: none; }
-
-      /* 1行目: コード・会社名・時価総額 */
-      .code-cell {
-        display: inline;
-        font-size: 13px;
-        color: var(--primary);
-      }
-      .company-cell {
-        display: inline;
-        font-size: 13px;
-        font-weight: 500;
-        margin-left: 6px;
-      }
-      .mcap-cell {
-        display: inline;
-        float: right;
-        font-size: 12px;
-        color: var(--text-sub);
-        text-align: right;
-      }
-
-      /* 2行目: 時刻 */
-      .time-cell {
-        display: block;
-        font-size: 11px;
-        color: var(--text-sub);
-        margin-top: 4px;
-      }
-
-      /* 3行目: 開示タイトル */
-      .title-cell {
-        display: block;
-        margin-top: 4px;
-        font-size: 13px;
-        line-height: 1.5;
-        word-break: break-all;
-      }
-
-      /* ページネーション */
-      .pagination { flex-wrap: wrap; gap: 3px; padding: 10px 8px; }
-      .pagination button { padding: 6px 10px; font-size: 12px; }
-      .pagination .page-info { width: 100%; text-align: center; margin-top: 4px; }
+      .toolbar { flex-direction: column; align-items: flex-start; }
+      .summary { flex-direction: column; }
+      table { font-size: 12px; }
+      thead th, tbody td { padding: 6px 8px; }
     }
   </style>
 </head>
@@ -407,7 +370,7 @@ def generate_pages_html(available_dates: list[str]) -> str:
   <div class="header-inner">
     <div>
       <h1>📋 適時開示モニター</h1>
-      <div class="header-sub">TDnet 適時開示情報｜REIT/ETF除外｜時価総額降順</div>
+      <div class="header-sub">TDnet 適時開示情報｜REIT/ETF除外</div>
     </div>
     <div class="date-selector">
       <label for="dateSelect">開示日:</label>
@@ -425,7 +388,10 @@ def generate_pages_html(available_dates: list[str]) -> str:
     <div class="toolbar">
       <input type="text" id="filterInput" placeholder="銘柄コード・会社名で絞り込み..."
              oninput="filterTable()">
-      <span class="result-count" id="resultCount"></span>
+      <div class="sort-tabs">
+        <button class="sort-tab active" id="tabMcap" onclick="setSortMode('mcap')">時価総額順</button>
+        <button class="sort-tab" id="tabTime" onclick="setSortMode('time')">時系列順</button>
+      </div>
     </div>
     <div id="tableArea">
       <div class="loading">
@@ -446,8 +412,9 @@ let currentPage = 1;
 const PAGE_SIZE = 100;
 let filteredItems = [];
 let visitedUrls = {};
+let sortMode = 'mcap'; // 'mcap' or 'time'
 
-// 既読状態の保存・復元（ブラウザのローカルストレージ）
+// 既読状態の保存・復元
 function loadVisited() {
   try {
     const stored = localStorage.getItem('tdnet_visited');
@@ -508,14 +475,57 @@ async function loadDate(dateStr) {
   try {
     const resp = await fetch('data/' + dateStr + '.json?' + Date.now());
     currentData = await resp.json();
-    filteredItems = currentData.items || [];
-    currentPage = 1;
-    renderAll();
+    applyFilterAndSort();
     document.getElementById('filterInput').value = '';
   } catch (e) {
     tableArea.innerHTML = '<div class="empty">この日付のデータを読み込めませんでした。</div>';
     document.getElementById('summaryArea').innerHTML = '';
   }
+}
+
+function setSortMode(mode) {
+  sortMode = mode;
+  document.getElementById('tabMcap').classList.toggle('active', mode === 'mcap');
+  document.getElementById('tabTime').classList.toggle('active', mode === 'time');
+  applyFilterAndSort();
+}
+
+function applyFilterAndSort() {
+  if (!currentData || !currentData.items) return;
+
+  const q = document.getElementById('filterInput').value.toLowerCase();
+
+  // フィルタ
+  if (q === '') {
+    filteredItems = currentData.items.slice();
+  } else {
+    filteredItems = currentData.items.filter(item =>
+      item.code.toLowerCase().includes(q) ||
+      item.company_name.toLowerCase().includes(q) ||
+      item.title.toLowerCase().includes(q)
+    );
+  }
+
+  // ソート
+  if (sortMode === 'time') {
+    filteredItems.sort((a, b) => {
+      if (a.time > b.time) return -1;
+      if (a.time < b.time) return 1;
+      return 0;
+    });
+  } else {
+    filteredItems.sort((a, b) => {
+      if (b.market_cap !== a.market_cap) return b.market_cap - a.market_cap;
+      if (a.code < b.code) return -1;
+      if (a.code > b.code) return 1;
+      if (a.time < b.time) return -1;
+      if (a.time > b.time) return 1;
+      return 0;
+    });
+  }
+
+  currentPage = 1;
+  renderAll();
 }
 
 function renderAll() {
@@ -554,7 +564,6 @@ function renderPaginationAndTable() {
     pagHtml += '<button onclick="goPage(1)" ' + (currentPage===1?'disabled':'') + '>«</button>';
     pagHtml += '<button onclick="goPage(' + (currentPage-1) + ')" ' + (currentPage===1?'disabled':'') + '>‹</button>';
 
-    // ページ番号ボタン（最大7個表示）
     let pageStart = Math.max(1, currentPage - 3);
     let pageEnd = Math.min(totalPages, pageStart + 6);
     if (pageEnd - pageStart < 6) pageStart = Math.max(1, pageEnd - 6);
@@ -565,7 +574,7 @@ function renderPaginationAndTable() {
 
     pagHtml += '<button onclick="goPage(' + (currentPage+1) + ')" ' + (currentPage===totalPages?'disabled':'') + '>›</button>';
     pagHtml += '<button onclick="goPage(' + totalPages + ')" ' + (currentPage===totalPages?'disabled':'') + '>»</button>';
-    pagHtml += '<span class="page-info">' + start + '–' + end + ' / ' + total + '件</span>';
+    pagHtml += '<span class="page-info">' + (start+1) + '–' + end + ' / ' + total + '件</span>';
     pagHtml += '</div>';
   }
 
@@ -577,7 +586,6 @@ function renderPaginationAndTable() {
   pageItems.forEach((item, idx) => {
     const mcap = formatMcap(item.market_cap);
     const isVisited = visitedUrls[item.pdf_url] ? ' visited' : '';
-    const rowId = 'row-' + currentPage + '-' + idx;
     let titleHtml;
     if (item.pdf_url) {
       const safeUrl = escapeHtml(item.pdf_url);
@@ -597,51 +605,23 @@ function renderPaginationAndTable() {
   tblHtml += '</tbody></table>';
 
   document.getElementById('tableArea').innerHTML = pagHtml + tblHtml;
-  updateResultCount(total, currentData ? currentData.total_count : total);
 }
 
 function goPage(p) {
   const totalPages = Math.max(1, Math.ceil(filteredItems.length / PAGE_SIZE));
   currentPage = Math.max(1, Math.min(p, totalPages));
   renderPaginationAndTable();
-  // テーブル先頭にスクロール
   document.querySelector('.card').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 function filterTable() {
-  const q = document.getElementById('filterInput').value.toLowerCase();
-  if (!currentData || !currentData.items) return;
-
-  if (q === '') {
-    filteredItems = currentData.items;
-  } else {
-    filteredItems = currentData.items.filter(item =>
-      item.code.includes(q) ||
-      item.company_name.toLowerCase().includes(q) ||
-      item.title.toLowerCase().includes(q)
-    );
-  }
-  currentPage = 1;
-  renderAll();
-}
-
-function updateResultCount(visible, total) {
-  const el = document.getElementById('resultCount');
-  if (visible === total) {
-    el.textContent = total + '件';
-  } else {
-    el.textContent = visible + ' / ' + total + '件';
-  }
+  applyFilterAndSort();
 }
 
 function escapeHtml(str) {
   const d = document.createElement('div');
   d.textContent = str;
   return d.innerHTML;
-}
-
-function escapeAttr(str) {
-  return str.replace(/&/g,'&amp;').replace(/"/g,'&quot;');
 }
 
 init();
