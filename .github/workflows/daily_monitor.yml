@@ -2,8 +2,8 @@ name: TDnet Daily Monitor
 
 on:
   schedule:
-    # 18:00 JST = 09:00 UTC → evening
-    - cron: "0 9 * * *"
+    # 17:00 JST = 08:00 UTC → evening
+    - cron: "0 8 * * *"
     # 24:00 JST = 15:00 UTC → night
     - cron: "59 14 * * *"
   workflow_dispatch:
@@ -47,8 +47,8 @@ jobs:
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             # 手動実行: ユーザーが選択した値を使用
             echo "RUN_MODE=${{ github.event.inputs.run_mode }}" >> $GITHUB_ENV
-          elif [ "${{ github.event.schedule }}" = "0 9 * * *" ]; then
-            # cron 09:00 UTC = 18:00 JST → evening
+          elif [ "${{ github.event.schedule }}" = "0 8 * * *" ]; then
+            # cron 08:00 UTC = 17:00 JST → evening
             echo "RUN_MODE=evening" >> $GITHUB_ENV
           elif [ "${{ github.event.schedule }}" = "59 14 * * *" ]; then
             # cron 15:00 UTC = 24:00 JST → night
