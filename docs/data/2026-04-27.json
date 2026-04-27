@@ -1,7 +1,7 @@
 {
   "date": "2026-04-27",
-  "company_count": 188,
-  "total_count": 313,
+  "company_count": 190,
+  "total_count": 318,
   "items": [
     {
       "code": "6501",
@@ -1036,6 +1036,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510817.pdf"
     },
     {
+      "code": "471A",
+      "company_name": "ＮＳグループ",
+      "market_cap": 885.0,
+      "time": "19:30",
+      "title": "（開示事項の経過）親会社以外の支配株主の異動に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260427511476.pdf"
+    },
+    {
       "code": "8818",
       "company_name": "京阪神ビ",
       "market_cap": 868.0,
@@ -2010,6 +2018,38 @@
       "time": "09:00",
       "title": "株主優待制度の内容に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510790.pdf"
+    },
+    {
+      "code": "3856",
+      "company_name": "Ａｂａｌａｎｃｅ",
+      "market_cap": 100.0,
+      "time": "18:15",
+      "title": "元連結子会社の会計処理等に関する調査委員会設置のお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260427512276.pdf"
+    },
+    {
+      "code": "3856",
+      "company_name": "Ａｂａｌａｎｃｅ",
+      "market_cap": 100.0,
+      "time": "18:15",
+      "title": "2026年３月期業績予想に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260427512220.pdf"
+    },
+    {
+      "code": "3856",
+      "company_name": "Ａｂａｌａｎｃｅ",
+      "market_cap": 100.0,
+      "time": "18:15",
+      "title": "2026年３月期第３四半期決算短信及び2026年３月期決算短信の開示延期に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260427512127.pdf"
+    },
+    {
+      "code": "3856",
+      "company_name": "Ａｂａｌａｎｃｅ",
+      "market_cap": 100.0,
+      "time": "18:15",
+      "title": "（開示事項の経過）ベトナム子会社の太陽光パネル新工場概要のお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260427512141.pdf"
     },
     {
       "code": "558A",
