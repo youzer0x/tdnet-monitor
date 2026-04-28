@@ -1,7 +1,7 @@
 {
   "date": "2026-04-24",
-  "company_count": 252,
-  "total_count": 370,
+  "company_count": 257,
+  "total_count": 381,
   "items": [
     {
       "code": "6861",
@@ -58,6 +58,14 @@
       "time": "17:00",
       "title": "信託型株式報酬制度の導入に伴う株式取得の詳細決定に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260423509689.pdf"
+    },
+    {
+      "code": "6503",
+      "company_name": "三菱電",
+      "market_cap": 126771.0,
+      "time": "19:00",
+      "title": "鴻海精密工業と自動車機器事業の共同運営を通じた戦略的提携の検討開始に合意",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510662.pdf"
     },
     {
       "code": "6954",
@@ -338,6 +346,14 @@
       "time": "14:30",
       "title": "不正事案の未然防止・早期発見に向けたソニー生命の取り組みについて",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510233.pdf"
+    },
+    {
+      "code": "8060",
+      "company_name": "キヤノンＭＪ",
+      "market_cap": 8160.0,
+      "time": "18:30",
+      "title": "株式報酬型ストックオプションの発行内容確定に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260421507585.pdf"
     },
     {
       "code": "9041",
@@ -1260,6 +1276,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510007.pdf"
     },
     {
+      "code": "4832",
+      "company_name": "ＪＦＥ－ＳＩ",
+      "market_cap": 630.0,
+      "time": "18:40",
+      "title": "2026年3月期 決算説明会 質疑応答（要旨）",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510789.pdf"
+    },
+    {
       "code": "2170",
       "company_name": "ＬＩＮＫ＆Ｍ",
       "market_cap": 582.0,
@@ -1322,6 +1346,14 @@
       "time": "11:25",
       "title": "2026年３月期 決算短信〔日本基準〕（連結）",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260422508161.pdf"
+    },
+    {
+      "code": "8706",
+      "company_name": "極東証券",
+      "market_cap": 519.0,
+      "time": "18:15",
+      "title": "資本コストや株価を意識した経営の実現に向けた対応の進捗状況について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510835.pdf"
     },
     {
       "code": "5288",
@@ -1602,6 +1634,30 @@
       "time": "15:30",
       "title": "減損損失の計上見通しに関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260423509636.pdf"
+    },
+    {
+      "code": "3548",
+      "company_name": "バロック",
+      "market_cap": 269.0,
+      "time": "18:30",
+      "title": "取締役及び執行役員の担務の変更に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510792.pdf"
+    },
+    {
+      "code": "3548",
+      "company_name": "バロック",
+      "market_cap": 269.0,
+      "time": "18:30",
+      "title": "取締役等に対する業績連動型譲渡制限付株式報酬制度導入に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510798.pdf"
+    },
+    {
+      "code": "3548",
+      "company_name": "バロック",
+      "market_cap": 269.0,
+      "time": "18:30",
+      "title": "従業員に対する株式給付信託（J-ESOP-RS）の導入及び 第三者割当による自己株式の処分に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510805.pdf"
     },
     {
       "code": "7962",
@@ -2556,6 +2612,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260423509388.pdf"
     },
     {
+      "code": "3930",
+      "company_name": "Ｇ－はてな",
+      "market_cap": 36.3,
+      "time": "19:00",
+      "title": "資金流出事案の発生に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510809.pdf"
+    },
+    {
       "code": "3627",
       "company_name": "テクミラ",
       "market_cap": 35.9,
@@ -2890,6 +2954,30 @@
       "time": "15:30",
       "title": "剰余金の配当(無配)に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510006.pdf"
+    },
+    {
+      "code": "184A",
+      "company_name": "Ｇ－学びエイド",
+      "market_cap": 11.6,
+      "time": "19:00",
+      "title": "ＮＯＶＡホールディングス株式会社による株式会社学びエイド株券等（証券コード：184A）に対する公開買付けの開始等に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510588.pdf"
+    },
+    {
+      "code": "184A",
+      "company_name": "Ｇ－学びエイド",
+      "market_cap": 11.6,
+      "time": "19:00",
+      "title": "ＮＯＶＡホールディングス株式会社による当社株式に対する公開買付けに関する意見表明のお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510590.pdf"
+    },
+    {
+      "code": "184A",
+      "company_name": "Ｇ－学びエイド",
+      "market_cap": 11.6,
+      "time": "19:00",
+      "title": "株式の売出しに関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260424510486.pdf"
     },
     {
       "code": "175A",
