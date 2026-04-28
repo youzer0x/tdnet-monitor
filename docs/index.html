@@ -479,14 +479,13 @@ function renderPaginationAndTable() {
 
   tblHtml += '</tbody></table>';
 
-  document.getElementById('tableArea').innerHTML = pagHtml + tblHtml;
+  document.getElementById('tableArea').innerHTML = pagHtml + tblHtml + pagHtml;
 }
 
 function goPage(p) {
   const totalPages = Math.max(1, Math.ceil(filteredItems.length / PAGE_SIZE));
   currentPage = Math.max(1, Math.min(p, totalPages));
   renderPaginationAndTable();
-  document.querySelector('.card').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 function filterTable() {

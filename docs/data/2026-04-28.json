@@ -1,7 +1,7 @@
 {
   "date": "2026-04-28",
   "company_count": 240,
-  "total_count": 460,
+  "total_count": 461,
   "items": [
     {
       "code": "7203",
@@ -522,6 +522,14 @@
       "time": "16:00",
       "title": "連結子会社（楽天証券株式会社）の決算について",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260428512574.pdf"
+    },
+    {
+      "code": "4755",
+      "company_name": "楽天グループ",
+      "market_cap": 16846.0,
+      "time": "19:10",
+      "title": "（訂正）連結子会社（楽天証券株式会社）の決算について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260428513931.pdf"
     },
     {
       "code": "6525",
