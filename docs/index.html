@@ -252,37 +252,32 @@
       thead { display: none; }
       tbody { display: block; }
       tbody tr {
-        display: grid;
-        grid-template-columns: auto 1fr;
-        grid-template-rows: auto auto;
-        gap: 2px 10px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        gap: 0;
         padding: 10px 12px;
         border-bottom: 1px solid var(--border);
       }
       tbody tr:hover { background: var(--hover); }
 
-      /* コード + 会社名 = 1行目左 */
+      /* 上段: コード・会社名・時価総額・時刻を1行に */
       .code-cell {
-        grid-row: 1; grid-column: 1;
-        font-size: 13px;
+        font-size: 12px; margin-right: 6px;
       }
       .company-cell {
-        grid-row: 1; grid-column: 2;
-        font-size: 13px; font-weight: 500;
+        font-size: 12px; font-weight: 500; margin-right: auto;
       }
-      /* 時価総額 + 時刻 = 2行目左 */
       .mcap-cell {
-        grid-row: 2; grid-column: 1;
-        text-align: left; font-size: 11px;
-        color: var(--text-sub);
+        text-align: right; font-size: 11px;
+        color: var(--text-sub); margin-right: 6px;
       }
       .time-cell {
-        grid-row: 2; grid-column: 2;
         font-size: 11px;
       }
-      /* 開示内容 = 3行目全幅 */
+      /* 下段: 開示内容を全幅 */
       .title-cell {
-        grid-row: 3; grid-column: 1 / -1;
+        flex-basis: 100%;
         padding-top: 4px;
         font-size: 13px; line-height: 1.5;
       }
@@ -493,26 +488,32 @@ function renderPaginationAndTable() {
   const end = Math.min(start + PAGE_SIZE, total);
   const pageItems = filteredItems.slice(start, end);
 
-  // ページネーション HTML
-  let pagHtml = '';
-  if (totalPages > 1) {
-    pagHtml = '<div class="pagination">';
-    pagHtml += '<button onclick="goPage(1)" ' + (currentPage===1?'disabled':'') + '>«</button>';
-    pagHtml += '<button onclick="goPage(' + (currentPage-1) + ')" ' + (currentPage===1?'disabled':'') + '>‹</button>';
+  // ページネーション HTML を生成する関数
+  function buildPagHtml(goFn) {
+    let h = '';
+    if (totalPages > 1) {
+      h = '<div class="pagination">';
+      h += '<button onclick="' + goFn + '(1)" ' + (currentPage===1?'disabled':'') + '>«</button>';
+      h += '<button onclick="' + goFn + '(' + (currentPage-1) + ')" ' + (currentPage===1?'disabled':'') + '>‹</button>';
 
-    let pageStart = Math.max(1, currentPage - 3);
-    let pageEnd = Math.min(totalPages, pageStart + 6);
-    if (pageEnd - pageStart < 6) pageStart = Math.max(1, pageEnd - 6);
+      let pageStart = Math.max(1, currentPage - 3);
+      let pageEnd = Math.min(totalPages, pageStart + 6);
+      if (pageEnd - pageStart < 6) pageStart = Math.max(1, pageEnd - 6);
 
-    for (let p = pageStart; p <= pageEnd; p++) {
-      pagHtml += '<button onclick="goPage(' + p + ')" class="' + (p===currentPage?'active':'') + '">' + p + '</button>';
+      for (let p = pageStart; p <= pageEnd; p++) {
+        h += '<button onclick="' + goFn + '(' + p + ')" class="' + (p===currentPage?'active':'') + '">' + p + '</button>';
+      }
+
+      h += '<button onclick="' + goFn + '(' + (currentPage+1) + ')" ' + (currentPage===totalPages?'disabled':'') + '>›</button>';
+      h += '<button onclick="' + goFn + '(' + totalPages + ')" ' + (currentPage===totalPages?'disabled':'') + '>»</button>';
+      h += '<span class="page-info">' + (start+1) + '–' + end + ' / ' + total + '件</span>';
+      h += '</div>';
     }
-
-    pagHtml += '<button onclick="goPage(' + (currentPage+1) + ')" ' + (currentPage===totalPages?'disabled':'') + '>›</button>';
-    pagHtml += '<button onclick="goPage(' + totalPages + ')" ' + (currentPage===totalPages?'disabled':'') + '>»</button>';
-    pagHtml += '<span class="page-info">' + (start+1) + '–' + end + ' / ' + total + '件</span>';
-    pagHtml += '</div>';
+    return h;
   }
+
+  let pagHtmlTop = buildPagHtml('goPage');
+  let pagHtmlBottom = buildPagHtml('goPageAndScroll');
 
   // テーブル HTML
   let tblHtml = '<table id="disclosureTable"><thead><tr>' +
@@ -540,13 +541,18 @@ function renderPaginationAndTable() {
 
   tblHtml += '</tbody></table>';
 
-  document.getElementById('tableArea').innerHTML = pagHtml + tblHtml + pagHtml;
+  document.getElementById('tableArea').innerHTML = pagHtmlTop + tblHtml + pagHtmlBottom;
 }
 
 function goPage(p) {
   const totalPages = Math.max(1, Math.ceil(filteredItems.length / PAGE_SIZE));
   currentPage = Math.max(1, Math.min(p, totalPages));
   renderPaginationAndTable();
+}
+
+function goPageAndScroll(p) {
+  goPage(p);
+  document.querySelector('.card').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 function filterTable() {
