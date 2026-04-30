@@ -45,7 +45,7 @@ def prepare_display_items(
 
 
 def _email_table_html(items: list[DisplayItem], max_items: int | None = None) -> str:
-    """メール用テーブル HTML（インラインスタイル）"""
+    """メール用テーブル HTML（インラインスタイル・モバイル対応）"""
     display = items[:max_items] if max_items else items
     rows = []
     for item in display:
@@ -56,11 +56,11 @@ def _email_table_html(items: list[DisplayItem], max_items: int | None = None) ->
             if item.pdf_url else item.title
         )
         rows.append(f"""        <tr>
-          <td style="padding:6px 10px;border-bottom:1px solid #e0e0e0;font-family:monospace;white-space:nowrap;">{item.code}</td>
-          <td style="padding:6px 10px;border-bottom:1px solid #e0e0e0;white-space:nowrap;">{item.company_name}</td>
-          <td style="padding:6px 10px;border-bottom:1px solid #e0e0e0;text-align:right;white-space:nowrap;">{mcap_str}</td>
-          <td style="padding:6px 10px;border-bottom:1px solid #e0e0e0;font-family:monospace;white-space:nowrap;">{item.time}</td>
-          <td style="padding:6px 10px;border-bottom:1px solid #e0e0e0;">{title_html}</td>
+          <td style="padding:4px 6px;border-bottom:1px solid #e0e0e0;font-family:monospace;white-space:nowrap;font-size:12px;">{item.code}</td>
+          <td style="padding:4px 6px;border-bottom:1px solid #e0e0e0;white-space:nowrap;font-size:12px;">{item.company_name}</td>
+          <td style="padding:4px 6px;border-bottom:1px solid #e0e0e0;text-align:right;white-space:nowrap;font-size:11px;">{mcap_str}</td>
+          <td style="padding:4px 6px;border-bottom:1px solid #e0e0e0;font-family:monospace;white-space:nowrap;font-size:11px;">{item.time}</td>
+          <td style="padding:4px 6px;border-bottom:1px solid #e0e0e0;font-size:13px;word-break:break-all;">{title_html}</td>
         </tr>""")
     return "\n".join(rows)
 
@@ -96,14 +96,14 @@ def generate_email_html(
           全件を表示 →
         </a>
       </div>
-      <table style="width:100%;border-collapse:collapse;font-size:13px;">
+      <table style="width:100%;border-collapse:collapse;font-size:13px;table-layout:auto;">
         <thead>
           <tr style="background:#f8f9fa;">
-            <th style="padding:8px 10px;text-align:left;border-bottom:2px solid #1a237e;white-space:nowrap;">コード</th>
-            <th style="padding:8px 10px;text-align:left;border-bottom:2px solid #1a237e;white-space:nowrap;">会社名</th>
-            <th style="padding:8px 10px;text-align:right;border-bottom:2px solid #1a237e;white-space:nowrap;">時価総額</th>
-            <th style="padding:8px 10px;text-align:left;border-bottom:2px solid #1a237e;white-space:nowrap;">時刻</th>
-            <th style="padding:8px 10px;text-align:left;border-bottom:2px solid #1a237e;">開示内容</th>
+            <th style="padding:6px;text-align:left;border-bottom:2px solid #1a237e;white-space:nowrap;font-size:11px;">コード</th>
+            <th style="padding:6px;text-align:left;border-bottom:2px solid #1a237e;white-space:nowrap;font-size:11px;">会社名</th>
+            <th style="padding:6px;text-align:right;border-bottom:2px solid #1a237e;white-space:nowrap;font-size:11px;">時価総額</th>
+            <th style="padding:6px;text-align:left;border-bottom:2px solid #1a237e;white-space:nowrap;font-size:11px;">時刻</th>
+            <th style="padding:6px;text-align:left;border-bottom:2px solid #1a237e;font-size:11px;">開示内容</th>
           </tr>
         </thead>
         <tbody>
@@ -355,12 +355,73 @@ def generate_pages_html(available_dates: list[str]) -> str:
 
     /* レスポンシブ */
     @media (max-width: 768px) {
-      .header-inner { flex-direction: column; align-items: flex-start; }
-      .toolbar input[type="text"] { width: 100%; }
-      .toolbar { flex-direction: column; align-items: flex-start; }
-      .summary { flex-direction: column; }
-      table { font-size: 12px; }
-      thead th, tbody td { padding: 6px 8px; }
+      .header { padding: 20px 16px 16px; }
+      .header-inner { flex-direction: column; align-items: flex-start; gap: 12px; }
+      .header h1 { font-size: 18px; }
+
+      .summary { margin: 12px auto 0; padding: 0 10px; gap: 8px; }
+      .summary-chip { padding: 6px 12px; font-size: 12px; }
+      .summary-chip .num { font-size: 14px; }
+
+      .container { margin: 12px auto 20px; padding: 0 10px; }
+
+      .toolbar {
+        padding: 10px 12px;
+        flex-direction: column; align-items: stretch; gap: 8px;
+      }
+      .toolbar input[type="text"] { width: 100%; font-size: 14px; }
+      .sort-tabs { align-self: flex-start; }
+
+      /* モバイルではカード型レイアウトに切り替え */
+      table { display: block; }
+      thead { display: none; }
+      tbody { display: block; }
+      tbody tr {
+        display: grid;
+        grid-template-columns: auto 1fr;
+        grid-template-rows: auto auto;
+        gap: 2px 10px;
+        padding: 10px 12px;
+        border-bottom: 1px solid var(--border);
+      }
+      tbody tr:hover { background: var(--hover); }
+
+      /* コード + 会社名 = 1行目左 */
+      .code-cell {
+        grid-row: 1; grid-column: 1;
+        font-size: 13px;
+      }
+      .company-cell {
+        grid-row: 1; grid-column: 2;
+        font-size: 13px; font-weight: 500;
+      }
+      /* 時価総額 + 時刻 = 2行目左 */
+      .mcap-cell {
+        grid-row: 2; grid-column: 1;
+        text-align: left; font-size: 11px;
+        color: var(--text-sub);
+      }
+      .time-cell {
+        grid-row: 2; grid-column: 2;
+        font-size: 11px;
+      }
+      /* 開示内容 = 3行目全幅 */
+      .title-cell {
+        grid-row: 3; grid-column: 1 / -1;
+        padding-top: 4px;
+        font-size: 13px; line-height: 1.5;
+      }
+      tbody td { padding: 0; border: none; }
+
+      /* ページネーション */
+      .pagination {
+        padding: 10px 8px;
+        gap: 2px; flex-wrap: wrap; justify-content: center;
+      }
+      .pagination button { padding: 6px 10px; font-size: 12px; }
+      .pagination .page-info { font-size: 11px; width: 100%; text-align: center; margin: 4px 0 0; }
+
+      .footer { padding: 16px 10px; }
     }
   </style>
 </head>
