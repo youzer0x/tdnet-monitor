@@ -1,7 +1,7 @@
 {
   "date": "2026-04-30",
-  "company_count": 301,
-  "total_count": 567,
+  "company_count": 303,
+  "total_count": 572,
   "items": [
     {
       "code": "8035",
@@ -916,6 +916,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260430514957.pdf"
     },
     {
+      "code": "4527",
+      "company_name": "ロート薬",
+      "market_cap": 5433.0,
+      "time": "19:00",
+      "title": "株主提案に関する書面受領のお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260430515474.pdf"
+    },
+    {
       "code": "9301",
       "company_name": "三菱倉",
       "market_cap": 5061.0,
@@ -1516,6 +1524,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260428514019.pdf"
     },
     {
+      "code": "8616",
+      "company_name": "東海東京",
+      "market_cap": 1835.0,
+      "time": "19:00",
+      "title": "2026年3月期通期連結業績と前期実績との差異に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260430515471.pdf"
+    },
+    {
       "code": "9110",
       "company_name": "ユナイテド海",
       "market_cap": 1822.0,
@@ -1874,6 +1890,14 @@
       "time": "16:00",
       "title": "固定資産の取得に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260428513959.pdf"
+    },
+    {
+      "code": "5208",
+      "company_name": "有沢製",
+      "market_cap": 915.0,
+      "time": "18:30",
+      "title": "中期経営計画の進捗に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260428514038.pdf"
     },
     {
       "code": "278A",
@@ -3292,6 +3316,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260428513909.pdf"
     },
     {
+      "code": "8898",
+      "company_name": "センチュリー２１",
+      "market_cap": 129.0,
+      "time": "18:30",
+      "title": "（訂正）「剰余金の配当（期末配当）に関するお知らせ」の一部訂正について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260430515645.pdf"
+    },
+    {
       "code": "9993",
       "company_name": "ヤマザワ",
       "market_cap": 128.0,
@@ -3490,6 +3522,14 @@
       "time": "15:30",
       "title": "2026年3月期決算短信の開示が期末後50日を超えることに関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260430514374.pdf"
+    },
+    {
+      "code": "5903",
+      "company_name": "ＳＨＩＮＰＯ",
+      "market_cap": 93.0,
+      "time": "18:15",
+      "title": "（訂正）「ＭＢＯの実施及び応募の推奨に関するお知らせ」の一部訂正に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260430515625.pdf"
     },
     {
       "code": "7442",
