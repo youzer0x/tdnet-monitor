@@ -69,16 +69,17 @@ def _email_table_html(items: list[DisplayItem], max_items: int | None = None) ->
           <td style="padding:6px 10px;border-bottom:1px solid #e0e0e0;font-family:monospace;white-space:nowrap;">{item.time}</td>
           <td style="padding:6px 10px;border-bottom:1px solid #e0e0e0;">{title_html}</td>
         </tr>""")
-        # スマホ版: カード型（1行に4項目 + 2行目に開示内容）
+        # スマホ版: カード型（1行に4項目 + 中央スペーサー + 2行目に開示内容）
         rows.append(f"""<tr class="sp-card">
           <td colspan="5" style="padding:0;border-bottom:1px solid #e8e8e8;">
             <table width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
-              <td style="padding:10px 8px 2px;font-family:monospace;font-size:12px;color:#555;white-space:nowrap;">{item.code}</td>
-              <td style="padding:10px 4px 2px;font-size:12px;font-weight:600;white-space:nowrap;">{item.company_name}</td>
-              <td style="padding:10px 4px 2px;font-size:11px;color:#888;text-align:right;white-space:nowrap;">{mcap_str}</td>
-              <td style="padding:10px 8px 2px;font-family:monospace;font-size:11px;color:#888;text-align:right;white-space:nowrap;">{item.time}</td>
+              <td style="padding:10px 2px 2px 8px;font-family:monospace;font-size:12px;color:#555;white-space:nowrap;">{item.code}</td>
+              <td style="padding:10px 2px 2px 4px;font-size:12px;font-weight:600;white-space:nowrap;">{item.company_name}</td>
+              <td style="padding:0;width:100%;"></td>
+              <td style="padding:10px 2px 2px 2px;font-size:11px;color:#888;text-align:right;white-space:nowrap;">{mcap_str}</td>
+              <td style="padding:10px 8px 2px 4px;font-family:monospace;font-size:11px;color:#888;text-align:right;white-space:nowrap;">{item.time}</td>
             </tr><tr>
-              <td colspan="4" style="padding:2px 8px 10px;font-size:13px;line-height:1.5;">{title_html}</td>
+              <td colspan="5" style="padding:2px 8px 10px;font-size:13px;line-height:1.5;">{title_html}</td>
             </tr></table>
           </td>
         </tr>""")
@@ -143,6 +144,12 @@ def generate_email_html(
         </tbody>
       </table>
       {"<p style='margin:16px 0 0;font-size:13px;color:#666;'>※ 上位" + str(max_items) + "件を表示。</p>" if truncated else ""}
+      <div style="margin:16px 0 0;text-align:center;">
+        <a href="{pages_url}" target="_blank"
+           style="display:inline-block;background:#1a237e;color:#fff;padding:10px 28px;border-radius:6px;text-decoration:none;font-size:14px;font-weight:500;">
+          全件を表示 →
+        </a>
+      </div>
     </div>
     <div style="background:#f8f9fa;padding:12px 24px;font-size:11px;color:#999;text-align:center;">
       TDnet 適時開示モニター｜GitHub Actions 自動送信
