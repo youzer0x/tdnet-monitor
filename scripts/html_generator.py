@@ -45,7 +45,7 @@ def prepare_display_items(
 
 
 def _email_table_html(items: list[DisplayItem], max_items: int | None = None) -> str:
-    """メール用テーブル HTML（インラインスタイル・モバイル対応）"""
+    """メール用 HTML（カード型レイアウト・モバイル対応）"""
     display = items[:max_items] if max_items else items
     rows = []
     for item in display:
@@ -55,13 +55,16 @@ def _email_table_html(items: list[DisplayItem], max_items: int | None = None) ->
             f'style="color:#1a73e8;text-decoration:none;">{item.title}</a>'
             if item.pdf_url else item.title
         )
-        rows.append(f"""        <tr>
-          <td style="padding:4px 6px;border-bottom:1px solid #e0e0e0;font-family:monospace;white-space:nowrap;font-size:12px;">{item.code}</td>
-          <td style="padding:4px 6px;border-bottom:1px solid #e0e0e0;white-space:nowrap;font-size:12px;">{item.company_name}</td>
-          <td style="padding:4px 6px;border-bottom:1px solid #e0e0e0;text-align:right;white-space:nowrap;font-size:11px;">{mcap_str}</td>
-          <td style="padding:4px 6px;border-bottom:1px solid #e0e0e0;font-family:monospace;white-space:nowrap;font-size:11px;">{item.time}</td>
-          <td style="padding:4px 6px;border-bottom:1px solid #e0e0e0;font-size:13px;word-break:break-all;">{title_html}</td>
-        </tr>""")
+        rows.append(f"""        <div style="padding:10px 0;border-bottom:1px solid #e8e8e8;">
+          <div style="display:flex;align-items:baseline;flex-wrap:nowrap;gap:4px;">
+            <span style="font-family:monospace;font-size:12px;color:#555;white-space:nowrap;">{item.code}</span>
+            <span style="font-size:12px;font-weight:600;white-space:nowrap;">{item.company_name}</span>
+            <span style="flex:1;"></span>
+            <span style="font-size:11px;color:#888;white-space:nowrap;">{mcap_str}</span>
+            <span style="font-family:monospace;font-size:11px;color:#888;white-space:nowrap;">{item.time}</span>
+          </div>
+          <div style="margin-top:4px;font-size:13px;line-height:1.5;">{title_html}</div>
+        </div>""")
     return "\n".join(rows)
 
 
@@ -96,20 +99,9 @@ def generate_email_html(
           全件を表示 →
         </a>
       </div>
-      <table style="width:100%;border-collapse:collapse;font-size:13px;table-layout:auto;">
-        <thead>
-          <tr style="background:#f8f9fa;">
-            <th style="padding:6px;text-align:left;border-bottom:2px solid #1a237e;white-space:nowrap;font-size:11px;">コード</th>
-            <th style="padding:6px;text-align:left;border-bottom:2px solid #1a237e;white-space:nowrap;font-size:11px;">会社名</th>
-            <th style="padding:6px;text-align:right;border-bottom:2px solid #1a237e;white-space:nowrap;font-size:11px;">時価総額</th>
-            <th style="padding:6px;text-align:left;border-bottom:2px solid #1a237e;white-space:nowrap;font-size:11px;">時刻</th>
-            <th style="padding:6px;text-align:left;border-bottom:2px solid #1a237e;font-size:11px;">開示内容</th>
-          </tr>
-        </thead>
-        <tbody>
+      <div>
 {table_rows}
-        </tbody>
-      </table>
+      </div>
       {"<p style='margin:16px 0 0;font-size:13px;color:#666;'>※ 上位" + str(max_items) + "件を表示。</p>" if truncated else ""}
     </div>
     <div style="background:#f8f9fa;padding:12px 24px;font-size:11px;color:#999;text-align:center;">
@@ -377,37 +369,32 @@ def generate_pages_html(available_dates: list[str]) -> str:
       thead { display: none; }
       tbody { display: block; }
       tbody tr {
-        display: grid;
-        grid-template-columns: auto 1fr;
-        grid-template-rows: auto auto;
-        gap: 2px 10px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        gap: 0;
         padding: 10px 12px;
         border-bottom: 1px solid var(--border);
       }
       tbody tr:hover { background: var(--hover); }
 
-      /* コード + 会社名 = 1行目左 */
+      /* 上段: コード・会社名・時価総額・時刻を1行に */
       .code-cell {
-        grid-row: 1; grid-column: 1;
-        font-size: 13px;
+        font-size: 12px; margin-right: 6px;
       }
       .company-cell {
-        grid-row: 1; grid-column: 2;
-        font-size: 13px; font-weight: 500;
+        font-size: 12px; font-weight: 500; margin-right: auto;
       }
-      /* 時価総額 + 時刻 = 2行目左 */
       .mcap-cell {
-        grid-row: 2; grid-column: 1;
-        text-align: left; font-size: 11px;
-        color: var(--text-sub);
+        text-align: right; font-size: 11px;
+        color: var(--text-sub); margin-right: 6px;
       }
       .time-cell {
-        grid-row: 2; grid-column: 2;
         font-size: 11px;
       }
-      /* 開示内容 = 3行目全幅 */
+      /* 下段: 開示内容を全幅 */
       .title-cell {
-        grid-row: 3; grid-column: 1 / -1;
+        flex-basis: 100%;
         padding-top: 4px;
         font-size: 13px; line-height: 1.5;
       }
@@ -618,26 +605,32 @@ function renderPaginationAndTable() {
   const end = Math.min(start + PAGE_SIZE, total);
   const pageItems = filteredItems.slice(start, end);
 
-  // ページネーション HTML
-  let pagHtml = '';
-  if (totalPages > 1) {
-    pagHtml = '<div class="pagination">';
-    pagHtml += '<button onclick="goPage(1)" ' + (currentPage===1?'disabled':'') + '>«</button>';
-    pagHtml += '<button onclick="goPage(' + (currentPage-1) + ')" ' + (currentPage===1?'disabled':'') + '>‹</button>';
+  // ページネーション HTML を生成する関数
+  function buildPagHtml(goFn) {
+    let h = '';
+    if (totalPages > 1) {
+      h = '<div class="pagination">';
+      h += '<button onclick="' + goFn + '(1)" ' + (currentPage===1?'disabled':'') + '>«</button>';
+      h += '<button onclick="' + goFn + '(' + (currentPage-1) + ')" ' + (currentPage===1?'disabled':'') + '>‹</button>';
 
-    let pageStart = Math.max(1, currentPage - 3);
-    let pageEnd = Math.min(totalPages, pageStart + 6);
-    if (pageEnd - pageStart < 6) pageStart = Math.max(1, pageEnd - 6);
+      let pageStart = Math.max(1, currentPage - 3);
+      let pageEnd = Math.min(totalPages, pageStart + 6);
+      if (pageEnd - pageStart < 6) pageStart = Math.max(1, pageEnd - 6);
 
-    for (let p = pageStart; p <= pageEnd; p++) {
-      pagHtml += '<button onclick="goPage(' + p + ')" class="' + (p===currentPage?'active':'') + '">' + p + '</button>';
+      for (let p = pageStart; p <= pageEnd; p++) {
+        h += '<button onclick="' + goFn + '(' + p + ')" class="' + (p===currentPage?'active':'') + '">' + p + '</button>';
+      }
+
+      h += '<button onclick="' + goFn + '(' + (currentPage+1) + ')" ' + (currentPage===totalPages?'disabled':'') + '>›</button>';
+      h += '<button onclick="' + goFn + '(' + totalPages + ')" ' + (currentPage===totalPages?'disabled':'') + '>»</button>';
+      h += '<span class="page-info">' + (start+1) + '–' + end + ' / ' + total + '件</span>';
+      h += '</div>';
     }
-
-    pagHtml += '<button onclick="goPage(' + (currentPage+1) + ')" ' + (currentPage===totalPages?'disabled':'') + '>›</button>';
-    pagHtml += '<button onclick="goPage(' + totalPages + ')" ' + (currentPage===totalPages?'disabled':'') + '>»</button>';
-    pagHtml += '<span class="page-info">' + (start+1) + '–' + end + ' / ' + total + '件</span>';
-    pagHtml += '</div>';
+    return h;
   }
+
+  let pagHtmlTop = buildPagHtml('goPage');
+  let pagHtmlBottom = buildPagHtml('goPageAndScroll');
 
   // テーブル HTML
   let tblHtml = '<table id="disclosureTable"><thead><tr>' +
@@ -665,13 +658,18 @@ function renderPaginationAndTable() {
 
   tblHtml += '</tbody></table>';
 
-  document.getElementById('tableArea').innerHTML = pagHtml + tblHtml + pagHtml;
+  document.getElementById('tableArea').innerHTML = pagHtmlTop + tblHtml + pagHtmlBottom;
 }
 
 function goPage(p) {
   const totalPages = Math.max(1, Math.ceil(filteredItems.length / PAGE_SIZE));
   currentPage = Math.max(1, Math.min(p, totalPages));
   renderPaginationAndTable();
+}
+
+function goPageAndScroll(p) {
+  goPage(p);
+  document.querySelector('.card').scrollIntoView({ behavior: 'smooth', block: 'start' });
 }
 
 function filterTable() {
