@@ -45,7 +45,13 @@ def prepare_display_items(
 
 
 def _email_table_html(items: list[DisplayItem], max_items: int | None = None) -> str:
-    """メール用 HTML（カード型レイアウト・モバイル対応）"""
+    """メール用 HTML（PC: テーブル / スマホ: カード型）
+
+    Gmailアプリは display:flex を十分にサポートしないため、
+    テーブルベースで2種類のレイアウトを出し分ける。
+    - pc-row: 横並びテーブル行（モバイルで非表示）
+    - sp-card: カード型（PCで非表示）
+    """
     display = items[:max_items] if max_items else items
     rows = []
     for item in display:
@@ -55,16 +61,27 @@ def _email_table_html(items: list[DisplayItem], max_items: int | None = None) ->
             f'style="color:#1a73e8;text-decoration:none;">{item.title}</a>'
             if item.pdf_url else item.title
         )
-        rows.append(f"""        <div style="padding:10px 0;border-bottom:1px solid #e8e8e8;">
-          <div style="display:flex;align-items:baseline;flex-wrap:nowrap;gap:4px;">
-            <span style="font-family:monospace;font-size:12px;color:#555;white-space:nowrap;">{item.code}</span>
-            <span style="font-size:12px;font-weight:600;white-space:nowrap;">{item.company_name}</span>
-            <span style="flex:1;"></span>
-            <span style="font-size:11px;color:#888;white-space:nowrap;">{mcap_str}</span>
-            <span style="font-family:monospace;font-size:11px;color:#888;white-space:nowrap;">{item.time}</span>
-          </div>
-          <div style="margin-top:4px;font-size:13px;line-height:1.5;">{title_html}</div>
-        </div>""")
+        # PC版: 通常のテーブル行
+        rows.append(f"""<tr class="pc-row">
+          <td style="padding:6px 10px;border-bottom:1px solid #e0e0e0;font-family:monospace;white-space:nowrap;">{item.code}</td>
+          <td style="padding:6px 10px;border-bottom:1px solid #e0e0e0;white-space:nowrap;">{item.company_name}</td>
+          <td style="padding:6px 10px;border-bottom:1px solid #e0e0e0;text-align:right;white-space:nowrap;">{mcap_str}</td>
+          <td style="padding:6px 10px;border-bottom:1px solid #e0e0e0;font-family:monospace;white-space:nowrap;">{item.time}</td>
+          <td style="padding:6px 10px;border-bottom:1px solid #e0e0e0;">{title_html}</td>
+        </tr>""")
+        # スマホ版: カード型（1行に4項目 + 2行目に開示内容）
+        rows.append(f"""<tr class="sp-card">
+          <td colspan="5" style="padding:0;border-bottom:1px solid #e8e8e8;">
+            <table width="100%" cellpadding="0" cellspacing="0" border="0"><tr>
+              <td style="padding:10px 8px 2px;font-family:monospace;font-size:12px;color:#555;white-space:nowrap;">{item.code}</td>
+              <td style="padding:10px 4px 2px;font-size:12px;font-weight:600;white-space:nowrap;">{item.company_name}</td>
+              <td style="padding:10px 4px 2px;font-size:11px;color:#888;text-align:right;white-space:nowrap;">{mcap_str}</td>
+              <td style="padding:10px 8px 2px;font-family:monospace;font-size:11px;color:#888;text-align:right;white-space:nowrap;">{item.time}</td>
+            </tr><tr>
+              <td colspan="4" style="padding:2px 8px 10px;font-size:13px;line-height:1.5;">{title_html}</td>
+            </tr></table>
+          </td>
+        </tr>""")
     return "\n".join(rows)
 
 
@@ -85,7 +102,19 @@ def generate_email_html(
 
     return f"""<!DOCTYPE html>
 <html>
-<head><meta charset="utf-8"></head>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <style>
+    @media screen and (max-width: 600px) {{
+      .pc-row {{ display: none !important; }}
+      .pc-header {{ display: none !important; }}
+    }}
+    @media screen and (min-width: 601px) {{
+      .sp-card {{ display: none !important; }}
+    }}
+  </style>
+</head>
 <body style="font-family:'Helvetica Neue',Arial,'Hiragino Sans',sans-serif;color:#333;margin:0;padding:0;background:#f5f5f5;">
   <div style="max-width:960px;margin:20px auto;background:#fff;border-radius:8px;overflow:hidden;box-shadow:0 1px 3px rgba(0,0,0,0.1);">
     <div style="background:#1a237e;color:#fff;padding:20px 24px;">
@@ -99,9 +128,20 @@ def generate_email_html(
           全件を表示 →
         </a>
       </div>
-      <div>
+      <table width="100%" cellpadding="0" cellspacing="0" border="0" style="border-collapse:collapse;font-size:13px;">
+        <thead>
+          <tr class="pc-header" style="background:#f8f9fa;">
+            <th style="padding:8px 10px;text-align:left;border-bottom:2px solid #1a237e;white-space:nowrap;">コード</th>
+            <th style="padding:8px 10px;text-align:left;border-bottom:2px solid #1a237e;white-space:nowrap;">会社名</th>
+            <th style="padding:8px 10px;text-align:right;border-bottom:2px solid #1a237e;white-space:nowrap;">時価総額</th>
+            <th style="padding:8px 10px;text-align:left;border-bottom:2px solid #1a237e;white-space:nowrap;">時刻</th>
+            <th style="padding:8px 10px;text-align:left;border-bottom:2px solid #1a237e;">開示内容</th>
+          </tr>
+        </thead>
+        <tbody>
 {table_rows}
-      </div>
+        </tbody>
+      </table>
       {"<p style='margin:16px 0 0;font-size:13px;color:#666;'>※ 上位" + str(max_items) + "件を表示。</p>" if truncated else ""}
     </div>
     <div style="background:#f8f9fa;padding:12px 24px;font-size:11px;color:#999;text-align:center;">
@@ -669,7 +709,7 @@ function goPage(p) {
 
 function goPageAndScroll(p) {
   goPage(p);
-  document.querySelector('.card').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  window.scrollTo({ top: 0, behavior: 'instant' });
 }
 
 function filterTable() {
