@@ -552,7 +552,7 @@ function goPage(p) {
 
 function goPageAndScroll(p) {
   goPage(p);
-  document.querySelector('.card').scrollIntoView({ behavior: 'smooth', block: 'start' });
+  window.scrollTo({ top: 0, behavior: 'instant' });
 }
 
 function filterTable() {
