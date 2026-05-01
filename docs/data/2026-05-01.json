@@ -1,7 +1,7 @@
 {
   "date": "2026-05-01",
-  "company_count": 278,
-  "total_count": 366,
+  "company_count": 283,
+  "total_count": 372,
   "items": [
     {
       "code": "8058",
@@ -652,6 +652,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260428513632.pdf"
     },
     {
+      "code": "1861",
+      "company_name": "熊谷組",
+      "market_cap": 2590.0,
+      "time": "19:00",
+      "title": "主要株主の異動に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260501517047.pdf"
+    },
+    {
       "code": "7716",
       "company_name": "ナカニシ",
       "market_cap": 2568.0,
@@ -762,6 +770,14 @@
       "time": "15:45",
       "title": "従業員向け株式給付信託への追加拠出に伴う第三者割当による自己株式の処分に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260501516715.pdf"
+    },
+    {
+      "code": "5423",
+      "company_name": "東製鉄",
+      "market_cap": 1846.0,
+      "time": "18:30",
+      "title": "( 訂正・数値データ訂正) 「 2026 年３月期 決算短信〔日本基準〕（非連結）」の一部訂正について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260501517010.pdf"
     },
     {
       "code": "7740",
@@ -1452,6 +1468,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260430515766.pdf"
     },
     {
+      "code": "7774",
+      "company_name": "Ｇ－Ｊ・ＴＥＣ",
+      "market_cap": 225.0,
+      "time": "19:00",
+      "title": "（訂正）「事業計画及び成長可能性に関する事項」の一部訂正について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260501517029.pdf"
+    },
+    {
       "code": "5933",
       "company_name": "アルインコ",
       "market_cap": 216.0,
@@ -1594,6 +1618,14 @@
       "time": "15:30",
       "title": "第26回新株予約権（行使価額修正条項付）の月間行使状況に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260501516332.pdf"
+    },
+    {
+      "code": "5132",
+      "company_name": "Ｇ－ｐｌｕｓｚｅｒｏ",
+      "market_cap": 171.0,
+      "time": "18:30",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260302572777.pdf"
     },
     {
       "code": "3329",
@@ -2260,6 +2292,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260501516425.pdf"
     },
     {
+      "code": "5129",
+      "company_name": "Ｇ－ＦＩＸＥＲ",
+      "market_cap": 57.0,
+      "time": "18:35",
+      "title": "第三者割当により発行された第３回乃至第５回新株予約権（行使価額修正条項付）の月間行使状況に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260501517012.pdf"
+    },
+    {
       "code": "7922",
       "company_name": "三光産業",
       "market_cap": 56.5,
@@ -2690,6 +2730,14 @@
       "time": "15:30",
       "title": "第11回新株予約権（行使価額修正条項付新株予約権）の 月間行使状況に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260501516353.pdf"
+    },
+    {
+      "code": "2687",
+      "company_name": "ＣＶＳベイ",
+      "market_cap": 25.4,
+      "time": "18:30",
+      "title": "2027年２月期月次業績（速報）に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260501517011.pdf"
     },
     {
       "code": "3970",
