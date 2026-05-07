@@ -1,7 +1,7 @@
 {
   "date": "2026-05-07",
-  "company_count": 204,
-  "total_count": 287,
+  "company_count": 207,
+  "total_count": 295,
   "items": [
     {
       "code": "6857",
@@ -268,6 +268,22 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260501516793.pdf"
     },
     {
+      "code": "8012",
+      "company_name": "長瀬産",
+      "market_cap": 5291.0,
+      "time": "19:03",
+      "title": "2026年3月期 決算説明資料",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260507517775.pdf"
+    },
+    {
+      "code": "8012",
+      "company_name": "長瀬産",
+      "market_cap": 5291.0,
+      "time": "19:03",
+      "title": "中期経営計画　Walk the Talk 2028 策定に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260507517835.pdf"
+    },
+    {
       "code": "9301",
       "company_name": "三菱倉",
       "market_cap": 5135.0,
@@ -282,6 +298,14 @@
       "time": "12:30",
       "title": "自己株式の取得状況に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260428513053.pdf"
+    },
+    {
+      "code": "485A",
+      "company_name": "Ｇ－パワーエックス",
+      "market_cap": 4220.0,
+      "time": "20:00",
+      "title": "モンテネグロの国営電力会社EPCGと蓄電システムに関する戦略的協力についての覚書締結に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260507518382.pdf"
     },
     {
       "code": "6592",
@@ -522,6 +546,14 @@
       "time": "15:30",
       "title": "第10期定時株主総会の「継続会」の開催日時等に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260507518191.pdf"
+    },
+    {
+      "code": "6877",
+      "company_name": "ＯＢＡＲＡ－Ｇ",
+      "market_cap": 1235.0,
+      "time": "18:30",
+      "title": "業績予想の修正に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260507518604.pdf"
     },
     {
       "code": "9039",
@@ -2226,6 +2258,38 @@
       "time": "16:50",
       "title": "自己株式の取得状況に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260507518461.pdf"
+    },
+    {
+      "code": "9878",
+      "company_name": "セキド",
+      "market_cap": 14.9,
+      "time": "19:30",
+      "title": "特別損失の計上及び2026年３月期通期業績予想値と実績値の差異に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260507518665.pdf"
+    },
+    {
+      "code": "9878",
+      "company_name": "セキド",
+      "market_cap": 14.9,
+      "time": "19:30",
+      "title": "株主優待制度の一部変更に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260507518719.pdf"
+    },
+    {
+      "code": "9878",
+      "company_name": "セキド",
+      "market_cap": 14.9,
+      "time": "19:30",
+      "title": "2026年３月期決算短信〔日本基準〕（非連結）",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260507518660.pdf"
+    },
+    {
+      "code": "9878",
+      "company_name": "セキド",
+      "market_cap": 14.9,
+      "time": "19:30",
+      "title": "継続企業の前提に関する事項の注記に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260507518776.pdf"
     },
     {
       "code": "2778",
