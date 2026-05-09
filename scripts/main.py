@@ -1,8 +1,8 @@
 """TDnet 適時開示モニター メイン処理
 
 2回/日の実行に対応:
-  - evening (18:00): 00:00〜18:00 の開示を取得・メール通知（上位30件）
-  - night   (24:00): 18:01〜24:00 の開示を取得・既存データにマージ・メール通知（差分全件）
+  - evening (17:00): 00:00〜17:00 の開示を取得・メール通知（上位30件）
+  - night   (24:00): 17:01〜24:00 の開示を取得・既存データにマージ・メール通知（差分全件）
 """
 
 import os
@@ -165,7 +165,7 @@ def main():
     else:
         target_date = date.today()
 
-    # 実行モード: evening (18:00) or night (24:00)
+    # 実行モード: evening (17:00) or night (24:00)
     run_mode = os.environ.get("RUN_MODE", "evening")
     print(f"\nRUN_MODE env: '{run_mode}'")
     print(f"date.today(): {date.today()}")
@@ -185,9 +185,9 @@ def main():
 
     # 時間フィルタの設定
     if run_mode == "night":
-        time_start, time_end = "18:01", "23:59"
+        time_start, time_end = "17:01", "23:59"
     else:
-        time_start, time_end = "00:00", "18:00"
+        time_start, time_end = "00:00", "17:00"
 
     print(f"\n[1/6] Fetching disclosures from TDnet...")
     from tdnet_scraper import fetch_disclosures
