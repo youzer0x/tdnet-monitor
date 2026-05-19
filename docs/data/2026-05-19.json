@@ -1,7 +1,7 @@
 {
   "date": "2026-05-19",
-  "company_count": 176,
-  "total_count": 233,
+  "company_count": 187,
+  "total_count": 245,
   "items": [
     {
       "code": "8058",
@@ -1852,6 +1852,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260519540570.pdf"
     },
     {
+      "code": "2371",
+      "company_name": "カカクコム",
+      "market_cap": 0,
+      "time": "18:15",
+      "title": "（訂正）Kamgras １株式会社による公開買付届出書の訂正届出書の提出に伴う 公開買付開始公告の訂正に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260519541368.pdf"
+    },
+    {
       "code": "310A",
       "company_name": "Ｐ－サーティーフォー",
       "market_cap": 0,
@@ -1860,12 +1868,100 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260519541173.pdf"
     },
     {
+      "code": "3111",
+      "company_name": "オーミケンシ",
+      "market_cap": 0,
+      "time": "17:30",
+      "title": "第161回定時株主総会の継続会の開催方針に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260519541205.pdf"
+    },
+    {
       "code": "311A",
       "company_name": "Ｐ－ＮＰＴ",
       "market_cap": 0,
       "time": "16:00",
       "title": "（訂正）「定款一部変更に関するお知らせ」の一部訂正について",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260519540633.pdf"
+    },
+    {
+      "code": "4059",
+      "company_name": "まぐまぐ",
+      "market_cap": 0,
+      "time": "17:45",
+      "title": "2026年９月期第２四半期　決算説明資料",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260519541309.pdf"
+    },
+    {
+      "code": "456A",
+      "company_name": "Ｇ－ヒューマンメイド",
+      "market_cap": 0,
+      "time": "17:15",
+      "title": "（訂正）「事業計画及び成長可能性に関する事項」の一部訂正について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260519541084.pdf"
+    },
+    {
+      "code": "4571",
+      "company_name": "Ｇ－ＮＡＮＯ",
+      "market_cap": 0,
+      "time": "17:15",
+      "title": "2026年3月期決算説明会資料",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260519541288.pdf"
+    },
+    {
+      "code": "4720",
+      "company_name": "城南進研",
+      "market_cap": 0,
+      "time": "19:00",
+      "title": "（訂正）「通期連結業績予想の修正及び特別損失の計上に関するお知らせ」の一部訂正のお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260519541405.pdf"
+    },
+    {
+      "code": "6405",
+      "company_name": "鈴茂器工",
+      "market_cap": 0,
+      "time": "18:30",
+      "title": "2026年3月期 決算説明会資料",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260519541352.pdf"
+    },
+    {
+      "code": "7173",
+      "company_name": "東京きらぼしＦＧ",
+      "market_cap": 0,
+      "time": "17:30",
+      "title": "売出価格等の決定に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260519541307.pdf"
+    },
+    {
+      "code": "7995",
+      "company_name": "バルカー",
+      "market_cap": 0,
+      "time": "18:00",
+      "title": "(訂正・数値データ訂正)「2026年３月期決算短信〔日本基準〕(連結)」の一部訂正について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260519540495.pdf"
+    },
+    {
+      "code": "8166",
+      "company_name": "タカキュー",
+      "market_cap": 0,
+      "time": "17:30",
+      "title": "B種種類株式の株式譲渡承認について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260519541308.pdf"
+    },
+    {
+      "code": "8934",
+      "company_name": "サンフロンティア",
+      "market_cap": 0,
+      "time": "18:00",
+      "title": "剰余金の配当に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260519541330.pdf"
+    },
+    {
+      "code": "9278",
+      "company_name": "ブックオフＧＨＤ",
+      "market_cap": 0,
+      "time": "18:30",
+      "title": "子会社等の異動（孫会社の設立）に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260519541389.pdf"
     }
   ]
 }
