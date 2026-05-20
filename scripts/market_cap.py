@@ -9,11 +9,17 @@ import re
 import time
 import requests
 from bs4 import BeautifulSoup
+from collections import Counter
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 
-def _fetch_single(code: str) -> tuple[str, float | None]:
-    """1銘柄の時価総額を株探から取得する"""
+def _fetch_single(code: str) -> tuple[str, float | None, str | None]:
+    """1銘柄の時価総額を株探から取得する。
+
+    戻り値: (code, market_cap, failure_reason)
+    - 成功時: (code, value, None)
+    - 失敗時: (code, None, reason_string)  reason は HTTP ステータス・例外型・parse miss など
+    """
     url = f"https://kabutan.jp/stock/?code={code}"
     headers = {
         "User-Agent": (
@@ -24,33 +30,38 @@ def _fetch_single(code: str) -> tuple[str, float | None]:
         "Accept-Language": "ja,en-US;q=0.9,en;q=0.8",
     }
 
-    try:
-        resp = requests.get(url, headers=headers, timeout=15)
-        if resp.status_code != 200:
-            return code, None
+    last_reason: str | None = None
+    for attempt in (1, 2):
+        try:
+            resp = requests.get(url, headers=headers, timeout=15)
+            if resp.status_code != 200:
+                last_reason = f"http_{resp.status_code}"
+            else:
+                resp.encoding = "utf-8"
+                soup = BeautifulSoup(resp.text, "lxml")
 
-        resp.encoding = "utf-8"
-        soup = BeautifulSoup(resp.text, "lxml")
+                # 方法1: テーブルから「時価総額」を探す
+                for th in soup.find_all("th"):
+                    if "時価総額" in th.get_text(strip=True):
+                        td = th.find_next_sibling("td")
+                        if td:
+                            result = _parse_market_cap(td.get_text(strip=True))
+                            if result:
+                                return code, result, None
 
-        # 方法1: テーブルから「時価総額」を探す
-        for th in soup.find_all("th"):
-            if "時価総額" in th.get_text(strip=True):
-                td = th.find_next_sibling("td")
-                if td:
-                    result = _parse_market_cap(td.get_text(strip=True))
-                    if result:
-                        return code, result
+                # 方法2: ページ全体のテキストから正規表現で探す
+                result = _extract_from_text(soup.get_text())
+                if result:
+                    return code, result, None
 
-        # 方法2: ページ全体のテキストから正規表現で探す
-        text = soup.get_text()
-        result = _extract_from_text(text)
-        if result:
-            return code, result
+                last_reason = f"parse_miss(len={len(resp.text)})"
+        except Exception as e:
+            last_reason = f"{type(e).__name__}: {str(e)[:80]}"
 
-    except Exception:
-        pass
+        if attempt == 1:
+            time.sleep(2.0)
 
-    return code, None
+    return code, None, last_reason
 
 
 def _parse_market_cap(text: str) -> float | None:
@@ -110,7 +121,7 @@ def fetch_market_caps(codes: set[str]) -> dict[str, float]:
     """
     print(f"  Fetching market caps for {len(codes)} codes from kabutan.jp...")
     market_caps: dict[str, float] = {}
-    failed: list[str] = []
+    failed: list[tuple[str, str]] = []
 
     sorted_codes = sorted(codes)
 
@@ -124,18 +135,22 @@ def fetch_market_caps(codes: set[str]) -> dict[str, float]:
 
         done_count = 0
         for future in as_completed(futures):
-            code, mcap = future.result()
+            code, mcap, reason = future.result()
             done_count += 1
             if mcap is not None:
                 market_caps[code] = mcap
             else:
-                failed.append(code)
+                failed.append((code, reason or "unknown"))
 
             if done_count % 50 == 0:
                 print(f"    ... {done_count}/{len(sorted_codes)} processed")
 
     print(f"  Market caps resolved: {len(market_caps)} / {len(codes)} codes")
     if failed:
-        print(f"  Failed to fetch: {len(failed)} codes (first 10: {failed[:10]})")
+        reason_counts = Counter(r for _, r in failed)
+        print(f"  Failed: {len(failed)} codes. Reasons: {dict(reason_counts.most_common(5))}")
+        print(f"  Sample failures: {failed[:5]}")
+        if len(failed) == len(codes):
+            print("  !!! ALL fetches failed - likely IP block or kabutan.jp outage. Falling back to cache.")
 
     return market_caps

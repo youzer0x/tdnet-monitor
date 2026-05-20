@@ -44,6 +44,40 @@ def load_existing_json(json_path: str) -> list[dict]:
     return []
 
 
+def _load_cached_market_caps(data_dir: str, target_date: date, max_days: int = 14) -> dict[str, float]:
+    """直近 max_days 日分の日次 JSON を新しい順に走査し、
+    各コードの最新の正値 market_cap を返す（target_date 自身は除外）。
+
+    kabutan.jp 取得失敗時のフォールバック用。
+    """
+    cache: dict[str, float] = {}
+    if not os.path.exists(data_dir):
+        return cache
+    for json_file in sorted(glob.glob(os.path.join(data_dir, "*.json")), reverse=True):
+        fname = os.path.basename(json_file)
+        if fname == "manifest.json":
+            continue
+        try:
+            file_date = date.fromisoformat(fname.replace(".json", ""))
+        except ValueError:
+            continue
+        if file_date >= target_date:
+            continue
+        if (target_date - file_date).days > max_days:
+            break
+        try:
+            with open(json_file, "r", encoding="utf-8") as f:
+                data = json.load(f)
+        except (OSError, json.JSONDecodeError):
+            continue
+        for item in data.get("items", []):
+            code = item.get("code")
+            mcap = item.get("market_cap", 0)
+            if code and mcap and mcap > 0 and code not in cache:
+                cache[code] = mcap
+    return cache
+
+
 def save_daily_json(items: list, target_date: date, docs_dir: str) -> None:
     """当日の開示データを JSON として保存する"""
     data_dir = os.path.join(docs_dir, "data")
@@ -213,20 +247,30 @@ def main():
         print("No disclosures after filtering. Exiting.")
         return
 
+    docs_dir = os.path.join(os.path.dirname(__file__), "..", "docs")
+    os.makedirs(docs_dir, exist_ok=True)
+    data_dir = os.path.join(docs_dir, "data")
+    os.makedirs(data_dir, exist_ok=True)
+    json_path = os.path.join(data_dir, f"{target_date.isoformat()}.json")
+
     print(f"\n[3/6] Fetching market cap data...")
     from market_cap import fetch_market_caps
     codes = set(d.code for d in disclosures)
     market_caps = fetch_market_caps(codes)
 
+    # フォールバック: 取得失敗コードを直近日次キャッシュから補完
+    missing = codes - set(market_caps.keys())
+    if missing:
+        cached = _load_cached_market_caps(data_dir, target_date)
+        filled = {c: cached[c] for c in missing if c in cached}
+        if filled:
+            market_caps.update(filled)
+            print(f"  Filled {len(filled)} market caps from cache (still missing: {len(missing) - len(filled)})")
+
     print(f"\n[4/6] Processing data...")
     from html_generator import prepare_display_items, generate_email_html, generate_pages_html
 
     new_items = prepare_display_items(disclosures, market_caps)
-
-    docs_dir = os.path.join(os.path.dirname(__file__), "..", "docs")
-    os.makedirs(docs_dir, exist_ok=True)
-    data_dir = os.path.join(docs_dir, "data")
-    json_path = os.path.join(data_dir, f"{target_date.isoformat()}.json")
 
     if run_mode == "night":
         # night: 既存データとマージ
