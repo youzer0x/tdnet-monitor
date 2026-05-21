@@ -636,14 +636,6 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260521543721.pdf"
     },
     {
-      "code": "3708",
-      "company_name": "特種東海",
-      "market_cap": 684.0,
-      "time": "16:40",
-      "title": "（訂正）「剰余金の配当及び配当方針の変更に関するお知らせ」の一部訂正のお知らせ",
-      "pdf_url": "https://www.release.tdnet.info/inbs/140120260521543853.pdf"
-    },
-    {
       "code": "1822",
       "company_name": "大豊建",
       "market_cap": 681.7,
@@ -674,6 +666,14 @@
       "time": "13:30",
       "title": "剰余金の配当に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260520542733.pdf"
+    },
+    {
+      "code": "3708",
+      "company_name": "特種東海",
+      "market_cap": 651.7,
+      "time": "16:40",
+      "title": "（訂正）「剰余金の配当及び配当方針の変更に関するお知らせ」の一部訂正のお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260521543853.pdf"
     },
     {
       "code": "1948",
@@ -1014,7 +1014,7 @@
     {
       "code": "4258",
       "company_name": "Ｇ－網屋",
-      "market_cap": 248.4,
+      "market_cap": 247.0,
       "time": "16:30",
       "title": "譲渡制限付株式報酬及び業績連動型株式報酬としての自己株式処分の払込完了に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260521543811.pdf"
@@ -1054,7 +1054,7 @@
     {
       "code": "3694",
       "company_name": "オプティム",
-      "market_cap": 215.0,
+      "market_cap": 217.3,
       "time": "15:30",
       "title": "定款の一部変更に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260519541091.pdf"
@@ -1652,20 +1652,20 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260521543099.pdf"
     },
     {
+      "code": "3944",
+      "company_name": "古林紙工",
+      "market_cap": 42.7,
+      "time": "16:00",
+      "title": "譲渡制限付株式報酬としての自己株式処分の払込完了に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260518539883.pdf"
+    },
+    {
       "code": "8783",
       "company_name": "ａｂｃ",
       "market_cap": 42.5,
       "time": "16:00",
       "title": "簡易株式交換による株式会社ボンドの完全子会社化に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260521543373.pdf"
-    },
-    {
-      "code": "3944",
-      "company_name": "古林紙工",
-      "market_cap": 42.1,
-      "time": "16:00",
-      "title": "譲渡制限付株式報酬としての自己株式処分の払込完了に関するお知らせ",
-      "pdf_url": "https://www.release.tdnet.info/inbs/140120260518539883.pdf"
     },
     {
       "code": "5870",
@@ -1724,9 +1724,25 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260521543193.pdf"
     },
     {
+      "code": "3753",
+      "company_name": "フライト",
+      "market_cap": 31.4,
+      "time": "15:30",
+      "title": "役員人事に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260518540170.pdf"
+    },
+    {
+      "code": "3753",
+      "company_name": "フライト",
+      "market_cap": 31.4,
+      "time": "15:30",
+      "title": "第三者割当による第10回新株予約権（行使価額修正条項付）の行使完了及び月間行使状況に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260521543082.pdf"
+    },
+    {
       "code": "3477",
       "company_name": "Ｇ－フォーライフ",
-      "market_cap": 32.4,
+      "market_cap": 31.3,
       "time": "15:00",
       "title": "役員の異動に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260519540392.pdf"
@@ -1738,22 +1754,6 @@
       "time": "16:30",
       "title": "新任取締役（監査等委員である取締役を除く）候補者の決定に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260521543116.pdf"
-    },
-    {
-      "code": "3753",
-      "company_name": "フライト",
-      "market_cap": 24.1,
-      "time": "15:30",
-      "title": "役員人事に関するお知らせ",
-      "pdf_url": "https://www.release.tdnet.info/inbs/140120260518540170.pdf"
-    },
-    {
-      "code": "3753",
-      "company_name": "フライト",
-      "market_cap": 24.1,
-      "time": "15:30",
-      "title": "第三者割当による第10回新株予約権（行使価額修正条項付）の行使完了及び月間行使状況に関するお知らせ",
-      "pdf_url": "https://www.release.tdnet.info/inbs/140120260521543082.pdf"
     },
     {
       "code": "3598",
