@@ -21,6 +21,10 @@ LOOKBACK_DAYS = 5
 RATE_SLEEP = 0.25
 MAX_WORKERS = 3
 
+# (prices, price_date) を target_date ごとにキャッシュ。fetch_tse_codes と
+# fetch_market_caps の両方で同じ J-Quants 結果を再利用するため。
+_PRICES_CACHE: dict[date, tuple[dict[str, float], date]] = {}
+
 
 def _request(api_key: str, path: str, params: dict) -> list[dict]:
     """V2 API を呼び、pagination_key を自動連結して data 配列を返す。"""
@@ -58,13 +62,41 @@ def _fetch_close_prices(api_key: str, target_date: date) -> tuple[dict[str, floa
     """target_date から最大 LOOKBACK_DAYS 遡って終値が得られる日のデータを返す。
     返り値: ({Code(5桁): AdjC}, 採用日)
     """
+    if target_date in _PRICES_CACHE:
+        return _PRICES_CACHE[target_date]
     for back in range(LOOKBACK_DAYS + 1):
         d = target_date - timedelta(days=back)
         rows = _request(api_key, "/equities/bars/daily", {"date": d.isoformat()})
         prices = {r["Code"]: r["AdjC"] for r in rows if r.get("AdjC") is not None}
         if prices:
+            _PRICES_CACHE[target_date] = (prices, d)
             return prices, d
     return {}, target_date
+
+
+def _normalize_code(code5: str) -> str:
+    """J-Quants の 5 桁コードを TDnet 表記 (4 桁または末尾英字) に正規化"""
+    if len(code5) == 5 and code5.endswith("0") and code5[:-1].isdigit():
+        return code5[:-1]
+    return code5
+
+
+def fetch_tse_codes(target_date: date) -> set[str]:
+    """東証本則 (プライム/スタンダード/グロース) の銘柄コード (4 桁) セットを返す。
+
+    J-Quants の `/equities/bars/daily` は東証本則のみ返す。
+    名証・福証・札証単独上場、東京プロマーケット銘柄は含まれない。
+    JQUANTS_API_KEY 未設定や取得失敗時は空セットを返す (= フィルタしない)。
+    """
+    api_key = os.environ.get("JQUANTS_API_KEY")
+    if not api_key:
+        return set()
+    try:
+        prices, _ = _fetch_close_prices(api_key, target_date)
+    except Exception as e:
+        print(f"  !!! fetch_tse_codes failed: {type(e).__name__}: {e}")
+        return set()
+    return {_normalize_code(c) for c in prices.keys()}
 
 
 def _fetch_latest_shares(api_key: str, code4: str) -> tuple[date, int] | None:

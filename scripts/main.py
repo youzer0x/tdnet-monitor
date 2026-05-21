@@ -254,7 +254,22 @@ def main():
     json_path = os.path.join(data_dir, f"{target_date.isoformat()}.json")
 
     print(f"\n[3/6] Fetching market cap data...")
-    from market_cap_jquants import fetch_market_caps
+    from market_cap_jquants import fetch_market_caps, fetch_tse_codes
+
+    # 東証本則 (プライム/スタンダード/グロース) のみを対象とする。
+    # 東京プロマーケット・名証/福証/札証単独上場銘柄は Web ページにも掲載しない。
+    tse_codes = fetch_tse_codes(target_date)
+    if tse_codes:
+        before = len(disclosures)
+        disclosures = [d for d in disclosures if d.code in tse_codes]
+        excluded = before - len(disclosures)
+        if excluded:
+            print(f"  Non-TSE filter: {before} -> {len(disclosures)} (excluded {excluded} TOKYO PRO/regional listings)")
+
+    if not disclosures:
+        print("No disclosures after non-TSE filter. Exiting.")
+        return
+
     codes = set(d.code for d in disclosures)
     market_caps = fetch_market_caps(codes, target_date)
 
