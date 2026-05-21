@@ -16,10 +16,10 @@ from market_cap_yahoo import fetch_market_cap_yahoo
 
 BASE = "https://api.jquants.com/v2"
 TIMEOUT = 20
-MAX_RETRY = 3
+MAX_RETRY = 5
 LOOKBACK_DAYS = 5
-RATE_SLEEP = 0.1
-MAX_WORKERS = 5
+RATE_SLEEP = 0.25
+MAX_WORKERS = 3
 
 
 def _request(api_key: str, path: str, params: dict) -> list[dict]:
@@ -141,10 +141,12 @@ def fetch_market_caps(codes: set[str], target_date: date) -> dict[str, float]:
         if close is None:
             return code4, None, "skipped_non_tse"
 
+        sh: tuple[date, int] | None = None
+        sh_error: str | None = None
         try:
             sh = _fetch_latest_shares(api_key, code4)
-        except Exception:
-            sh = None
+        except Exception as e:
+            sh_error = type(e).__name__
 
         if sh is not None:
             period_end, shoutfy = sh
@@ -155,15 +157,19 @@ def fetch_market_caps(codes: set[str], target_date: date) -> dict[str, float]:
             mcap_oku = close * shoutfy * corr / 1e8
             return code4, round(mcap_oku, 1), None
 
-        # 東証銘柄だが ShOutFY 無し (新規上場で fins/summary に決算未開示) → Yahoo フォールバック
+        # 東証銘柄だが ShOutFY 取得失敗 (新規上場で fins/summary に決算未開示、または J-Quants エラー) → Yahoo フォールバック
+        yahoo_error: str | None = None
+        yahoo_value: float | None = None
         try:
             yahoo_value = fetch_market_cap_yahoo(code4)
-        except Exception:
-            yahoo_value = None
+        except Exception as e:
+            yahoo_error = type(e).__name__
         if yahoo_value is not None:
             return code4, yahoo_value, None
 
-        return code4, None, "no_shares_yahoo_failed"
+        sh_part = f"sh_err:{sh_error}" if sh_error else "no_shares"
+        y_part = f"y_err:{yahoo_error}" if yahoo_error else "yahoo_none"
+        return code4, None, f"{sh_part}/{y_part}"
 
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
         futures = {}
