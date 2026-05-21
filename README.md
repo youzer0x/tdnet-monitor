@@ -11,7 +11,7 @@ GitHub Actions (毎営業日 2回)
   ├─ 17:00 JST [evening] ─┬─ 休場日判定 → 休場なら終了
   │                        ├─ TDnet スクレイピング (00:00〜17:00)
   │                        ├─ JPX 上場銘柄リストで REIT/ETF 除外
-  │                        ├─ 株探から時価総額取得・ソート
+  │                        ├─ J-Quants V2 API で時価総額計算（終値×発行済株式数、分割補正）
   │                        ├─ JSON 保存 → GitHub Pages 更新
   │                        └─ Gmail 通知 (上位30件)
   │
@@ -75,6 +75,7 @@ git push -u origin main
 | `GMAIL_ADDRESS` | 送信元Gmailアドレス |
 | `GMAIL_APP_PASSWORD` | Step 4 の16桁パスワード |
 | `NOTIFY_TO` | 通知先メールアドレス |
+| `JQUANTS_API_KEY` | J-Quants Light 以上のプランの API キー |
 
 ### Step 6：動作テスト
 
@@ -96,7 +97,8 @@ tdnet-monitor/
 │   ├── main.py              # メイン処理
 │   ├── tdnet_scraper.py     # TDnet スクレイピング
 │   ├── filter_reit_etf.py   # REIT/ETF 除外
-│   ├── market_cap.py        # 時価総額取得（株探）
+│   ├── market_cap_jquants.py # 時価総額取得（J-Quants V2、主データソース）
+│   ├── market_cap_yahoo.py  # 時価総額取得（Yahoo Finance JP、新規上場銘柄フォールバック）
 │   ├── html_generator.py    # HTML 生成
 │   └── gmail_sender.py      # Gmail 送信
 ├── docs/
@@ -127,13 +129,13 @@ tdnet-monitor/
 | Actions が動かない | Settings → Actions → General →「Allow all actions」を確認 |
 | メールが届かない | Secrets の値を再確認。アプリパスワードにスペースが入っていないか確認 |
 | Pages が表示されない | Settings → Pages で Branch: main / Folder: /docs を確認 |
-| 時価総額が「—」 | 株探のページ構造変更の可能性。Issue で報告してください |
+| 時価総額が「—」 | `JQUANTS_API_KEY` 未設定、または Light 未満のプラン (Free は12週間遅延で当日値なし)。新規上場銘柄は Yahoo Finance JP 側も失敗した場合に発生 |
 
 ---
 
 ## 技術仕様
 
 - **REIT/ETF 除外**: JPX 上場銘柄一覧の「市場・商品区分」列から正確に判定（証券コード範囲は不使用）
-- **時価総額**: 株探 (kabutan.jp) から取得（リアルタイム）
+- **時価総額**: J-Quants V2 API（`fins/summary` の `ShOutFY` × `equities/bars/daily` の `AdjC`、株式分割補正済）。Light プラン以上が必要。新規上場銘柄は Yahoo Finance JP からフォールバック取得
 - **休場日判定**: `jpholiday`（祝日）+ 土日 + 年末年始（12/31〜1/3）
 - **データ保持**: 直近14日分の JSON を GitHub Pages で公開

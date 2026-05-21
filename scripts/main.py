@@ -254,9 +254,9 @@ def main():
     json_path = os.path.join(data_dir, f"{target_date.isoformat()}.json")
 
     print(f"\n[3/6] Fetching market cap data...")
-    from market_cap import fetch_market_caps
+    from market_cap_jquants import fetch_market_caps
     codes = set(d.code for d in disclosures)
-    market_caps = fetch_market_caps(codes)
+    market_caps = fetch_market_caps(codes, target_date)
 
     # フォールバック: 取得失敗コードを直近日次キャッシュから補完
     missing = codes - set(market_caps.keys())

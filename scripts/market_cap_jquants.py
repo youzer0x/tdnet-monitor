@@ -1,0 +1,194 @@
+"""時価総額データの取得 (J-Quants V2 API)
+
+J-Quants V2 から終値・発行済株式数・分割係数を取得し、時価総額(億円)を算出する。
+fins/summary に決算データが無い銘柄 (新規上場等) は market_cap_yahoo に委譲する。
+"""
+
+import os
+import time
+import requests
+from datetime import date, timedelta
+from collections import Counter
+from concurrent.futures import ThreadPoolExecutor, as_completed
+
+from market_cap_yahoo import fetch_market_cap_yahoo
+
+
+BASE = "https://api.jquants.com/v2"
+TIMEOUT = 20
+MAX_RETRY = 3
+LOOKBACK_DAYS = 5
+RATE_SLEEP = 0.1
+MAX_WORKERS = 5
+
+
+def _request(api_key: str, path: str, params: dict) -> list[dict]:
+    """V2 API を呼び、pagination_key を自動連結して data 配列を返す。"""
+    headers = {"x-api-key": api_key}
+    out: list[dict] = []
+    page_key: str | None = None
+    for _ in range(50):
+        p = dict(params)
+        if page_key:
+            p["pagination_key"] = page_key
+        body: dict | None = None
+        for attempt in range(MAX_RETRY):
+            try:
+                r = requests.get(f"{BASE}{path}", headers=headers, params=p, timeout=TIMEOUT)
+                if r.status_code == 429:
+                    time.sleep(2 ** attempt)
+                    continue
+                r.raise_for_status()
+                body = r.json()
+                break
+            except requests.RequestException:
+                if attempt == MAX_RETRY - 1:
+                    raise
+                time.sleep(1.5 ** attempt)
+        if body is None:
+            break
+        out.extend(body.get("data", []))
+        page_key = body.get("pagination_key")
+        if not page_key:
+            break
+    return out
+
+
+def _fetch_close_prices(api_key: str, target_date: date) -> tuple[dict[str, float], date]:
+    """target_date から最大 LOOKBACK_DAYS 遡って終値が得られる日のデータを返す。
+    返り値: ({Code(5桁): AdjC}, 採用日)
+    """
+    for back in range(LOOKBACK_DAYS + 1):
+        d = target_date - timedelta(days=back)
+        rows = _request(api_key, "/equities/bars/daily", {"date": d.isoformat()})
+        prices = {r["Code"]: r["AdjC"] for r in rows if r.get("AdjC") is not None}
+        if prices:
+            return prices, d
+    return {}, target_date
+
+
+def _fetch_latest_shares(api_key: str, code4: str) -> tuple[date, int] | None:
+    """銘柄ごとに最新の (period_end, ShOutFY) を返す。
+
+    period_end は CurFYEn (期末日)。ShOutFY は「期末発行済株式数」なので、
+    期末日を分割補正の起点とするのが正しい (DiscDate ではなく)。
+    CurFYEn が欠落している場合は DiscDate にフォールバック。
+    """
+    rows = _request(api_key, "/fins/summary", {"code": code4})
+    candidates: list[tuple[str, str, str]] = []
+    for r in rows:
+        sh = r.get("ShOutFY")
+        disc = r.get("DiscDate")
+        cur_end = r.get("CurFYEn") or disc
+        if sh in (None, "", 0) or not disc:
+            continue
+        candidates.append((disc, cur_end, sh))
+    if not candidates:
+        return None
+    candidates.sort(key=lambda x: x[0])
+    _disc, cur_end, sh = candidates[-1]
+    try:
+        return date.fromisoformat(cur_end), int(float(sh))
+    except (ValueError, TypeError):
+        return None
+
+
+def _fetch_split_correction(api_key: str, code4: str, since: date, until: date) -> float:
+    """since+1日 〜 until の AdjFactor 累積積の逆数を返す。
+    1:2 分割なら AdjFactor=0.5 → 返り値 2.0 (株数を 2 倍する補正係数)。
+    """
+    if since >= until:
+        return 1.0
+    rows = _request(api_key, "/equities/bars/daily", {
+        "code": code4,
+        "from": (since + timedelta(days=1)).isoformat(),
+        "to": until.isoformat(),
+    })
+    correction = 1.0
+    for r in rows:
+        f = r.get("AdjFactor")
+        if f and float(f) != 1.0:
+            correction /= float(f)
+    return correction
+
+
+def fetch_market_caps(codes: set[str], target_date: date) -> dict[str, float]:
+    """
+    証券コードのセットを受け取り、{code: 時価総額(億円)} の辞書を返す。
+    J-Quants 主データソース、新規上場銘柄は Yahoo Finance JP にフォールバック。
+    """
+    api_key = os.environ.get("JQUANTS_API_KEY")
+    if not api_key:
+        print("  ERROR: JQUANTS_API_KEY not set. Returning empty (cache fallback will run).")
+        return {}
+
+    print(f"  Fetching market caps for {len(codes)} codes from J-Quants V2...")
+    try:
+        prices, price_date = _fetch_close_prices(api_key, target_date)
+    except Exception as e:
+        print(f"  !!! Close prices fetch failed: {type(e).__name__}: {e}")
+        prices, price_date = {}, target_date
+    print(f"    Close prices: {len(prices)} codes (date={price_date})")
+
+    market_caps: dict[str, float] = {}
+    failed: list[tuple[str, str]] = []
+
+    def worker(code4: str) -> tuple[str, float | None, str | None]:
+        code5 = (code4 + "0") if len(code4) == 4 else code4
+        close = prices.get(code5) or prices.get(code4)
+
+        # J-Quants は東証専用。prices に含まれなければ非東証銘柄 (名証・福証・札証単独上場) として早期スキップ
+        if close is None:
+            return code4, None, "skipped_non_tse"
+
+        try:
+            sh = _fetch_latest_shares(api_key, code4)
+        except Exception:
+            sh = None
+
+        if sh is not None:
+            period_end, shoutfy = sh
+            try:
+                corr = _fetch_split_correction(api_key, code4, period_end, price_date)
+            except Exception:
+                corr = 1.0
+            mcap_oku = close * shoutfy * corr / 1e8
+            return code4, round(mcap_oku, 1), None
+
+        # 東証銘柄だが ShOutFY 無し (新規上場で fins/summary に決算未開示) → Yahoo フォールバック
+        try:
+            yahoo_value = fetch_market_cap_yahoo(code4)
+        except Exception:
+            yahoo_value = None
+        if yahoo_value is not None:
+            return code4, yahoo_value, None
+
+        return code4, None, "no_shares_yahoo_failed"
+
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as ex:
+        futures = {}
+        for c in sorted(codes):
+            futures[ex.submit(worker, c)] = c
+            time.sleep(RATE_SLEEP)
+        done = 0
+        for fut in as_completed(futures):
+            code, mcap, reason = fut.result()
+            done += 1
+            if mcap is not None:
+                market_caps[code] = mcap
+            else:
+                failed.append((code, reason or "unknown"))
+            if done % 50 == 0:
+                print(f"    ... {done}/{len(codes)} processed")
+
+    print(f"  Market caps resolved: {len(market_caps)} / {len(codes)} codes")
+    skipped = [f for f in failed if f[1] == "skipped_non_tse"]
+    real_failed = [f for f in failed if f[1] != "skipped_non_tse"]
+    if skipped:
+        print(f"  Skipped (non-TSE): {len(skipped)} codes (e.g. {[c for c, _ in skipped[:5]]})")
+    if real_failed:
+        reasons = Counter(r for _, r in real_failed)
+        print(f"  Failed: {len(real_failed)}. Reasons: {dict(reasons.most_common(5))}")
+        print(f"  Sample: {real_failed[:5]}")
+
+    return market_caps
