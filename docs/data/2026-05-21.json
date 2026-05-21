@@ -1,7 +1,7 @@
 {
   "date": "2026-05-21",
-  "company_count": 181,
-  "total_count": 235,
+  "company_count": 192,
+  "total_count": 249,
   "items": [
     {
       "code": "8591",
@@ -74,6 +74,14 @@
       "time": "16:30",
       "title": "株式の海外売出しに関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260521543003.pdf"
+    },
+    {
+      "code": "3003",
+      "company_name": "ヒューリック",
+      "market_cap": 13338.6,
+      "time": "23:40",
+      "title": "売出価格等の決定に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260521544211.pdf"
     },
     {
       "code": "8439",
@@ -268,6 +276,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260521543270.pdf"
     },
     {
+      "code": "6516",
+      "company_name": "山洋電気",
+      "market_cap": 2786.4,
+      "time": "17:30",
+      "title": "株主提案の取下げに関する書面の受領に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260521543965.pdf"
+    },
+    {
       "code": "6703",
       "company_name": "ＯＫＩ",
       "market_cap": 2589.5,
@@ -298,6 +314,14 @@
       "time": "15:00",
       "title": "譲渡制限付株式報酬制度の導入に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260521543205.pdf"
+    },
+    {
+      "code": "6457",
+      "company_name": "グローリー",
+      "market_cap": 2443.0,
+      "time": "18:40",
+      "title": "（訂正）「2026 年３月期 決算短信 補足資料 ［ＩＦＲＳ］」の一部訂正について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260521544068.pdf"
     },
     {
       "code": "9031",
@@ -492,6 +516,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260505517226.pdf"
     },
     {
+      "code": "9347",
+      "company_name": "日本管財ＨＤ",
+      "market_cap": 1174.1,
+      "time": "17:30",
+      "title": "役員人事に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260521542969.pdf"
+    },
+    {
       "code": "6800",
       "company_name": "ヨコオ",
       "market_cap": 1163.9,
@@ -506,6 +538,14 @@
       "time": "16:00",
       "title": "譲渡制限付株式報酬制度の導入に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260521542944.pdf"
+    },
+    {
+      "code": "7868",
+      "company_name": "広済堂ＨＤ",
+      "market_cap": 1096.1,
+      "time": "17:30",
+      "title": "一部報道について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260521543704.pdf"
     },
     {
       "code": "2109",
@@ -610,6 +650,14 @@
       "time": "13:00",
       "title": "投資有価証券売却益（特別利益）の計上に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260521543317.pdf"
+    },
+    {
+      "code": "8159",
+      "company_name": "立花エレ",
+      "market_cap": 750.8,
+      "time": "17:30",
+      "title": "定款一部変更に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260521543987.pdf"
     },
     {
       "code": "3962",
@@ -850,6 +898,14 @@
       "time": "17:00",
       "title": "第三者割当増資における発行新株式数の確定に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260521543819.pdf"
+    },
+    {
+      "code": "3843",
+      "company_name": "フリービット",
+      "market_cap": 343.5,
+      "time": "17:30",
+      "title": "特別調査委員会の設置に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260521543945.pdf"
     },
     {
       "code": "6249",
@@ -1724,6 +1780,22 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260521543193.pdf"
     },
     {
+      "code": "9327",
+      "company_name": "イー・ロジット",
+      "market_cap": 33.6,
+      "time": "18:00",
+      "title": "株主提案に関する当社取締役会意見及び当社取締役候補者の選任に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260521543922.pdf"
+    },
+    {
+      "code": "8938",
+      "company_name": "Ｇ－グロームＨＤ",
+      "market_cap": 31.6,
+      "time": "19:00",
+      "title": "第三者割当による新株式の発行に係る払込完了及び第６回新株予約権に係る発行価額の払込完了に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260521542870.pdf"
+    },
+    {
       "code": "3753",
       "company_name": "フライト",
       "market_cap": 31.4,
@@ -1746,6 +1818,14 @@
       "time": "15:00",
       "title": "役員の異動に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260519540392.pdf"
+    },
+    {
+      "code": "3306",
+      "company_name": "日製麻",
+      "market_cap": 27.9,
+      "time": "17:55",
+      "title": "会社分割による持株会社体制への移行に伴う吸収分割契約の締結、商号の変更および定款の一部変更に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260521544017.pdf"
     },
     {
       "code": "7687",
@@ -1834,6 +1914,38 @@
       "time": "16:30",
       "title": "自己株式立会外買付取引（ToSTNeT-3）による自己株式の買付けに関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260521543513.pdf"
+    },
+    {
+      "code": "4444",
+      "company_name": "Ｇ－インフォネット",
+      "market_cap": 16.8,
+      "time": "17:30",
+      "title": "(訂正)「持株会社体制への移行に伴う吸収分割契約締結及び定款の一部変更（商号変更及び事業目的の変更等）に関するお知らせ」の一部訂正について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260521543665.pdf"
+    },
+    {
+      "code": "7578",
+      "company_name": "ニチリョク",
+      "market_cap": 16.7,
+      "time": "19:00",
+      "title": "特別損失等の計上と業績予想と実績との差異に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260521544049.pdf"
+    },
+    {
+      "code": "7578",
+      "company_name": "ニチリョク",
+      "market_cap": 16.7,
+      "time": "19:00",
+      "title": "過年度の決算短信等の訂正に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260521544060.pdf"
+    },
+    {
+      "code": "7578",
+      "company_name": "ニチリョク",
+      "market_cap": 16.7,
+      "time": "19:00",
+      "title": "2026年3月期 決算短信〔日本基準〕（非連結）",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260511523390.pdf"
     },
     {
       "code": "2156",
