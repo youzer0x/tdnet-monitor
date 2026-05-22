@@ -2,8 +2,7 @@ name: TDnet Daily Monitor
 
 on:
   schedule:
-    # 17:00 JST = 08:00 UTC → evening
-    - cron: "0 8 * * *"
+    # 17:00 JST evening は cron-job.org からトリガに移行(GitHub schedule の数時間遅延を回避)
     # 24:00 JST = 15:00 UTC → night
     - cron: "59 14 * * *"
   workflow_dispatch:
