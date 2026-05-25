@@ -1,7 +1,7 @@
 {
   "date": "2026-05-25",
-  "company_count": 191,
-  "total_count": 257,
+  "company_count": 197,
+  "total_count": 264,
   "items": [
     {
       "code": "9984",
@@ -524,6 +524,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260525546412.pdf"
     },
     {
+      "code": "7433",
+      "company_name": "伯東",
+      "market_cap": 936.4,
+      "time": "17:30",
+      "title": "（訂正）「2026年３月期 決算補足説明資料」の一部訂正について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260525546652.pdf"
+    },
+    {
       "code": "6768",
       "company_name": "タムラ製",
       "market_cap": 911.3,
@@ -924,6 +932,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260525546152.pdf"
     },
     {
+      "code": "7059",
+      "company_name": "コプロＨＤ",
+      "market_cap": 301.6,
+      "time": "17:30",
+      "title": "取締役候補者及び監査役候補者の選任に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260525546322.pdf"
+    },
+    {
       "code": "5038",
       "company_name": "Ｇ－ｅＷｅＬＬ",
       "market_cap": 293.0,
@@ -1170,6 +1186,22 @@
       "time": "11:00",
       "title": "2026年３月期決算説明動画配信に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260522544228.pdf"
+    },
+    {
+      "code": "2354",
+      "company_name": "ＹＥ　ＤＩＧＩＴＡＬ",
+      "market_cap": 178.5,
+      "time": "17:30",
+      "title": "株式報酬型ストック・オプション（新株予約権）の発行内容確定に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260525546836.pdf"
+    },
+    {
+      "code": "5535",
+      "company_name": "ミガロＨＤ",
+      "market_cap": 178.4,
+      "time": "17:30",
+      "title": "剰余金の配当に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260525547183.pdf"
     },
     {
       "code": "1770",
@@ -1676,6 +1708,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260525547103.pdf"
     },
     {
+      "code": "4256",
+      "company_name": "Ｇ－サインド",
+      "market_cap": 61.1,
+      "time": "17:45",
+      "title": "定款一部変更に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260525547199.pdf"
+    },
+    {
       "code": "7039",
       "company_name": "Ｇ－ブリッジグループ",
       "market_cap": 60.3,
@@ -1762,6 +1802,14 @@
       "time": "16:00",
       "title": "執行役員の管掌・担当職務の変更に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260525546953.pdf"
+    },
+    {
+      "code": "5986",
+      "company_name": "モリテック",
+      "market_cap": 52.6,
+      "time": "18:00",
+      "title": "中期経営計画の公表に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260521544213.pdf"
     },
     {
       "code": "2304",
@@ -1986,6 +2034,14 @@
       "time": "17:00",
       "title": "（開示事項の経過）東京証券取引所スタンダード市場への市場区分変更承認に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260522545719.pdf"
+    },
+    {
+      "code": "2164",
+      "company_name": "地域新聞社",
+      "market_cap": 21.6,
+      "time": "17:30",
+      "title": "第11回新株予約権（行使価額修正条項付）の行使停止に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260525547214.pdf"
     },
     {
       "code": "7062",
