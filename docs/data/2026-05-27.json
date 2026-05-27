@@ -1,7 +1,7 @@
 {
   "date": "2026-05-27",
-  "company_count": 153,
-  "total_count": 202,
+  "company_count": 158,
+  "total_count": 209,
   "items": [
     {
       "code": "9984",
@@ -692,6 +692,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260527549900.pdf"
     },
     {
+      "code": "9204",
+      "company_name": "Ｇ－スカイマーク",
+      "market_cap": 244.9,
+      "time": "17:30",
+      "title": "剰余金の配当に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260521543180.pdf"
+    },
+    {
       "code": "6482",
       "company_name": "ＹＵＳＨＩＮ",
       "market_cap": 238.8,
@@ -948,6 +956,30 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260524545787.pdf"
     },
     {
+      "code": "4222",
+      "company_name": "児玉化",
+      "market_cap": 118.1,
+      "time": "18:00",
+      "title": "（訂正・数値データ訂正）「2026年３月期 決算短信〔日本基準〕（連結）」の一部訂正について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260527550806.pdf"
+    },
+    {
+      "code": "4222",
+      "company_name": "児玉化",
+      "market_cap": 118.1,
+      "time": "18:00",
+      "title": "（開示事項の変更）連結子会社における固定資産の譲渡に関するデューデリジェンス期間の延長について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260527550864.pdf"
+    },
+    {
+      "code": "7991",
+      "company_name": "マミヤオーピー",
+      "market_cap": 114.6,
+      "time": "17:40",
+      "title": "2026年3月期 剰余金の配当に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260527550508.pdf"
+    },
+    {
       "code": "4235",
       "company_name": "ＵＦＨＤ",
       "market_cap": 113.2,
@@ -1098,6 +1130,14 @@
       "time": "13:30",
       "title": "定款一部変更に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260527550149.pdf"
+    },
+    {
+      "code": "6033",
+      "company_name": "Ｇ－エクストリーム",
+      "market_cap": 75.9,
+      "time": "17:15",
+      "title": "（訂正）取締役候補者および監査役候補者の選任に関するお知らせの一部訂正について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260527551156.pdf"
     },
     {
       "code": "4406",
@@ -1530,6 +1570,22 @@
       "time": "16:00",
       "title": "支配株主等に関する事項について",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260527550822.pdf"
+    },
+    {
+      "code": "2479",
+      "company_name": "ジェイテック",
+      "market_cap": 20.6,
+      "time": "18:30",
+      "title": "2026年3月期 決算説明資料",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260527551264.pdf"
+    },
+    {
+      "code": "4679",
+      "company_name": "田谷",
+      "market_cap": 19.8,
+      "time": "17:30",
+      "title": "「継続企業の前提に関する注記」の記載解消に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260527550835.pdf"
     },
     {
       "code": "7524",
