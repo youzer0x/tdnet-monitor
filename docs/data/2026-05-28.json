@@ -1,8 +1,16 @@
 {
   "date": "2026-05-28",
-  "company_count": 177,
-  "total_count": 214,
+  "company_count": 192,
+  "total_count": 236,
   "items": [
+    {
+      "code": "7203",
+      "company_name": "トヨタ自",
+      "market_cap": 478588.1,
+      "time": "18:45",
+      "title": "（開示事項の変更・訂正）「会社分割（簡易吸収分割）に関するお知らせ」の一部変更・訂正について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260528552805.pdf"
+    },
     {
       "code": "9984",
       "company_name": "ソフトバンクグループ",
@@ -268,6 +276,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260528552079.pdf"
     },
     {
+      "code": "3905",
+      "company_name": "Ｇ－データセクション",
+      "market_cap": 1530.1,
+      "time": "17:10",
+      "title": "（訂正・数値データ訂正）「2026年３月期 決算短信〔日本基準〕（連結）」の一部訂正に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260528553279.pdf"
+    },
+    {
       "code": "7516",
       "company_name": "コーナン商",
       "market_cap": 1415.0,
@@ -364,6 +380,22 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260527550311.pdf"
     },
     {
+      "code": "9348",
+      "company_name": "Ｇ－ｉｓｐａｃｅ",
+      "market_cap": 1022.0,
+      "time": "17:30",
+      "title": "（訂正・数値データ訂正）「2026年3月期 決算短信」及び「2026年３月期通期 決算説明資料」の一部訂正についてのお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260528553399.pdf"
+    },
+    {
+      "code": "9348",
+      "company_name": "Ｇ－ｉｓｐａｃｅ",
+      "market_cap": 1022.0,
+      "time": "17:30",
+      "title": "定款一部変更に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260527551157.pdf"
+    },
+    {
       "code": "5992",
       "company_name": "中央発条",
       "market_cap": 1011.5,
@@ -444,12 +476,36 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260523545766.pdf"
     },
     {
+      "code": "6521",
+      "company_name": "Ｇ－オキサイド",
+      "market_cap": 676.7,
+      "time": "18:00",
+      "title": "事業計画及び成長可能性に関する事項",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260528553504.pdf"
+    },
+    {
       "code": "1822",
       "company_name": "大豊建",
       "market_cap": 673.6,
       "time": "17:00",
       "title": "主要株主の異動に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260528553201.pdf"
+    },
+    {
+      "code": "5821",
+      "company_name": "平河ヒューテ",
+      "market_cap": 641.7,
+      "time": "18:00",
+      "title": "(訂正・数値データ訂正)「2026年３月期 決算短信〔日本基準〕（連結）」の一部訂正について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260528553288.pdf"
+    },
+    {
+      "code": "9790",
+      "company_name": "福井コンピ",
+      "market_cap": 641.7,
+      "time": "18:00",
+      "title": "主要株主の異動に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260528553266.pdf"
     },
     {
       "code": "6993",
@@ -482,6 +538,14 @@
       "time": "15:30",
       "title": "会計監査人の異動に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260528552576.pdf"
+    },
+    {
+      "code": "6574",
+      "company_name": "Ｇ－コンヴァノ",
+      "market_cap": 514.2,
+      "time": "18:25",
+      "title": "（訂正）「決算期（事業年度の末日）の変更及び定款の一部変更に関するお知らせ」の一部訂正について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260528553673.pdf"
     },
     {
       "code": "3198",
@@ -554,6 +618,14 @@
       "time": "16:00",
       "title": "新株予約権（ストックオプション）の消却に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260527551528.pdf"
+    },
+    {
+      "code": "7803",
+      "company_name": "Ｇ－ブシロード",
+      "market_cap": 338.0,
+      "time": "18:00",
+      "title": "（訂正・数値データ訂正）連結子会社の異動（株式譲渡）、特別利益の計上（見込み）、及び通期連結業績予想の修正に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260528553538.pdf"
     },
     {
       "code": "7414",
@@ -764,6 +836,38 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260528551699.pdf"
     },
     {
+      "code": "4800",
+      "company_name": "オリコン",
+      "market_cap": 175.6,
+      "time": "17:30",
+      "title": "ＭＢＯの実施及び応募の推奨に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260528552500.pdf"
+    },
+    {
+      "code": "4800",
+      "company_name": "オリコン",
+      "market_cap": 175.6,
+      "time": "17:30",
+      "title": "メディア株式会社によるオリコン株式会社（証券コード：4800）に対する公開買付けの開始に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260528552494.pdf"
+    },
+    {
+      "code": "4800",
+      "company_name": "オリコン",
+      "market_cap": 175.6,
+      "time": "17:30",
+      "title": "2027年３月期配当予想の修正（無配）に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260520542077.pdf"
+    },
+    {
+      "code": "4800",
+      "company_name": "オリコン",
+      "market_cap": 175.6,
+      "time": "17:30",
+      "title": "当社株券等の大量買付行為への対応策（買収への対応方針）の非継続（廃止）について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260527549998.pdf"
+    },
+    {
       "code": "2152",
       "company_name": "幼児活動研究会",
       "market_cap": 175.3,
@@ -914,6 +1018,22 @@
       "time": "15:30",
       "title": "連結子会社からの配当金受領並びに業績予想（個別）の修正に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260528552260.pdf"
+    },
+    {
+      "code": "3175",
+      "company_name": "ＡＰＨＤ",
+      "market_cap": 119.3,
+      "time": "17:45",
+      "title": "第三者割当による普通株式及び優先株式の発行、定款の一部変更並びに資本金等の額の減少に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260528552800.pdf"
+    },
+    {
+      "code": "3175",
+      "company_name": "ＡＰＨＤ",
+      "market_cap": 119.3,
+      "time": "17:45",
+      "title": "取締役候補の選任に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260528552791.pdf"
     },
     {
       "code": "7247",
@@ -1132,6 +1252,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260528552558.pdf"
     },
     {
+      "code": "2338",
+      "company_name": "クオンタムＳ",
+      "market_cap": 76.8,
+      "time": "17:30",
+      "title": "上場維持基準（純資産基準）への適合に向けた計画（改善期間入り）について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260528551685.pdf"
+    },
+    {
       "code": "2311",
       "company_name": "エプコ",
       "market_cap": 75.1,
@@ -1266,6 +1394,14 @@
       "time": "15:30",
       "title": "（開示事項の経過）会計監査人の異動に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260528552073.pdf"
+    },
+    {
+      "code": "4060",
+      "company_name": "Ｇ－ｒａｋｕｍｏ",
+      "market_cap": 60.9,
+      "time": "17:30",
+      "title": "（訂正）「2026年12月期 第１四半期決算説明資料」の一部訂正について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260521543219.pdf"
     },
     {
       "code": "2894",
@@ -1436,12 +1572,28 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260527550973.pdf"
     },
     {
+      "code": "3896",
+      "company_name": "阿波製紙",
+      "market_cap": 43.5,
+      "time": "17:30",
+      "title": "第５次中期経営計画策定のお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260528553439.pdf"
+    },
+    {
       "code": "4056",
       "company_name": "Ｇ－ニューラル",
       "market_cap": 43.1,
       "time": "15:30",
       "title": "連結子会社からの配当金受領に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260527550224.pdf"
+    },
+    {
+      "code": "7037",
+      "company_name": "テノ．",
+      "market_cap": 43.0,
+      "time": "19:00",
+      "title": "特別利益及び特別損失の計上に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260526548806.pdf"
     },
     {
       "code": "3490",
@@ -1540,12 +1692,36 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260528552696.pdf"
     },
     {
+      "code": "4069",
+      "company_name": "Ｇ－ＢｌｕｅＭｅｍｅ",
+      "market_cap": 31.9,
+      "time": "17:15",
+      "title": "持株会社体制への移行準備開始及び監査等委員会設置会社への移行に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260528552812.pdf"
+    },
+    {
+      "code": "4069",
+      "company_name": "Ｇ－ＢｌｕｅＭｅｍｅ",
+      "market_cap": 31.9,
+      "time": "17:15",
+      "title": "第20期定時株主総会の継続会の開催方針に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260528552797.pdf"
+    },
+    {
       "code": "8013",
       "company_name": "ナイガイ",
       "market_cap": 31.6,
       "time": "15:30",
       "title": "報告セグメントの変更に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260526548739.pdf"
+    },
+    {
+      "code": "5028",
+      "company_name": "Ｇ－セカンドサイト",
+      "market_cap": 30.7,
+      "time": "18:00",
+      "title": "従業員に対する譲渡制限付株式としての自己株式の処分に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260527551494.pdf"
     },
     {
       "code": "9685",
