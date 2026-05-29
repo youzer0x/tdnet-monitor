@@ -44,7 +44,7 @@ def load_existing_json(json_path: str) -> list[dict]:
     return []
 
 
-def _load_cached_market_caps(data_dir: str, target_date: date, max_days: int = 14) -> dict[str, float]:
+def _load_cached_market_caps(data_dir: str, target_date: date, max_days: int = 30) -> dict[str, float]:
     """直近 max_days 日分の日次 JSON を新しい順に走査し、
     各コードの最新の正値 market_cap を返す（target_date 自身は除外）。
 
@@ -145,7 +145,7 @@ def merge_items(existing_records: list[dict], new_items: list) -> list:
     return existing
 
 
-def cleanup_old_data(docs_dir: str, keep_days: int = 14) -> None:
+def cleanup_old_data(docs_dir: str, keep_days: int = 30) -> None:
     """keep_days 日より古い JSON を削除する"""
     data_dir = os.path.join(docs_dir, "data")
     if not os.path.exists(data_dir):
@@ -301,7 +301,7 @@ def main():
 
     # JSON 保存（evening: 新規、night: マージ済み）
     save_daily_json(all_items, target_date, docs_dir)
-    cleanup_old_data(docs_dir, keep_days=14)
+    cleanup_old_data(docs_dir, keep_days=30)
     available_dates = update_manifest(docs_dir)
 
     print(f"\n[5/6] Generating GitHub Pages HTML...")
