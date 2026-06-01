@@ -1,7 +1,7 @@
 {
   "date": "2026-06-01",
-  "company_count": 327,
-  "total_count": 362,
+  "company_count": 339,
+  "total_count": 376,
   "items": [
     {
       "code": "8306",
@@ -620,6 +620,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260529555403.pdf"
     },
     {
+      "code": "8570",
+      "company_name": "イオンＦＳ",
+      "market_cap": 3133.2,
+      "time": "18:00",
+      "title": "第19回新株予約権（株式報酬型ストックオプション）の発行価額確定について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260601558493.pdf"
+    },
+    {
       "code": "8242",
       "company_name": "Ｈ２Ｏリテイル",
       "market_cap": 3105.0,
@@ -650,6 +658,14 @@
       "time": "15:30",
       "title": "自己株式の取得状況に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260529555668.pdf"
+    },
+    {
+      "code": "9302",
+      "company_name": "三井倉ＨＤ",
+      "market_cap": 3044.0,
+      "time": "18:00",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260601558067.pdf"
     },
     {
       "code": "9303",
@@ -754,6 +770,14 @@
       "time": "16:00",
       "title": "自己株式取得状況に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260531556301.pdf"
+    },
+    {
+      "code": "6498",
+      "company_name": "キッツ",
+      "market_cap": 2096.3,
+      "time": "17:30",
+      "title": "（開示事項の経過）株式会社ブイテックスの株式の取得（子会社化）完了に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260528553060.pdf"
     },
     {
       "code": "1885",
@@ -1260,6 +1284,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260601557766.pdf"
     },
     {
+      "code": "7779",
+      "company_name": "Ｇ－サイバダイン－議",
+      "market_cap": 580.9,
+      "time": "17:15",
+      "title": "米Pegasus Tech Ventures, Inc.との戦略的業務提携および戦略投資共同推進のお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260601558366.pdf"
+    },
+    {
       "code": "2326",
       "company_name": "デジアーツ",
       "market_cap": 575.2,
@@ -1346,6 +1378,14 @@
       "time": "14:00",
       "title": "（訂正）「業績予想と実績値との差異に関するお知らせ」の一部訂正について",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260529556117.pdf"
+    },
+    {
+      "code": "5013",
+      "company_name": "ユシロ",
+      "market_cap": 458.7,
+      "time": "17:50",
+      "title": "2026年3月期　決算説明会資料",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260529554231.pdf"
     },
     {
       "code": "5959",
@@ -1570,6 +1610,14 @@
       "time": "13:00",
       "title": "自己株式の取得状況に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260601556540.pdf"
+    },
+    {
+      "code": "8089",
+      "company_name": "ナイス",
+      "market_cap": 229.0,
+      "time": "17:30",
+      "title": "株式会社山大（証券コード：7426）に対する公開買付けの開始に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260601558439.pdf"
     },
     {
       "code": "3179",
@@ -1948,6 +1996,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260601558049.pdf"
     },
     {
+      "code": "3447",
+      "company_name": "信和",
+      "market_cap": 124.0,
+      "time": "18:00",
+      "title": "2026年３月期 決算説明会資料",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260601558113.pdf"
+    },
+    {
       "code": "7686",
       "company_name": "ひとまいる",
       "market_cap": 120.7,
@@ -2058,6 +2114,14 @@
       "time": "16:00",
       "title": "株主優待の一部内容変更に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260527550097.pdf"
+    },
+    {
+      "code": "7486",
+      "company_name": "サンリン",
+      "market_cap": 90.7,
+      "time": "18:30",
+      "title": "太陽光発電施設における電気ケーブルの盗難被害等に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260601558542.pdf"
     },
     {
       "code": "3133",
@@ -2420,6 +2484,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260601557467.pdf"
     },
     {
+      "code": "2183",
+      "company_name": "リニカル",
+      "market_cap": 54.9,
+      "time": "17:30",
+      "title": "剰余金の配当に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260601558263.pdf"
+    },
+    {
       "code": "6265",
       "company_name": "コンバム",
       "market_cap": 54.5,
@@ -2458,6 +2530,22 @@
       "time": "15:00",
       "title": "2026年3月期 決算説明会資料",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260601557591.pdf"
+    },
+    {
+      "code": "3840",
+      "company_name": "ＰＡＴＨ",
+      "market_cap": 48.8,
+      "time": "17:30",
+      "title": "商号の変更及び定款の一部変更に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260601558355.pdf"
+    },
+    {
+      "code": "3840",
+      "company_name": "ＰＡＴＨ",
+      "market_cap": 48.8,
+      "time": "17:30",
+      "title": "取締役（監査等委員である取締役を除く）候補者選任に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260601558364.pdf"
     },
     {
       "code": "8783",
@@ -2554,6 +2642,22 @@
       "time": "15:30",
       "title": "自己株式の取得状況に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260601557282.pdf"
+    },
+    {
+      "code": "7602",
+      "company_name": "レダックス",
+      "market_cap": 38.3,
+      "time": "18:00",
+      "title": "（訂正・数値データ訂正）「2026年３月期決算短信〔日本基準〕（連結）」の一部訂正について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260601557201.pdf"
+    },
+    {
+      "code": "7602",
+      "company_name": "レダックス",
+      "market_cap": 38.3,
+      "time": "18:00",
+      "title": "（訂正）2026 年３月期 決算説明資料の一部訂正に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260601557507.pdf"
     },
     {
       "code": "7793",
@@ -2890,6 +2994,14 @@
       "time": "14:00",
       "title": "定款の一部変更に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260601557519.pdf"
+    },
+    {
+      "code": "7426",
+      "company_name": "山大",
+      "market_cap": 5.9,
+      "time": "17:30",
+      "title": "ナイス株式会社による当社株式に対する公開買付けに関する賛同の意見表明及び応募推奨のお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260601558338.pdf"
     },
     {
       "code": "8143",
