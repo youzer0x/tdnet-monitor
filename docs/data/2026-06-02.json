@@ -1,7 +1,7 @@
 {
   "date": "2026-06-02",
-  "company_count": 128,
-  "total_count": 142,
+  "company_count": 130,
+  "total_count": 144,
   "items": [
     {
       "code": "6501",
@@ -364,12 +364,28 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260602558849.pdf"
     },
     {
+      "code": "4095",
+      "company_name": "日パーカライ",
+      "market_cap": 1944.0,
+      "time": "17:30",
+      "title": "自己株式立会外買付取引（ToSTNeT-3）による自己株式の買付けに関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260602560544.pdf"
+    },
+    {
       "code": "8511",
       "company_name": "日証金",
       "market_cap": 1869.2,
       "time": "14:00",
       "title": "自己株式の取得状況に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260602559615.pdf"
+    },
+    {
+      "code": "1926",
+      "company_name": "ライト工",
+      "market_cap": 1733.9,
+      "time": "18:00",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260602560078.pdf"
     },
     {
       "code": "9936",
