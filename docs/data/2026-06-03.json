@@ -1,7 +1,7 @@
 {
   "date": "2026-06-03",
-  "company_count": 119,
-  "total_count": 128,
+  "company_count": 121,
+  "total_count": 131,
   "items": [
     {
       "code": "6758",
@@ -42,6 +42,14 @@
       "time": "14:00",
       "title": "自己株式の取得状況に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260601558501.pdf"
+    },
+    {
+      "code": "2502",
+      "company_name": "アサヒ",
+      "market_cap": 22663.1,
+      "time": "18:15",
+      "title": "連結子会社の決算情報に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260602559033.pdf"
     },
     {
       "code": "2503",
@@ -570,6 +578,22 @@
       "time": "17:00",
       "title": "自己株式の取得状況に関するお知らせ （会社法第459条第１項の規定による定款の定めに基づく自己株式の取得）",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260603561950.pdf"
+    },
+    {
+      "code": "8105",
+      "company_name": "ＢｉｔｃｏｉｎＪＰＮ",
+      "market_cap": 241.5,
+      "time": "17:05",
+      "title": "第三者割当により発行された行使価額修正条項付第１回新株予約権の大量行使に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260603562136.pdf"
+    },
+    {
+      "code": "8105",
+      "company_name": "ＢｉｔｃｏｉｎＪＰＮ",
+      "market_cap": 241.5,
+      "time": "17:05",
+      "title": "（訂正）「第三者割当により発行された行使価額修正条項付第１回新株予約権の大量行使及び月間行使状況に関するお知らせ」の一部訂正について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260603562143.pdf"
     },
     {
       "code": "2334",
