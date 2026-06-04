@@ -1,7 +1,7 @@
 {
   "date": "2026-06-04",
-  "company_count": 83,
-  "total_count": 91,
+  "company_count": 92,
+  "total_count": 103,
   "items": [
     {
       "code": "9984",
@@ -132,6 +132,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260604562481.pdf"
     },
     {
+      "code": "2371",
+      "company_name": "カカクコム",
+      "market_cap": 6602.7,
+      "time": "17:30",
+      "title": "（訂正）Kamgras １株式会社による公開買付届出書の訂正届出書の提出に伴う公開買付開始公告の訂正に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260604563235.pdf"
+    },
+    {
       "code": "9831",
       "company_name": "ヤマダＨＤ",
       "market_cap": 6284.6,
@@ -146,6 +154,22 @@
       "time": "11:30",
       "title": "2026年5月度　すかいらーくグループIRレポート",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260604562401.pdf"
+    },
+    {
+      "code": "4088",
+      "company_name": "エア・ウォーター",
+      "market_cap": 5716.3,
+      "time": "18:10",
+      "title": "剰余金の配当に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260604562917.pdf"
+    },
+    {
+      "code": "4088",
+      "company_name": "エア・ウォーター",
+      "market_cap": 5716.3,
+      "time": "18:10",
+      "title": "第26期定時株主総会および継続会の開催に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260604562392.pdf"
     },
     {
       "code": "6890",
@@ -250,6 +274,14 @@
       "time": "15:30",
       "title": "自己株式の取得状況および取得終了に関するお知らせ（会社法第165条第2項の規定による定款の定めに基づく自己株式の取得）",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260604562837.pdf"
+    },
+    {
+      "code": "8131",
+      "company_name": "ミツウロコＧＨＤ",
+      "market_cap": 1006.0,
+      "time": "20:00",
+      "title": "Siamgas and Petrochemicals Public Company Limited の持分法適用関連会社化に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260604563543.pdf"
     },
     {
       "code": "8084",
@@ -388,6 +420,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260601556557.pdf"
     },
     {
+      "code": "6597",
+      "company_name": "Ｇ－ＨＰＣシステムズ",
+      "market_cap": 305.4,
+      "time": "18:00",
+      "title": "（開示事項の経過）特別当座貸越契約の締結に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260604563434.pdf"
+    },
+    {
       "code": "7769",
       "company_name": "リズム",
       "market_cap": 303.1,
@@ -418,6 +458,22 @@
       "time": "15:30",
       "title": "NEDOが公募した「ポスト5G情報通信システム基盤強化研究開発事業 領域特化生成AI基盤モデルの開発（GENIAC）」に、当社提案が採択",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260604562811.pdf"
+    },
+    {
+      "code": "3179",
+      "company_name": "シュッピン",
+      "market_cap": 222.1,
+      "time": "19:00",
+      "title": "主要株主および主要株主である筆頭株主の異動に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260604562902.pdf"
+    },
+    {
+      "code": "3179",
+      "company_name": "シュッピン",
+      "market_cap": 222.1,
+      "time": "19:00",
+      "title": "主要株主および主要株主である筆頭株主の異動に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260604563538.pdf"
     },
     {
       "code": "3205",
@@ -474,6 +530,14 @@
       "time": "14:30",
       "title": "自己株式の取得状況に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260604563068.pdf"
+    },
+    {
+      "code": "7551",
+      "company_name": "ウェッズ",
+      "market_cap": 105.3,
+      "time": "18:00",
+      "title": "（訂正・数値データ訂正）「2026年３月期 決算短信〔日本基準〕（連結）」の一部訂正に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260528553666.pdf"
     },
     {
       "code": "6858",
@@ -580,6 +644,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260604562410.pdf"
     },
     {
+      "code": "9082",
+      "company_name": "大和自交",
+      "market_cap": 65.0,
+      "time": "17:35",
+      "title": "主要株主及び主要株主である筆頭株主の異動に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260604562868.pdf"
+    },
+    {
       "code": "2408",
       "company_name": "ＫＧ情報",
       "market_cap": 64.8,
@@ -676,6 +748,22 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260604562487.pdf"
     },
     {
+      "code": "9760",
+      "company_name": "進学会ＨＤ",
+      "market_cap": 22.0,
+      "time": "17:30",
+      "title": "株主優待制度の内容変更に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260604562919.pdf"
+    },
+    {
+      "code": "9760",
+      "company_name": "進学会ＨＤ",
+      "market_cap": 22.0,
+      "time": "17:30",
+      "title": "定時株主総会後の役員体制に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260604562926.pdf"
+    },
+    {
       "code": "4598",
       "company_name": "Ｇ－ＤＥＬＴＡ－Ｐ",
       "market_cap": 19.1,
@@ -706,6 +794,14 @@
       "time": "10:10",
       "title": "2026年９月期　５月度月次店舗売上のお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260604562518.pdf"
+    },
+    {
+      "code": "7578",
+      "company_name": "ニチリョク",
+      "market_cap": 13.6,
+      "time": "19:00",
+      "title": "「2026年３月期計算書類等に係る監査意見不表明に関するお知らせ」に関する補足説明",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260604563378.pdf"
     },
     {
       "code": "6696",
