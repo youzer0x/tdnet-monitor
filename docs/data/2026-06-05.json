@@ -1,7 +1,7 @@
 {
   "date": "2026-06-05",
-  "company_count": 156,
-  "total_count": 198,
+  "company_count": 163,
+  "total_count": 211,
   "items": [
     {
       "code": "9984",
@@ -148,6 +148,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260605564267.pdf"
     },
     {
+      "code": "3288",
+      "company_name": "オープンハウスＧ",
+      "market_cap": 9763.8,
+      "time": "18:30",
+      "title": "（訂正）「ストックオプション（新株予約権）の発行内容確定に関するお知らせ」の一部訂正について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260605564648.pdf"
+    },
+    {
       "code": "6448",
       "company_name": "ブラザー",
       "market_cap": 9758.6,
@@ -204,6 +212,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260604563146.pdf"
     },
     {
+      "code": "7984",
+      "company_name": "コクヨ",
+      "market_cap": 3529.1,
+      "time": "18:00",
+      "title": "株主優待制度の変更に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260605564043.pdf"
+    },
+    {
       "code": "3549",
       "company_name": "クスリのアオキＨＤ",
       "market_cap": 3487.2,
@@ -218,6 +234,22 @@
       "time": "15:30",
       "title": "自己株式の取得状況に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260605564156.pdf"
+    },
+    {
+      "code": "4902",
+      "company_name": "コニカミノルタ",
+      "market_cap": 3173.3,
+      "time": "17:30",
+      "title": "主要株主の異動に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260605564570.pdf"
+    },
+    {
+      "code": "6777",
+      "company_name": "ｓａｎｔｅｃＨＤ",
+      "market_cap": 3010.6,
+      "time": "17:30",
+      "title": "2026年３月期　決算説明資料",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260605564309.pdf"
     },
     {
       "code": "2782",
@@ -332,6 +364,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260605563818.pdf"
     },
     {
+      "code": "2337",
+      "company_name": "いちご",
+      "market_cap": 1863.7,
+      "time": "17:20",
+      "title": "自己株式の取得結果および取得終了のお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260604562724.pdf"
+    },
+    {
       "code": "6866",
       "company_name": "日置電",
       "market_cap": 1861.0,
@@ -370,6 +410,14 @@
       "time": "16:00",
       "title": "主要株主及び主要株主である筆頭株主の異動に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260604563628.pdf"
+    },
+    {
+      "code": "2160",
+      "company_name": "Ｇ－ＧＮＩ",
+      "market_cap": 1579.9,
+      "time": "18:40",
+      "title": "あゆみ製薬ホールディングス株式会社の完全子会社化について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260605564617.pdf"
     },
     {
       "code": "1835",
@@ -508,6 +556,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260605564034.pdf"
     },
     {
+      "code": "4674",
+      "company_name": "クレスコ",
+      "market_cap": 638.8,
+      "time": "18:00",
+      "title": "独立役員届出書",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260605563965.pdf"
+    },
+    {
       "code": "3733",
       "company_name": "ソフトウェアＳ",
       "market_cap": 634.4,
@@ -626,6 +682,14 @@
       "time": "16:30",
       "title": "（再訂正）「業績予想と実績値との差異に関するお知らせ」の一部訂正について",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260603561926.pdf"
+    },
+    {
+      "code": "6574",
+      "company_name": "Ｇ－コンヴァノ",
+      "market_cap": 453.1,
+      "time": "18:10",
+      "title": "（訂正）「2026 年３月期 通期決算説明資料」の一部訂正について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260605564598.pdf"
     },
     {
       "code": "3915",
@@ -954,6 +1018,22 @@
       "time": "15:30",
       "title": "2026年7月期 第3四半期決算短信〔日本基準〕（連結）",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260605564325.pdf"
+    },
+    {
+      "code": "3662",
+      "company_name": "エイチームＨＤ",
+      "market_cap": 174.0,
+      "time": "17:30",
+      "title": "2026年7月期 第3四半期 決算説明資料",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260605564335.pdf"
+    },
+    {
+      "code": "3662",
+      "company_name": "エイチームＨＤ",
+      "market_cap": 174.0,
+      "time": "17:30",
+      "title": "2026年7月期 第3四半期データブック",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260605564362.pdf"
     },
     {
       "code": "6562",
@@ -1292,6 +1372,22 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260605563684.pdf"
     },
     {
+      "code": "2894",
+      "company_name": "石井食",
+      "market_cap": 59.2,
+      "time": "18:30",
+      "title": "（訂正）「2026年３月期通期決算説明資料」の一部訂正について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260605564522.pdf"
+    },
+    {
+      "code": "2894",
+      "company_name": "石井食",
+      "market_cap": 59.2,
+      "time": "18:30",
+      "title": "（訂正・数値データ訂正）「2026年３月期決算短信〔日本基準〕(連結)」の一部訂正について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260604563582.pdf"
+    },
+    {
       "code": "9973",
       "company_name": "ＫＯＺＯＨＤ",
       "market_cap": 58.9,
@@ -1498,6 +1594,14 @@
       "time": "15:30",
       "title": "2026年３月期 通期決算 投資家のみなさまからのご質問と当社見解",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260605564206.pdf"
+    },
+    {
+      "code": "3664",
+      "company_name": "Ｇ－ＷＩＺＥ",
+      "market_cap": 23.7,
+      "time": "17:15",
+      "title": "第三者割当により発行された第39回新株予約権（行使価額修正条項付）の大量行使に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260605564584.pdf"
     },
     {
       "code": "6046",
