@@ -1,7 +1,7 @@
 {
   "date": "2026-06-08",
-  "company_count": 80,
-  "total_count": 89,
+  "company_count": 86,
+  "total_count": 97,
   "items": [
     {
       "code": "8031",
@@ -74,6 +74,14 @@
       "time": "12:45",
       "title": "B種優先株式に係る剰余金の配当に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260608565157.pdf"
+    },
+    {
+      "code": "9616",
+      "company_name": "共立メンテ",
+      "market_cap": 2318.0,
+      "time": "19:00",
+      "title": "主要株主及び主要株主である筆頭株主の異動に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260608565765.pdf"
     },
     {
       "code": "8136",
@@ -156,6 +164,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260605564763.pdf"
     },
     {
+      "code": "8198",
+      "company_name": "ＭＶ東海",
+      "market_cap": 1050.3,
+      "time": "18:00",
+      "title": "2027年２月期　５月度月次売上高前年比速報",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260608565752.pdf"
+    },
+    {
       "code": "8219",
       "company_name": "青山商",
       "market_cap": 1037.1,
@@ -220,6 +236,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260608565037.pdf"
     },
     {
+      "code": "4390",
+      "company_name": "ｉｐｓ",
+      "market_cap": 510.2,
+      "time": "17:15",
+      "title": "フィリピン・ミンダナオ島沖を震源とする地震の影響について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260608565611.pdf"
+    },
+    {
       "code": "4431",
       "company_name": "Ｇ－スマレジ",
       "market_cap": 470.1,
@@ -274,6 +298,22 @@
       "time": "13:00",
       "title": "自己株式の取得に係る事項の決定に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260608564976.pdf"
+    },
+    {
+      "code": "7678",
+      "company_name": "あさくま",
+      "market_cap": 351.1,
+      "time": "17:10",
+      "title": "2027年１月期５月度売上高前年対比等のお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260608565261.pdf"
+    },
+    {
+      "code": "7678",
+      "company_name": "あさくま",
+      "market_cap": 351.1,
+      "time": "17:55",
+      "title": "（訂正）2027年１月期(２月度から４月度）売上高前年対比等のお知らせの一部訂正について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260608565633.pdf"
     },
     {
       "code": "6222",
@@ -460,6 +500,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260608565515.pdf"
     },
     {
+      "code": "4875",
+      "company_name": "メディシノバ",
+      "market_cap": 103.9,
+      "time": "21:00",
+      "title": "米国におけるMN-166（イブジラスト）の免疫チェックポイント阻害剤PD-1抗体との併用療法による膠芽腫治療を対象とする特許承認に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260605564340.pdf"
+    },
+    {
       "code": "6094",
       "company_name": "Ｇ－フリークアウト",
       "market_cap": 99.3,
@@ -588,6 +636,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260608565069.pdf"
     },
     {
+      "code": "3189",
+      "company_name": "ＡＮＡＰ",
+      "market_cap": 48.3,
+      "time": "17:32",
+      "title": "（訂正）第三者割当により発行された第９回新株予約権（行使価額修正条項付）の月間行使状況に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260605564489.pdf"
+    },
+    {
       "code": "3169",
       "company_name": "ミサワ",
       "market_cap": 47.2,
@@ -682,6 +738,14 @@
       "time": "14:30",
       "title": "「中期経営計画2026」策定に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260608565347.pdf"
+    },
+    {
+      "code": "9244",
+      "company_name": "Ｇ－デジタリフト",
+      "market_cap": 16.1,
+      "time": "17:30",
+      "title": "ストック・オプション（新株予約権）の発行内容確定に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260608565591.pdf"
     },
     {
       "code": "9444",
