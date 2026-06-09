@@ -1,7 +1,7 @@
 {
   "date": "2026-06-09",
-  "company_count": 78,
-  "total_count": 103,
+  "company_count": 79,
+  "total_count": 104,
   "items": [
     {
       "code": "6501",
@@ -146,6 +146,14 @@
       "time": "15:30",
       "title": "九州エリアにおけるスーパーマーケット事業の統合（完全子会社間の合併）に向けた基本方針決定及び準備開始に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260609566259.pdf"
+    },
+    {
+      "code": "6814",
+      "company_name": "古野電気",
+      "market_cap": 1936.0,
+      "time": "18:15",
+      "title": "譲渡制限付株式報酬としての自己株式の処分の払込完了に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260609566721.pdf"
     },
     {
       "code": "3097",
