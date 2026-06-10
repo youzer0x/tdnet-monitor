@@ -1,7 +1,7 @@
 {
   "date": "2026-06-10",
-  "company_count": 109,
-  "total_count": 142,
+  "company_count": 110,
+  "total_count": 143,
   "items": [
     {
       "code": "9984",
@@ -706,6 +706,14 @@
       "time": "16:15",
       "title": "（開示事項の変更）第三者割当増資による普通株式及び優先株式の発行に係る払込期日並びに資本金等の額の減少の日程の変更について",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260610567383.pdf"
+    },
+    {
+      "code": "7050",
+      "company_name": "Ｇ－フロンティアＩ",
+      "market_cap": 118.9,
+      "time": "19:25",
+      "title": "事業譲受に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260610567733.pdf"
     },
     {
       "code": "3556",
