@@ -1,7 +1,7 @@
 {
   "date": "2026-06-11",
-  "company_count": 104,
-  "total_count": 158,
+  "company_count": 109,
+  "total_count": 167,
   "items": [
     {
       "code": "6503",
@@ -644,6 +644,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568319.pdf"
     },
     {
+      "code": "7095",
+      "company_name": "ＭａｃｂｅｅＰ",
+      "market_cap": 170.4,
+      "time": "18:00",
+      "title": "2026年4月期通期決算説明会資料（書き起こし）",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568502.pdf"
+    },
+    {
       "code": "5018",
       "company_name": "ＭＯＲＥＳＣＯ",
       "market_cap": 169.8,
@@ -852,6 +860,30 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260611567972.pdf"
     },
     {
+      "code": "7435",
+      "company_name": "ナ・デックス",
+      "market_cap": 83.0,
+      "time": "19:00",
+      "title": "2026年４月期　決算短信〔日本基準〕（連結）",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260401596375.pdf"
+    },
+    {
+      "code": "7435",
+      "company_name": "ナ・デックス",
+      "market_cap": 83.0,
+      "time": "19:00",
+      "title": "2026年４月期　決算補足説明資料",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260606564827.pdf"
+    },
+    {
+      "code": "7435",
+      "company_name": "ナ・デックス",
+      "market_cap": 83.0,
+      "time": "19:00",
+      "title": "自己株式取得に係る事項の決定および自己株式消却に係る事項の決定に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260609565903.pdf"
+    },
+    {
       "code": "9262",
       "company_name": "シルバーライフ",
       "market_cap": 80.9,
@@ -1052,6 +1084,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568569.pdf"
     },
     {
+      "code": "4069",
+      "company_name": "Ｇ－ＢｌｕｅＭｅｍｅ",
+      "market_cap": 34.8,
+      "time": "17:25",
+      "title": "特別調査委員会設置に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568723.pdf"
+    },
+    {
       "code": "3358",
       "company_name": "Ｔｒａｉｌｈｅａｄ",
       "market_cap": 33.8,
@@ -1132,12 +1172,36 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260610567765.pdf"
     },
     {
+      "code": "9941",
+      "company_name": "太洋物産",
+      "market_cap": 23.6,
+      "time": "18:00",
+      "title": "2026年９月期 ５月度　月次業績（売上高）速報",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568763.pdf"
+    },
+    {
       "code": "7601",
       "company_name": "ポプラ",
       "market_cap": 22.7,
       "time": "14:00",
       "title": "取締役会の実効性評価の結果の概要に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260610567626.pdf"
+    },
+    {
+      "code": "2164",
+      "company_name": "地域新聞社",
+      "market_cap": 21.7,
+      "time": "17:30",
+      "title": "子会社設立並びに株式会社UniGrowthとの経営統合に向けた基本合意解消に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568453.pdf"
+    },
+    {
+      "code": "2164",
+      "company_name": "地域新聞社",
+      "market_cap": 21.7,
+      "time": "17:30",
+      "title": "執行役員人事に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568441.pdf"
     },
     {
       "code": "5134",
@@ -1170,6 +1234,14 @@
       "time": "15:30",
       "title": "ソラナ（SOL）の取得状況に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260610567080.pdf"
+    },
+    {
+      "code": "6558",
+      "company_name": "Ｇ－クックビズ",
+      "market_cap": 18.2,
+      "time": "18:00",
+      "title": "TECH CREW株式会社の株式取得及び第三者割当増資引受による連結子会社化のお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611567855.pdf"
     },
     {
       "code": "5025",
