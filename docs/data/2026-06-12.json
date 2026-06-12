@@ -1,7 +1,7 @@
 {
   "date": "2026-06-12",
-  "company_count": 211,
-  "total_count": 336,
+  "company_count": 221,
+  "total_count": 353,
   "items": [
     {
       "code": "8411",
@@ -204,6 +204,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569944.pdf"
     },
     {
+      "code": "6995",
+      "company_name": "東海理電",
+      "market_cap": 2578.9,
+      "time": "18:00",
+      "title": "譲渡制限付株式報酬としての自己株式の処分に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260610567410.pdf"
+    },
+    {
       "code": "7685",
       "company_name": "Ｇ－ＢＵＹＳＥＬＬ",
       "market_cap": 2319.4,
@@ -266,6 +274,38 @@
       "time": "15:30",
       "title": "営業外収益（為替差益）の計上に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569663.pdf"
+    },
+    {
+      "code": "3480",
+      "company_name": "ジェイ・エス・ビー",
+      "market_cap": 1521.9,
+      "time": "19:30",
+      "title": "2026年10月期  第２四半期（中間期）決算短信〔日本基準〕（連結）",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611567954.pdf"
+    },
+    {
+      "code": "3480",
+      "company_name": "ジェイ・エス・ビー",
+      "market_cap": 1521.9,
+      "time": "19:30",
+      "title": "Ｕｒｓａ ４株式会社による株式会社ジェイ・エス・ビー（証券コード：3480）の株券等に対する公開買付けの開始に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569810.pdf"
+    },
+    {
+      "code": "3480",
+      "company_name": "ジェイ・エス・ビー",
+      "market_cap": 1521.9,
+      "time": "19:30",
+      "title": "Ｕｒｓａ ４株式会社による当社株券等に対する公開買付けに関する意見表明のお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612568965.pdf"
+    },
+    {
+      "code": "3480",
+      "company_name": "ジェイ・エス・ビー",
+      "market_cap": 1521.9,
+      "time": "19:30",
+      "title": "2026年10月期の期末配当予想の修正（無配）に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568005.pdf"
     },
     {
       "code": "6523",
@@ -362,6 +402,14 @@
       "time": "15:30",
       "title": "監査等委員である取締役の辞任に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569422.pdf"
+    },
+    {
+      "code": "2742",
+      "company_name": "ハローズ",
+      "market_cap": 829.3,
+      "time": "17:45",
+      "title": "株式報酬型ストックオプションの発行内容の確定に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612570004.pdf"
     },
     {
       "code": "9603",
@@ -514,6 +562,14 @@
       "time": "15:30",
       "title": "2027年1月期 第1四半期決算説明資料",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568629.pdf"
+    },
+    {
+      "code": "8281",
+      "company_name": "ゼビオＨＤ",
+      "market_cap": 512.6,
+      "time": "17:30",
+      "title": "ストックオプションとしての新株予約権の発行内容確定に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569991.pdf"
     },
     {
       "code": "5121",
@@ -900,6 +956,22 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260609565858.pdf"
     },
     {
+      "code": "6224",
+      "company_name": "Ｇ－ＪＲＣ",
+      "market_cap": 170.0,
+      "time": "18:00",
+      "title": "譲渡制限付株式報酬としての自己株式の処分に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260608565501.pdf"
+    },
+    {
+      "code": "6224",
+      "company_name": "Ｇ－ＪＲＣ",
+      "market_cap": 170.0,
+      "time": "18:00",
+      "title": "資金の借入に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568029.pdf"
+    },
+    {
       "code": "3665",
       "company_name": "エニグモ",
       "market_cap": 157.8,
@@ -1178,6 +1250,14 @@
       "time": "11:30",
       "title": "2026年５月の月次業績等（速報）に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568637.pdf"
+    },
+    {
+      "code": "4286",
+      "company_name": "ＣＬホールディングス",
+      "market_cap": 124.1,
+      "time": "18:00",
+      "title": "ストックオプション（新株予約権）権利行使価額等確定に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569510.pdf"
     },
     {
       "code": "6838",
@@ -1460,6 +1540,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569835.pdf"
     },
     {
+      "code": "9903",
+      "company_name": "カンセキ",
+      "market_cap": 93.8,
+      "time": "17:30",
+      "title": "株式報酬型ストック・オプションの発行内容の確定に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260609566553.pdf"
+    },
+    {
       "code": "7218",
       "company_name": "田中精密",
       "market_cap": 91.3,
@@ -1626,6 +1714,14 @@
       "time": "13:30",
       "title": "中期経営計画策定に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569528.pdf"
+    },
+    {
+      "code": "1447",
+      "company_name": "Ｇ－ＳＡＡＦＨＤ",
+      "market_cap": 71.6,
+      "time": "18:00",
+      "title": "（開示事項の経過）当社取締役による地位確認仮処分命令決定に対する保全異議の申立ての結果に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569975.pdf"
     },
     {
       "code": "7038",
@@ -1842,6 +1938,14 @@
       "time": "15:30",
       "title": "販売用の不動産の売却に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569386.pdf"
+    },
+    {
+      "code": "4395",
+      "company_name": "Ｇ－アクリート",
+      "market_cap": 53.4,
+      "time": "17:30",
+      "title": "公認会計士等の異動に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612570029.pdf"
     },
     {
       "code": "6656",
@@ -2396,6 +2500,30 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568604.pdf"
     },
     {
+      "code": "5618",
+      "company_name": "Ｇ－ナイル",
+      "market_cap": 24.3,
+      "time": "18:00",
+      "title": "第17回新株予約権（ストック・オプション）の発行内容確定に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569965.pdf"
+    },
+    {
+      "code": "5618",
+      "company_name": "Ｇ－ナイル",
+      "market_cap": 24.3,
+      "time": "18:00",
+      "title": "第18回新株予約権（有償ストック・オプション）の発行内容確定に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569983.pdf"
+    },
+    {
+      "code": "5618",
+      "company_name": "Ｇ－ナイル",
+      "market_cap": 24.3,
+      "time": "18:00",
+      "title": "第19回新株予約権（有償ストック・オプション）の発行内容確定に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569984.pdf"
+    },
+    {
       "code": "8836",
       "company_name": "ＲＩＳＥ",
       "market_cap": 24.0,
@@ -2578,6 +2706,14 @@
       "time": "15:00",
       "title": "（訂正・数値データ訂正） 「2026年12月期 第１四半期決算短信〔日本基準〕（非連結）」の一部訂正に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569568.pdf"
+    },
+    {
+      "code": "9444",
+      "company_name": "トーシンＨＤ",
+      "market_cap": 16.3,
+      "time": "17:30",
+      "title": "会社更生手続開始決定に対する株主による即時抗告のお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569995.pdf"
     },
     {
       "code": "7083",
