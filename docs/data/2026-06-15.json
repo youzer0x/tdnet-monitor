@@ -1,0 +1,1607 @@
+{
+  "date": "2026-06-15",
+  "company_count": 140,
+  "total_count": 200,
+  "items": [
+    {
+      "code": "7203",
+      "company_name": "トヨタ自",
+      "market_cap": 458449.5,
+      "time": "15:30",
+      "title": "関係会社株式売却益の計上に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570435.pdf"
+    },
+    {
+      "code": "8630",
+      "company_name": "ＳＯＭＰＯＨＤ",
+      "market_cap": 58314.6,
+      "time": "15:30",
+      "title": "業務改善計画の進捗状況（開示事項の経過・2026年5月末時点）",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569618.pdf"
+    },
+    {
+      "code": "8113",
+      "company_name": "ユニチャーム",
+      "market_cap": 17291.5,
+      "time": "16:00",
+      "title": "親会社等の決算に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570434.pdf"
+    },
+    {
+      "code": "1944",
+      "company_name": "きんでん",
+      "market_cap": 14604.7,
+      "time": "15:30",
+      "title": "投資単位の引下げに関する考え方及び方針について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570318.pdf"
+    },
+    {
+      "code": "8303",
+      "company_name": "ＳＢＩ新生銀行",
+      "market_cap": 13356.4,
+      "time": "12:00",
+      "title": "（訂正・数値データ訂正）「2026年３月期 決算短信〔日本基準〕（連結）」の一部訂正について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260602559113.pdf"
+    },
+    {
+      "code": "6856",
+      "company_name": "堀場製",
+      "market_cap": 11236.2,
+      "time": "14:00",
+      "title": "事後交付型リストリクテッド・ストック・ユニット（RSU）付与制度としての自己株式処分の払込完了に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570334.pdf"
+    },
+    {
+      "code": "4911",
+      "company_name": "資生堂",
+      "market_cap": 10388.0,
+      "time": "15:30",
+      "title": "長期インセンティブ型報酬としての業績連動型株式報酬制度に基づく自己株式の処分の払込完了および一部失権に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260605564067.pdf"
+    },
+    {
+      "code": "8377",
+      "company_name": "ほくほく",
+      "market_cap": 7976.6,
+      "time": "15:30",
+      "title": "（訂正）「2026年3月期 決算短信[日本基準]（連結）」の一部訂正について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570894.pdf"
+    },
+    {
+      "code": "3086",
+      "company_name": "Ｊフロント",
+      "market_cap": 6595.0,
+      "time": "15:30",
+      "title": "２０２６年５月度　Ｊ．フロントリテイリング　連結売上収益報告（ＩＦＲＳ）",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570951.pdf"
+    },
+    {
+      "code": "8233",
+      "company_name": "高島屋",
+      "market_cap": 6592.5,
+      "time": "15:30",
+      "title": "2026年5月度 高島屋営業報告",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260605563949.pdf"
+    },
+    {
+      "code": "7649",
+      "company_name": "スギＨＤ",
+      "market_cap": 5549.7,
+      "time": "15:30",
+      "title": "譲渡制限付株式報酬としての自己株式の処分の払込完了に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569897.pdf"
+    },
+    {
+      "code": "7649",
+      "company_name": "スギＨＤ",
+      "market_cap": 5549.7,
+      "time": "15:30",
+      "title": "スギホールディングス株式会社 2026年5月度 月次速報に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570782.pdf"
+    },
+    {
+      "code": "3774",
+      "company_name": "ＩＩＪ",
+      "market_cap": 5393.4,
+      "time": "15:30",
+      "title": "譲渡制限付株式報酬としての自己株式の処分の払込完了に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568807.pdf"
+    },
+    {
+      "code": "2531",
+      "company_name": "宝ＨＬＤ",
+      "market_cap": 4113.7,
+      "time": "15:30",
+      "title": "自己株式の取得状況および取得終了に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260522544889.pdf"
+    },
+    {
+      "code": "4666",
+      "company_name": "パーク２４",
+      "market_cap": 3189.2,
+      "time": "16:00",
+      "title": "2026年10月期　第２四半期（中間期）決算短信〔日本基準〕（連結）",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569710.pdf"
+    },
+    {
+      "code": "4666",
+      "company_name": "パーク２４",
+      "market_cap": 3189.2,
+      "time": "16:00",
+      "title": "2026年10月期　第２四半期（中間期）決算補足資料",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570528.pdf"
+    },
+    {
+      "code": "4666",
+      "company_name": "パーク２４",
+      "market_cap": 3189.2,
+      "time": "16:00",
+      "title": "特別損失・法人税等調整額（益）の計上、および2026年10月期第２四半期（中間期）連結業績予想と実績の差異、ならびに通期連結業績予想の修正に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570538.pdf"
+    },
+    {
+      "code": "4666",
+      "company_name": "パーク２４",
+      "market_cap": 3189.2,
+      "time": "16:00",
+      "title": "株主優待制度の再開に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570569.pdf"
+    },
+    {
+      "code": "4666",
+      "company_name": "パーク２４",
+      "market_cap": 3189.2,
+      "time": "16:00",
+      "title": "2026年10月期　速報数値　5月度",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570578.pdf"
+    },
+    {
+      "code": "8386",
+      "company_name": "百十四銀",
+      "market_cap": 2927.1,
+      "time": "15:00",
+      "title": "会社分割（簡易吸収分割）契約書の締結に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568757.pdf"
+    },
+    {
+      "code": "8714",
+      "company_name": "池田泉州",
+      "market_cap": 2886.0,
+      "time": "15:00",
+      "title": "2025年度 決算説明会 質疑応答要旨",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570283.pdf"
+    },
+    {
+      "code": "6670",
+      "company_name": "ＭＣＪ",
+      "market_cap": 2222.8,
+      "time": "15:30",
+      "title": "当社株式の上場廃止のお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260525547332.pdf"
+    },
+    {
+      "code": "6941",
+      "company_name": "山一電機",
+      "market_cap": 1999.6,
+      "time": "11:10",
+      "title": "当社グループのフィリピン子会社におけるランサムウェア被害に関する調査結果および対応完了のお知らせ（最終報）",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569002.pdf"
+    },
+    {
+      "code": "3097",
+      "company_name": "物語コーポ",
+      "market_cap": 1875.9,
+      "time": "15:30",
+      "title": "当社の機構改革ならびに役員人事に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570540.pdf"
+    },
+    {
+      "code": "6588",
+      "company_name": "東芝テック",
+      "market_cap": 1855.7,
+      "time": "15:30",
+      "title": "（訂正）「支配株主等に関する事項について」の一部訂正について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569990.pdf"
+    },
+    {
+      "code": "3612",
+      "company_name": "ワールド",
+      "market_cap": 1130.8,
+      "time": "15:30",
+      "title": "譲渡制限付株式報酬としての自己株式の処分の払込完了に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569325.pdf"
+    },
+    {
+      "code": "6627",
+      "company_name": "テラプローブ",
+      "market_cap": 996.9,
+      "time": "15:30",
+      "title": "2026年12月期５度の月次連結売上高（速報）に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570648.pdf"
+    },
+    {
+      "code": "6627",
+      "company_name": "テラプローブ",
+      "market_cap": 996.9,
+      "time": "15:30",
+      "title": "当社従業員に対する譲渡制限付株式としての自己株式処分の払込完了に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570615.pdf"
+    },
+    {
+      "code": "4592",
+      "company_name": "Ｇ－サンバイオ",
+      "market_cap": 944.2,
+      "time": "15:30",
+      "title": "2027年１月期 第１四半期決算短信〔日本基準〕（連結）",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570680.pdf"
+    },
+    {
+      "code": "4592",
+      "company_name": "Ｇ－サンバイオ",
+      "market_cap": 944.2,
+      "time": "15:30",
+      "title": "営業外収益及び法人税等調整額の計上に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570742.pdf"
+    },
+    {
+      "code": "9997",
+      "company_name": "ベルーナ",
+      "market_cap": 923.8,
+      "time": "15:30",
+      "title": "5月度　月次売上高前年同月比（速報値）に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570553.pdf"
+    },
+    {
+      "code": "8739",
+      "company_name": "スパークス",
+      "market_cap": 899.1,
+      "time": "16:00",
+      "title": "連結子会社からの配当金受領に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570750.pdf"
+    },
+    {
+      "code": "8739",
+      "company_name": "スパークス",
+      "market_cap": 899.1,
+      "time": "16:00",
+      "title": "支配株主等に関する事項について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570754.pdf"
+    },
+    {
+      "code": "9279",
+      "company_name": "ギフトＨＤ",
+      "market_cap": 839.9,
+      "time": "15:30",
+      "title": "連結業績予想の修正に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570406.pdf"
+    },
+    {
+      "code": "9279",
+      "company_name": "ギフトＨＤ",
+      "market_cap": 839.9,
+      "time": "15:30",
+      "title": "2026年10月期第２四半期（中間期）決算説明資料",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570443.pdf"
+    },
+    {
+      "code": "9279",
+      "company_name": "ギフトＨＤ",
+      "market_cap": 839.9,
+      "time": "15:30",
+      "title": "2026年10月期 ２Q決算について想定されるご質問に対する回答",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570459.pdf"
+    },
+    {
+      "code": "9279",
+      "company_name": "ギフトＨＤ",
+      "market_cap": 839.9,
+      "time": "15:30",
+      "title": "2026年10月期　第２四半期（中間期）　決算短信〔日本基準〕（連結）",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570424.pdf"
+    },
+    {
+      "code": "7279",
+      "company_name": "ハイレックス",
+      "market_cap": 825.1,
+      "time": "15:30",
+      "title": "2026年10月期第2四半期決算ご説明（IR資料）",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570726.pdf"
+    },
+    {
+      "code": "5982",
+      "company_name": "マルゼン",
+      "market_cap": 757.6,
+      "time": "16:00",
+      "title": "譲渡制限付株式報酬としての自己株式の処分に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570362.pdf"
+    },
+    {
+      "code": "3733",
+      "company_name": "ソフトウェアＳ",
+      "market_cap": 556.5,
+      "time": "15:45",
+      "title": "2026年10月期　5月度月次売上高等に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570402.pdf"
+    },
+    {
+      "code": "3245",
+      "company_name": "ディア・ライフ",
+      "market_cap": 512.1,
+      "time": "12:30",
+      "title": "収益不動産（亀有2丁目）の取得に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570590.pdf"
+    },
+    {
+      "code": "3245",
+      "company_name": "ディア・ライフ",
+      "market_cap": 512.1,
+      "time": "12:30",
+      "title": "収益不動産（亀有4丁目）の取得に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570593.pdf"
+    },
+    {
+      "code": "4431",
+      "company_name": "Ｇ－スマレジ",
+      "market_cap": 504.0,
+      "time": "09:30",
+      "title": "（訂正・数値データの修正）「2026年４月期 決算短信〔日本基準〕(連結) 」の一部訂正について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570269.pdf"
+    },
+    {
+      "code": "4431",
+      "company_name": "Ｇ－スマレジ",
+      "market_cap": 504.0,
+      "time": "11:30",
+      "title": "（差替）（訂正・数値データの修正）「2026年４月期 決算短信〔日本基準〕(連結) 」 の一部訂正について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570509.pdf"
+    },
+    {
+      "code": "4343",
+      "company_name": "イオンファン",
+      "market_cap": 493.0,
+      "time": "15:30",
+      "title": "2027 年２月期 ５月度の売上概況",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570600.pdf"
+    },
+    {
+      "code": "3371",
+      "company_name": "ソフトクリエＨＤ",
+      "market_cap": 459.0,
+      "time": "15:30",
+      "title": "自己株式取得に係る事項の決定に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569736.pdf"
+    },
+    {
+      "code": "9338",
+      "company_name": "Ｇ－ＩＮＦＯＲＩＣＨ",
+      "market_cap": 453.4,
+      "time": "15:30",
+      "title": "当社株式の上場廃止のお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570348.pdf"
+    },
+    {
+      "code": "5959",
+      "company_name": "岡部",
+      "market_cap": 426.6,
+      "time": "15:30",
+      "title": "自己株式の取得状況及び取得終了に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570276.pdf"
+    },
+    {
+      "code": "4709",
+      "company_name": "ＩＤホールディングス",
+      "market_cap": 367.7,
+      "time": "13:30",
+      "title": "中期経営計画の修正に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570324.pdf"
+    },
+    {
+      "code": "8713",
+      "company_name": "フィデアＨＤ",
+      "market_cap": 366.5,
+      "time": "15:00",
+      "title": "自己株式の取得状況及び取得終了に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570468.pdf"
+    },
+    {
+      "code": "6125",
+      "company_name": "岡本工機",
+      "market_cap": 354.0,
+      "time": "15:30",
+      "title": "2026年3月期 決算説明会資料",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570571.pdf"
+    },
+    {
+      "code": "6932",
+      "company_name": "遠藤照明",
+      "market_cap": 347.8,
+      "time": "16:00",
+      "title": "当社取締役会の実効性に関する評価結果の概要について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570760.pdf"
+    },
+    {
+      "code": "9913",
+      "company_name": "日邦産業",
+      "market_cap": 342.3,
+      "time": "16:00",
+      "title": "（訂正・数値データ訂正）「2026年３月期決算短信〔日本基準〕（連結）」の一部訂正に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570577.pdf"
+    },
+    {
+      "code": "3983",
+      "company_name": "オロ",
+      "market_cap": 323.1,
+      "time": "15:30",
+      "title": "2026年12月期 月次情報のお知らせ（5月度）",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612570097.pdf"
+    },
+    {
+      "code": "2294",
+      "company_name": "柿安本店",
+      "market_cap": 314.4,
+      "time": "12:30",
+      "title": "2026年4月期 決算説明会資料",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570401.pdf"
+    },
+    {
+      "code": "7059",
+      "company_name": "コプロＨＤ",
+      "market_cap": 306.0,
+      "time": "10:00",
+      "title": "2026年5月度 在籍技術者数、稼働技術者数・稼働率の月次開示に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569643.pdf"
+    },
+    {
+      "code": "2461",
+      "company_name": "ファンコミ",
+      "market_cap": 273.9,
+      "time": "15:00",
+      "title": "2026年12月期5月度月次業績速報のお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569896.pdf"
+    },
+    {
+      "code": "3388",
+      "company_name": "明治電機",
+      "market_cap": 269.7,
+      "time": "15:00",
+      "title": "（訂正・数値データ訂正）「2026年３月期 決算短信〔日本基準〕（連結）」の一部訂正に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568400.pdf"
+    },
+    {
+      "code": "6279",
+      "company_name": "瑞光",
+      "market_cap": 257.8,
+      "time": "16:00",
+      "title": "譲渡制限付株式報酬としての自己株式の処分の払込完了に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612570057.pdf"
+    },
+    {
+      "code": "7185",
+      "company_name": "ヒロセ通商",
+      "market_cap": 257.4,
+      "time": "16:30",
+      "title": "2026年５月度　月次概況（速報）に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569985.pdf"
+    },
+    {
+      "code": "3853",
+      "company_name": "アステリア",
+      "market_cap": 251.9,
+      "time": "08:45",
+      "title": "当社投資子会社の投資先企業（SpaceX社）米国上場に伴う業績への影響について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569826.pdf"
+    },
+    {
+      "code": "9979",
+      "company_name": "大庄",
+      "market_cap": 234.7,
+      "time": "16:00",
+      "title": "2026年5月の月次売上状況について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570364.pdf"
+    },
+    {
+      "code": "3788",
+      "company_name": "ＧＭＯＧＳＨＤ",
+      "market_cap": 226.3,
+      "time": "16:30",
+      "title": "連結子会社の異動（株式譲渡）に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570959.pdf"
+    },
+    {
+      "code": "4058",
+      "company_name": "Ｇ－トヨクモ",
+      "market_cap": 207.3,
+      "time": "11:30",
+      "title": "2026年5月度 月次売上速報に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568808.pdf"
+    },
+    {
+      "code": "2982",
+      "company_name": "ＡＤワークスグループ",
+      "market_cap": 199.2,
+      "time": "15:00",
+      "title": "系統用蓄電所事業の成長戦略－高成長が見込める新たな事業基盤の構築へ－",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570875.pdf"
+    },
+    {
+      "code": "7417",
+      "company_name": "南陽",
+      "market_cap": 195.1,
+      "time": "15:30",
+      "title": "(訂正)「2026年３月期 決算説明資料」の一部訂正について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570416.pdf"
+    },
+    {
+      "code": "9537",
+      "company_name": "北陸瓦斯",
+      "market_cap": 189.6,
+      "time": "15:30",
+      "title": "親会社等の決算に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612570133.pdf"
+    },
+    {
+      "code": "3484",
+      "company_name": "イノベーションＨＤ",
+      "market_cap": 187.5,
+      "time": "13:30",
+      "title": "連結子会社からの配当金受領に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569917.pdf"
+    },
+    {
+      "code": "3166",
+      "company_name": "ＯＣＨＩ・ＨＤ",
+      "market_cap": 187.0,
+      "time": "15:30",
+      "title": "2026年3月期　決算補足説明資料",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570573.pdf"
+    },
+    {
+      "code": "3565",
+      "company_name": "アセンテック",
+      "market_cap": 177.1,
+      "time": "15:30",
+      "title": "2027年１月期第１四半期決算短信〔日本基準〕（連結）",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568736.pdf"
+    },
+    {
+      "code": "3565",
+      "company_name": "アセンテック",
+      "market_cap": 177.1,
+      "time": "15:30",
+      "title": "2027年１月期第１四半期 決算短信補足資料",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568747.pdf"
+    },
+    {
+      "code": "3565",
+      "company_name": "アセンテック",
+      "market_cap": 177.1,
+      "time": "15:30",
+      "title": "2027年１月期第１四半期 決算補足説明資料",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568751.pdf"
+    },
+    {
+      "code": "2998",
+      "company_name": "Ｇ－クリアル",
+      "market_cap": 174.6,
+      "time": "14:00",
+      "title": "株主優待の優待品目の変更及び拡充に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570689.pdf"
+    },
+    {
+      "code": "9257",
+      "company_name": "Ｇ－ＹＣＰ",
+      "market_cap": 174.3,
+      "time": "15:50",
+      "title": "当社子会社による立会外終値取引（ToSTNeT-2）を通じた当社ＪＤＲの買付けに関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615571003.pdf"
+    },
+    {
+      "code": "3547",
+      "company_name": "ユニシアＨＤ",
+      "market_cap": 169.8,
+      "time": "16:30",
+      "title": "資金の借入に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570714.pdf"
+    },
+    {
+      "code": "3547",
+      "company_name": "ユニシアＨＤ",
+      "market_cap": 169.8,
+      "time": "16:30",
+      "title": "株式会社Antwayとの業務提携解消及び事業譲渡に向けた基本合意締結に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570718.pdf"
+    },
+    {
+      "code": "3777",
+      "company_name": "Ｇ－環境フレンドリー",
+      "market_cap": 167.9,
+      "time": "14:00",
+      "title": "第21回新株予約権の一部行使ならびに資本金の増加に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570743.pdf"
+    },
+    {
+      "code": "9556",
+      "company_name": "Ｇ－ＩＮＴＬＯＯＰ",
+      "market_cap": 166.0,
+      "time": "12:00",
+      "title": "（追加） 「FY26/7 Q3 第３四半期決算説明資料」の追加に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570541.pdf"
+    },
+    {
+      "code": "3415",
+      "company_name": "トウキョウベース",
+      "market_cap": 164.0,
+      "time": "15:30",
+      "title": "2027年1月期 第1四半期決算短信〔日本基準〕（連結）",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569852.pdf"
+    },
+    {
+      "code": "3415",
+      "company_name": "トウキョウベース",
+      "market_cap": 164.0,
+      "time": "15:30",
+      "title": "2027年1月期 第1四半期 決算説明資料",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569910.pdf"
+    },
+    {
+      "code": "3992",
+      "company_name": "ニーズウェル",
+      "market_cap": 162.0,
+      "time": "15:30",
+      "title": "配当予想の修正（増配）に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570840.pdf"
+    },
+    {
+      "code": "7110",
+      "company_name": "Ｇ－クラシコム",
+      "market_cap": 160.5,
+      "time": "15:30",
+      "title": "2026年７月期 第３四半期決算短信〔日本基準〕(連結)",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260610567202.pdf"
+    },
+    {
+      "code": "7110",
+      "company_name": "Ｇ－クラシコム",
+      "market_cap": 160.5,
+      "time": "15:30",
+      "title": "2026年７月期 第３四半期決算補足説明資料",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260610567239.pdf"
+    },
+    {
+      "code": "7110",
+      "company_name": "Ｇ－クラシコム",
+      "market_cap": 160.5,
+      "time": "15:30",
+      "title": "配当予想の修正（増配）に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260610567248.pdf"
+    },
+    {
+      "code": "7699",
+      "company_name": "Ｇ－ＯＰＳ",
+      "market_cap": 151.4,
+      "time": "16:00",
+      "title": "剰余金の配当に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260614570204.pdf"
+    },
+    {
+      "code": "7699",
+      "company_name": "Ｇ－ＯＰＳ",
+      "market_cap": 151.4,
+      "time": "16:00",
+      "title": "定時株主総会における議決権行使指図のための権利確定日設定に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260614570203.pdf"
+    },
+    {
+      "code": "4026",
+      "company_name": "神島化学工業",
+      "market_cap": 147.0,
+      "time": "10:00",
+      "title": "2026年4月期 決算説明資料",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569622.pdf"
+    },
+    {
+      "code": "4441",
+      "company_name": "トビラシステムズ",
+      "market_cap": 144.1,
+      "time": "16:00",
+      "title": "2026年10月期第2四半期決算に関する質疑応答集",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570857.pdf"
+    },
+    {
+      "code": "5885",
+      "company_name": "ジーデップアドバンス",
+      "market_cap": 141.4,
+      "time": "15:30",
+      "title": "業績予想及び配当予想の再修正に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612570084.pdf"
+    },
+    {
+      "code": "2991",
+      "company_name": "ランドネット",
+      "market_cap": 136.1,
+      "time": "14:00",
+      "title": "2026年５月度　月次業績速報",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570641.pdf"
+    },
+    {
+      "code": "9145",
+      "company_name": "ビーイングＨＤ",
+      "market_cap": 133.3,
+      "time": "14:00",
+      "title": "当社グループ月次連結営業収益に関するお知らせ（2026年５月度 速報版）",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570630.pdf"
+    },
+    {
+      "code": "6838",
+      "company_name": "多摩川ＨＤ",
+      "market_cap": 129.4,
+      "time": "16:00",
+      "title": "時価評価差額の計上を含む2026年10月期通期連結業績予想および配当予想の修正に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570326.pdf"
+    },
+    {
+      "code": "6838",
+      "company_name": "多摩川ＨＤ",
+      "market_cap": 129.4,
+      "time": "16:00",
+      "title": "2026年10月期 第2四半期決算短信〔IFRS〕（連結）",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570407.pdf"
+    },
+    {
+      "code": "7097",
+      "company_name": "Ｇ－さくらさく",
+      "market_cap": 128.6,
+      "time": "10:30",
+      "title": "自己株式立会外買付取引(ToSTNeT-3)による自己株式の取得結果および取得終了に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570408.pdf"
+    },
+    {
+      "code": "3434",
+      "company_name": "アルファＣｏ",
+      "market_cap": 121.6,
+      "time": "13:00",
+      "title": "2026年3月期決算説明資料",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570587.pdf"
+    },
+    {
+      "code": "1450",
+      "company_name": "ＴＡＮＡＫＥＮ",
+      "market_cap": 115.7,
+      "time": "15:30",
+      "title": "支配株主等に関する事項について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570267.pdf"
+    },
+    {
+      "code": "6384",
+      "company_name": "昭和真空",
+      "market_cap": 106.8,
+      "time": "16:00",
+      "title": "資本コストや株価を意識した経営の実現に向けた対応について（アップデート）",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570645.pdf"
+    },
+    {
+      "code": "2764",
+      "company_name": "ひらまつ",
+      "market_cap": 101.6,
+      "time": "12:00",
+      "title": "ひらまつＩＲレポート（月次売上速報）",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570372.pdf"
+    },
+    {
+      "code": "2586",
+      "company_name": "Ｇ－フルッタフルッタ",
+      "market_cap": 100.0,
+      "time": "15:30",
+      "title": "第14回新株予約権（行使価額修正条項付）の行使価額の修正に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570646.pdf"
+    },
+    {
+      "code": "9980",
+      "company_name": "ＭＲＫ　ＨＬＤ",
+      "market_cap": 98.3,
+      "time": "15:30",
+      "title": "支配株主等に関する事項について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570605.pdf"
+    },
+    {
+      "code": "3320",
+      "company_name": "クロスプラス",
+      "market_cap": 95.7,
+      "time": "15:30",
+      "title": "譲渡制限付株式報酬としての自己株式の処分の払込完了に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260610567521.pdf"
+    },
+    {
+      "code": "5971",
+      "company_name": "共和工業",
+      "market_cap": 94.5,
+      "time": "15:40",
+      "title": "2026年4月期 決算短信〔日本基準〕（連結）",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568353.pdf"
+    },
+    {
+      "code": "5971",
+      "company_name": "共和工業",
+      "market_cap": 94.5,
+      "time": "15:40",
+      "title": "2026年４月期通期連結業績予想値と実績値との差異に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568462.pdf"
+    },
+    {
+      "code": "5971",
+      "company_name": "共和工業",
+      "market_cap": 94.5,
+      "time": "15:40",
+      "title": "剰余金の配当に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568457.pdf"
+    },
+    {
+      "code": "5971",
+      "company_name": "共和工業",
+      "market_cap": 94.5,
+      "time": "15:40",
+      "title": "自己株式取得に係る事項の決定に関するお知らせ（会社法第459条第1項の規定による定款の定めに基づく自己株式の取得）",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568464.pdf"
+    },
+    {
+      "code": "4811",
+      "company_name": "Ｇ－ドリーム・アーツ",
+      "market_cap": 89.8,
+      "time": "15:30",
+      "title": "コクー株式会社との資本業務提携に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570491.pdf"
+    },
+    {
+      "code": "4374",
+      "company_name": "Ｇ－ロボペイ",
+      "market_cap": 89.5,
+      "time": "15:30",
+      "title": "2026年5月度 月次売上高のお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570358.pdf"
+    },
+    {
+      "code": "4570",
+      "company_name": "Ｇ－免疫生物研究所",
+      "market_cap": 88.0,
+      "time": "15:30",
+      "title": "抗HIV抗体開発の状況及びスケジュールに関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569300.pdf"
+    },
+    {
+      "code": "5136",
+      "company_name": "Ｇ－ｔｒｉｐｌａ",
+      "market_cap": 86.2,
+      "time": "15:30",
+      "title": "2026年10月期第２四半期（中間期）決算短信〔日本基準〕(連結)",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615571004.pdf"
+    },
+    {
+      "code": "5136",
+      "company_name": "Ｇ－ｔｒｉｐｌａ",
+      "market_cap": 86.2,
+      "time": "15:30",
+      "title": "2026年10月期第２四半期累計期間の連結業績予想値と実績値の差異及び通期業績予想の修正に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570802.pdf"
+    },
+    {
+      "code": "5136",
+      "company_name": "Ｇ－ｔｒｉｐｌａ",
+      "market_cap": 86.2,
+      "time": "15:30",
+      "title": "2026年10月期 第２四半期 決算説明資料",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570808.pdf"
+    },
+    {
+      "code": "6819",
+      "company_name": "伊豆シャボテンＲ",
+      "market_cap": 85.4,
+      "time": "11:50",
+      "title": "アニタッチ吉祥寺オープンに関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570296.pdf"
+    },
+    {
+      "code": "6819",
+      "company_name": "伊豆シャボテンＲ",
+      "market_cap": 85.4,
+      "time": "12:45",
+      "title": "（訂正）アニタッチ吉祥寺オープンに関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570697.pdf"
+    },
+    {
+      "code": "2708",
+      "company_name": "久世",
+      "market_cap": 85.1,
+      "time": "15:40",
+      "title": "中期経営計画第2フェーズ策定のお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570847.pdf"
+    },
+    {
+      "code": "2315",
+      "company_name": "ＣＡＩＣＡ　Ｄ",
+      "market_cap": 84.8,
+      "time": "15:30",
+      "title": "2026年10月期第２四半期（中間期）決算短信〔日本基準〕(連結)",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569866.pdf"
+    },
+    {
+      "code": "2315",
+      "company_name": "ＣＡＩＣＡ　Ｄ",
+      "market_cap": 84.8,
+      "time": "15:30",
+      "title": "株式会社善光総合研究所の子会社化に伴うのれんの額及び特別利益・特別損失の計上に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569686.pdf"
+    },
+    {
+      "code": "2315",
+      "company_name": "ＣＡＩＣＡ　Ｄ",
+      "market_cap": 84.8,
+      "time": "15:30",
+      "title": "2026年10月期 第２四半期(中間期) 決算補足説明資料",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569813.pdf"
+    },
+    {
+      "code": "4430",
+      "company_name": "東海ソフト",
+      "market_cap": 79.6,
+      "time": "15:30",
+      "title": "役員人事内定および重要な人事異動ならびに子会社人事について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570492.pdf"
+    },
+    {
+      "code": "4415",
+      "company_name": "Ｇ－ブロードエンター",
+      "market_cap": 79.1,
+      "time": "16:00",
+      "title": "資金の借入に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570580.pdf"
+    },
+    {
+      "code": "9264",
+      "company_name": "ポエック",
+      "market_cap": 75.7,
+      "time": "15:30",
+      "title": "マルコ電機技術株式会社の株式取得（子会社化）に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570199.pdf"
+    },
+    {
+      "code": "9264",
+      "company_name": "ポエック",
+      "market_cap": 75.7,
+      "time": "15:30",
+      "title": "マルコ電機技術株式会社の株式取得に関する補足説明資料",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570261.pdf"
+    },
+    {
+      "code": "9262",
+      "company_name": "シルバーライフ",
+      "market_cap": 70.6,
+      "time": "13:00",
+      "title": "成田冷蔵株式会社の株式取得（子会社化）に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570701.pdf"
+    },
+    {
+      "code": "1447",
+      "company_name": "Ｇ－ＳＡＡＦＨＤ",
+      "market_cap": 70.2,
+      "time": "17:00",
+      "title": "株主による臨時株主総会招集請求に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615571023.pdf"
+    },
+    {
+      "code": "3133",
+      "company_name": "Ｇ－海帆",
+      "market_cap": 68.9,
+      "time": "16:00",
+      "title": "（開示事項の経過）連結子会社による固定資産の取得に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570960.pdf"
+    },
+    {
+      "code": "3133",
+      "company_name": "Ｇ－海帆",
+      "market_cap": 68.9,
+      "time": "16:00",
+      "title": "（開示事項の変更）臨時株主総会招集のための基準日設定に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570985.pdf"
+    },
+    {
+      "code": "3121",
+      "company_name": "マーチャント",
+      "market_cap": 67.7,
+      "time": "16:00",
+      "title": "中期ビジョン策定に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615571014.pdf"
+    },
+    {
+      "code": "5216",
+      "company_name": "倉元",
+      "market_cap": 67.0,
+      "time": "16:00",
+      "title": "第三者割当による新株式発行に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570766.pdf"
+    },
+    {
+      "code": "5216",
+      "company_name": "倉元",
+      "market_cap": 67.0,
+      "time": "16:00",
+      "title": "第８回新株予約権の取得及び消却に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570767.pdf"
+    },
+    {
+      "code": "5216",
+      "company_name": "倉元",
+      "market_cap": 67.0,
+      "time": "16:00",
+      "title": "新株予約権（第５回～第７回）発行による調達資金の資金使途の変更に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570769.pdf"
+    },
+    {
+      "code": "4840",
+      "company_name": "トライアイズ",
+      "market_cap": 65.7,
+      "time": "15:30",
+      "title": "「CLATHAS」ブランドの認知・売上拡大に向けた株式会社ファングリーとの戦略的提携のお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570282.pdf"
+    },
+    {
+      "code": "3134",
+      "company_name": "Ｈａｍｅｅ",
+      "market_cap": 65.0,
+      "time": "15:30",
+      "title": "通期業績予想値と実績値との差異に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570692.pdf"
+    },
+    {
+      "code": "3134",
+      "company_name": "Ｈａｍｅｅ",
+      "market_cap": 65.0,
+      "time": "15:30",
+      "title": "2026年４月期決算短信〔日本基準〕(連結)",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570694.pdf"
+    },
+    {
+      "code": "3134",
+      "company_name": "Ｈａｍｅｅ",
+      "market_cap": 65.0,
+      "time": "15:30",
+      "title": "2026年4月期本決算　決算説明資料",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570696.pdf"
+    },
+    {
+      "code": "3134",
+      "company_name": "Ｈａｍｅｅ",
+      "market_cap": 65.0,
+      "time": "15:30",
+      "title": "中期経営計画の策定に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570699.pdf"
+    },
+    {
+      "code": "3134",
+      "company_name": "Ｈａｍｅｅ",
+      "market_cap": 65.0,
+      "time": "15:30",
+      "title": "株主優待制度の変更及び拡充のお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570724.pdf"
+    },
+    {
+      "code": "1840",
+      "company_name": "土屋ＨＤ",
+      "market_cap": 60.8,
+      "time": "15:30",
+      "title": "2026年10月期　第２四半期（中間期）決算短信〔日本基準〕（連結）",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570618.pdf"
+    },
+    {
+      "code": "7325",
+      "company_name": "Ｇ－アイリック",
+      "market_cap": 59.2,
+      "time": "15:30",
+      "title": "配当方針の変更（累積配当の導入）に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570277.pdf"
+    },
+    {
+      "code": "4380",
+      "company_name": "Ｇ－Ｍマート",
+      "market_cap": 53.9,
+      "time": "16:30",
+      "title": "2027年1月期　第１四半期決算短信（日本基準）（非連結）",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570270.pdf"
+    },
+    {
+      "code": "4395",
+      "company_name": "Ｇ－アクリート",
+      "market_cap": 53.4,
+      "time": "15:30",
+      "title": "（訂正）「公認会計士等の異動に関するお知らせ」の一部訂正に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570949.pdf"
+    },
+    {
+      "code": "4171",
+      "company_name": "グローバルＩ",
+      "market_cap": 49.8,
+      "time": "15:30",
+      "title": "臨時株主総会招集のための基準日設定に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570624.pdf"
+    },
+    {
+      "code": "2437",
+      "company_name": "シンワワイズ",
+      "market_cap": 49.2,
+      "time": "11:00",
+      "title": "【2026年6月】WINE LIQUOR オークションの落札結果に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570481.pdf"
+    },
+    {
+      "code": "1383",
+      "company_name": "ベルグアース",
+      "market_cap": 46.1,
+      "time": "17:00",
+      "title": "2026年10月期 第２四半期（中間期）決算短信〔日本基準〕（連結）",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615571026.pdf"
+    },
+    {
+      "code": "3823",
+      "company_name": "ＷＨＹ　ＨＯＷ　ＤＯ",
+      "market_cap": 43.4,
+      "time": "16:00",
+      "title": "2026年４月期 決算短信〔日本基準〕(連結)",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260609566118.pdf"
+    },
+    {
+      "code": "3823",
+      "company_name": "ＷＨＹ　ＨＯＷ　ＤＯ",
+      "market_cap": 43.4,
+      "time": "16:00",
+      "title": "連結業績の業績予想との差異に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612570096.pdf"
+    },
+    {
+      "code": "3823",
+      "company_name": "ＷＨＹ　ＨＯＷ　ＤＯ",
+      "market_cap": 43.4,
+      "time": "16:00",
+      "title": "営業外費用、特別損失及び法人税等調整額（益）の計上に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612570095.pdf"
+    },
+    {
+      "code": "3823",
+      "company_name": "ＷＨＹ　ＨＯＷ　ＤＯ",
+      "market_cap": 43.4,
+      "time": "16:00",
+      "title": "2026年４月期 決算説明資料",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612570142.pdf"
+    },
+    {
+      "code": "2978",
+      "company_name": "Ｇ－ツクルバ",
+      "market_cap": 43.1,
+      "time": "15:30",
+      "title": "2026年７月期第３四半期決算短信〔日本基準〕(連結)",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570723.pdf"
+    },
+    {
+      "code": "2978",
+      "company_name": "Ｇ－ツクルバ",
+      "market_cap": 43.1,
+      "time": "15:30",
+      "title": "2026年７月期通期連結業績予想の修正及び 特別利益（新株予約権戻入益）の計上に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570852.pdf"
+    },
+    {
+      "code": "2978",
+      "company_name": "Ｇ－ツクルバ",
+      "market_cap": 43.1,
+      "time": "15:30",
+      "title": "2026年７月期第３四半期 決算説明資料",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570891.pdf"
+    },
+    {
+      "code": "7034",
+      "company_name": "プロレドパートナーズ",
+      "market_cap": 41.5,
+      "time": "15:30",
+      "title": "2026年10月期 第２四半期（中間期）決算短信〔日本基準〕（連結）",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568673.pdf"
+    },
+    {
+      "code": "7034",
+      "company_name": "プロレドパートナーズ",
+      "market_cap": 41.5,
+      "time": "15:30",
+      "title": "2026年10月期 第２四半期決算説明資料",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568821.pdf"
+    },
+    {
+      "code": "7361",
+      "company_name": "Ｇ－ＨＣＨ",
+      "market_cap": 41.0,
+      "time": "15:30",
+      "title": "連結子会社からの配当金受領に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569225.pdf"
+    },
+    {
+      "code": "3935",
+      "company_name": "エディア",
+      "market_cap": 40.3,
+      "time": "15:30",
+      "title": "譲渡制限付株式としての自己株式の処分に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570626.pdf"
+    },
+    {
+      "code": "9165",
+      "company_name": "Ｇ－クオルテック",
+      "market_cap": 40.0,
+      "time": "15:30",
+      "title": "従業員持株会設立に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260601556935.pdf"
+    },
+    {
+      "code": "7502",
+      "company_name": "プラザＨＤ",
+      "market_cap": 39.4,
+      "time": "16:00",
+      "title": "2026年3月期　決算説明資料",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570550.pdf"
+    },
+    {
+      "code": "9235",
+      "company_name": "Ｇ－売れるネットＧ",
+      "market_cap": 38.5,
+      "time": "12:00",
+      "title": "【営業利益黒字】【売上最大2.5億円】の“AIサービス開発・運営会社”『株式会社ライト』株式取得による“完全子会社化”に関する基本合意締結のお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570340.pdf"
+    },
+    {
+      "code": "9235",
+      "company_name": "Ｇ－売れるネットＧ",
+      "market_cap": 38.5,
+      "time": "12:05",
+      "title": "【営業利益黒字】【売上最大2.5億円】の“AIサービス開発・運営会社”『株式会社ライト』株式取得による“完全子会社化”に関する基本合意締結（補足説明資料）",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570370.pdf"
+    },
+    {
+      "code": "6307",
+      "company_name": "サンセイ",
+      "market_cap": 37.9,
+      "time": "15:30",
+      "title": "支配株主等に関する事項について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568472.pdf"
+    },
+    {
+      "code": "3933",
+      "company_name": "チエル",
+      "market_cap": 37.0,
+      "time": "16:00",
+      "title": "連結子会社の商号及び代表取締役の変更に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570558.pdf"
+    },
+    {
+      "code": "8894",
+      "company_name": "ＲＥＶＯＬＵＴＩＯＮ",
+      "market_cap": 36.7,
+      "time": "16:30",
+      "title": "2026年10月期　第２四半期（中間期）決算短信〔日本基準〕(連結)",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570751.pdf"
+    },
+    {
+      "code": "8894",
+      "company_name": "ＲＥＶＯＬＵＴＩＯＮ",
+      "market_cap": 36.7,
+      "time": "16:30",
+      "title": "2026年10月期半期報告書のレビュー結論不表明に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570785.pdf"
+    },
+    {
+      "code": "8894",
+      "company_name": "ＲＥＶＯＬＵＴＩＯＮ",
+      "market_cap": 36.7,
+      "time": "16:30",
+      "title": "販売費及び一般管理費、匿名組合損益分配額の計上に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570791.pdf"
+    },
+    {
+      "code": "8894",
+      "company_name": "ＲＥＶＯＬＵＴＩＯＮ",
+      "market_cap": 36.7,
+      "time": "16:30",
+      "title": "社内調査委員会の設置に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615571056.pdf"
+    },
+    {
+      "code": "2345",
+      "company_name": "ＨＯＤＬ１",
+      "market_cap": 36.3,
+      "time": "15:30",
+      "title": "2026年10月期 第２四半期（中間期）決算短信〔日本基準〕(連結)",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570744.pdf"
+    },
+    {
+      "code": "3195",
+      "company_name": "ジェネパ",
+      "market_cap": 35.5,
+      "time": "15:00",
+      "title": "2026年10月期第２四半期（中間期）決算短信〔日本基準〕(連結)",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570545.pdf"
+    },
+    {
+      "code": "3195",
+      "company_name": "ジェネパ",
+      "market_cap": 35.5,
+      "time": "15:00",
+      "title": "2026年10月期第2四半期決算補足説明資料",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570557.pdf"
+    },
+    {
+      "code": "3195",
+      "company_name": "ジェネパ",
+      "market_cap": 35.5,
+      "time": "15:10",
+      "title": "2026年５月度月次売上高前年同月比についてのお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570547.pdf"
+    },
+    {
+      "code": "2424",
+      "company_name": "ブラス",
+      "market_cap": 35.1,
+      "time": "15:30",
+      "title": "2026年７月期 第３四半期決算短信〔日本基準〕（連結）",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570375.pdf"
+    },
+    {
+      "code": "2424",
+      "company_name": "ブラス",
+      "market_cap": 35.1,
+      "time": "15:30",
+      "title": "2027年７月期株主優待制度に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570404.pdf"
+    },
+    {
+      "code": "2424",
+      "company_name": "ブラス",
+      "market_cap": 35.1,
+      "time": "15:30",
+      "title": "2026年７月期　第３四半期決算補足説明資料",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570379.pdf"
+    },
+    {
+      "code": "4591",
+      "company_name": "Ｇ－リボミック",
+      "market_cap": 33.7,
+      "time": "12:00",
+      "title": "第23回定時株主総会議案に関する補足説明",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260609566293.pdf"
+    },
+    {
+      "code": "8783",
+      "company_name": "ａｂｃ",
+      "market_cap": 33.2,
+      "time": "17:00",
+      "title": "合弁会社 Crawford Production Japan におけるメディア・ライブイベント事業（CPJ STUDIOS）の開始に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615571121.pdf"
+    },
+    {
+      "code": "8783",
+      "company_name": "ａｂｃ",
+      "market_cap": 33.2,
+      "time": "17:00",
+      "title": "【CPJ STUDIOS】メディア＆ライブイベント事業計画 説明資料",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615571122.pdf"
+    },
+    {
+      "code": "7782",
+      "company_name": "シンシア",
+      "market_cap": 32.7,
+      "time": "12:00",
+      "title": "配当方針の変更（DOE導入）および配当予想の修正（増配）に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260519540712.pdf"
+    },
+    {
+      "code": "7782",
+      "company_name": "シンシア",
+      "market_cap": 32.7,
+      "time": "12:00",
+      "title": "株主優待制度の一部変更に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260519540744.pdf"
+    },
+    {
+      "code": "3804",
+      "company_name": "システム　ディ",
+      "market_cap": 31.4,
+      "time": "15:30",
+      "title": "2026年10月期 第２四半期（中間期）決算短信〔日本基準〕（連結）",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569208.pdf"
+    },
+    {
+      "code": "4260",
+      "company_name": "Ｇ－ハイブリッドテク",
+      "market_cap": 28.5,
+      "time": "15:30",
+      "title": "完全子会社の吸収合併（簡易合併・略式合併）に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570392.pdf"
+    },
+    {
+      "code": "7719",
+      "company_name": "東京衡機",
+      "market_cap": 28.0,
+      "time": "17:00",
+      "title": "調査委員会の委員選任に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570781.pdf"
+    },
+    {
+      "code": "3987",
+      "company_name": "Ｇ－エコモット",
+      "market_cap": 27.7,
+      "time": "08:00",
+      "title": "当社代表取締役に関する一部報道について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260614570189.pdf"
+    },
+    {
+      "code": "3987",
+      "company_name": "Ｇ－エコモット",
+      "market_cap": 27.7,
+      "time": "15:30",
+      "title": "代表取締役の異動(予定)に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570289.pdf"
+    },
+    {
+      "code": "5950",
+      "company_name": "日本パワーファス",
+      "market_cap": 26.5,
+      "time": "10:30",
+      "title": "自己株式立会外買付取引（ToSTNeT-3）による自己株式の取得結果及び取得終了並びに主要株主の異動に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568177.pdf"
+    },
+    {
+      "code": "8836",
+      "company_name": "ＲＩＳＥ",
+      "market_cap": 24.0,
+      "time": "15:30",
+      "title": "JTMホールディングス株式会社による当社株式に対する公開買付けの結果 並びに親会社及び主要株主である筆頭株主の異動に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568034.pdf"
+    },
+    {
+      "code": "8836",
+      "company_name": "ＲＩＳＥ",
+      "market_cap": 24.0,
+      "time": "15:30",
+      "title": "（開示事項の経過）連結子会社の異動（株式譲渡）完了及び優先株式に係る剰余金の配当に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570257.pdf"
+    },
+    {
+      "code": "4388",
+      "company_name": "エーアイ",
+      "market_cap": 23.5,
+      "time": "15:30",
+      "title": "2027年３月期中間連結業績予想及び通期連結業績予想の公表に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260609566029.pdf"
+    },
+    {
+      "code": "4388",
+      "company_name": "エーアイ",
+      "market_cap": 23.5,
+      "time": "15:30",
+      "title": "（開示事項の経過）子会社株式の譲渡契約締結のお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260609566086.pdf"
+    },
+    {
+      "code": "4388",
+      "company_name": "エーアイ",
+      "market_cap": 23.5,
+      "time": "15:30",
+      "title": "自己株式取得に係る事項の決定に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570376.pdf"
+    },
+    {
+      "code": "7043",
+      "company_name": "Ｇ－アルー",
+      "market_cap": 22.8,
+      "time": "16:00",
+      "title": "2026年５月度　etudes月次KPI（速報）のお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570525.pdf"
+    },
+    {
+      "code": "2164",
+      "company_name": "地域新聞社",
+      "market_cap": 21.9,
+      "time": "15:30",
+      "title": "2026年８月期第３四半期業績数値(速報)に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570862.pdf"
+    },
+    {
+      "code": "4884",
+      "company_name": "Ｇ－クリングル",
+      "market_cap": 21.9,
+      "time": "11:40",
+      "title": "脊髄損傷後の自然回復予測及び治療効果の評価に用いる急性期タンパク質バイオマーカーに関する慶應義塾大学との共同研究開始のお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570548.pdf"
+    },
+    {
+      "code": "3664",
+      "company_name": "Ｇ－ＷＩＺＥ",
+      "market_cap": 21.2,
+      "time": "15:30",
+      "title": "ソラナ（SOL）の取得状況に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570500.pdf"
+    },
+    {
+      "code": "9444",
+      "company_name": "トーシンＨＤ",
+      "market_cap": 14.7,
+      "time": "14:30",
+      "title": "（訂正）「会社更生手続開始決定に対する株主による即時抗告のお知らせ」の一部訂正について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570825.pdf"
+    },
+    {
+      "code": "9557",
+      "company_name": "Ｇ－エアクロ",
+      "market_cap": 12.8,
+      "time": "15:30",
+      "title": "株主優待制度の一部変更に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570458.pdf"
+    },
+    {
+      "code": "2721",
+      "company_name": "ＪＨＤ",
+      "market_cap": 12.1,
+      "time": "16:00",
+      "title": "株主による臨時株主総会の招集請求に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570792.pdf"
+    },
+    {
+      "code": "7886",
+      "company_name": "ヤマトモビＭｆｇ",
+      "market_cap": 10.2,
+      "time": "16:00",
+      "title": "（訂正・数値データ訂正）「2026年３月期 決算短信〔日本基準〕（連結）」の一部訂正について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569246.pdf"
+    },
+    {
+      "code": "7901",
+      "company_name": "マツモト",
+      "market_cap": 9.3,
+      "time": "15:30",
+      "title": "2026年4月期決算短信〔日本基準〕（非連結）",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568654.pdf"
+    },
+    {
+      "code": "7901",
+      "company_name": "マツモト",
+      "market_cap": 9.3,
+      "time": "15:30",
+      "title": "通期業績予想と実績値との差異に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570841.pdf"
+    },
+    {
+      "code": "7901",
+      "company_name": "マツモト",
+      "market_cap": 9.3,
+      "time": "15:30",
+      "title": "会計監査人の異動に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570814.pdf"
+    },
+    {
+      "code": "7901",
+      "company_name": "マツモト",
+      "market_cap": 9.3,
+      "time": "15:30",
+      "title": "定款の一部変更に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570818.pdf"
+    },
+    {
+      "code": "4381",
+      "company_name": "Ｇ－ビープラッツ",
+      "market_cap": 7.5,
+      "time": "15:30",
+      "title": "第三者割当による第７回新株予約権（行使価額修正条項付） の発行に係る払込完了に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569420.pdf"
+    },
+    {
+      "code": "3681",
+      "company_name": "ブイキューブ",
+      "market_cap": 5.0,
+      "time": "15:30",
+      "title": "臨時株主総会の決議結果に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570707.pdf"
+    }
+  ]
+}
