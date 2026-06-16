@@ -1,7 +1,7 @@
 {
   "date": "2026-06-16",
-  "company_count": 95,
-  "total_count": 107,
+  "company_count": 106,
+  "total_count": 120,
   "items": [
     {
       "code": "6702",
@@ -10,6 +10,14 @@
       "time": "12:00",
       "title": "第126回定時株主総会付議議案の一部撤回についてのお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570453.pdf"
+    },
+    {
+      "code": "6594",
+      "company_name": "ニデック",
+      "market_cap": 32640.6,
+      "time": "17:45",
+      "title": "第53期（2026年3月期）有価証券報告書の提出期限延長に係る承認申請の検討に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260616572098.pdf"
     },
     {
       "code": "6645",
@@ -28,12 +36,36 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260615571193.pdf"
     },
     {
+      "code": "9401",
+      "company_name": "ＴＢＳＨＤ",
+      "market_cap": 10167.3,
+      "time": "17:30",
+      "title": "自己株式立会外買付取引(ToSTNeT-3)による自己株式の買付けに関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260616571935.pdf"
+    },
+    {
       "code": "3092",
       "company_name": "ＺＯＺＯ",
       "market_cap": 9732.1,
       "time": "15:30",
       "title": "自己株式取得に係る事項の決定及び自己株式の消却に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260611568862.pdf"
+    },
+    {
+      "code": "6465",
+      "company_name": "ホシザキ",
+      "market_cap": 7521.2,
+      "time": "17:30",
+      "title": "企業価値向上に向けた戦略的提携について（ジャパン・アクティベーション・キャピタル株式会社との戦略的提携及び第三者割当による自己株式の処分）",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260616571842.pdf"
+    },
+    {
+      "code": "6465",
+      "company_name": "ホシザキ",
+      "market_cap": 7521.2,
+      "time": "17:30",
+      "title": "自己株式取得に係る事項の決定に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260616572091.pdf"
     },
     {
       "code": "8572",
@@ -58,6 +90,14 @@
       "time": "15:30",
       "title": "（訂正）「2026年3月期　決算説明資料」の一部訂正に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260615570856.pdf"
+    },
+    {
+      "code": "4088",
+      "company_name": "エア・ウォーター",
+      "market_cap": 5789.8,
+      "time": "18:15",
+      "title": "臨時株主総会招集のための基準日設定に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260616572140.pdf"
     },
     {
       "code": "7282",
@@ -98,6 +138,14 @@
       "time": "15:30",
       "title": "当社持分法適用関連会社（GO株式会社）の東京証券取引所への株式上場及び当社所有の同社株式の一部売出しに伴う持分法投資利益の計上に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260616571397.pdf"
+    },
+    {
+      "code": "9934",
+      "company_name": "因幡電産",
+      "market_cap": 3101.8,
+      "time": "17:30",
+      "title": "2026年3月期 決算説明会資料（書き起こし）",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260616571670.pdf"
     },
     {
       "code": "7014",
@@ -236,6 +284,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260615571300.pdf"
     },
     {
+      "code": "7745",
+      "company_name": "Ａ＆ＤホロンＨＤ",
+      "market_cap": 756.0,
+      "time": "17:40",
+      "title": "経済産業省による当社連結子会社への聴聞の通知について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260616572004.pdf"
+    },
+    {
       "code": "7979",
       "company_name": "松風",
       "market_cap": 716.1,
@@ -290,6 +346,14 @@
       "time": "15:30",
       "title": "非上場の親会社等の決算に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260615571336.pdf"
+    },
+    {
+      "code": "2698",
+      "company_name": "キャンドゥ",
+      "market_cap": 552.6,
+      "time": "17:30",
+      "title": "役員等の異動に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260616572082.pdf"
     },
     {
       "code": "8163",
@@ -468,6 +532,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260616571762.pdf"
     },
     {
+      "code": "7256",
+      "company_name": "河西工",
+      "market_cap": 146.2,
+      "time": "17:45",
+      "title": "主要株主の異動に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260616572073.pdf"
+    },
+    {
       "code": "2410",
       "company_name": "キャリアＤＣ",
       "market_cap": 140.7,
@@ -482,6 +554,14 @@
       "time": "16:00",
       "title": "自己株式取得に係る事項の決定（取得枠の拡大）に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260616571498.pdf"
+    },
+    {
+      "code": "6493",
+      "company_name": "ＮＩＴＴＡＮ",
+      "market_cap": 140.0,
+      "time": "18:49",
+      "title": "（開示事項の経過）持分法適用関連会社の異動（連結子会社化）の完了に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260616572158.pdf"
     },
     {
       "code": "2927",
@@ -538,6 +618,14 @@
       "time": "10:00",
       "title": "当社製品の新製造委託先への生産移管に向けた技術移管及び製造所変更の進捗について",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260616571399.pdf"
+    },
+    {
+      "code": "4446",
+      "company_name": "Ｌｉｎｋ－Ｕグループ",
+      "market_cap": 111.3,
+      "time": "17:30",
+      "title": "連結子会社の異動（株式譲渡）に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260616571847.pdf"
     },
     {
       "code": "5892",
@@ -604,6 +692,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260612569284.pdf"
     },
     {
+      "code": "9265",
+      "company_name": "ヤマシタヘルスケア",
+      "market_cap": 76.1,
+      "time": "18:00",
+      "title": "取締役会の実効性に関する評価結果の概要について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260616572125.pdf"
+    },
+    {
       "code": "5137",
       "company_name": "Ｇ－スマートドライブ",
       "market_cap": 72.1,
@@ -618,6 +714,14 @@
       "time": "17:00",
       "title": "資金使途変更に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260616571974.pdf"
+    },
+    {
+      "code": "1447",
+      "company_name": "Ｇ－ＳＡＡＦＨＤ",
+      "market_cap": 66.7,
+      "time": "17:30",
+      "title": "（開示事項の経過）株主による臨時株主総会招集請求に対する 当社の意見に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260616572018.pdf"
     },
     {
       "code": "7079",
