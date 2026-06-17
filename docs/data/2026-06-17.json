@@ -1,7 +1,7 @@
 {
   "date": "2026-06-17",
-  "company_count": 93,
-  "total_count": 104,
+  "company_count": 103,
+  "total_count": 116,
   "items": [
     {
       "code": "7203",
@@ -10,6 +10,14 @@
       "time": "16:00",
       "title": "役員人事に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260617572690.pdf"
+    },
+    {
+      "code": "4568",
+      "company_name": "第一三共",
+      "market_cap": 49167.9,
+      "time": "19:00",
+      "title": "財務上の特約が付された金銭消費貸借契約の締結に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260617573095.pdf"
     },
     {
       "code": "6525",
@@ -74,6 +82,14 @@
       "time": "15:30",
       "title": "(訂正)「2026年３月期決算短信〔日本基準〕(連結)」の一部訂正について",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260616571975.pdf"
+    },
+    {
+      "code": "6890",
+      "company_name": "フェローテック",
+      "market_cap": 4447.9,
+      "time": "18:00",
+      "title": "（開示事項の経過）再生ウエーハ事業子会社(CRSM)の増資計画の一部変更について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260617573063.pdf"
     },
     {
       "code": "8088",
@@ -292,6 +308,22 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260616571564.pdf"
     },
     {
+      "code": "7463",
+      "company_name": "アドヴァングループ",
+      "market_cap": 398.5,
+      "time": "18:00",
+      "title": "支配株主等に関する事項について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260617573013.pdf"
+    },
+    {
+      "code": "7463",
+      "company_name": "アドヴァングループ",
+      "market_cap": 398.5,
+      "time": "18:15",
+      "title": "非上場の親会社等の決算に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260617573016.pdf"
+    },
+    {
       "code": "4593",
       "company_name": "Ｇ－ヘリオス",
       "market_cap": 368.6,
@@ -372,6 +404,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260617572673.pdf"
     },
     {
+      "code": "9216",
+      "company_name": "ビーウィズ",
+      "market_cap": 209.2,
+      "time": "17:30",
+      "title": "当社株式の上場維持基準への適合及び監理銘柄（確認中）指定解除に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260616572110.pdf"
+    },
+    {
       "code": "8747",
       "company_name": "豊トラスティ証券",
       "market_cap": 194.0,
@@ -412,12 +452,28 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260617572511.pdf"
     },
     {
+      "code": "7820",
+      "company_name": "ニホンフラッシュ",
+      "market_cap": 179.4,
+      "time": "17:30",
+      "title": "（取消）「主要株主の異動に関するお知らせ」の取消しに関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260617572989.pdf"
+    },
+    {
       "code": "7299",
       "company_name": "フジオーゼ",
       "market_cap": 177.3,
       "time": "14:00",
       "title": "支配株主等に関する事項について",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260617572608.pdf"
+    },
+    {
+      "code": "7256",
+      "company_name": "河西工",
+      "market_cap": 175.8,
+      "time": "17:15",
+      "title": "株式会社イクヨによる当社株式の取得に関する開示に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260617572960.pdf"
     },
     {
       "code": "3096",
@@ -580,6 +636,22 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260617572545.pdf"
     },
     {
+      "code": "4011",
+      "company_name": "Ｇ－ヘッドウォーター",
+      "market_cap": 81.3,
+      "time": "17:45",
+      "title": "（訂正・数値データ訂正）「2026年12月期第1四半期決算短信〔日本基準〕（連結）」の訂正について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260617572999.pdf"
+    },
+    {
+      "code": "4011",
+      "company_name": "Ｇ－ヘッドウォーター",
+      "market_cap": 81.3,
+      "time": "17:45",
+      "title": "（訂正）「通期業績予想の修正に関するお知らせ」の一部訂正について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260617572986.pdf"
+    },
+    {
       "code": "3695",
       "company_name": "Ｇ－ＧＭＯ－ＰＰ",
       "market_cap": 70.9,
@@ -700,12 +772,28 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260617572597.pdf"
     },
     {
+      "code": "5129",
+      "company_name": "Ｇ－ＦＩＸＥＲ",
+      "market_cap": 36.3,
+      "time": "17:20",
+      "title": "資金使途の変更に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260617572563.pdf"
+    },
+    {
       "code": "3238",
       "company_name": "セントラル総",
       "market_cap": 35.7,
       "time": "15:30",
       "title": "組織変更及び執行役員等人事に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260616571859.pdf"
+    },
+    {
+      "code": "5867",
+      "company_name": "Ｇ－エスネット",
+      "market_cap": 34.8,
+      "time": "19:10",
+      "title": "投資事業売上の発生及び業績予想の修正のお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260617572996.pdf"
     },
     {
       "code": "4591",
@@ -802,6 +890,14 @@
       "time": "17:00",
       "title": "（開示事項の経過）株式会社Anycloudの株式の取得（完全子会社化）完了に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260616572201.pdf"
+    },
+    {
+      "code": "7356",
+      "company_name": "Ｇ－Ｒｅｔｔｙ",
+      "market_cap": 17.1,
+      "time": "17:30",
+      "title": "事業構造改革の実施および特別損失の計上に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260617572358.pdf"
     },
     {
       "code": "5616",
