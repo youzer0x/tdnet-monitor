@@ -1,7 +1,7 @@
 {
   "date": "2026-06-18",
-  "company_count": 109,
-  "total_count": 135,
+  "company_count": 113,
+  "total_count": 139,
   "items": [
     {
       "code": "7203",
@@ -180,6 +180,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260618573585.pdf"
     },
     {
+      "code": "7552",
+      "company_name": "ハピネット",
+      "market_cap": 1307.4,
+      "time": "17:30",
+      "title": "第58期定時株主総会における議決権行使の結果に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260618574010.pdf"
+    },
+    {
       "code": "1909",
       "company_name": "日本ドライケミカル",
       "market_cap": 1095.9,
@@ -290,6 +298,14 @@
       "time": "15:30",
       "title": "（開示事項の変更）「子会社による財務上の特約が付された金銭消費貸借契約の締結に関するお知らせ」の内容の一部変更に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260618573820.pdf"
+    },
+    {
+      "code": "9274",
+      "company_name": "ＫＰＰグループＨＤ",
+      "market_cap": 650.9,
+      "time": "19:00",
+      "title": "自己株式取得に係る事項の決定に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260618574005.pdf"
     },
     {
       "code": "9028",
@@ -764,6 +780,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260618573783.pdf"
     },
     {
+      "code": "5892",
+      "company_name": "Ｇ－ｙｕｔｏｒｉ",
+      "market_cap": 111.1,
+      "time": "18:20",
+      "title": "新任執行役員就任に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260618574034.pdf"
+    },
+    {
       "code": "5721",
       "company_name": "エスクリプトエナジー",
       "market_cap": 108.6,
@@ -962,6 +986,14 @@
       "time": "11:00",
       "title": "第三者割当による第13回新株予約権（行使価額修正条項付）の大量行使に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260617573117.pdf"
+    },
+    {
+      "code": "3490",
+      "company_name": "アズ企画設計",
+      "market_cap": 43.0,
+      "time": "17:30",
+      "title": "譲渡制限付株式報酬としての新株発行に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260618573262.pdf"
     },
     {
       "code": "9969",
