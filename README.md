@@ -103,7 +103,7 @@ tdnet-monitor/
 │   └── gmail_sender.py      # Gmail 送信
 ├── docs/
 │   ├── index.html           # GitHub Pages（自動更新）
-│   └── data/                # 日次 JSON データ（30日分保持）
+│   └── data/                # 日次 JSON データ（2026-05-11 以降を保持）
 ├── requirements.txt
 └── README.md
 ```
@@ -138,4 +138,4 @@ tdnet-monitor/
 - **REIT/ETF 除外**: JPX 上場銘柄一覧の「市場・商品区分」列から正確に判定（証券コード範囲は不使用）
 - **時価総額**: J-Quants V2 API（`fins/summary` の `ShOutFY` × `equities/bars/daily` の `AdjC`、株式分割補正済）。Light プラン以上が必要。新規上場銘柄は Yahoo Finance JP からフォールバック取得
 - **休場日判定**: `jpholiday`（祝日）+ 土日 + 年末年始（12/31〜1/3）
-- **データ保持**: 直近30日分（暦日）の JSON を GitHub Pages で公開
+- **データ保持**: 2026-05-11 以降の全営業日分の JSON を GitHub Pages で公開（固定起点。以前はローリング30日保持）

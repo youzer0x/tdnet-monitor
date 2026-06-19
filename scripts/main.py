@@ -12,6 +12,12 @@ from datetime import date, datetime, timedelta
 import jpholiday
 
 
+# 日次データの保持起点。これより前の日付の JSON は削除する。
+# 以前はローリング 30 日保持だったが、2026-05-11 以降を恒久的に
+# 閲覧できるよう固定起点での保持に変更した。
+RETAIN_FROM_DATE = date(2026, 5, 11)
+
+
 def is_market_open(target_date: date) -> bool:
     """東証が開場しているかを判定する"""
     if target_date.weekday() >= 5:
@@ -145,12 +151,11 @@ def merge_items(existing_records: list[dict], new_items: list) -> list:
     return existing
 
 
-def cleanup_old_data(docs_dir: str, keep_days: int = 30) -> None:
-    """keep_days 日より古い JSON を削除する"""
+def cleanup_old_data(docs_dir: str, start_date: date = RETAIN_FROM_DATE) -> None:
+    """start_date より前の日付の JSON を削除する（固定起点での保持）"""
     data_dir = os.path.join(docs_dir, "data")
     if not os.path.exists(data_dir):
         return
-    cutoff = date.today() - timedelta(days=keep_days)
     removed = 0
     for json_file in glob.glob(os.path.join(data_dir, "*.json")):
         fname = os.path.basename(json_file)
@@ -158,13 +163,13 @@ def cleanup_old_data(docs_dir: str, keep_days: int = 30) -> None:
             continue
         try:
             file_date = date.fromisoformat(fname.replace(".json", ""))
-            if file_date < cutoff:
+            if file_date < start_date:
                 os.remove(json_file)
                 removed += 1
         except ValueError:
             pass
     if removed:
-        print(f"  Cleaned up {removed} old JSON files (older than {cutoff})")
+        print(f"  Cleaned up {removed} JSON files older than {start_date}")
 
 
 def update_manifest(docs_dir: str) -> list[str]:
@@ -301,7 +306,7 @@ def main():
 
     # JSON 保存（evening: 新規、night: マージ済み）
     save_daily_json(all_items, target_date, docs_dir)
-    cleanup_old_data(docs_dir, keep_days=30)
+    cleanup_old_data(docs_dir)
     available_dates = update_manifest(docs_dir)
 
     print(f"\n[5/6] Generating GitHub Pages HTML...")

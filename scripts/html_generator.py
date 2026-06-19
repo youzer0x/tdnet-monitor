@@ -498,7 +498,7 @@ def generate_pages_html(available_dates: list[str]) -> str:
 </div>
 
 <div class="footer">
-  TDnet 適時開示モニター｜GitHub Actions 自動生成｜直近30日分を保持
+  TDnet 適時開示モニター｜GitHub Actions 自動生成｜2026-05-11以降を保持
 </div>
 
 <script>
