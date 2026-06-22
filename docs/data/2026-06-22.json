@@ -1,7 +1,7 @@
 {
   "date": "2026-06-22",
-  "company_count": 134,
-  "total_count": 164,
+  "company_count": 140,
+  "total_count": 171,
   "items": [
     {
       "code": "8725",
@@ -10,6 +10,14 @@
       "time": "15:30",
       "title": "三井住友海上による国内無担保普通社債の発行について",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260622575824.pdf"
+    },
+    {
+      "code": "8750",
+      "company_name": "第一ライフグループ",
+      "market_cap": 66443.7,
+      "time": "17:30",
+      "title": "株式報酬制度に関する新株式発行について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260622575878.pdf"
     },
     {
       "code": "2802",
@@ -90,6 +98,14 @@
       "time": "16:00",
       "title": "（訂正）「2026 年３月期決算短信［ＩＦＲＳ］（連結）」及び「2026 年３月期 決算説明」の一部訂正 について",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260622575625.pdf"
+    },
+    {
+      "code": "6134",
+      "company_name": "ＦＵＪＩ",
+      "market_cap": 8325.8,
+      "time": "18:00",
+      "title": "社外取締役辞任のお知らせ及び 第80期定時株主総会付議事案の一部撤回に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260622576138.pdf"
     },
     {
       "code": "6302",
@@ -540,6 +556,22 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260622575295.pdf"
     },
     {
+      "code": "6625",
+      "company_name": "ＪＡＬＣＯ　ＨＤ",
+      "market_cap": 374.6,
+      "time": "17:45",
+      "title": "第15回定時株主総会における議決権行使結果に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260622576162.pdf"
+    },
+    {
+      "code": "6625",
+      "company_name": "ＪＡＬＣＯ　ＨＤ",
+      "market_cap": 374.6,
+      "time": "17:45",
+      "title": "支配株主等に関する事項について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260622576164.pdf"
+    },
+    {
       "code": "9658",
       "company_name": "ビジ太田昭和",
       "market_cap": 346.0,
@@ -940,12 +972,28 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260622575541.pdf"
     },
     {
+      "code": "6772",
+      "company_name": "コスモス電",
+      "market_cap": 76.1,
+      "time": "17:30",
+      "title": "定款一部変更に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260622576168.pdf"
+    },
+    {
       "code": "7049",
       "company_name": "Ｇ－識学",
       "market_cap": 75.6,
       "time": "15:30",
       "title": "連結子会社の異動（株式譲渡）に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260622575844.pdf"
+    },
+    {
+      "code": "6513",
+      "company_name": "オリジン",
+      "market_cap": 71.6,
+      "time": "18:10",
+      "title": "「内部統制システムの基本方針」の一部改定に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260622576126.pdf"
     },
     {
       "code": "4414",
@@ -1186,6 +1234,14 @@
       "time": "11:00",
       "title": "連結子会社からの配当金受領に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260619574968.pdf"
+    },
+    {
+      "code": "5103",
+      "company_name": "昭和ＨＤ",
+      "market_cap": 29.0,
+      "time": "18:30",
+      "title": "代表取締役の異動に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260622576288.pdf"
     },
     {
       "code": "7057",
