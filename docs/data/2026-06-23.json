@@ -1,7 +1,7 @@
 {
   "date": "2026-06-23",
-  "company_count": 166,
-  "total_count": 214,
+  "company_count": 173,
+  "total_count": 223,
   "items": [
     {
       "code": "8035",
@@ -188,6 +188,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260623577004.pdf"
     },
     {
+      "code": "4816",
+      "company_name": "東映アニメ",
+      "market_cap": 4901.4,
+      "time": "17:30",
+      "title": "人事異動に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260623577449.pdf"
+    },
+    {
       "code": "6728",
       "company_name": "アルバック",
       "market_cap": 4900.6,
@@ -228,6 +236,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260623576489.pdf"
     },
     {
+      "code": "6753",
+      "company_name": "シャープ",
+      "market_cap": 3759.4,
+      "time": "18:00",
+      "title": "支配株主等に関する事項について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260623576876.pdf"
+    },
+    {
       "code": "8361",
       "company_name": "大垣銀",
       "market_cap": 2984.7,
@@ -242,6 +258,14 @@
       "time": "16:30",
       "title": "支配株主等に関する事項",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260623577315.pdf"
+    },
+    {
+      "code": "8919",
+      "company_name": "カチタス",
+      "market_cap": 2591.5,
+      "time": "18:00",
+      "title": "譲渡制限付株式報酬としての自己株式の処分に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260623577179.pdf"
     },
     {
       "code": "7014",
@@ -498,6 +522,22 @@
       "time": "14:30",
       "title": "譲渡制限株式報酬としての自己株式の処分に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260623576442.pdf"
+    },
+    {
+      "code": "8934",
+      "company_name": "サンフロンティア",
+      "market_cap": 1214.1,
+      "time": "18:00",
+      "title": "譲渡制限付株式報酬としての自己株式の処分に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260623577475.pdf"
+    },
+    {
+      "code": "8934",
+      "company_name": "サンフロンティア",
+      "market_cap": 1214.1,
+      "time": "18:00",
+      "title": "執行役員及び一部従業員に対する譲渡制限付株式としての自己株式の処分に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260623577506.pdf"
     },
     {
       "code": "9708",
@@ -890,6 +930,14 @@
       "time": "16:00",
       "title": "支配株主等に関する事項について",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260623576513.pdf"
+    },
+    {
+      "code": "1960",
+      "company_name": "サンテック",
+      "market_cap": 221.4,
+      "time": "18:00",
+      "title": "当社取締役会の全体としての実効性の評価結果の概要について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260620575187.pdf"
     },
     {
       "code": "6382",
@@ -1300,6 +1348,14 @@
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260622575694.pdf"
     },
     {
+      "code": "5244",
+      "company_name": "Ｇ－ｊｉｇ．ｊｐ",
+      "market_cap": 68.5,
+      "time": "17:20",
+      "title": "役員等の体制に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260623577436.pdf"
+    },
+    {
       "code": "3121",
       "company_name": "マーチャント",
       "market_cap": 68.4,
@@ -1370,6 +1426,14 @@
       "time": "15:40",
       "title": "非上場の親会社等の決算情報に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260623576983.pdf"
+    },
+    {
+      "code": "2437",
+      "company_name": "シンワワイズ",
+      "market_cap": 61.3,
+      "time": "17:30",
+      "title": "社外取締役の辞任に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260623577435.pdf"
     },
     {
       "code": "9625",
@@ -1698,6 +1762,14 @@
       "time": "16:30",
       "title": "ストック・オプション（新株予約権）の発行に関するお知らせ",
       "pdf_url": "https://www.release.tdnet.info/inbs/140120260608565726.pdf"
+    },
+    {
+      "code": "6579",
+      "company_name": "Ｇ－ログリー",
+      "market_cap": 12.6,
+      "time": "18:15",
+      "title": "第20回定時株主総会の継続会の開催方針に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260623577426.pdf"
     },
     {
       "code": "6573",
