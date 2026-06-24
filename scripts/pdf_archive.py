@@ -132,12 +132,43 @@ def _existing_assets(repo: str, tag: str) -> set[str]:
     return {ln.strip() for ln in res.stdout.splitlines() if ln.strip()}
 
 
+def _is_rate_limited(blob: str) -> bool:
+    b = blob.lower()
+    return ("secondary rate limit" in b
+            or "api rate limit exceeded" in b
+            or "you have exceeded a secondary" in b
+            or "rate limit" in b and "exceeded" in b)
+
+
+def _run_gh(cmd: list[str], what: str, attempts: int = 6) -> subprocess.CompletedProcess:
+    """gh コマンドを実行。GitHub のレート制限(403)時はバックオフ再試行する。
+
+    二次レート制限(作成系の速度制限。数分で解除)を待ち越すのが主目的。
+    一次の時間あたり上限を使い切った場合は短いバックオフでは解除されないため、
+    数回で諦めて呼び出し側がエラー計上 → 後続の再実行で続きから処理する（冪等）。
+    レート制限以外のエラーは即座に返す。
+    """
+    res = None
+    for i in range(attempts):
+        res = subprocess.run(cmd, capture_output=True, text=True)
+        if res.returncode == 0:
+            return res
+        blob = res.stderr + res.stdout
+        if _is_rate_limited(blob):
+            wait = min(300, 30 * (2 ** i))  # 30,60,120,240,300...
+            print(f"    … GitHub rate limited on {what}; wait {wait}s and retry (attempt {i + 1})")
+            time.sleep(wait)
+            continue
+        return res  # レート制限以外は再試行しない
+    return res
+
+
 def _ensure_release(repo: str, tag: str, title: str) -> bool:
     """リリースが無ければ作成する。既存なら True。"""
-    res = subprocess.run(
+    res = _run_gh(
         ["gh", "release", "create", tag, "--repo", repo,
          "--title", title, "--notes", title],
-        capture_output=True, text=True,
+        f"create {tag}",
     )
     if res.returncode == 0:
         return True
@@ -148,19 +179,25 @@ def _ensure_release(repo: str, tag: str, title: str) -> bool:
     return False
 
 
+# 二次レート制限(作成系の速度制限)を避けるため、小さめのチャンクで間隔を空けて投入する。
+UPLOAD_CHUNK = 20
+UPLOAD_PAUSE = 2.0  # チャンク間の待機(秒)
+
+
 def _upload(repo: str, tag: str, files: list[str]) -> bool:
-    """アセットをまとめてアップロード（引数長対策で分割）。"""
+    """アセットをまとめてアップロード（引数長対策＋レート制限対策で小分け）。"""
     ok = True
-    chunk = 40
-    for i in range(0, len(files), chunk):
-        part = files[i:i + chunk]
-        res = subprocess.run(
+    for i in range(0, len(files), UPLOAD_CHUNK):
+        part = files[i:i + UPLOAD_CHUNK]
+        res = _run_gh(
             ["gh", "release", "upload", tag, *part, "--repo", repo, "--clobber"],
-            capture_output=True, text=True,
+            f"upload {tag}",
         )
         if res.returncode != 0:
             print(f"    ! upload failed ({tag}): {res.stderr.strip()[:200]}")
             ok = False
+        elif UPLOAD_PAUSE:
+            time.sleep(UPLOAD_PAUSE)
     return ok
 
 
