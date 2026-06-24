@@ -92,7 +92,8 @@ git push -u origin main
 ```
 tdnet-monitor/
 ├── .github/workflows/
-│   └── daily_monitor.yml    # GitHub Actions 定義（2回/日）
+│   ├── daily_monitor.yml    # GitHub Actions 定義（2回/日）
+│   └── mirror_backfill.yml  # 既存PDFをReleasesへ退避する手動ジョブ（一回限り）
 ├── scripts/
 │   ├── main.py              # メイン処理
 │   ├── tdnet_scraper.py     # TDnet スクレイピング
@@ -100,6 +101,8 @@ tdnet-monitor/
 │   ├── market_cap_jquants.py # 時価総額取得（J-Quants V2、主データソース）
 │   ├── market_cap_yahoo.py  # 時価総額取得（Yahoo Finance JP、新規上場銘柄フォールバック）
 │   ├── html_generator.py    # HTML 生成
+│   ├── pdf_archive.py       # 適時開示PDFを GitHub Releases へ退避・リンク書換え
+│   ├── mirror_backfill.py   # 既存JSONのPDFを一括退避（一回限り）
 │   └── gmail_sender.py      # Gmail 送信
 ├── docs/
 │   ├── index.html           # GitHub Pages（自動更新）
@@ -130,6 +133,7 @@ tdnet-monitor/
 | メールが届かない | Secrets の値を再確認。アプリパスワードにスペースが入っていないか確認 |
 | Pages が表示されない | Settings → Pages で Branch: main / Folder: /docs を確認 |
 | 時価総額が「—」 | `JQUANTS_API_KEY` 未設定、または Light 未満のプラン (Free は12週間遅延で当日値なし)。新規上場銘柄は Yahoo Finance JP 側も失敗した場合に発生 |
+| PDFリンクが404 | 配信元(TDnet)は約1か月でPDFを削除する。当日分は自動で GitHub Releases へ退避するため恒久的に開ける。退避前に配信元から消えた分は一覧上で「(公開終了)」と表示され、復元はできない |
 
 ---
 
@@ -139,3 +143,8 @@ tdnet-monitor/
 - **時価総額**: J-Quants V2 API（`fins/summary` の `ShOutFY` × `equities/bars/daily` の `AdjC`、株式分割補正済）。Light プラン以上が必要。新規上場銘柄は Yahoo Finance JP からフォールバック取得
 - **休場日判定**: `jpholiday`（祝日）+ 土日 + 年末年始（12/31〜1/3）
 - **データ保持**: 2026-05-11 以降の全営業日分の JSON を GitHub Pages で公開（固定起点。以前はローリング30日保持）
+- **PDF退避**: 配信元(TDnet `release.tdnet.info`)は PDF を約1か月しか保持しないため、毎回の実行で PDF を **GitHub Releases**（1か月=1リリース、タグ `pdf-YYYYMM`、アセット名 `{TDnet ID}.pdf`）へ退避し、JSON のリンクを恒久URL（`https://github.com/<owner>/<repo>/releases/download/pdf-YYYYMM/<ID>.pdf`）へ書き換える。退避は `gh` CLI で行い、Actions では `GH_TOKEN`(=`github.token`)、ローカルでは `gh auth login` 済みであることが必要。冪等（退避済みは再取得しない）。第三者アーカイブには依存しない
+
+### 既存分の一括退避（一回限り）
+
+過去に保存済みで「まだ配信元に残っている」PDF を退避するには、Actions タブ →「Mirror TDnet PDFs (backfill)」→ Run workflow を実行する（または `gh auth login` 済みのローカルで `cd scripts && python mirror_backfill.py`）。配信元は約1か月で消すため**早く実行するほど取りこぼしが少ない**。途中で失敗しても再実行で続きから処理する。

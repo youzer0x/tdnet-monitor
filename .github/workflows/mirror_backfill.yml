@@ -1,0 +1,43 @@
+name: Mirror TDnet PDFs (backfill)
+
+# 既存の日次JSONに含まれる「まだ配信元に残っている」適時開示PDFを
+# GitHub Releases へ退避し、リンクを恒久URLへ書き換える一回限りの手動ジョブ。
+# 配信元(TDnet)は約1か月でPDFを削除するため、なるべく早く実行すること。
+# 冪等なので、途中で失敗・タイムアウトした場合は再実行すれば続きから処理する。
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  mirror:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      GH_TOKEN: ${{ github.token }}
+      TZ: Asia/Tokyo
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Mirror PDFs to Releases and rewrite links
+        working-directory: scripts
+        run: python mirror_backfill.py
+
+      - name: Commit rewritten JSON and pages
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add --force docs/index.html
+          git add --force docs/data/
+          git diff --cached --quiet || (git commit -m "Mirror TDnet PDFs to Releases and rewrite links" && git push)

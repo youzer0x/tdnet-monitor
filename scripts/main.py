@@ -306,6 +306,21 @@ def main():
 
     # JSON 保存（evening: 新規、night: マージ済み）
     save_daily_json(all_items, target_date, docs_dir)
+
+    # 適時開示PDFを GitHub Releases へ退避し、JSON のリンクを恒久URLへ書き換える。
+    # 配信元(TDnet)は約1か月で PDF を削除するため、当日中に退避しておく。
+    # 失敗しても通常運用は止めない（次回実行で再試行）。
+    if os.environ.get("ARCHIVE_PDFS", "1") != "0":
+        try:
+            from pdf_archive import mirror_json_file, gh_available
+            if gh_available():
+                stats = mirror_json_file(json_path)
+                print(f"  PDF archive -> Releases: {stats}")
+            else:
+                print("  PDF archive skipped (gh CLI not available)")
+        except Exception as e:
+            print(f"  PDF archive error (non-fatal): {e}")
+
     cleanup_old_data(docs_dir)
     available_dates = update_manifest(docs_dir)
 

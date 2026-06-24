@@ -336,6 +336,9 @@ def generate_pages_html(available_dates: list[str]) -> str:
       color: #b0b8c0;
     }
     .title-cell a.visited:hover { color: #90979e; }
+    .pdf-expired {
+      color: #9aa0a6; font-size: 0.8em; margin-left: 6px; white-space: nowrap;
+    }
 
     /* ページネーション */
     .pagination {
@@ -691,6 +694,9 @@ function renderPaginationAndTable() {
     if (item.pdf_url) {
       const safeUrl = escapeHtml(item.pdf_url);
       titleHtml = '<a href="' + safeUrl + '" target="_blank" class="disclosure-link' + isVisited + '" data-url="' + safeUrl + '" onclick="markVisited(this.dataset.url)">' + escapeHtml(item.title) + '</a>';
+    } else if (item.pdf_expired) {
+      titleHtml = escapeHtml(item.title) +
+        '<span class="pdf-expired" title="TDnetでのPDF公開期間（約1か月）が終了したため閲覧できません">(公開終了)</span>';
     } else {
       titleHtml = escapeHtml(item.title);
     }

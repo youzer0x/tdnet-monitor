@@ -66,6 +66,8 @@ jobs:
         working-directory: scripts
         env:
           TARGET_DATE: ${{ github.event.inputs.target_date }}
+          # 適時開示PDFを GitHub Releases へ退避するため gh の認証に使う
+          GH_TOKEN: ${{ github.token }}
         run: python main.py
 
       - name: Commit and push GitHub Pages
