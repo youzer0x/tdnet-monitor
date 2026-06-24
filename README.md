@@ -106,7 +106,7 @@ tdnet-monitor/
 │   └── gmail_sender.py      # Gmail 送信
 ├── docs/
 │   ├── index.html           # GitHub Pages（自動更新）
-│   └── data/                # 日次 JSON データ（2026-05-11 以降を保持）
+│   └── data/                # 日次 JSON データ（直近90日ローリング保持）
 ├── requirements.txt
 └── README.md
 ```
@@ -133,7 +133,7 @@ tdnet-monitor/
 | メールが届かない | Secrets の値を再確認。アプリパスワードにスペースが入っていないか確認 |
 | Pages が表示されない | Settings → Pages で Branch: main / Folder: /docs を確認 |
 | 時価総額が「—」 | `JQUANTS_API_KEY` 未設定、または Light 未満のプラン (Free は12週間遅延で当日値なし)。新規上場銘柄は Yahoo Finance JP 側も失敗した場合に発生 |
-| PDFリンクが404 | 配信元(TDnet)は約1か月でPDFを削除する。当日分は自動で GitHub Releases へ退避するため恒久的に開ける。退避前に配信元から消えた分は一覧上で「(公開終了)」と表示され、復元はできない |
+| PDFリンクが404 | 配信元(TDnet)は約1か月でPDFを削除する。当日分は自動で GitHub Releases へ退避するため**90日間は**開ける。退避前に配信元から消えた分は一覧上で「(公開終了)」と表示。90日を超えた分は JSON ごと削除され一覧からも消える（復元不可） |
 
 ---
 
@@ -142,8 +142,8 @@ tdnet-monitor/
 - **REIT/ETF 除外**: JPX 上場銘柄一覧の「市場・商品区分」列から正確に判定（証券コード範囲は不使用）
 - **時価総額**: J-Quants V2 API（`fins/summary` の `ShOutFY` × `equities/bars/daily` の `AdjC`、株式分割補正済）。Light プラン以上が必要。新規上場銘柄は Yahoo Finance JP からフォールバック取得
 - **休場日判定**: `jpholiday`（祝日）+ 土日 + 年末年始（12/31〜1/3）
-- **データ保持**: 2026-05-11 以降の全営業日分の JSON を GitHub Pages で公開（固定起点。以前はローリング30日保持）
-- **PDF退避**: 配信元(TDnet `release.tdnet.info`)は PDF を約1か月しか保持しないため、毎回の実行で PDF を **GitHub Releases**（1か月=1リリース、タグ `pdf-YYYYMM`、アセット名 `{TDnet ID}.pdf`）へ退避し、JSON のリンクを恒久URL（`https://github.com/<owner>/<repo>/releases/download/pdf-YYYYMM/<ID>.pdf`）へ書き換える。退避は `gh` CLI で行い、Actions では `GH_TOKEN`(=`github.token`)、ローカルでは `gh auth login` 済みであることが必要。冪等（退避済みは再取得しない）。第三者アーカイブには依存しない
+- **データ保持**: 開示日から **90日間のローリング保持**。91日以上経過した分は日次 JSON も Release 上の PDF も自動削除する（配信元 TDnet も約30日で消すため復元不可）。削除は毎営業日の実行で `cleanup_old_data`（JSON）と `pdf_archive.cleanup_expired_assets`（Release アセット）が同一 cutoff で実施。基準は実行日（JST）
+- **PDF退避**: 配信元(TDnet `release.tdnet.info`)は PDF を約1か月しか保持しないため、毎回の実行で PDF を **GitHub Releases**（**1営業日=1リリース**、タグ `pdf-YYYYMMDD`、アセット名 `{TDnet ID}.pdf`）へ退避し、JSON のリンクを恒久URL（`https://github.com/<owner>/<repo>/releases/download/pdf-YYYYMMDD/<ID>.pdf`）へ書き換える。GitHub の上限は1リリース1000アセットのため、決算ピーク日（1日1000件超）は超過分を追加パート `pdf-YYYYMMDD-2`, `-3` … へ自動振り分け（1リリース900件未満）。退避は `gh` CLI で行い、Actions では `GH_TOKEN`(=`github.token`)、ローカルでは `gh auth login` 済みであることが必要。冪等（退避済みは再取得しない）。第三者アーカイブには依存しない
 
 ### 既存分の一括退避（一回限り）
 

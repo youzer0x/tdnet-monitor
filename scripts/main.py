@@ -12,10 +12,19 @@ from datetime import date, datetime, timedelta
 import jpholiday
 
 
-# 日次データの保持起点。これより前の日付の JSON は削除する。
-# 以前はローリング 30 日保持だったが、2026-05-11 以降を恒久的に
-# 閲覧できるよう固定起点での保持に変更した。
-RETAIN_FROM_DATE = date(2026, 5, 11)
+# 日次データの保持期間（ローリング）。開示日から RETAIN_DAYS 日以内のものだけを
+# GitHub 上で管理し、それより古い日次 JSON と Release 上の PDF は削除する。
+# 配信元 TDnet は PDF を約30日で消すため、ここで消した分は復元不可。
+RETAIN_DAYS = 90
+
+
+def retention_cutoff(today: date | None = None) -> date:
+    """保持の下限日（この日を含めて以降を保持、これより前は削除）。
+
+    基準は必ず実行日。target_date は手動リプレイや night モードで前日に
+    巻き戻るため、保持窓の基準には使わない。
+    """
+    return (today or date.today()) - timedelta(days=RETAIN_DAYS)
 
 
 def is_market_open(target_date: date) -> bool:
@@ -151,8 +160,8 @@ def merge_items(existing_records: list[dict], new_items: list) -> list:
     return existing
 
 
-def cleanup_old_data(docs_dir: str, start_date: date = RETAIN_FROM_DATE) -> None:
-    """start_date より前の日付の JSON を削除する（固定起点での保持）"""
+def cleanup_old_data(docs_dir: str, start_date: date) -> None:
+    """start_date より前の日付の JSON を削除する（ローリング保持）"""
     data_dir = os.path.join(docs_dir, "data")
     if not os.path.exists(data_dir):
         return
@@ -321,7 +330,22 @@ def main():
         except Exception as e:
             print(f"  PDF archive error (non-fatal): {e}")
 
-    cleanup_old_data(docs_dir)
+    # ローリング保持: 90日より古い日次 JSON と Release 上の PDF を削除する。
+    # JSON と Release アセットで同一 cutoff を共有し、ズレを防ぐ。
+    cutoff = retention_cutoff(date.today())
+    cleanup_old_data(docs_dir, cutoff)
+
+    if os.environ.get("ARCHIVE_PDFS", "1") != "0":
+        try:
+            from pdf_archive import cleanup_expired_assets, gh_available
+            if gh_available():
+                st = cleanup_expired_assets(cutoff_date=cutoff)
+                print(f"  PDF asset cleanup -> Releases: {st}")
+            else:
+                print("  PDF asset cleanup skipped (gh CLI not available)")
+        except Exception as e:
+            print(f"  PDF asset cleanup error (non-fatal): {e}")
+
     available_dates = update_manifest(docs_dir)
 
     print(f"\n[5/6] Generating GitHub Pages HTML...")
