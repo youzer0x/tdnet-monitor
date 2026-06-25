@@ -931,5 +931,6 @@
       "title": "再発防止策に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260617/140120260611568434.pdf"
     }
-  ]
+  ],
+  "tdnet_available": true
 }
