@@ -34,6 +34,9 @@ import requests
 ARCHIVE_URL_MARKER = "/releases/download/"
 # 配信元（ここを指している間は退避前）
 TDNET_HOST = "release.tdnet.info"
+# TDnet 原本(ブラウザ内表示できる)PDF の URL ベース。スクレイパが生成する元 URL と一致
+# させる（tdnet_scraper.py 参照）。退避後の Release URL からでも ID で再構成できる。
+TDNET_PDF_BASE = "https://www.release.tdnet.info/inbs/"
 # リモートから owner/repo を取れない場合のフォールバック
 DEFAULT_REPO = "youzer0x/tdnet-monitor"
 
@@ -217,6 +220,35 @@ def _download(session: requests.Session, url: str) -> tuple[str, bytes | None]:
             return "expired", None
         time.sleep(2 * (attempt + 1))  # 403/429/5xx 等は一時エラーとして再試行
     return "error", None
+
+
+def _probe(session: requests.Session, url: str) -> str:
+    """TDnet 原本の生存を軽量に確認。'alive' / 'dead' / 'unknown'。
+
+    まず HEAD（本文を取らない）。HEAD 非対応(403/405/501)時のみ GET で先頭 4 バイトを
+    見て PDF か確認する。ネットワークエラー等は 'unknown'（判定を据え置く）。
+    """
+    try:
+        r = session.head(url, timeout=20, allow_redirects=True)
+    except requests.RequestException:
+        return "unknown"
+    if r.status_code == 200:
+        return "alive"
+    if r.status_code in (404, 410):
+        return "dead"
+    if r.status_code in (403, 405, 501):  # HEAD 不可 → GET で確認
+        try:
+            g = session.get(url, timeout=30, stream=True)
+            code = g.status_code
+            head4 = g.raw.read(4) if code == 200 else b""
+            g.close()
+        except requests.RequestException:
+            return "unknown"
+        if code == 200 and head4[:4] == b"%PDF":
+            return "alive"
+        if code in (404, 410):
+            return "dead"
+    return "unknown"
 
 
 def _day_part_tags(repo: str, d: date) -> list[str]:
@@ -420,6 +452,96 @@ def cleanup_expired_assets(
     return stats
 
 
+def _sample_indices(n: int, k: int) -> list[int]:
+    """0..n-1 から最大 k 個を満遍なく(端と中間を含めて)抽出した index。"""
+    if n <= 0 or k <= 0:
+        return []
+    if n <= k:
+        return list(range(n))
+    if k == 1:
+        return [0]
+    return sorted({round(i * (n - 1) / (k - 1)) for i in range(k)})
+
+
+def refresh_tdnet_availability(
+    data_dir: str,
+    today: date | None = None,
+    max_probe_days: int = 45,
+    samples: int = 3,
+    throttle: float = 0.1,
+) -> dict:
+    """各日次 JSON に、その日の PDF が TDnet 原本でまだ閲覧可能かを示す
+    `tdnet_available`(bool) を実応答で付与・更新する。
+
+    フロントは tdnet_available!==false の日は原本(ブラウザ内表示)へ、false の日は
+    退避済みアーカイブへリンクする。TDnet は投稿日基準で一律に取り下げる(スライド式)ため
+    判定は日単位で十分。各日 samples 件をサンプリングし、1件でも生存なら True、
+    全件 dead なら False、不明は据え置き(初回 None なら True)。固定日数では区切らない。
+
+    コスト抑制:
+      - 既に False の日は不変(取り下げは復活しない) → スキップ。
+      - 当日(age<=0)は取得直後で確実に生存 → True(プローブ省略)。
+      - age>max_probe_days は TDnet が保持しない領域 → False(プローブ省略)。
+    冪等・非致命。変更があった JSON のみ上書き保存する。
+    """
+    today = today or date.today()
+    session = requests.Session()
+    session.headers["User-Agent"] = _UA
+
+    stats = {"alive": 0, "dead": 0, "skipped": 0, "changed": 0, "unparsed": 0}
+
+    for fp in sorted(glob.glob(os.path.join(data_dir, "*.json"))):
+        if os.path.basename(fp) == "manifest.json":
+            continue
+        try:
+            with open(fp, "r", encoding="utf-8") as f:
+                data = json.load(f)
+        except (OSError, json.JSONDecodeError):
+            stats["unparsed"] += 1
+            continue
+        try:
+            d = date.fromisoformat(data.get("date") or os.path.basename(fp)[:-5])
+        except (ValueError, TypeError):
+            stats["unparsed"] += 1
+            continue
+
+        cur = data.get("tdnet_available")
+        if cur is False:
+            stats["skipped"] += 1
+            continue  # 取り下げ確定 → 不変
+
+        age = (today - d).days
+        if age <= 0:
+            new_val = True
+        elif age > max_probe_days:
+            new_val = False
+        else:
+            cand = [it for it in data.get("items", []) if (it.get("pdf_url") or "")]
+            results = []
+            for i in _sample_indices(len(cand), samples):
+                pid = _pdf_id(cand[i].get("pdf_url", ""))
+                if not pid:
+                    continue
+                results.append(_probe(session, TDNET_PDF_BASE + pid + ".pdf"))
+                if throttle:
+                    time.sleep(throttle)
+            if "alive" in results:
+                new_val = True
+            elif results and all(r == "dead" for r in results):
+                new_val = False
+            else:
+                new_val = cur if cur is not None else True  # 不明は据え置き
+
+        if new_val != cur:
+            data["tdnet_available"] = new_val
+            with open(fp, "w", encoding="utf-8") as f:
+                json.dump(data, f, ensure_ascii=False, indent=2)
+            stats["changed"] += 1
+        stats["alive" if new_val else "dead"] += 1
+
+    return stats
+
+
 def _status_report(data_dir: str) -> None:
     """ネットワークを使わず、各 JSON の退避状況（URL ホスト別）を集計表示する。"""
     files = sorted(glob.glob(os.path.join(data_dir, "*.json")))
@@ -454,9 +576,19 @@ if __name__ == "__main__":
     #   python pdf_archive.py <path/to/date.json>           # その日を退避（gh 認証必要）
     #   python pdf_archive.py --cleanup [YYYY-MM-DD] [--dry-run]
     #       cutoff より前(=保持外)の Release アセットを削除。日付省略時は今日-90日。
+    #   python pdf_archive.py --availability <data_dir>
+    #       各日次 JSON の tdnet_available を実応答で更新（gh 不要・ネット必要）。
     if len(sys.argv) < 2:
-        print("Usage: python pdf_archive.py <data_dir | date.json | --cleanup [YYYY-MM-DD] [--dry-run]>")
+        print("Usage: python pdf_archive.py <data_dir | date.json | "
+              "--cleanup [YYYY-MM-DD] [--dry-run] | --availability <data_dir>>")
         sys.exit(1)
+
+    if sys.argv[1] == "--availability":
+        if len(sys.argv) < 3:
+            print("Usage: python pdf_archive.py --availability <data_dir>")
+            sys.exit(1)
+        print(refresh_tdnet_availability(sys.argv[2]))
+        sys.exit(0)
 
     if sys.argv[1] == "--cleanup":
         rest = sys.argv[2:]

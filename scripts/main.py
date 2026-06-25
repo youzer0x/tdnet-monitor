@@ -346,6 +346,16 @@ def main():
         except Exception as e:
             print(f"  PDF asset cleanup error (non-fatal): {e}")
 
+    # TDnet 原本がまだ閲覧可能な日は原本(ブラウザ内表示)へ、取り下げ後はアーカイブへ
+    # リンクするための per-day フラグ(tdnet_available)を実応答で更新する。
+    # 固定日数では区切らず、TDnet の実際の応答で判定する。非致命。
+    try:
+        from pdf_archive import refresh_tdnet_availability
+        st = refresh_tdnet_availability(data_dir)
+        print(f"  TDnet availability refresh: {st}")
+    except Exception as e:
+        print(f"  TDnet availability refresh error (non-fatal): {e}")
+
     available_dates = update_manifest(docs_dir)
 
     print(f"\n[5/6] Generating GitHub Pages HTML...")

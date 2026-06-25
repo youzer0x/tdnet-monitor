@@ -508,6 +508,9 @@ def generate_pages_html(available_dates: list[str]) -> str:
 let currentData = null;
 let currentPage = 1;
 const PAGE_SIZE = 100;
+// TDnet 原本(ブラウザ内表示できる)PDF の URL ベース。退避後の Release URL からでも
+// ファイル名の TDnet ID を使って原本 URL を再構成できる。
+const TDNET_PDF_BASE = 'https://www.release.tdnet.info/inbs/';
 let filteredItems = [];
 let visitedUrls = {};
 let sortMode = 'mcap'; // 'mcap' or 'time'
@@ -646,6 +649,28 @@ function formatMcap(v) {
   return v.toFixed(1) + '億円';
 }
 
+// PDF URL（TDnet 原本でも Release アセットでも）からファイル名の TDnet ID を取り出す。
+function pdfIdFromUrl(url) {
+  if (!url) return '';
+  let name = url.split('?')[0].split('/').pop();
+  if (name.toLowerCase().endsWith('.pdf')) name = name.slice(0, -4);
+  return name;
+}
+
+// 表示用のリンク先を決める。
+// TDnet 原本がまだ閲覧可能な日 → 原本（新しいタブでブラウザ内表示）を最優先。
+// TDnet が取り下げた後（tdnet_available === false）→ 恒久アーカイブ（DL になるが必ず開ける）。
+function disclosureHref(item) {
+  const url = item.pdf_url || '';
+  if (!url) return '';
+  const tdnetOk = !currentData || currentData.tdnet_available !== false;
+  if (tdnetOk) {
+    const id = pdfIdFromUrl(url);
+    if (id) return TDNET_PDF_BASE + id + '.pdf';
+  }
+  return url;
+}
+
 function renderPaginationAndTable() {
   const total = filteredItems.length;
   const totalPages = Math.max(1, Math.ceil(total / PAGE_SIZE));
@@ -692,8 +717,9 @@ function renderPaginationAndTable() {
     const isVisited = visitedUrls[item.pdf_url] ? ' visited' : '';
     let titleHtml;
     if (item.pdf_url) {
-      const safeUrl = escapeHtml(item.pdf_url);
-      titleHtml = '<a href="' + safeUrl + '" target="_blank" class="disclosure-link' + isVisited + '" data-url="' + safeUrl + '" onclick="markVisited(this.dataset.url)">' + escapeHtml(item.title) + '</a>';
+      const href = escapeHtml(disclosureHref(item));
+      const key = escapeHtml(item.pdf_url); // 既読キーは安定な pdf_url のまま
+      titleHtml = '<a href="' + href + '" target="_blank" rel="noopener" class="disclosure-link' + isVisited + '" data-url="' + key + '" onclick="markVisited(this.dataset.url)">' + escapeHtml(item.title) + '</a>';
     } else if (item.pdf_expired) {
       titleHtml = escapeHtml(item.title) +
         '<span class="pdf-expired" title="TDnetでのPDF公開期間（約1か月）が終了したため閲覧できません">(公開終了)</span>';
