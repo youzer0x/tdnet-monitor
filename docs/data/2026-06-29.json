@@ -1,7 +1,7 @@
 {
   "date": "2026-06-29",
-  "company_count": 203,
-  "total_count": 256,
+  "company_count": 215,
+  "total_count": 271,
   "items": [
     {
       "code": "8035",
@@ -524,6 +524,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260629/140120260616571541.pdf"
     },
     {
+      "code": "7236",
+      "company_name": "ティラド",
+      "market_cap": 874.4,
+      "time": "18:15",
+      "title": "2026 年３月期 第 124 期定時株主総会 質疑応答要旨",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260629/140120260629583690.pdf"
+    },
+    {
       "code": "8793",
       "company_name": "ＮＥＣキャピ",
       "market_cap": 857.7,
@@ -626,6 +634,14 @@
       "time": "16:00",
       "title": "支配株主等に関する事項について",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260629/140120260629583553.pdf"
+    },
+    {
+      "code": "7779",
+      "company_name": "Ｇ－サイバダイン－議",
+      "market_cap": 529.3,
+      "time": "19:10",
+      "title": "支配株主等に関する事項について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260629/140120260629583814.pdf"
     },
     {
       "code": "9991",
@@ -738,6 +754,14 @@
       "time": "14:30",
       "title": "支配株主等に関する事項について",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260629/140120260629582931.pdf"
+    },
+    {
+      "code": "7318",
+      "company_name": "Ｇ－セレンディップ",
+      "market_cap": 414.2,
+      "time": "18:00",
+      "title": "資金の借入及びコミットメントライン契約の締結に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260629/140120260629583761.pdf"
     },
     {
       "code": "7522",
@@ -988,6 +1012,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260629/140120260629583128.pdf"
     },
     {
+      "code": "4933",
+      "company_name": "Ｉｎｅ",
+      "market_cap": 203.7,
+      "time": "17:30",
+      "title": "2026年12月期第１四半期決算に関するよくある質問と回答",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260629/140120260629583679.pdf"
+    },
+    {
       "code": "4889",
       "company_name": "Ｇ－レナサイエンス",
       "market_cap": 203.6,
@@ -1026,6 +1058,14 @@
       "time": "15:30",
       "title": "行使価額修正条項付新株予約権の大量行使に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260629/140120260629583372.pdf"
+    },
+    {
+      "code": "5658",
+      "company_name": "日亜鋼",
+      "market_cap": 178.6,
+      "time": "18:00",
+      "title": "支配株主等に関する事項について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260629/140120260518540104.pdf"
     },
     {
       "code": "5852",
@@ -1468,6 +1508,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260629/140120260629583674.pdf"
     },
     {
+      "code": "1447",
+      "company_name": "Ｇ－ＳＡＡＦＨＤ",
+      "market_cap": 65.8,
+      "time": "19:00",
+      "title": "当社株主が招集した2026年５月12日開催の当社臨時株主総会における 決議不存在確認等訴訟の提起に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260629/140120260629583764.pdf"
+    },
+    {
       "code": "4436",
       "company_name": "Ｇ－ミンカブ",
       "market_cap": 63.8,
@@ -1476,12 +1524,36 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260629/140120260629583320.pdf"
     },
     {
+      "code": "3691",
+      "company_name": "Ｇ－デジタルプラス",
+      "market_cap": 63.3,
+      "time": "19:00",
+      "title": "2026年9月期第２四半期決算を終えてのTOPメッセージ動画公開のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260629/140120260629583743.pdf"
+    },
+    {
       "code": "7075",
       "company_name": "Ｇ－ＱＬＳ",
       "market_cap": 60.6,
       "time": "15:00",
       "title": "支配株主等に関する事項について",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260629/140120260629583178.pdf"
+    },
+    {
+      "code": "2894",
+      "company_name": "石井食",
+      "market_cap": 60.0,
+      "time": "17:30",
+      "title": "役員報酬の減額に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260629/140120260629582760.pdf"
+    },
+    {
+      "code": "2894",
+      "company_name": "石井食",
+      "market_cap": 60.0,
+      "time": "18:00",
+      "title": "譲渡制限付株式としての自己株式の処分に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260629/140120260629583736.pdf"
     },
     {
       "code": "9060",
@@ -1514,6 +1586,14 @@
       "time": "16:00",
       "title": "支配株主等に関する事項について",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260629/140120260622575642.pdf"
+    },
+    {
+      "code": "8891",
+      "company_name": "ＡＭＧＨＤ",
+      "market_cap": 56.1,
+      "time": "17:30",
+      "title": "支配株主等に関する事項について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260629/140120260629583705.pdf"
     },
     {
       "code": "6699",
@@ -1772,6 +1852,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260629/140120260629582855.pdf"
     },
     {
+      "code": "9327",
+      "company_name": "イー・ロジット",
+      "market_cap": 33.1,
+      "time": "17:15",
+      "title": "第27回定時株主総会における議決権行使結果に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260629/140120260629583641.pdf"
+    },
+    {
       "code": "9849",
       "company_name": "共同紙",
       "market_cap": 32.7,
@@ -1876,6 +1964,22 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260629/140120260629583471.pdf"
     },
     {
+      "code": "4069",
+      "company_name": "Ｇ－ＢｌｕｅＭｅｍｅ",
+      "market_cap": 23.1,
+      "time": "18:50",
+      "title": "有価証券報告書の提出期限延長に係る申請書提出のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260629/140120260629583804.pdf"
+    },
+    {
+      "code": "4387",
+      "company_name": "Ｇ－ＺＵＵ",
+      "market_cap": 21.6,
+      "time": "17:45",
+      "title": "当社連結子会社によるファンド（特定子会社）の設立に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260629/140120260629583719.pdf"
+    },
+    {
       "code": "7042",
       "company_name": "アクセスグループ",
       "market_cap": 21.6,
@@ -1922,6 +2026,14 @@
       "time": "10:00",
       "title": "報酬委員会の廃止に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260629/140120260629582684.pdf"
+    },
+    {
+      "code": "7524",
+      "company_name": "マルシェ",
+      "market_cap": 18.9,
+      "time": "18:30",
+      "title": "第三者割当による新株式発行の払込完了並びに、主要株主である筆頭株主及び支配株主の異動に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260629/140120260629583713.pdf"
     },
     {
       "code": "4444",
@@ -2002,6 +2114,14 @@
       "time": "16:30",
       "title": "連結子会社の吸収合併（簡易合併・略式合併）の中止に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260629/140120260629582924.pdf"
+    },
+    {
+      "code": "7578",
+      "company_name": "ニチリョク",
+      "market_cap": 12.0,
+      "time": "19:10",
+      "title": "資金使途の支出予定時期の変更に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260629/140120260629583811.pdf"
     },
     {
       "code": "7886",
