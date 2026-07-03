@@ -1,7 +1,7 @@
 {
   "date": "2026-07-03",
-  "company_count": 135,
-  "total_count": 163,
+  "company_count": 141,
+  "total_count": 171,
   "items": [
     {
       "code": "6758",
@@ -98,6 +98,14 @@
       "time": "15:30",
       "title": "自己株式の取得状況に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260703/140120260703587309.pdf"
+    },
+    {
+      "code": "8439",
+      "company_name": "東京センチュリー",
+      "market_cap": 12278.2,
+      "time": "17:30",
+      "title": "連結孫会社による財務上の特約が付された金銭消費貸借契約の締結に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260703/140120260629582707.pdf"
     },
     {
       "code": "2269",
@@ -284,6 +292,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260703/140120260703587482.pdf"
     },
     {
+      "code": "3994",
+      "company_name": "マネーフォワード",
+      "market_cap": 2520.4,
+      "time": "19:20",
+      "title": "主要株主である筆頭株主の異動に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260703/140120260703587922.pdf"
+    },
+    {
       "code": "6875",
       "company_name": "メガチップス",
       "market_cap": 2051.4,
@@ -322,6 +338,14 @@
       "time": "16:00",
       "title": "田辺ファーマ株式会社からの田辺ファーマファクトリー株式会社の株式の取得（完全子会社化）および製造販売承認の承継に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260703/140120260703587780.pdf"
+    },
+    {
+      "code": "9627",
+      "company_name": "アインＨＤ",
+      "market_cap": 1977.6,
+      "time": "17:45",
+      "title": "当社及び当社グループ会社元取締役の上告審の公判期日について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260703/140120260703587826.pdf"
     },
     {
       "code": "3046",
@@ -578,6 +602,14 @@
       "time": "16:10",
       "title": "キーパーラボ運営事業とキーパー製品等関連事業の月次速報（6月）",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260703/140120260703587798.pdf"
+    },
+    {
+      "code": "9310",
+      "company_name": "トランスシティ",
+      "market_cap": 785.6,
+      "time": "18:15",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260703/140120260703587889.pdf"
     },
     {
       "code": "6264",
@@ -900,6 +932,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260703/140120260703587824.pdf"
     },
     {
+      "code": "4935",
+      "company_name": "リベルタ",
+      "market_cap": 108.9,
+      "time": "17:30",
+      "title": "（訂正）「第７回新株予約権（行使価額修正条項付）の月間行使状況に関するお知らせ」の一部訂正に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260703/140120260703587828.pdf"
+    },
+    {
       "code": "3082",
       "company_name": "きちりＨＤ",
       "market_cap": 108.1,
@@ -1076,6 +1116,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260703/140120260703587347.pdf"
     },
     {
+      "code": "7112",
+      "company_name": "Ｇ－キューブ",
+      "market_cap": 43.7,
+      "time": "17:30",
+      "title": "［2026年12月期］2026年6月度 直営店月次売上速報",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260703/140120260703587413.pdf"
+    },
+    {
       "code": "7066",
       "company_name": "Ｇ－ピアズ",
       "market_cap": 42.5,
@@ -1204,6 +1252,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260703/140120260702587090.pdf"
     },
     {
+      "code": "9760",
+      "company_name": "進学会ＨＤ",
+      "market_cap": 23.6,
+      "time": "17:30",
+      "title": "連結子会社の保有する有価証券の評価損発生に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260703/140120260703587651.pdf"
+    },
+    {
       "code": "2345",
       "company_name": "ＨＯＤＬ１",
       "market_cap": 22.7,
@@ -1274,6 +1330,14 @@
       "time": "16:00",
       "title": "訴訟の提起に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260703/140120260703587461.pdf"
+    },
+    {
+      "code": "8746",
+      "company_name": "ｕｎｂａｎｋｅｄ",
+      "market_cap": 14.4,
+      "time": "17:15",
+      "title": "（訂正）訴訟の提起に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260703/140120260703587859.pdf"
     },
     {
       "code": "4394",
