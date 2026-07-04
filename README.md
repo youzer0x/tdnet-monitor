@@ -98,8 +98,9 @@ tdnet-monitor/
 │   ├── main.py              # メイン処理
 │   ├── tdnet_scraper.py     # TDnet スクレイピング
 │   ├── filter_reit_etf.py   # REIT/ETF 除外
-│   ├── market_cap_jquants.py # 時価総額取得（J-Quants V2、主データソース）
-│   ├── market_cap_yahoo.py  # 時価総額取得（Yahoo Finance JP、新規上場銘柄フォールバック）
+│   ├── market_cap_jquants.py # 時価総額取得（J-Quants V2、主データソース）※正本は market-scripts-common（ベンダリング・直接編集禁止）
+│   ├── market_cap_yahoo.py  # 時価総額取得（Yahoo Finance JP、新規上場銘柄フォールバック）※同上
+│   ├── check_vendor.py      # ベンダリングのドリフト検知（vendor.lock.json と突合・CIで実行）
 │   ├── html_generator.py    # HTML 生成
 │   ├── pdf_archive.py       # 適時開示PDFを GitHub Releases へ退避・リンク書換え
 │   ├── mirror_backfill.py   # 既存JSONのPDFを一括退避（一回限り）
