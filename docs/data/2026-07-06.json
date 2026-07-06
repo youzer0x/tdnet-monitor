@@ -1,7 +1,7 @@
 {
   "date": "2026-07-06",
-  "company_count": 84,
-  "total_count": 104,
+  "company_count": 89,
+  "total_count": 109,
   "items": [
     {
       "code": "8316",
@@ -122,6 +122,14 @@
       "time": "15:30",
       "title": "カールスバーグ社との戦略的資本業務提携に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260706/140120260706588117.pdf"
+    },
+    {
+      "code": "5214",
+      "company_name": "日電硝",
+      "market_cap": 5657.0,
+      "time": "18:20",
+      "title": "複合材事業の構造改革に伴う米国連結子会社（孫会社）シェルビー工場の生産活動停止及びレキシントン工場の譲渡に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260706/140120260706588160.pdf"
     },
     {
       "code": "6890",
@@ -372,6 +380,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260706/140120260706588027.pdf"
     },
     {
+      "code": "7678",
+      "company_name": "あさくま",
+      "market_cap": 348.4,
+      "time": "18:30",
+      "title": "2027年１月期６月度売上高前年対比等のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260706/140120260706588578.pdf"
+    },
+    {
       "code": "7679",
       "company_name": "薬王堂ＨＤ",
       "market_cap": 338.5,
@@ -468,12 +484,28 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260706/140120260706588265.pdf"
     },
     {
+      "code": "4935",
+      "company_name": "リベルタ",
+      "market_cap": 101.4,
+      "time": "18:00",
+      "title": "第７回新株予約権（行使価額修正条項付）の大量行使に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260706/140120260706588551.pdf"
+    },
+    {
       "code": "7134",
       "company_name": "アップガレージＧ",
       "market_cap": 100.8,
       "time": "15:30",
       "title": "2027年３月期 ６月度月次売上状況（速報）等について",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260706/140120260706588081.pdf"
+    },
+    {
+      "code": "4331",
+      "company_name": "Ｔ＆Ｇニーズ",
+      "market_cap": 97.1,
+      "time": "18:30",
+      "title": "（再訂正・数値データ訂正）「2025年12年期 決算短信〔日本基準〕（連結）」の一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260706/140120260706588553.pdf"
     },
     {
       "code": "3538",
@@ -738,6 +770,14 @@
       "time": "17:00",
       "title": "新役員体制に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260706/140120260706588449.pdf"
+    },
+    {
+      "code": "4883",
+      "company_name": "Ｇ－モダリス",
+      "market_cap": 31.4,
+      "time": "17:10",
+      "title": "第三者割当により発行された第19回新株予約権（行使価額修正条項付）の大量行使に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260706/140120260706588476.pdf"
     },
     {
       "code": "2722",
