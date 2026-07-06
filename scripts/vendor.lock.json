@@ -1,7 +1,7 @@
 {
   "source": "market-scripts-common",
-  "version": "1.2.0",
-  "commit": "59617ab",
+  "version": "1.3.0",
+  "commit": "789ea76",
   "synced_at": "2026-07-06",
   "files": {
     "market_cap_jquants.py": "12809cc5015fbc14061949af56d18b841b3ae63de919b508785e67ed82afd00d",
