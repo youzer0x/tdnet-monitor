@@ -1,7 +1,7 @@
 {
   "date": "2026-07-07",
-  "company_count": 79,
-  "total_count": 99,
+  "company_count": 88,
+  "total_count": 108,
   "items": [
     {
       "code": "8306",
@@ -36,12 +36,36 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260707/140120260707588685.pdf"
     },
     {
+      "code": "6361",
+      "company_name": "荏原製",
+      "market_cap": 27083.7,
+      "time": "18:00",
+      "title": "（開示事項の経過）当社連結子会社に対する訴訟の判決（上告審）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260707/140120260701585765.pdf"
+    },
+    {
+      "code": "8697",
+      "company_name": "ＪＰＸ",
+      "market_cap": 22523.9,
+      "time": "17:30",
+      "title": "自己株式の取得状況及び取得終了に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260707/140120260707589202.pdf"
+    },
+    {
       "code": "9532",
       "company_name": "大瓦斯",
       "market_cap": 21994.9,
       "time": "11:00",
       "title": "自己株式の取得状況に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260707/140120260706588210.pdf"
+    },
+    {
+      "code": "6586",
+      "company_name": "マキタ",
+      "market_cap": 16602.2,
+      "time": "18:00",
+      "title": "（変更）「譲渡制限付株式報酬としての自己株式の処分に関するお知らせ」の一部変更に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260707/140120260707588715.pdf"
     },
     {
       "code": "1944",
@@ -58,6 +82,14 @@
       "time": "15:30",
       "title": "自己株式取得状況に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260707/140120260707588760.pdf"
+    },
+    {
+      "code": "2371",
+      "company_name": "カカクコム",
+      "market_cap": 7076.4,
+      "time": "18:40",
+      "title": "Kamgras １株式会社による株式会社カカクコム（証券コード：2371）の株券等に対する公開買付けに係る公開買付期間の延長に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260707/140120260707589248.pdf"
     },
     {
       "code": "5631",
@@ -122,6 +154,14 @@
       "time": "15:00",
       "title": "2027年２月期第１四半期決算短信〔日本基準〕(連結)",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260707/140120260706588349.pdf"
+    },
+    {
+      "code": "6875",
+      "company_name": "メガチップス",
+      "market_cap": 1977.1,
+      "time": "17:20",
+      "title": "自己株式の取得状況及び取得終了に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260707/140120260707589224.pdf"
     },
     {
       "code": "7322",
@@ -508,6 +548,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260707/140120260707588952.pdf"
     },
     {
+      "code": "3800",
+      "company_name": "ユニリタ",
+      "market_cap": 157.0,
+      "time": "17:10",
+      "title": "譲渡制限付株式報酬としての自己株式の処分に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260707/140120260707588981.pdf"
+    },
+    {
       "code": "6493",
       "company_name": "ＮＩＴＴＡＮ",
       "market_cap": 136.8,
@@ -716,6 +764,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260707/140120260707588885.pdf"
     },
     {
+      "code": "4586",
+      "company_name": "Ｇ－メドレック",
+      "market_cap": 32.7,
+      "time": "17:30",
+      "title": "第三者割当により発行された第35回新株予約権(行使価額修正条項付)の大量行使に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260707/140120260707589216.pdf"
+    },
+    {
       "code": "4735",
       "company_name": "京進",
       "market_cap": 28.4,
@@ -738,6 +794,14 @@
       "time": "17:00",
       "title": "2027年２月期第１四半期決算説明資料",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260707/140120260706588603.pdf"
+    },
+    {
+      "code": "7462",
+      "company_name": "ＣＡＰＩＴＡ",
+      "market_cap": 28.1,
+      "time": "17:30",
+      "title": "（訂正）支配株主等に関する事項について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260707/140120260707589229.pdf"
     },
     {
       "code": "9439",
@@ -786,6 +850,14 @@
       "time": "16:00",
       "title": "商品評価損戻入益、商品評価損及び営業外費用の計上並びに業績予想の修正に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260707/140120260706588536.pdf"
+    },
+    {
+      "code": "7886",
+      "company_name": "ヤマトモビＭｆｇ",
+      "market_cap": 11.6,
+      "time": "17:30",
+      "title": "一時会計監査人の選任に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260707/140120260707589158.pdf"
     },
     {
       "code": "7619",
