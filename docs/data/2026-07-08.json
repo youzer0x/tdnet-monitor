@@ -1,7 +1,7 @@
 {
   "date": "2026-07-08",
-  "company_count": 71,
-  "total_count": 91,
+  "company_count": 76,
+  "total_count": 99,
   "items": [
     {
       "code": "4502",
@@ -132,6 +132,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260708/140120260708589558.pdf"
     },
     {
+      "code": "5711",
+      "company_name": "三菱マ",
+      "market_cap": 5593.6,
+      "time": "23:55",
+      "title": "2030年満期ユーロ円建取得条項付転換社債型新株予約権付社債及び2032年満期ユーロ円建取得条項付転換社債型新株予約権付社債の発行条件等の決定について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260708/140120260708590099.pdf"
+    },
+    {
       "code": "8283",
       "company_name": "ＰＡＬＴＡＣ",
       "market_cap": 4120.5,
@@ -212,6 +220,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260708/140120260707588764.pdf"
     },
     {
+      "code": "9956",
+      "company_name": "バローＨＤ",
+      "market_cap": 1754.6,
+      "time": "17:10",
+      "title": "発行価格及び売出価格等の決定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260708/140120260706588612.pdf"
+    },
+    {
       "code": "2815",
       "company_name": "アリアケ",
       "market_cap": 1722.5,
@@ -274,6 +290,14 @@
       "time": "10:00",
       "title": "自己株式の取得状況に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260708/140120260706588543.pdf"
+    },
+    {
+      "code": "3905",
+      "company_name": "Ｇ－データセクション",
+      "market_cap": 813.9,
+      "time": "17:30",
+      "title": "支配株主等に関する事項について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260708/140120260708589961.pdf"
     },
     {
       "code": "7745",
@@ -420,6 +444,22 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260708/140120260708589748.pdf"
     },
     {
+      "code": "8914",
+      "company_name": "エリアリンク",
+      "market_cap": 416.2,
+      "time": "18:30",
+      "title": "株式会社ストレージ王株券等（証券コード：2997）に対する公開買付けの開始に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260708/140120260707589028.pdf"
+    },
+    {
+      "code": "8914",
+      "company_name": "エリアリンク",
+      "market_cap": 416.2,
+      "time": "18:30",
+      "title": "株式会社ストレージ王株券等（証券コード：2997）に対する公開買付けの開始に関するお知らせ の補足資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260708/140120260708589755.pdf"
+    },
+    {
       "code": "3843",
       "company_name": "フリービット",
       "market_cap": 367.8,
@@ -434,6 +474,14 @@
       "time": "15:00",
       "title": "（訂正）「監査役候補者選任に関するお知らせ」の一部訂正について",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260708/140120260706588079.pdf"
+    },
+    {
+      "code": "7823",
+      "company_name": "アートネイチャー",
+      "market_cap": 298.5,
+      "time": "17:30",
+      "title": "株式報酬型ストック・オプションの発行内容の確定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260708/140120260701586142.pdf"
     },
     {
       "code": "5337",
@@ -714,6 +762,22 @@
       "time": "15:30",
       "title": "ソラナ（SOL）の取得状況に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260708/140120260708589623.pdf"
+    },
+    {
+      "code": "2997",
+      "company_name": "Ｇ－ストレージ王",
+      "market_cap": 17.6,
+      "time": "18:30",
+      "title": "エリアリンク株式会社による当社株券等に対する公開買付けに関する賛同の意見表明及び応募推奨のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260708/140120260708590007.pdf"
+    },
+    {
+      "code": "2997",
+      "company_name": "Ｇ－ストレージ王",
+      "market_cap": 17.6,
+      "time": "18:30",
+      "title": "株主優待制度の廃止に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260708/140120260708590045.pdf"
     },
     {
       "code": "3174",
