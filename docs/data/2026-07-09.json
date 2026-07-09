@@ -1,7 +1,7 @@
 {
   "date": "2026-07-09",
-  "company_count": 92,
-  "total_count": 134,
+  "company_count": 97,
+  "total_count": 141,
   "items": [
     {
       "code": "9983",
@@ -138,6 +138,14 @@
       "time": "15:45",
       "title": "2027年２月期 第１四半期決算短信〔日本基準〕（連結）",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260709/140120260709590143.pdf"
+    },
+    {
+      "code": "8358",
+      "company_name": "スルガ銀",
+      "market_cap": 5176.9,
+      "time": "17:30",
+      "title": "主要株主の異動に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260709/140120260709590719.pdf"
     },
     {
       "code": "5714",
@@ -604,6 +612,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260709/140120260708589483.pdf"
     },
     {
+      "code": "4763",
+      "company_name": "Ｃ＆Ｒ社",
+      "market_cap": 306.9,
+      "time": "18:57",
+      "title": "2027年２月期 第１四半期 決算説明会資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260709/140120260709590787.pdf"
+    },
+    {
       "code": "7525",
       "company_name": "リックス",
       "market_cap": 305.0,
@@ -778,6 +794,14 @@
       "time": "17:00",
       "title": "（開示事項の経過）当社子会社に対する訴訟に関する最高裁判所の決定（上告不受理）及び判決確定（全面勝訴）のお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260709/140120260709590559.pdf"
+    },
+    {
+      "code": "2927",
+      "company_name": "ＡＦＣ－ＨＤ",
+      "market_cap": 125.1,
+      "time": "17:45",
+      "title": "連結子会社株式会社さいか屋の自己株式の取得状況および消却に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260709/140120260709590704.pdf"
     },
     {
       "code": "4838",
@@ -956,6 +980,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260709/140120260708590094.pdf"
     },
     {
+      "code": "7120",
+      "company_name": "ＳＨＩＮＫＯ",
+      "market_cap": 58.0,
+      "time": "17:30",
+      "title": "業績条件型譲渡制限付株式報酬としての自己株式の処分に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260709/140120260709590250.pdf"
+    },
+    {
       "code": "4840",
       "company_name": "トライアイズ",
       "market_cap": 57.4,
@@ -1044,6 +1076,22 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260709/140120260709590494.pdf"
     },
     {
+      "code": "9439",
+      "company_name": "ＭＨグループ",
+      "market_cap": 27.8,
+      "time": "17:30",
+      "title": "（訂正）「第三者割当による新株式発行及び第２回新株予約権の発行並びに主要株主及びその他の関係会社の異動（見込み）に関するお知らせ」の一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260709/140120260709590711.pdf"
+    },
+    {
+      "code": "9439",
+      "company_name": "ＭＨグループ",
+      "market_cap": 27.8,
+      "time": "17:30",
+      "title": "（訂正）「第三者割当による新株式発行に係る払込の一部完了のお知らせ」の 一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260709/140120260709590716.pdf"
+    },
+    {
       "code": "2683",
       "company_name": "魚喜",
       "market_cap": 25.7,
@@ -1074,6 +1122,14 @@
       "time": "12:00",
       "title": "譲渡制限付株式報酬としての自己株式の処分の払込完了に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260709/140120260709590360.pdf"
+    },
+    {
+      "code": "8254",
+      "company_name": "さいか屋",
+      "market_cap": 16.7,
+      "time": "17:45",
+      "title": "自己株式の取得状況および消却に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260709/140120260709590635.pdf"
     }
   ],
   "tdnet_available": true
