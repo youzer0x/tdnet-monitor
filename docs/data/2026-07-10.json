@@ -1,7 +1,7 @@
 {
   "date": "2026-07-10",
-  "company_count": 220,
-  "total_count": 301,
+  "company_count": 224,
+  "total_count": 309,
   "items": [
     {
       "code": "6098",
@@ -316,6 +316,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260710/140120260709590639.pdf"
     },
     {
+      "code": "8367",
+      "company_name": "南都銀",
+      "market_cap": 3069.7,
+      "time": "18:20",
+      "title": "取引先の破産手続開始決定に関するお知らせ（当行業績予想の変更なし）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260710/140120260710591667.pdf"
+    },
+    {
       "code": "8386",
       "company_name": "百十四銀",
       "market_cap": 3035.9,
@@ -370,6 +378,14 @@
       "time": "15:30",
       "title": "剰余金の配当（中間配当）に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260710/140120260710591037.pdf"
+    },
+    {
+      "code": "7744",
+      "company_name": "ノーリツ鋼機",
+      "market_cap": 2174.2,
+      "time": "17:30",
+      "title": "AlphaTheta株式会社によるMAVEN SAS株式取得に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260710/140120260710591057.pdf"
     },
     {
       "code": "7313",
@@ -1116,6 +1132,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260710/140120260709590549.pdf"
     },
     {
+      "code": "3771",
+      "company_name": "システムリサーチ",
+      "market_cap": 308.3,
+      "time": "17:15",
+      "title": "譲渡制限付株式報酬としての自己株式の処分に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260710/140120260706588509.pdf"
+    },
+    {
       "code": "5909",
       "company_name": "コロナ",
       "market_cap": 298.1,
@@ -1348,6 +1372,30 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260710/140120260709590279.pdf"
     },
     {
+      "code": "7523",
+      "company_name": "アールビバン",
+      "market_cap": 164.2,
+      "time": "17:40",
+      "title": "株式会社Orsayによるアールビバン株式会社株式（証券コード：7523）に対する公開買付けの開始に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260710/140120260710591505.pdf"
+    },
+    {
+      "code": "7523",
+      "company_name": "アールビバン",
+      "market_cap": 164.2,
+      "time": "17:40",
+      "title": "2027年３月期 中間配当及び期末配当予想の修正（無配）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260710/140120260710591511.pdf"
+    },
+    {
+      "code": "7523",
+      "company_name": "アールビバン",
+      "market_cap": 164.2,
+      "time": "17:40",
+      "title": "ＭＢＯの実施及び応募の推奨に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260710/140120260710591304.pdf"
+    },
+    {
       "code": "8908",
       "company_name": "毎日コムネット",
       "market_cap": 157.7,
@@ -1546,6 +1594,22 @@
       "time": "16:00",
       "title": "月次営業レポート（2026年６月度）",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260710/140120260710591344.pdf"
+    },
+    {
+      "code": "1717",
+      "company_name": "明豊ファシリティ",
+      "market_cap": 120.6,
+      "time": "17:15",
+      "title": "譲渡制限付株式報酬としての自己株式の処分の払込完了に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260710/140120260710591572.pdf"
+    },
+    {
+      "code": "1717",
+      "company_name": "明豊ファシリティ",
+      "market_cap": 120.6,
+      "time": "17:15",
+      "title": "株式報酬型ストック・オプションの発行内容の確定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260710/140120260710591568.pdf"
     },
     {
       "code": "8416",
