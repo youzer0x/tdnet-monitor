@@ -1,7 +1,7 @@
 {
   "date": "2026-07-13",
-  "company_count": 119,
-  "total_count": 189,
+  "company_count": 123,
+  "total_count": 197,
   "items": [
     {
       "code": "8750",
@@ -308,6 +308,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260713/140120260713591978.pdf"
     },
     {
+      "code": "8818",
+      "company_name": "京阪神ビ",
+      "market_cap": 1100.2,
+      "time": "18:30",
+      "title": "主要株主の異動に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260713/140120260713592486.pdf"
+    },
+    {
       "code": "4985",
       "company_name": "アース製薬",
       "market_cap": 1031.6,
@@ -588,6 +596,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260713/140120260713591900.pdf"
     },
     {
+      "code": "2462",
+      "company_name": "ライク",
+      "market_cap": 309.8,
+      "time": "18:30",
+      "title": "長期経営計画（2027年５月期～2035年５月期）の策定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260713/140120260713592514.pdf"
+    },
+    {
       "code": "8101",
       "company_name": "ＧＳＩクレオス",
       "market_cap": 305.3,
@@ -802,6 +818,14 @@
       "time": "08:45",
       "title": "（訂正）2027年３月期 中間配当及び期末配当予想の修正（無配）に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260713/140120260713591759.pdf"
+    },
+    {
+      "code": "7523",
+      "company_name": "アールビバン",
+      "market_cap": 174.4,
+      "time": "17:45",
+      "title": "（訂正）ＭＢＯの実施及び応募の推奨に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260713/140120260713592502.pdf"
     },
     {
       "code": "3501",
@@ -1026,6 +1050,14 @@
       "time": "15:40",
       "title": "取締役（監査等委員であるものを除く。）および監査等委員である取締役候補者ならびに補欠の監査等委員である取締役候補者等の決定に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260713/140120260713592158.pdf"
+    },
+    {
+      "code": "3236",
+      "company_name": "プロパスト",
+      "market_cap": 93.5,
+      "time": "18:20",
+      "title": "(訂正)「取締役（監査等委員であるものを除く。）および監査等委員である取締役候補者ならびに補欠の監査等委員である取締役候補者等の決定に関するお知らせ」",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260713/140120260713592499.pdf"
     },
     {
       "code": "3446",
@@ -1276,6 +1308,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260713/140120260713592085.pdf"
     },
     {
+      "code": "6557",
+      "company_name": "Ｇ－ＡＩＡＩ",
+      "market_cap": 44.0,
+      "time": "17:30",
+      "title": "取締役（監査等委員である取締役及び社外取締役を除く。）に対する新株予約権 （税制適格ストック・オプション）の発行内容確定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260713/140120260713592438.pdf"
+    },
+    {
       "code": "6342",
       "company_name": "太平製作所",
       "market_cap": 42.5,
@@ -1452,12 +1492,36 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260713/140120260713592178.pdf"
     },
     {
+      "code": "7042",
+      "company_name": "アクセスグループ",
+      "market_cap": 22.2,
+      "time": "17:30",
+      "title": "取締役等に対する譲渡制限付株式報酬としての新株式発行に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260713/140120260713592043.pdf"
+    },
+    {
+      "code": "7042",
+      "company_name": "アクセスグループ",
+      "market_cap": 22.2,
+      "time": "17:40",
+      "title": "株式会社学生情報センターとの業務提携に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260713/140120260713592020.pdf"
+    },
+    {
       "code": "3928",
       "company_name": "マイネット",
       "market_cap": 20.5,
       "time": "12:00",
       "title": "（開示事項の経過）第三者割当増資による新株式の発行に係る払込完了に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260713/140120260702587191.pdf"
+    },
+    {
+      "code": "5103",
+      "company_name": "昭和ＨＤ",
+      "market_cap": 19.1,
+      "time": "17:10",
+      "title": "当社が保有する子会社株式等についての処分禁止の仮処分命令の発令に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260713/140120260713592472.pdf"
     },
     {
       "code": "8247",
