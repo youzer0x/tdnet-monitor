@@ -1,7 +1,7 @@
 {
   "date": "2026-07-16",
-  "company_count": 98,
-  "total_count": 110,
+  "company_count": 104,
+  "total_count": 116,
   "items": [
     {
       "code": "4568",
@@ -156,6 +156,22 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260716/140120260716595317.pdf"
     },
     {
+      "code": "1926",
+      "company_name": "ライト工",
+      "market_cap": 1669.4,
+      "time": "18:00",
+      "title": "自己株式の取得状況及び取得終了に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260716/140120260716595399.pdf"
+    },
+    {
+      "code": "3865",
+      "company_name": "北越コーポレーション",
+      "market_cap": 1514.8,
+      "time": "17:40",
+      "title": "ストックオプション（新株予約権）の払込金額決定のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260716/140120260716595361.pdf"
+    },
+    {
       "code": "7516",
       "company_name": "コーナン商",
       "market_cap": 1425.4,
@@ -290,6 +306,14 @@
       "time": "08:30",
       "title": "2027年2月期第1四半期 決算説明会の質疑応答（要旨）について",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260716/140120260715594876.pdf"
+    },
+    {
+      "code": "2980",
+      "company_name": "ＳＲＥＨＤ",
+      "market_cap": 417.3,
+      "time": "18:00",
+      "title": "譲渡制限付株式報酬としての新株式の払込完了に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260716/140120260716595285.pdf"
     },
     {
       "code": "5013",
@@ -506,6 +530,14 @@
       "time": "10:00",
       "title": "譲渡制限付株式報酬としての新株発行に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260716/140120260715594832.pdf"
+    },
+    {
+      "code": "6085",
+      "company_name": "Ｇ－アーキテクツＳＪ",
+      "market_cap": 191.8,
+      "time": "17:40",
+      "title": "上場維持基準（流通株式比率、純資産基準）への適合に向けた計画に基づく進捗について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260716/140120260716595407.pdf"
     },
     {
       "code": "9686",
@@ -826,6 +858,22 @@
       "time": "15:30",
       "title": "創立40周年記念株主優待の実施に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260716/140120260715594723.pdf"
+    },
+    {
+      "code": "9941",
+      "company_name": "太洋物産",
+      "market_cap": 26.7,
+      "time": "18:00",
+      "title": "2026年９月期 ６月度　月次業績（売上高）速報",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260716/140120260716595401.pdf"
+    },
+    {
+      "code": "2164",
+      "company_name": "地域新聞社",
+      "market_cap": 25.9,
+      "time": "18:00",
+      "title": "株主による新株予約権無償割当て差止めの仮処分の申立てに関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260716/140120260716595418.pdf"
     },
     {
       "code": "2683",
