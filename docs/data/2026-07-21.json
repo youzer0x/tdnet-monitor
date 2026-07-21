@@ -1,0 +1,128 @@
+{
+  "date": "2026-07-21",
+  "company_count": 11,
+  "total_count": 15,
+  "items": [
+    {
+      "code": "2269",
+      "company_name": "明治ＨＤ",
+      "market_cap": 10585.3,
+      "time": "17:10",
+      "title": "中国事業のポートフォリオ再構築に伴う子会社株式の譲渡に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260721/140120260717596221.pdf"
+    },
+    {
+      "code": "9274",
+      "company_name": "ＫＰＰグループＨＤ",
+      "market_cap": 721.5,
+      "time": "19:00",
+      "title": "自己株式の取得枠拡大について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260721/140120260721596796.pdf"
+    },
+    {
+      "code": "9274",
+      "company_name": "ＫＰＰグループＨＤ",
+      "market_cap": 721.5,
+      "time": "19:00",
+      "title": "自己株式消却の件",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260721/140120260721596821.pdf"
+    },
+    {
+      "code": "9274",
+      "company_name": "ＫＰＰグループＨＤ",
+      "market_cap": 721.5,
+      "time": "19:00",
+      "title": "政策保有株式の売却額目標変更に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260721/140120260721596825.pdf"
+    },
+    {
+      "code": "9274",
+      "company_name": "ＫＰＰグループＨＤ",
+      "market_cap": 721.5,
+      "time": "19:00",
+      "title": "株主還元強化を目的とした株主優待制度拡充に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260721/140120260721597010.pdf"
+    },
+    {
+      "code": "8065",
+      "company_name": "佐藤商",
+      "market_cap": 661.6,
+      "time": "17:30",
+      "title": "ストックオプション（新株予約権）の内容確定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260721/140120260721597007.pdf"
+    },
+    {
+      "code": "6200",
+      "company_name": "インソース",
+      "market_cap": 537.9,
+      "time": "19:00",
+      "title": "（訂正）「自己株式取得に係る事項の決定及び自己株式の消却に関するお知らせ」の一部訂正(文言追加)について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260721/140120260721597047.pdf"
+    },
+    {
+      "code": "5976",
+      "company_name": "ネツレン",
+      "market_cap": 439.9,
+      "time": "17:30",
+      "title": "譲渡制限付株式報酬及び業績連動型株式報酬としての自己株式の処分の払込完了に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260721/140120260721597000.pdf"
+    },
+    {
+      "code": "7266",
+      "company_name": "今仙電機",
+      "market_cap": 208.2,
+      "time": "17:30",
+      "title": "譲渡制限付株式報酬としての自己株式の処分の払込完了に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260721/140120260721597029.pdf"
+    },
+    {
+      "code": "7119",
+      "company_name": "Ｇ－ハルメクＨＤ",
+      "market_cap": 184.8,
+      "time": "18:00",
+      "title": "譲渡制限付株式報酬としての新株発行に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260721/140120260721596520.pdf"
+    },
+    {
+      "code": "6568",
+      "company_name": "Ｇ－神戸天然物化学",
+      "market_cap": 97.6,
+      "time": "17:40",
+      "title": "2027年３月期　通期業績予想（第１四半期）の修正に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260721/140120260721596911.pdf"
+    },
+    {
+      "code": "6568",
+      "company_name": "Ｇ－神戸天然物化学",
+      "market_cap": 97.6,
+      "time": "17:40",
+      "title": "譲渡制限付株式報酬としての自己株式の処分に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260721/140120260721596919.pdf"
+    },
+    {
+      "code": "8938",
+      "company_name": "Ｇ－グロームＨＤ",
+      "market_cap": 32.2,
+      "time": "17:30",
+      "title": "（開示の経過）系統用蓄電所事業の本格展開に向けた子会社設立に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260721/140120260721597032.pdf"
+    },
+    {
+      "code": "7477",
+      "company_name": "ムラキ",
+      "market_cap": 25.6,
+      "time": "18:00",
+      "title": "独立委員会による当社株主（株式会社イクヨおよびBlue Goats Capital株式会社）に対する共同協調行為等に関する質問書の送付のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260721/140120260721596892.pdf"
+    },
+    {
+      "code": "7578",
+      "company_name": "ニチリョク",
+      "market_cap": 12.2,
+      "time": "17:15",
+      "title": "取締役の異動に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260721/140120260721597003.pdf"
+    }
+  ],
+  "tdnet_available": true
+}
