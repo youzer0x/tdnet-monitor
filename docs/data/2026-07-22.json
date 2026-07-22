@@ -1,8 +1,16 @@
 {
   "date": "2026-07-22",
-  "company_count": 124,
-  "total_count": 140,
+  "company_count": 131,
+  "total_count": 149,
   "items": [
+    {
+      "code": "8031",
+      "company_name": "三井物産",
+      "market_cap": 140683.8,
+      "time": "21:30",
+      "title": "米国Penske Automotive Group, Inc.の浮動株買収を目的とした、法的拘束力を持たない提案書のPenske Corporationとの共同提出",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260722/140120260722597630.pdf"
+    },
     {
       "code": "9022",
       "company_name": "ＪＲ東海",
@@ -124,6 +132,22 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260722/140120260721596757.pdf"
     },
     {
+      "code": "6890",
+      "company_name": "フェローテック",
+      "market_cap": 3505.6,
+      "time": "18:30",
+      "title": "2026年12月期通期連結業績予想の修正に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260722/140120260722597821.pdf"
+    },
+    {
+      "code": "6890",
+      "company_name": "フェローテック",
+      "market_cap": 3505.6,
+      "time": "19:35",
+      "title": "（開示事項の訂正）2026年12月期通期連結業績予想の修正に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260722/140120260722597893.pdf"
+    },
+    {
       "code": "7014",
       "company_name": "名村造船",
       "market_cap": 2890.2,
@@ -186,6 +210,30 @@
       "time": "12:00",
       "title": "譲渡制限付株式報酬としての自己株式の処分の払込完了に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260722/140120260722597267.pdf"
+    },
+    {
+      "code": "6750",
+      "company_name": "エレコム",
+      "market_cap": 1690.4,
+      "time": "17:20",
+      "title": "譲渡制限付株式報酬としての自己株式の処分に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260722/140120260722597322.pdf"
+    },
+    {
+      "code": "6750",
+      "company_name": "エレコム",
+      "market_cap": 1690.4,
+      "time": "17:20",
+      "title": "社員持株会を通じた譲渡制限付株式付与のための第三者割当による自己株式処分に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260722/140120260722597332.pdf"
+    },
+    {
+      "code": "8337",
+      "company_name": "千葉興銀",
+      "market_cap": 1638.9,
+      "time": "19:00",
+      "title": "株式報酬型ストックオプション（新株予約権）発行内容確定のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260722/140120260722597524.pdf"
     },
     {
       "code": "9830",
@@ -468,6 +516,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260722/140120260722597697.pdf"
     },
     {
+      "code": "1736",
+      "company_name": "オーテック",
+      "market_cap": 431.3,
+      "time": "17:30",
+      "title": "支配株主等に関する事項について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260722/140120260722597790.pdf"
+    },
+    {
       "code": "5013",
       "company_name": "ユシロ",
       "market_cap": 415.2,
@@ -706,6 +762,14 @@
       "time": "15:30",
       "title": "譲渡制限付株式報酬としての自己株式の処分の払込完了に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260722/140120260722597670.pdf"
+    },
+    {
+      "code": "2935",
+      "company_name": "ピックルスＨＤ",
+      "market_cap": 150.8,
+      "time": "17:25",
+      "title": "株式報酬型ストックオプション（新株予約権）の発行内容確定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260722/140120260722597802.pdf"
     },
     {
       "code": "3776",
@@ -1098,6 +1162,14 @@
       "time": "16:00",
       "title": "第三者割当による行使価額修正条項付第９回及び第11回新株予約権の取得及び消却に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260722/140120260722597494.pdf"
+    },
+    {
+      "code": "2388",
+      "company_name": "Ｇ－ウェッジＨＤ",
+      "market_cap": 16.1,
+      "time": "19:10",
+      "title": "当社が取得した子会社株式等についての処分禁止の仮処分命令の送達について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260722/140120260722597828.pdf"
     },
     {
       "code": "8746",
