@@ -1,7 +1,7 @@
 {
   "date": "2026-07-27",
-  "company_count": 90,
-  "total_count": 115,
+  "company_count": 93,
+  "total_count": 118,
   "items": [
     {
       "code": "6098",
@@ -50,6 +50,14 @@
       "time": "17:00",
       "title": "監査役の逝去及び退任に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260727/140120260727500147.pdf"
+    },
+    {
+      "code": "7550",
+      "company_name": "ゼンショーＨＤ",
+      "market_cap": 15584.7,
+      "time": "18:00",
+      "title": "当社個別決算における営業外収益の計上に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260727/140120260727500295.pdf"
     },
     {
       "code": "5838",
@@ -668,6 +676,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260727/140120260727500155.pdf"
     },
     {
+      "code": "4772",
+      "company_name": "Ｇ－ＳＭ　ＥＮＴＥＲ",
+      "market_cap": 96.2,
+      "time": "17:45",
+      "title": "（開示事項の経過）当社子会社における投資有価証券売却益（特別利益）の計上に関するお知らせ（支配株主等との取引）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260727/140120260727500017.pdf"
+    },
+    {
       "code": "1718",
       "company_name": "美樹工業",
       "market_cap": 85.9,
@@ -706,6 +722,14 @@
       "time": "15:30",
       "title": "2026年12月期第2四半期累計期間及び通期連結業績予想の修正に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260727/140120260727599801.pdf"
+    },
+    {
+      "code": "2984",
+      "company_name": "ヤマイチ",
+      "market_cap": 63.3,
+      "time": "18:00",
+      "title": "株式会社ホームズ及び株式会社安住コーポレーションの株式取得(連結子会社化)に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260727/140120260727599791.pdf"
     },
     {
       "code": "2894",
