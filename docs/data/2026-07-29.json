@@ -1,7 +1,7 @@
 {
   "date": "2026-07-29",
-  "company_count": 153,
-  "total_count": 218,
+  "company_count": 164,
+  "total_count": 234,
   "items": [
     {
       "code": "9984",
@@ -108,6 +108,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260729/140120260728500942.pdf"
     },
     {
+      "code": "4689",
+      "company_name": "ＬＩＮＥヤフー",
+      "market_cap": 32534.9,
+      "time": "19:00",
+      "title": "(経過開示)BCPE Blitz Caymanによる株式会社カカクコムに対する公開買付けの開始予定及び当社によるBCPE Blitz Caymanへの間接的な共同出資予定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260729/140120260716594887.pdf"
+    },
+    {
       "code": "6920",
       "company_name": "レーザーテック",
       "market_cap": 32368.5,
@@ -186,6 +194,14 @@
       "time": "15:40",
       "title": "従業員持株会向け譲渡制限付株式インセンティブとしての自己株式の処分の払込完了及び一部失権に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260729/140120260728501256.pdf"
+    },
+    {
+      "code": "4523",
+      "company_name": "エーザイ",
+      "market_cap": 14903.3,
+      "time": "19:00",
+      "title": "抗アミロイドβ抗体「レケンビ」の売上収益（速報）について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260729/140120260729502346.pdf"
     },
     {
       "code": "1944",
@@ -372,6 +388,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260729/140120260728501240.pdf"
     },
     {
+      "code": "8425",
+      "company_name": "みずほリース",
+      "market_cap": 3866.9,
+      "time": "18:30",
+      "title": "連結子会社保有物件に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260729/140120260729502321.pdf"
+    },
+    {
       "code": "6526",
       "company_name": "ソシオネクスト",
       "market_cap": 3640.8,
@@ -460,6 +484,54 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260729/140120260727500375.pdf"
     },
     {
+      "code": "8919",
+      "company_name": "カチタス",
+      "market_cap": 2689.9,
+      "time": "18:00",
+      "title": "従業員に対する譲渡制限付株式としての自己株式の処分に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260729/140120260729501525.pdf"
+    },
+    {
+      "code": "4722",
+      "company_name": "フューチャー",
+      "market_cap": 2270.7,
+      "time": "17:30",
+      "title": "ＭＢＯの実施及び応募の推奨に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260729/140120260729502314.pdf"
+    },
+    {
+      "code": "4722",
+      "company_name": "フューチャー",
+      "market_cap": 2270.7,
+      "time": "17:30",
+      "title": "2026年12月期 期末配当予想の修正（無配）のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260729/140120260729502096.pdf"
+    },
+    {
+      "code": "4722",
+      "company_name": "フューチャー",
+      "market_cap": 2270.7,
+      "time": "17:30",
+      "title": "合同会社キーウェスト・ネットワークによるフューチャー株式会社（証券コード：4722）に対する公開買付けの開始に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260729/140120260729502269.pdf"
+    },
+    {
+      "code": "4722",
+      "company_name": "フューチャー",
+      "market_cap": 2270.7,
+      "time": "17:30",
+      "title": "2026年12月期 第２四半期（中間期）決算短信〔日本基準〕（連結）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260729/140120260728501236.pdf"
+    },
+    {
+      "code": "4722",
+      "company_name": "フューチャー",
+      "market_cap": 2270.7,
+      "time": "17:30",
+      "title": "2026年12月期第２四半期（中間期）連結業績（累計）のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260729/140120260728501239.pdf"
+    },
+    {
       "code": "8273",
       "company_name": "イズミ",
       "market_cap": 2270.4,
@@ -546,6 +618,14 @@
       "time": "15:30",
       "title": "2027年３月期　第１四半期決算短信〔日本基準〕(連結)",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260729/140120260728501311.pdf"
+    },
+    {
+      "code": "2685",
+      "company_name": "アンドエスティＨＤ",
+      "market_cap": 1708.0,
+      "time": "17:30",
+      "title": "「令和８年熊本地震」の影響に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260729/140120260729502202.pdf"
     },
     {
       "code": "9551",
@@ -980,6 +1060,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260729/140120260728501117.pdf"
     },
     {
+      "code": "8141",
+      "company_name": "新光商",
+      "market_cap": 487.5,
+      "time": "18:30",
+      "title": "加賀電子株式会社による当社株式に対する公開買付けに関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260729/140120260729502506.pdf"
+    },
+    {
       "code": "7779",
       "company_name": "Ｇ－サイバダイン－議",
       "market_cap": 473.3,
@@ -1146,6 +1234,14 @@
       "time": "15:30",
       "title": "譲渡制限付株式報酬としての自己株式の処分の払込完了に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260729/140120260728500669.pdf"
+    },
+    {
+      "code": "7095",
+      "company_name": "ＭａｃｂｅｅＰ",
+      "market_cap": 181.0,
+      "time": "17:30",
+      "title": "連結子会社からの配当金受領のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260729/140120260729502354.pdf"
     },
     {
       "code": "7273",
@@ -1420,6 +1516,22 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260729/140120260729501704.pdf"
     },
     {
+      "code": "4262",
+      "company_name": "Ｇ－ニフティライフ",
+      "market_cap": 87.5,
+      "time": "17:30",
+      "title": "レプリス株式会社の株式の取得（子会社化）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260729/140120260729502030.pdf"
+    },
+    {
+      "code": "4262",
+      "company_name": "Ｇ－ニフティライフ",
+      "market_cap": 87.5,
+      "time": "17:30",
+      "title": "レプリス株式会社の子会社化に関する補足資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260729/140120260729502221.pdf"
+    },
+    {
       "code": "3123",
       "company_name": "サイボー",
       "market_cap": 87.2,
@@ -1668,6 +1780,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260729/140120260729502053.pdf"
     },
     {
+      "code": "9439",
+      "company_name": "ＭＨグループ",
+      "market_cap": 26.4,
+      "time": "18:00",
+      "title": "特別目的会社（ＳＰＣ）の株式取得（子会社化及び孫会社化）並びに新規事業の開始に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260729/140120260728501302.pdf"
+    },
+    {
       "code": "8836",
       "company_name": "ＲＩＳＥ",
       "market_cap": 25.9,
@@ -1690,6 +1810,14 @@
       "time": "15:30",
       "title": "臨時株主総会、普通株主による種類株主総会、Ａ種優先株主による種類株主総会の開催日及び付議議案決定に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260729/140120260716595047.pdf"
+    },
+    {
+      "code": "2164",
+      "company_name": "地域新聞社",
+      "market_cap": 24.3,
+      "time": "18:45",
+      "title": "株主（オプションハウス株式会社）による新株予約権無償割当て差止めの仮処分の追加の申立てに関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260729/140120260729502454.pdf"
     },
     {
       "code": "8254",
