@@ -1,7 +1,7 @@
 {
   "date": "2026-07-30",
-  "company_count": 230,
-  "total_count": 375,
+  "company_count": 239,
+  "total_count": 388,
   "items": [
     {
       "code": "9984",
@@ -218,6 +218,14 @@
       "time": "14:00",
       "title": "令和８年熊本地震に伴う連結業績影響について",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260730/140120260730503374.pdf"
+    },
+    {
+      "code": "8267",
+      "company_name": "イオン",
+      "market_cap": 39609.6,
+      "time": "17:15",
+      "title": "イオンモール熊本の爆発事故について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260730/140120260730503415.pdf"
     },
     {
       "code": "4307",
@@ -748,6 +756,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260730/140120260730503185.pdf"
     },
     {
+      "code": "5301",
+      "company_name": "東海カーボン",
+      "market_cap": 3437.1,
+      "time": "17:30",
+      "title": "令和８年熊本地震の影響に関するお知らせ（第２報）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260730/140120260730503877.pdf"
+    },
+    {
       "code": "8174",
       "company_name": "日瓦斯",
       "market_cap": 3329.0,
@@ -1220,6 +1236,22 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260730/140120260730503247.pdf"
     },
     {
+      "code": "6379",
+      "company_name": "レイズネクスト",
+      "market_cap": 1453.3,
+      "time": "17:40",
+      "title": "株式分割、株式分割に伴う定款の一部変更および 配当予想の修正（増配）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260730/140120260730503915.pdf"
+    },
+    {
+      "code": "6379",
+      "company_name": "レイズネクスト",
+      "market_cap": 1453.3,
+      "time": "17:40",
+      "title": "株主優待制度の変更(拡充)に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260730/140120260730503791.pdf"
+    },
+    {
       "code": "9037",
       "company_name": "ハマキョウ",
       "market_cap": 1400.0,
@@ -1298,6 +1330,30 @@
       "time": "15:30",
       "title": "2026年９月期　第３四半期決算説明資料",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260730/140120260729501791.pdf"
+    },
+    {
+      "code": "5449",
+      "company_name": "大阪製鉄",
+      "market_cap": 1189.8,
+      "time": "17:30",
+      "title": "2027年３月期第１四半期決算短信〔日本基準〕(連結)",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260730/140120260730502781.pdf"
+    },
+    {
+      "code": "5449",
+      "company_name": "大阪製鉄",
+      "market_cap": 1189.8,
+      "time": "17:30",
+      "title": "業績予想の修正に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260730/140120260730502791.pdf"
+    },
+    {
+      "code": "5449",
+      "company_name": "大阪製鉄",
+      "market_cap": 1189.8,
+      "time": "17:30",
+      "title": "2027年３月期 配当予想の修正に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260730/140120260730502833.pdf"
     },
     {
       "code": "9708",
@@ -1554,6 +1610,14 @@
       "time": "15:30",
       "title": "自己株式取得に係る事項の決定に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260730/140120260730503030.pdf"
+    },
+    {
+      "code": "6946",
+      "company_name": "日アビオ",
+      "market_cap": 836.6,
+      "time": "18:00",
+      "title": "２０２７年３月期　第１四半期決算短信〔日本基準〕（連結）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260730/140120260728500716.pdf"
     },
     {
       "code": "4116",
@@ -2604,6 +2668,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260730/140120260706588410.pdf"
     },
     {
+      "code": "2162",
+      "company_name": "ｎｍｓ　ＨＤ",
+      "market_cap": 116.1,
+      "time": "17:30",
+      "title": "株式会社ワールドホールディングスによる当社株式に係る株式等売渡請求を行うことの決定、当該株式等売渡請求に係る承認及び当社株式の上場廃止に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260730/140120260727599733.pdf"
+    },
+    {
       "code": "7022",
       "company_name": "サノヤスＨＤ",
       "market_cap": 103.3,
@@ -2650,6 +2722,22 @@
       "time": "16:20",
       "title": "株主優待の一部内容変更（優待品目の変更）に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260730/140120260729501715.pdf"
+    },
+    {
+      "code": "4169",
+      "company_name": "Ｇ－エネチェンジ",
+      "market_cap": 96.0,
+      "time": "17:30",
+      "title": "課徴金に係る審判手続開始決定に対する答弁書の提出に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260730/140120260729502515.pdf"
+    },
+    {
+      "code": "2735",
+      "company_name": "ワッツ",
+      "market_cap": 91.5,
+      "time": "17:35",
+      "title": "令和８年熊本地震の影響に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260730/140120260730503839.pdf"
     },
     {
       "code": "4262",
@@ -2932,6 +3020,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260730/140120260730503286.pdf"
     },
     {
+      "code": "8254",
+      "company_name": "さいか屋",
+      "market_cap": 22.7,
+      "time": "17:30",
+      "title": "自己株式取得状況及び取得終了に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260730/140120260729502538.pdf"
+    },
+    {
       "code": "4427",
       "company_name": "Ｇ－ＥｄｕＬａｂ",
       "market_cap": 20.2,
@@ -2954,6 +3050,14 @@
       "time": "15:30",
       "title": "2026年12月期 第2四半期（中間期）決算短信〔日本基準〕（連結）",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260730/140120260713592535.pdf"
+    },
+    {
+      "code": "2667",
+      "company_name": "イメージワン",
+      "market_cap": 17.2,
+      "time": "19:00",
+      "title": "有償ストック・オプション （「第15回新株予約権」）の発行に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260730/140120260730504111.pdf"
     },
     {
       "code": "2721",
