@@ -1,7 +1,7 @@
 {
   "date": "2026-08-04",
-  "company_count": 193,
-  "total_count": 303,
+  "company_count": 199,
+  "total_count": 313,
   "items": [
     {
       "code": "7203",
@@ -42,6 +42,14 @@
       "time": "15:30",
       "title": "従業員に対する株式交付制度としての自己株式の処分に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260804/140120260804507884.pdf"
+    },
+    {
+      "code": "7203",
+      "company_name": "トヨタ自",
+      "market_cap": 425954.7,
+      "time": "19:30",
+      "title": "2027年３月期 第１四半期決算 投資家向け決算説明会　質疑応答（要旨）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260804/140120260804507895.pdf"
     },
     {
       "code": "6501",
@@ -210,6 +218,22 @@
       "time": "15:30",
       "title": "業績予想の修正に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260804/140120260728501123.pdf"
+    },
+    {
+      "code": "4543",
+      "company_name": "テルモ",
+      "market_cap": 34393.4,
+      "time": "18:15",
+      "title": "譲渡制限付株式報酬としての自己株式の処分の払込完了に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260804/140120260804508917.pdf"
+    },
+    {
+      "code": "4543",
+      "company_name": "テルモ",
+      "market_cap": 34393.4,
+      "time": "18:15",
+      "title": "ストックオプション（新株予約権）の発行内容確定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260804/140120260804508939.pdf"
     },
     {
       "code": "6594",
@@ -538,6 +562,14 @@
       "time": "14:30",
       "title": "当社グループに関するレポート",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260804/140120260804508502.pdf"
+    },
+    {
+      "code": "7729",
+      "company_name": "東精密",
+      "market_cap": 7636.7,
+      "time": "18:00",
+      "title": "2026年度(2027年3月期）第1四半期 決算説明会（ノート付）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260804/140120260804508092.pdf"
     },
     {
       "code": "7729",
@@ -1460,6 +1492,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260804/140120260804508445.pdf"
     },
     {
+      "code": "9310",
+      "company_name": "トランスシティ",
+      "market_cap": 905.8,
+      "time": "17:15",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260804/140120260804508787.pdf"
+    },
+    {
       "code": "3950",
       "company_name": "ザ・パック",
       "market_cap": 874.0,
@@ -1586,6 +1626,14 @@
       "time": "17:00",
       "title": "自己株式の取得及び自己株式立会外買付取引（ToSTNeT-3）による自己株式の買付けに関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260804/140120260804507765.pdf"
+    },
+    {
+      "code": "4221",
+      "company_name": "大倉工",
+      "market_cap": 675.4,
+      "time": "17:45",
+      "title": "2026年12月期 第２四半期（中間期）決算説明資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260804/140120260804508729.pdf"
     },
     {
       "code": "7915",
@@ -2060,6 +2108,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260804/140120260804508283.pdf"
     },
     {
+      "code": "1787",
+      "company_name": "ナカボーテック",
+      "market_cap": 150.2,
+      "time": "17:10",
+      "title": "（訂正）資本業務提携契約の締結、資本技術提携の解消、自己株式の取得並びに主要株主である筆頭株主及びその他の関係会社の異動に関するお知らせの一部訂正",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260804/140120260804508757.pdf"
+    },
+    {
       "code": "6493",
       "company_name": "ＮＩＴＴＡＮ",
       "market_cap": 145.8,
@@ -2074,6 +2130,14 @@
       "time": "12:00",
       "title": "RFIDソリューション販売開始。次世代RFIDソリューション『AsReader BOX-Type』、「coca」旗艦店への導入のお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260804/140120260729502525.pdf"
+    },
+    {
+      "code": "4813",
+      "company_name": "ＡＣＣＥＳＳ",
+      "market_cap": 137.9,
+      "time": "19:00",
+      "title": "主要株主の異動に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260804/140120260804508756.pdf"
     },
     {
       "code": "3793",
@@ -2188,6 +2252,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260804/140120260804507870.pdf"
     },
     {
+      "code": "3069",
+      "company_name": "ＪＦＬＡＨＤ",
+      "market_cap": 77.2,
+      "time": "17:30",
+      "title": "令和８年熊本地震の影響に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260804/140120260804508832.pdf"
+    },
+    {
       "code": "4624",
       "company_name": "イサム塗料",
       "market_cap": 72.5,
@@ -2298,6 +2370,14 @@
       "time": "15:00",
       "title": "（訂正）「第三者割当により発行された第９回新株予約権（行使価額修正条項付）の月間行使状況に関するお知らせ」の一部訂正について",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260804/140120260803507630.pdf"
+    },
+    {
+      "code": "8798",
+      "company_name": "アドバンスクリエイト",
+      "market_cap": 46.8,
+      "time": "18:15",
+      "title": "第三者委員会の調査報告書の公表に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260804/140120260804508510.pdf"
     },
     {
       "code": "7859",
