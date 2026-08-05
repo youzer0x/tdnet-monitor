@@ -1,7 +1,7 @@
 {
   "date": "2026-08-05",
-  "company_count": 300,
-  "total_count": 506,
+  "company_count": 306,
+  "total_count": 518,
   "items": [
     {
       "code": "6758",
@@ -130,6 +130,14 @@
       "time": "15:30",
       "title": "2027年３月期第１四半期決算短信の開示が四半期末後45日を超えることに関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260805/140120260805510292.pdf"
+    },
+    {
+      "code": "6594",
+      "company_name": "ニデック",
+      "market_cap": 33213.0,
+      "time": "18:30",
+      "title": "株主からの提訴請求について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260805/140120260805510851.pdf"
     },
     {
       "code": "7013",
@@ -1252,6 +1260,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260805/140120260805509240.pdf"
     },
     {
+      "code": "6996",
+      "company_name": "ニチコン",
+      "market_cap": 2296.0,
+      "time": "17:30",
+      "title": "2027年3月期第1四半期決算短信〔日本基準〕（連結）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260805/140120260730503747.pdf"
+    },
+    {
       "code": "3360",
       "company_name": "シップＨＤ",
       "market_cap": 2259.2,
@@ -2308,6 +2324,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260805/140120260730503340.pdf"
     },
     {
+      "code": "2395",
+      "company_name": "新日科学",
+      "market_cap": 562.0,
+      "time": "17:55",
+      "title": "(訂正・数値データ訂正)「2027年３月期　第１四半期決算短信［日本基準］（連結）」の一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260805/140120260805510172.pdf"
+    },
+    {
       "code": "1793",
       "company_name": "大本組",
       "market_cap": 558.4,
@@ -2788,6 +2812,46 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260805/140120260805510134.pdf"
     },
     {
+      "code": "4320",
+      "company_name": "ＣＥＨＤ",
+      "market_cap": 293.2,
+      "time": "20:00",
+      "title": "SK-03株式会社による株式会社ＣＥホールディングスの株式（証券コード4320） に対する公開買付けの開始に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260805/140120260805510843.pdf"
+    },
+    {
+      "code": "4320",
+      "company_name": "ＣＥＨＤ",
+      "market_cap": 293.2,
+      "time": "20:00",
+      "title": "SK-03株式会社による当社株式に対する公開買付けに関する賛同及び応募中立の意見表明に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260805/140120260805510436.pdf"
+    },
+    {
+      "code": "4320",
+      "company_name": "ＣＥＨＤ",
+      "market_cap": 293.2,
+      "time": "20:00",
+      "title": "自己株式の公開買付けの開始予定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260805/140120260805510437.pdf"
+    },
+    {
+      "code": "4320",
+      "company_name": "ＣＥＨＤ",
+      "market_cap": 293.2,
+      "time": "20:00",
+      "title": "2026年９月期  第３四半期決算短信〔日本基準〕（連結）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260805/140120260805510461.pdf"
+    },
+    {
+      "code": "4320",
+      "company_name": "ＣＥＨＤ",
+      "market_cap": 293.2,
+      "time": "20:00",
+      "title": "2026年９月期の期末配当予想の修正（無配）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260805/140120260805510969.pdf"
+    },
+    {
       "code": "2922",
       "company_name": "なとり",
       "market_cap": 288.5,
@@ -2946,6 +3010,14 @@
       "time": "15:00",
       "title": "連結総資産の減少に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260805/140120260805509581.pdf"
+    },
+    {
+      "code": "9251",
+      "company_name": "Ｇ－ＡＢ＆Ｃ",
+      "market_cap": 209.2,
+      "time": "19:00",
+      "title": "国内店舗月次営業速報（2026年７月）のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260805/140120260805509698.pdf"
     },
     {
       "code": "3166",
@@ -3724,6 +3796,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260805/140120260805509358.pdf"
     },
     {
+      "code": "4586",
+      "company_name": "Ｇ－メドレック",
+      "market_cap": 41.0,
+      "time": "17:50",
+      "title": "Bondlidoに関する特許査定（米国）のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260805/140120260805510622.pdf"
+    },
+    {
       "code": "6656",
       "company_name": "ＩＮＳＰＥＣ",
       "market_cap": 40.9,
@@ -3812,6 +3892,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260805/140120260805509276.pdf"
     },
     {
+      "code": "7063",
+      "company_name": "Ｇ－Ｂｉｒｄｍａｎ",
+      "market_cap": 34.1,
+      "time": "18:30",
+      "title": "株式会社GAKUSEI RUNWAYとの業務提携及び新たな事業の開始に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260805/140120260805510819.pdf"
+    },
+    {
       "code": "7462",
       "company_name": "ＣＡＰＩＴＡ",
       "market_cap": 33.7,
@@ -3834,6 +3922,14 @@
       "time": "13:00",
       "title": "月次売上高前年比情報（速報）のお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260805/140120260805509520.pdf"
+    },
+    {
+      "code": "2330",
+      "company_name": "フォーサイド",
+      "market_cap": 31.9,
+      "time": "18:00",
+      "title": "特別調査委員会の調査報告書受領に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260805/140120260805510789.pdf"
     },
     {
       "code": "9012",
