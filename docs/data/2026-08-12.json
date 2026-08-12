@@ -1,7 +1,7 @@
 {
   "date": "2026-08-12",
-  "company_count": 235,
-  "total_count": 436,
+  "company_count": 239,
+  "total_count": 443,
   "items": [
     {
       "code": "8766",
@@ -122,6 +122,14 @@
       "time": "16:00",
       "title": "海外募集による新株式の発行に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260812/140120260812518149.pdf"
+    },
+    {
+      "code": "6141",
+      "company_name": "ＤＭＧ森精機",
+      "market_cap": 5210.6,
+      "time": "23:00",
+      "title": "海外募集による新株式の発行条件等の決定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260812/140120260812518453.pdf"
     },
     {
       "code": "4681",
@@ -684,6 +692,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260812/140120260728500792.pdf"
     },
     {
+      "code": "4417",
+      "company_name": "Ｇ－グローバルセキュ",
+      "market_cap": 695.8,
+      "time": "17:15",
+      "title": "（開示事項の経過）株式会社網屋との資本業務提携に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260812/140120260812518426.pdf"
+    },
+    {
       "code": "8160",
       "company_name": "木曽路",
       "market_cap": 693.3,
@@ -946,6 +962,14 @@
       "time": "16:20",
       "title": "2026年12月期 第2四半期決算説明会資料",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260812/140120260812518257.pdf"
+    },
+    {
+      "code": "4258",
+      "company_name": "Ｇ－網屋",
+      "market_cap": 427.4,
+      "time": "17:30",
+      "title": "（訂正）「自己株式の取得及び自己株式立会外買付取引（ToSTNeT-3）による  自己株式の買付けに関するお知らせ」の一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260812/140120260812518497.pdf"
     },
     {
       "code": "7047",
@@ -1996,6 +2020,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260812/140120260812517936.pdf"
     },
     {
+      "code": "2122",
+      "company_name": "Ｉスペース",
+      "market_cap": 100.0,
+      "time": "17:30",
+      "title": "2026年9月期 第3四半期決算説明会資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260812/140120260812518464.pdf"
+    },
+    {
       "code": "4222",
       "company_name": "児玉化",
       "market_cap": 97.1,
@@ -2434,6 +2466,14 @@
       "time": "09:00",
       "title": "2026年12月期 第2四半期（中間期）決算短信〔日本基準〕（連結）",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260812/140120260721596798.pdf"
+    },
+    {
+      "code": "3856",
+      "company_name": "Ａｂａｌａｎｃｅ",
+      "market_cap": 68.9,
+      "time": "17:10",
+      "title": "過年度の有価証券報告書等の訂正及び2026年３月期等の決算短信見通し並びに2027年３月期第１四半期決算短信の開示が四半期末後45日を超えることに関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260812/140120260812518468.pdf"
     },
     {
       "code": "4880",
@@ -2884,6 +2924,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260812/140120260810516322.pdf"
     },
     {
+      "code": "3719",
+      "company_name": "ＡＩストーム",
+      "market_cap": 41.7,
+      "time": "17:10",
+      "title": "令和８年12月期第２四半期決算短信の開示延期及び第63期半期報告書の提出期限の延長申請検討に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260812/140120260812518467.pdf"
+    },
+    {
       "code": "3521",
       "company_name": "テルマー湯ＨＤ",
       "market_cap": 41.3,
@@ -3058,6 +3106,14 @@
       "time": "15:30",
       "title": "2026年12月期第２四半期（中間期）決算短信〔日本基準〕(連結)",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260812/140120260812517868.pdf"
+    },
+    {
+      "code": "8518",
+      "company_name": "アジア投資",
+      "market_cap": 34.8,
+      "time": "17:45",
+      "title": "主要株主の異動についてのお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260812/140120260812518495.pdf"
     },
     {
       "code": "5256",
