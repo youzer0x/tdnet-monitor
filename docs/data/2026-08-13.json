@@ -1,7 +1,7 @@
 {
   "date": "2026-08-13",
-  "company_count": 230,
-  "total_count": 492,
+  "company_count": 236,
+  "total_count": 506,
   "items": [
     {
       "code": "4578",
@@ -156,6 +156,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260813/140120260813519030.pdf"
     },
     {
+      "code": "2371",
+      "company_name": "カカクコム",
+      "market_cap": 7361.8,
+      "time": "17:45",
+      "title": "Kamgras １株式会社による株式会社カカクコム（証券コード：2371）の株券等に対する公開買付けの買付条件等の変更に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260813/140120260813519733.pdf"
+    },
+    {
       "code": "9364",
       "company_name": "上組",
       "market_cap": 5367.2,
@@ -202,6 +210,22 @@
       "time": "16:00",
       "title": "2027年３月期　第１四半期決算説明資料",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260813/140120260804507894.pdf"
+    },
+    {
+      "code": "8570",
+      "company_name": "イオンＦＳ",
+      "market_cap": 3553.4,
+      "time": "18:00",
+      "title": "主要株主の異動に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260813/140120260813519882.pdf"
+    },
+    {
+      "code": "3350",
+      "company_name": "メタプラネット",
+      "market_cap": 2857.3,
+      "time": "17:15",
+      "title": "2026年12期第２四半期決算説明資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260813/140120260812518572.pdf"
     },
     {
       "code": "3350",
@@ -1500,6 +1524,30 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260813/140120260812518546.pdf"
     },
     {
+      "code": "6571",
+      "company_name": "キュービーネットＨＤ",
+      "market_cap": 179.6,
+      "time": "18:30",
+      "title": "2026年６月期 決算短信〔ＩＦＲＳ〕(連結)",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260813/140120260812518483.pdf"
+    },
+    {
+      "code": "6571",
+      "company_name": "キュービーネットＨＤ",
+      "market_cap": 179.6,
+      "time": "18:30",
+      "title": "2026年6月期連結業績予想値と決算値との差異に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260813/140120260812518492.pdf"
+    },
+    {
+      "code": "6571",
+      "company_name": "キュービーネットＨＤ",
+      "market_cap": 179.6,
+      "time": "18:30",
+      "title": "2026年６月期 決算説明資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260813/140120260812517941.pdf"
+    },
+    {
       "code": "7562",
       "company_name": "安楽亭",
       "market_cap": 175.2,
@@ -2252,6 +2300,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260813/140120260813519586.pdf"
     },
     {
+      "code": "1447",
+      "company_name": "Ｇ－ＳＡＡＦＨＤ",
+      "market_cap": 90.2,
+      "time": "19:00",
+      "title": "2027年３月期第１四半期 決算説明会資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260813/140120260813519886.pdf"
+    },
+    {
       "code": "4896",
       "company_name": "Ｇ－ケイファーマ",
       "market_cap": 89.6,
@@ -2844,6 +2900,22 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260813/140120260715593944.pdf"
     },
     {
+      "code": "8798",
+      "company_name": "アドバンスクリエイト",
+      "market_cap": 52.8,
+      "time": "18:00",
+      "title": "2026年9月期第3四半期決算短信の開示が四半期末後45日を超えることに関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260813/140120260813519928.pdf"
+    },
+    {
+      "code": "8798",
+      "company_name": "アドバンスクリエイト",
+      "market_cap": 52.8,
+      "time": "19:30",
+      "title": "再発防止策（骨子）の策定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260813/140120260813520046.pdf"
+    },
+    {
       "code": "4395",
       "company_name": "Ｇ－アクリート",
       "market_cap": 52.7,
@@ -3156,6 +3228,22 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260813/140120260813519447.pdf"
     },
     {
+      "code": "7462",
+      "company_name": "ＣＡＰＩＴＡ",
+      "market_cap": 33.1,
+      "time": "19:00",
+      "title": "株式会社桃の木による当社株式に対する公開買付けに関する意見表明のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260813/140120260813519711.pdf"
+    },
+    {
+      "code": "7462",
+      "company_name": "ＣＡＰＩＴＡ",
+      "market_cap": 33.1,
+      "time": "19:00",
+      "title": "株式会社桃の木による株式会社ＣＡＰＩＴＡ（証券コード：7462）の株券等に対する公開買付けの開始に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260813/140120260813519458.pdf"
+    },
+    {
       "code": "9419",
       "company_name": "ワイヤレスゲート",
       "market_cap": 32.9,
@@ -3418,6 +3506,14 @@
       "time": "15:30",
       "title": "営業外収益、営業外費用及び特別損失の計上に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260813/140120260805510647.pdf"
+    },
+    {
+      "code": "7042",
+      "company_name": "アクセスグループ",
+      "market_cap": 24.3,
+      "time": "17:30",
+      "title": "アスリート学生向け就職支援サービス「スポキャリ事業」に関する株式会社スポキャリとの業務提携契約についてのお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260813/140120260813519250.pdf"
     },
     {
       "code": "3913",
@@ -3802,6 +3898,22 @@
       "time": "15:30",
       "title": "当期実績(連結・個別)と前期実績の差異、および投資有価証券売却益の計上に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260813/140120260813519605.pdf"
+    },
+    {
+      "code": "6579",
+      "company_name": "Ｇ－ログリー",
+      "market_cap": 13.5,
+      "time": "17:30",
+      "title": "2027年３月期　第１四半期決算短信〔日本基準〕（連結）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260813/140120260813519078.pdf"
+    },
+    {
+      "code": "6579",
+      "company_name": "Ｇ－ログリー",
+      "market_cap": 13.5,
+      "time": "17:30",
+      "title": "2027年３月期　第１四半期決算説明資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260813/140120260803506818.pdf"
     },
     {
       "code": "4265",
