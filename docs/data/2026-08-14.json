@@ -1,7 +1,7 @@
 {
   "date": "2026-08-14",
-  "company_count": 400,
-  "total_count": 843,
+  "company_count": 412,
+  "total_count": 892,
   "items": [
     {
       "code": "8306",
@@ -500,6 +500,30 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814520247.pdf"
     },
     {
+      "code": "8129",
+      "company_name": "東邦ＨＤ",
+      "market_cap": 2790.3,
+      "time": "17:15",
+      "title": "譲渡制限付株式報酬としての自己株式の処分の払込完了に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521391.pdf"
+    },
+    {
+      "code": "8129",
+      "company_name": "東邦ＨＤ",
+      "market_cap": 2790.3,
+      "time": "18:00",
+      "title": "株主による新株予約権無償割当て差止めの仮処分の申立てに関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521422.pdf"
+    },
+    {
+      "code": "8129",
+      "company_name": "東邦ＨＤ",
+      "market_cap": 2790.3,
+      "time": "19:30",
+      "title": "（訂正）「株主による新株予約権無償割当て差止めの仮処分の申立てに関するお知らせ」の一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521465.pdf"
+    },
+    {
       "code": "7744",
       "company_name": "ノーリツ鋼機",
       "market_cap": 2359.2,
@@ -778,6 +802,22 @@
       "time": "15:30",
       "title": "2027年３月期  第１四半期決算短信〔日本基準〕（連結）",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260813519839.pdf"
+    },
+    {
+      "code": "3905",
+      "company_name": "Ｇ－データセクション",
+      "market_cap": 601.0,
+      "time": "20:45",
+      "title": "2027年３月期 第１四半期決算短信〔日本基準〕（連結）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521484.pdf"
+    },
+    {
+      "code": "3905",
+      "company_name": "Ｇ－データセクション",
+      "market_cap": 601.0,
+      "time": "20:45",
+      "title": "（開示事項の経過）大口受注に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521482.pdf"
     },
     {
       "code": "3232",
@@ -1106,6 +1146,14 @@
       "time": "15:30",
       "title": "2026年12月期　第２四半期（中間期）決算短信〔日本基準〕(連結)",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814520909.pdf"
+    },
+    {
+      "code": "6071",
+      "company_name": "ＩＢＪ",
+      "market_cap": 353.2,
+      "time": "18:10",
+      "title": "（訂正・数値データ訂正）「2026年12月期 第２四半期（中間期）決算短信[日本基準](連結)」の一部訂正に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521406.pdf"
     },
     {
       "code": "5038",
@@ -1676,6 +1724,30 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814520865.pdf"
     },
     {
+      "code": "4563",
+      "company_name": "Ｇ－アンジェス",
+      "market_cap": 199.4,
+      "time": "17:15",
+      "title": "新株予約権(46)の取得消却、第２回社債の償還と第三者割当新株予約権(47行使価額修正、48)、第２回新株予約権付社債の発行、GP社との事業提携契約",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521330.pdf"
+    },
+    {
+      "code": "4563",
+      "company_name": "Ｇ－アンジェス",
+      "market_cap": 199.4,
+      "time": "17:15",
+      "title": "2026年12月期第２四半期（中間期）決算短信〔日本基準〕（連結）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521375.pdf"
+    },
+    {
+      "code": "4563",
+      "company_name": "Ｇ－アンジェス",
+      "market_cap": 199.4,
+      "time": "17:16",
+      "title": "営業外収益、営業外費用、特別利益、特別損失及び法人税等調整額の計上に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521402.pdf"
+    },
+    {
       "code": "3773",
       "company_name": "Ｇ－ＡＭＩ",
       "market_cap": 198.3,
@@ -2026,6 +2098,14 @@
       "time": "15:30",
       "title": "譲渡制限付株式報酬としての自己株式の処分の払込完了に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521112.pdf"
+    },
+    {
+      "code": "3777",
+      "company_name": "Ｇ－環境フレンドリー",
+      "market_cap": 161.8,
+      "time": "18:00",
+      "title": "2026年12月期第2四半期（中間期）決算短信〔日本基準〕（連結）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260812517918.pdf"
     },
     {
       "code": "6039",
@@ -2388,6 +2468,38 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521086.pdf"
     },
     {
+      "code": "4011",
+      "company_name": "Ｇ－ヘッドウォーター",
+      "market_cap": 128.2,
+      "time": "23:50",
+      "title": "2026年12月期　第２四半期決算短信補足説明資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521502.pdf"
+    },
+    {
+      "code": "4011",
+      "company_name": "Ｇ－ヘッドウォーター",
+      "market_cap": 128.2,
+      "time": "23:50",
+      "title": "営業外費用及び特別損失の計上に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521499.pdf"
+    },
+    {
+      "code": "4011",
+      "company_name": "Ｇ－ヘッドウォーター",
+      "market_cap": 128.2,
+      "time": "23:50",
+      "title": "2026年12月期　第２四半期決算短信〔日本基準〕（連結）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521497.pdf"
+    },
+    {
+      "code": "4011",
+      "company_name": "Ｇ－ヘッドウォーター",
+      "market_cap": 128.2,
+      "time": "23:50",
+      "title": "第22期（2026年12月期）半期報告書の提出に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521504.pdf"
+    },
+    {
       "code": "6533",
       "company_name": "オーケストラＨＤ",
       "market_cap": 126.7,
@@ -2738,6 +2850,14 @@
       "time": "15:30",
       "title": "2026年12月期第2四半期決算短信の開示延期に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260812517980.pdf"
+    },
+    {
+      "code": "6497",
+      "company_name": "ハマイ",
+      "market_cap": 107.7,
+      "time": "18:00",
+      "title": "2026年12月期半期報告書の提出期限延長に係る承認のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521377.pdf"
     },
     {
       "code": "6561",
@@ -3260,6 +3380,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814520685.pdf"
     },
     {
+      "code": "3323",
+      "company_name": "レカム",
+      "market_cap": 76.1,
+      "time": "19:00",
+      "title": "子会社の半期決算情報に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814520760.pdf"
+    },
+    {
       "code": "4932",
       "company_name": "アルマード",
       "market_cap": 75.4,
@@ -3754,6 +3882,14 @@
       "time": "16:00",
       "title": "取締役の人事（予定）に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814520444.pdf"
+    },
+    {
+      "code": "7707",
+      "company_name": "Ｇ－ＰＳＳ",
+      "market_cap": 60.6,
+      "time": "17:30",
+      "title": "(訂正)「期末配当（復配）に関するお知らせ」の一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521395.pdf"
     },
     {
       "code": "3936",
@@ -4274,6 +4410,150 @@
       "time": "15:30",
       "title": "2026年６月期 通期決算説明資料",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814520960.pdf"
+    },
+    {
+      "code": "8798",
+      "company_name": "アドバンスクリエイト",
+      "market_cap": 52.5,
+      "time": "20:35",
+      "title": "過年度の有価証券報告書等の訂正報告書の提出及び過年度の決算短信等の訂正に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521470.pdf"
+    },
+    {
+      "code": "8798",
+      "company_name": "アドバンスクリエイト",
+      "market_cap": 52.5,
+      "time": "20:40",
+      "title": "財務報告に係る内部統制の開示すべき重要な不備及び内部統制報告書の訂正報告書の提出に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521474.pdf"
+    },
+    {
+      "code": "8798",
+      "company_name": "アドバンスクリエイト",
+      "market_cap": 52.5,
+      "time": "22:10",
+      "title": "2026年9月期 第2四半期（中間期）決算短信〔日本基準〕（連結）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521485.pdf"
+    },
+    {
+      "code": "8798",
+      "company_name": "アドバンスクリエイト",
+      "market_cap": 52.5,
+      "time": "22:10",
+      "title": "2026年9月期第2四半期（2025年10月～2026年3月）業績説明資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521487.pdf"
+    },
+    {
+      "code": "8798",
+      "company_name": "アドバンスクリエイト",
+      "market_cap": 52.5,
+      "time": "22:10",
+      "title": "2026年9月期の剰余金配当（中間配当）無配及び株主優待制度の休止継続に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521490.pdf"
+    },
+    {
+      "code": "8798",
+      "company_name": "アドバンスクリエイト",
+      "market_cap": 52.5,
+      "time": "22:10",
+      "title": "第31期（2026年9月期）半期報告書の提出完了に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521493.pdf"
+    },
+    {
+      "code": "8798",
+      "company_name": "アドバンスクリエイト",
+      "market_cap": 52.5,
+      "time": "22:10",
+      "title": "特別利益及び特別損失の計上に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521495.pdf"
+    },
+    {
+      "code": "8798",
+      "company_name": "アドバンスクリエイト",
+      "market_cap": 52.5,
+      "time": "23:30",
+      "title": "（再訂正）「2021年9月期 決算短信〔日本基準〕（連結）」の一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521436.pdf"
+    },
+    {
+      "code": "8798",
+      "company_name": "アドバンスクリエイト",
+      "market_cap": 52.5,
+      "time": "23:30",
+      "title": "（再訂正）「2022年9月期 決算短信〔日本基準〕（連結）」の一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521437.pdf"
+    },
+    {
+      "code": "8798",
+      "company_name": "アドバンスクリエイト",
+      "market_cap": 52.5,
+      "time": "23:35",
+      "title": "（再訂正）「2023年9月期 決算短信〔日本基準〕（連結）」の一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521439.pdf"
+    },
+    {
+      "code": "8798",
+      "company_name": "アドバンスクリエイト",
+      "market_cap": 52.5,
+      "time": "23:40",
+      "title": "（再訂正）「2024年9月期 第1四半期決算短信〔日本基準〕（連結）」の一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521450.pdf"
+    },
+    {
+      "code": "8798",
+      "company_name": "アドバンスクリエイト",
+      "market_cap": 52.5,
+      "time": "23:40",
+      "title": "（再訂正）「2024年9月期 第2四半期決算短信〔日本基準〕（連結）」の一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521453.pdf"
+    },
+    {
+      "code": "8798",
+      "company_name": "アドバンスクリエイト",
+      "market_cap": 52.5,
+      "time": "23:40",
+      "title": "（再訂正・数値データ再訂正）「2024年9月期 第3四半期決算短信〔日本基準〕（連結）」の一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521461.pdf"
+    },
+    {
+      "code": "8798",
+      "company_name": "アドバンスクリエイト",
+      "market_cap": 52.5,
+      "time": "23:40",
+      "title": "（訂正）「2024年9月期 決算短信〔日本基準〕（連結）」の一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521462.pdf"
+    },
+    {
+      "code": "8798",
+      "company_name": "アドバンスクリエイト",
+      "market_cap": 52.5,
+      "time": "23:50",
+      "title": "（訂正）「2025年9月期 第2四半期決算短信〔日本基準〕（連結）」の 一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521464.pdf"
+    },
+    {
+      "code": "8798",
+      "company_name": "アドバンスクリエイト",
+      "market_cap": 52.5,
+      "time": "23:50",
+      "title": "（訂正・数値データ訂正）「2025年9月期 第3四半期決算短信〔日本基準〕（連結）」の一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521466.pdf"
+    },
+    {
+      "code": "8798",
+      "company_name": "アドバンスクリエイト",
+      "market_cap": 52.5,
+      "time": "23:55",
+      "title": "（再訂正・数値データ再訂正）「2025年9月期 決算短信〔日本基準〕（連結）」の一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521503.pdf"
+    },
+    {
+      "code": "8798",
+      "company_name": "アドバンスクリエイト",
+      "market_cap": 52.5,
+      "time": "23:55",
+      "title": "（訂正・数値データ訂正）「2026年9月期 第1四半期決算短信〔日本基準〕（連結）」の一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521505.pdf"
     },
     {
       "code": "7039",
@@ -4852,6 +5132,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260813519407.pdf"
     },
     {
+      "code": "4586",
+      "company_name": "Ｇ－メドレック",
+      "market_cap": 39.8,
+      "time": "17:30",
+      "title": "第三者割当により発行された第35回新株予約権（行使価額修正条項付）の大量行使に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260807515657.pdf"
+    },
+    {
       "code": "3469",
       "company_name": "デュアルタップ",
       "market_cap": 39.5,
@@ -4922,6 +5210,14 @@
       "time": "17:00",
       "title": "株主優待制度の導入に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814520284.pdf"
+    },
+    {
+      "code": "5868",
+      "company_name": "ロココ",
+      "market_cap": 38.2,
+      "time": "19:30",
+      "title": "（訂正）中間配当の実施に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521468.pdf"
     },
     {
       "code": "7353",
@@ -5596,6 +5892,30 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260813519991.pdf"
     },
     {
+      "code": "7057",
+      "company_name": "エヌ・シー・エヌ",
+      "market_cap": 29.0,
+      "time": "18:00",
+      "title": "2027年3月期 第1四半期 決算短信[日本基準]（連結）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521413.pdf"
+    },
+    {
+      "code": "7057",
+      "company_name": "エヌ・シー・エヌ",
+      "market_cap": 29.0,
+      "time": "18:00",
+      "title": "2027年3月期第1四半期 決算説明資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521414.pdf"
+    },
+    {
+      "code": "7057",
+      "company_name": "エヌ・シー・エヌ",
+      "market_cap": 29.0,
+      "time": "18:00",
+      "title": "2027年3月期第1四半期　決算説明会のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521416.pdf"
+    },
+    {
       "code": "4487",
       "company_name": "Ｇ－スペースマーケッ",
       "market_cap": 28.9,
@@ -5868,6 +6188,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814520359.pdf"
     },
     {
+      "code": "9760",
+      "company_name": "進学会ＨＤ",
+      "market_cap": 24.0,
+      "time": "17:30",
+      "title": "2027年３月期第１四半期決算短信〔日本基準〕(連結)",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260810517060.pdf"
+    },
+    {
       "code": "9563",
       "company_name": "Ｇ－Ａｔｌａｓ",
       "market_cap": 23.9,
@@ -6138,6 +6466,38 @@
       "time": "15:30",
       "title": "定款一部変更に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521209.pdf"
+    },
+    {
+      "code": "3664",
+      "company_name": "Ｇ－ＷＩＺＥ",
+      "market_cap": 20.5,
+      "time": "17:10",
+      "title": "2026年12月期 第２四半期（中間期）決算短信〔日本基準〕(連結)",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521310.pdf"
+    },
+    {
+      "code": "3664",
+      "company_name": "Ｇ－ＷＩＺＥ",
+      "market_cap": 20.5,
+      "time": "17:10",
+      "title": "2026年12月期通期連結業績予想の公表に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521313.pdf"
+    },
+    {
+      "code": "3664",
+      "company_name": "Ｇ－ＷＩＺＥ",
+      "market_cap": 20.5,
+      "time": "17:10",
+      "title": "営業外費用の計上（連結決算及び個別決算）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521314.pdf"
+    },
+    {
+      "code": "3664",
+      "company_name": "Ｇ－ＷＩＺＥ",
+      "market_cap": 20.5,
+      "time": "18:45",
+      "title": "第23期（2026年12月期）第2四半期決算説明資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521319.pdf"
     },
     {
       "code": "6276",
@@ -6658,6 +7018,38 @@
       "time": "10:00",
       "title": "令和9年3月期　第1四半期決算短信〔日本基準〕(連結)",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260807514249.pdf"
+    },
+    {
+      "code": "7578",
+      "company_name": "ニチリョク",
+      "market_cap": 12.4,
+      "time": "19:45",
+      "title": "連結決算への移行に伴う連結業績予想の公表及び個別業績予想の修正（取り下げ）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521451.pdf"
+    },
+    {
+      "code": "7578",
+      "company_name": "ニチリョク",
+      "market_cap": 12.4,
+      "time": "19:45",
+      "title": "営業外費用（貸倒引当金繰入額）の計上に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521456.pdf"
+    },
+    {
+      "code": "7578",
+      "company_name": "ニチリョク",
+      "market_cap": 12.4,
+      "time": "19:45",
+      "title": "資金使途及び支出予定時期の変更に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260814521323.pdf"
+    },
+    {
+      "code": "7578",
+      "company_name": "ニチリョク",
+      "market_cap": 12.4,
+      "time": "19:45",
+      "title": "2027年3月期第1四半期決算短信〔日本基準〕（連結）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260814/140120260810517166.pdf"
     },
     {
       "code": "4059",
