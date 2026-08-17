@@ -1,7 +1,7 @@
 {
   "date": "2026-08-17",
-  "company_count": 88,
-  "total_count": 100,
+  "company_count": 95,
+  "total_count": 108,
   "items": [
     {
       "code": "6367",
@@ -100,6 +100,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260817/140120260805510069.pdf"
     },
     {
+      "code": "6890",
+      "company_name": "フェローテック",
+      "market_cap": 5271.9,
+      "time": "18:30",
+      "title": "（開示事項の経過）中国北京における洗浄新子会社に関する出資会社決定のお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260813520043.pdf"
+    },
+    {
       "code": "9507",
       "company_name": "四国電力",
       "market_cap": 3751.1,
@@ -156,6 +164,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260817/140120260817521700.pdf"
     },
     {
+      "code": "7780",
+      "company_name": "メニコン",
+      "market_cap": 1502.4,
+      "time": "19:00",
+      "title": "当社従業員に対する株式報酬型ストック・オプション（新株予約権）の発行内容確定に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260817521897.pdf"
+    },
+    {
       "code": "9166",
       "company_name": "Ｇ－ＧＥＮＤＡ",
       "market_cap": 1418.2,
@@ -194,6 +210,14 @@
       "time": "16:00",
       "title": "東京産業株式会社（証券コード：8070）株式の買集め行為に該当する株式取得についてのお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260817/140120260817521817.pdf"
+    },
+    {
+      "code": "9267",
+      "company_name": "ゲンキードラッグ",
+      "market_cap": 1095.7,
+      "time": "18:30",
+      "title": "ストックオプション（新株予約権）の付与に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260817521960.pdf"
     },
     {
       "code": "8237",
@@ -492,6 +516,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260817/140120260817521775.pdf"
     },
     {
+      "code": "3175",
+      "company_name": "ＡＰＨＤ",
+      "market_cap": 122.1,
+      "time": "17:15",
+      "title": "（訂正）「譲渡制限付株式報酬としての自己株式処分に関するお知らせ」の一部訂正について",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260817522011.pdf"
+    },
+    {
       "code": "8705",
       "company_name": "日産証券グループ",
       "market_cap": 120.0,
@@ -562,6 +594,14 @@
       "time": "17:00",
       "title": "2026年12月期 第2四半期決算説明会書き起こし",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260817/140120260817522017.pdf"
+    },
+    {
+      "code": "4582",
+      "company_name": "Ｇ－シンバイオ製薬",
+      "market_cap": 55.8,
+      "time": "17:55",
+      "title": "第２回普通社債の発行、第三者割当による第70回及び第71回新株予約権（行使価額修正条項付）の発行並びに新株予約権の取得及び消却に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260817522004.pdf"
     },
     {
       "code": "6171",
@@ -652,6 +692,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260817/140120260817521942.pdf"
     },
     {
+      "code": "3202",
+      "company_name": "ダイトウボウ",
+      "market_cap": 38.6,
+      "time": "17:40",
+      "title": "ストックオプション（新株予約権）の発行内容確定に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260817521556.pdf"
+    },
+    {
       "code": "7044",
       "company_name": "ピアラ",
       "market_cap": 38.1,
@@ -716,6 +764,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260817/140120260817521589.pdf"
     },
     {
+      "code": "7035",
+      "company_name": "ａｎｆａｃ",
+      "market_cap": 29.2,
+      "time": "17:01",
+      "title": "当社投資先の東京証券取引所からの上場承認及び特別利益の計上見込みに関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260817521794.pdf"
+    },
+    {
       "code": "6803",
       "company_name": "ティアック",
       "market_cap": 28.6,
@@ -778,6 +834,14 @@
       "time": "16:00",
       "title": "2027年３月期第１四半期決算説明資料",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260817/140120260817521642.pdf"
+    },
+    {
+      "code": "4424",
+      "company_name": "Ｇ－Ａｍａｚｉａ",
+      "market_cap": 21.7,
+      "time": "17:10",
+      "title": "出資先「株式会社Skyfall」の上場承認に関するお知らせ",
+      "pdf_url": "https://www.release.tdnet.info/inbs/140120260817521715.pdf"
     },
     {
       "code": "5242",
