@@ -1,7 +1,7 @@
 {
   "date": "2026-08-18",
-  "company_count": 75,
-  "total_count": 87,
+  "company_count": 81,
+  "total_count": 100,
   "items": [
     {
       "code": "7532",
@@ -44,6 +44,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260818/140120260818522231.pdf"
     },
     {
+      "code": "7419",
+      "company_name": "ノジマ",
+      "market_cap": 3985.2,
+      "time": "18:20",
+      "title": "役員（執行役）の異動に関する知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260818/140120260818522611.pdf"
+    },
+    {
       "code": "7716",
       "company_name": "ナカニシ",
       "market_cap": 2937.2,
@@ -58,6 +66,30 @@
       "time": "16:30",
       "title": "第10回新株予約権の発行要項の一部変更ロックアップ契約の締結及び長期役職員インセンティブ・プランへの一部移管方針に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260818/140120260818522168.pdf"
+    },
+    {
+      "code": "3350",
+      "company_name": "メタプラネット",
+      "market_cap": 2921.3,
+      "time": "21:30",
+      "title": "Super League Enterprise, Inc.に対するビットコインの戦略投資に係る出資契約の締結、同社の連結子会社化（予定）及び同社の商号変更（予定）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260818/140120260818522578.pdf"
+    },
+    {
+      "code": "3350",
+      "company_name": "メタプラネット",
+      "market_cap": 2921.3,
+      "time": "21:30",
+      "title": "Nasdaq上場の米国ビットコイン・トレジャリー・プラットフォーム",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260818/140120260818522608.pdf"
+    },
+    {
+      "code": "7004",
+      "company_name": "カナデビア",
+      "market_cap": 2151.5,
+      "time": "17:05",
+      "title": "（差替）「（開示事項の経過）当社向島工場における不適切行為について」の差替について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260818/140120260818522431.pdf"
     },
     {
       "code": "6315",
@@ -484,6 +516,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260818/140120260818522425.pdf"
     },
     {
+      "code": "3856",
+      "company_name": "Ａｂａｌａｎｃｅ",
+      "market_cap": 72.3,
+      "time": "19:15",
+      "title": "過年度の有価証券報告書等の訂正報告書の提出及び過年度の決算短信の訂正に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260818/140120260818522630.pdf"
+    },
+    {
       "code": "8742",
       "company_name": "小林洋行",
       "market_cap": 70.3,
@@ -540,6 +580,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260818/140120260817521734.pdf"
     },
     {
+      "code": "3940",
+      "company_name": "ノムラシステム",
+      "market_cap": 59.8,
+      "time": "18:00",
+      "title": "投資有価証券売却益（特別利益）の計上に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260818/140120260818522594.pdf"
+    },
+    {
       "code": "7707",
       "company_name": "Ｇ－ＰＳＳ",
       "market_cap": 58.9,
@@ -570,6 +618,14 @@
       "time": "11:30",
       "title": "（開示事項の中止）株式会社土木管理総合試験所（証券コード 6171）に対する公開買付けに準ずる行為として政令で定める買集め行為に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260818/140120260818522246.pdf"
+    },
+    {
+      "code": "4891",
+      "company_name": "Ｇ－ティムス",
+      "market_cap": 49.8,
+      "time": "18:00",
+      "title": "第10回新株予約権（行使価額修正条項付）の 大量行使に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260818/140120260818522587.pdf"
     },
     {
       "code": "4391",
@@ -674,6 +730,54 @@
       "time": "12:00",
       "title": "2026年９月期 ７月度　月次業績（売上高）速報",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260818/140120260818522172.pdf"
+    },
+    {
+      "code": "8746",
+      "company_name": "ｕｎｂａｎｋｅｄ",
+      "market_cap": 18.6,
+      "time": "18:35",
+      "title": "（開示事項の経過）臨時株主総会の開催日時及び場所、付議議案並びに株主提案に対する当社取締役会の意見に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260818/140120260818522620.pdf"
+    },
+    {
+      "code": "8746",
+      "company_name": "ｕｎｂａｎｋｅｄ",
+      "market_cap": 18.6,
+      "time": "18:35",
+      "title": "監査等委員である取締役の辞任に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260818/140120260818522140.pdf"
+    },
+    {
+      "code": "8746",
+      "company_name": "ｕｎｂａｎｋｅｄ",
+      "market_cap": 18.6,
+      "time": "18:35",
+      "title": "暗号資産取引プラットフォーム「CoinW Exchange」における金の価格と連動する暗号資産「Kinka」の取扱い廃止申請に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260818/140120260818522142.pdf"
+    },
+    {
+      "code": "8746",
+      "company_name": "ｕｎｂａｎｋｅｄ",
+      "market_cap": 18.6,
+      "time": "18:35",
+      "title": "取締役（監査等委員である者を除く。）候補者及び監査等委員である取締役候補者の選任に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260818/140120260818522618.pdf"
+    },
+    {
+      "code": "8746",
+      "company_name": "ｕｎｂａｎｋｅｄ",
+      "market_cap": 18.6,
+      "time": "18:35",
+      "title": "資本金及び資本準備金の額の減少並びに剰余金の処分に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260818/140120260818522144.pdf"
+    },
+    {
+      "code": "3111",
+      "company_name": "オーミケンシ",
+      "market_cap": 11.4,
+      "time": "17:30",
+      "title": "第161回定時株主総会継続会開催のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260818/140120260818522152.pdf"
     },
     {
       "code": "9610",
