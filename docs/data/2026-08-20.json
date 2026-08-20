@@ -1,7 +1,7 @@
 {
   "date": "2026-08-20",
-  "company_count": 96,
-  "total_count": 107,
+  "company_count": 103,
+  "total_count": 114,
   "items": [
     {
       "code": "6857",
@@ -74,6 +74,14 @@
       "time": "16:00",
       "title": "2027年3月期第1四半期決算短信〔日本基準〕(連結)（公認会計士等による期中レビューの完了）",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260820/140120260819523359.pdf"
+    },
+    {
+      "code": "7685",
+      "company_name": "Ｇ－ＢＵＹＳＥＬＬ",
+      "market_cap": 2067.3,
+      "time": "18:30",
+      "title": "よくあるお問い合わせと回答（FY2026_Q2）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260820/140120260820523980.pdf"
     },
     {
       "code": "2815",
@@ -188,6 +196,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260820/140120260820523391.pdf"
     },
     {
+      "code": "4619",
+      "company_name": "日特塗料",
+      "market_cap": 641.0,
+      "time": "18:00",
+      "title": "譲渡制限付株式報酬としての自己株式の処分の払込完了に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260820/140120260820523963.pdf"
+    },
+    {
       "code": "2780",
       "company_name": "コメ兵ＨＤ",
       "market_cap": 597.7,
@@ -210,6 +226,14 @@
       "time": "16:00",
       "title": "コミットメントライン契約に基づく借入の決定について",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260820/140120260820523457.pdf"
+    },
+    {
+      "code": "4923",
+      "company_name": "ＣＯＴＡ",
+      "market_cap": 403.7,
+      "time": "18:30",
+      "title": "サイバー攻撃によるシステム障害発生のお知らせ（最終報）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260820/140120260820523700.pdf"
     },
     {
       "code": "2669",
@@ -524,6 +548,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260820/140120260820523871.pdf"
     },
     {
+      "code": "5533",
+      "company_name": "エリッツＨＤ",
+      "market_cap": 69.0,
+      "time": "18:00",
+      "title": "個人情報流出の可能性に関するお知らせ（第１報）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260820/140120260820523965.pdf"
+    },
+    {
       "code": "2323",
       "company_name": "ｆｏｎｆｕｎ",
       "market_cap": 68.6,
@@ -546,6 +578,14 @@
       "time": "15:30",
       "title": "譲渡制限付株式報酬としての自己株式の処分の払込完了に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260820/140120260819523345.pdf"
+    },
+    {
+      "code": "4892",
+      "company_name": "Ｇ－サイフューズ",
+      "market_cap": 57.5,
+      "time": "18:30",
+      "title": "2026年12月期 第２四半期決算説明会資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260820/140120260819523133.pdf"
     },
     {
       "code": "7859",
@@ -578,6 +618,14 @@
       "time": "17:00",
       "title": "商号の変更及び定款の一部変更に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260820/140120260820523757.pdf"
+    },
+    {
+      "code": "9219",
+      "company_name": "Ｇ－ギックス",
+      "market_cap": 50.0,
+      "time": "17:30",
+      "title": "（訂正）「2026年６月期 決算短信〔日本基準〕（連結）」の一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260820/140120260820523759.pdf"
     },
     {
       "code": "7058",
@@ -802,6 +850,14 @@
       "time": "11:15",
       "title": "2026年12月期 第2四半期決算説明動画と書き起こし公開のお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260820/140120260819522720.pdf"
+    },
+    {
+      "code": "8746",
+      "company_name": "ｕｎｂａｎｋｅｄ",
+      "market_cap": 18.6,
+      "time": "18:50",
+      "title": "当社銀行口座の出金停止および事業の一時停止に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260820/140120260820523938.pdf"
     },
     {
       "code": "7062",
