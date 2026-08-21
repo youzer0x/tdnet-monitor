@@ -1,7 +1,7 @@
 {
   "date": "2026-08-21",
-  "company_count": 121,
-  "total_count": 136,
+  "company_count": 130,
+  "total_count": 146,
   "items": [
     {
       "code": "4543",
@@ -36,12 +36,28 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260821/140120260810517194.pdf"
     },
     {
+      "code": "2413",
+      "company_name": "エムスリー",
+      "market_cap": 11599.5,
+      "time": "17:45",
+      "title": "ストックオプション（新株予約権）の発行内容確定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260821/140120260821524623.pdf"
+    },
+    {
       "code": "4183",
       "company_name": "三井化学",
       "market_cap": 8608.2,
       "time": "17:00",
       "title": "(開示事項の経過)特定子会社の異動に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260821/140120260821524596.pdf"
+    },
+    {
+      "code": "2371",
+      "company_name": "カカクコム",
+      "market_cap": 7334.1,
+      "time": "18:20",
+      "title": "「BCPE Blitz Cayman, L.P.による当社株券等に対する公開買付けの開始予定に関するお知らせ」の経過に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260821/140120260821524675.pdf"
     },
     {
       "code": "5832",
@@ -180,6 +196,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260821/140120260820523998.pdf"
     },
     {
+      "code": "2124",
+      "company_name": "ＪＡＣ",
+      "market_cap": 1629.1,
+      "time": "17:15",
+      "title": "2026年12月期 上半期（第２四半期）決算戦略説明会資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260821/140120260821524647.pdf"
+    },
+    {
       "code": "6420",
       "company_name": "ガリレイ",
       "market_cap": 1562.3,
@@ -282,6 +306,14 @@
       "time": "15:30",
       "title": "役員の異動に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260821/140120260821524111.pdf"
+    },
+    {
+      "code": "9621",
+      "company_name": "建設技研",
+      "market_cap": 913.3,
+      "time": "17:40",
+      "title": "第64期 第2四半期決算説明会_質疑応答概要",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260821/140120260821524668.pdf"
     },
     {
       "code": "9519",
@@ -484,6 +516,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260821/140120260821524050.pdf"
     },
     {
+      "code": "2915",
+      "company_name": "ケンコーマヨ",
+      "market_cap": 340.9,
+      "time": "17:10",
+      "title": "譲渡制限付株式報酬としての自己株式の処分の払込完了に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260821/140120260821524643.pdf"
+    },
+    {
       "code": "5981",
       "company_name": "東製綱",
       "market_cap": 314.6,
@@ -506,6 +546,14 @@
       "time": "15:30",
       "title": "譲渡制限付株式報酬としての自己株式処分の払込完了に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260821/140120260819523233.pdf"
+    },
+    {
+      "code": "4671",
+      "company_name": "ファルコＨＤ",
+      "market_cap": 301.6,
+      "time": "18:15",
+      "title": "自己株式の取得状況及び主要株主の異動に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260821/140120260821524656.pdf"
     },
     {
       "code": "3922",
@@ -732,6 +780,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260821/140120260821524540.pdf"
     },
     {
+      "code": "3173",
+      "company_name": "Ｃｏｍｉｎｉｘ",
+      "market_cap": 106.2,
+      "time": "17:30",
+      "title": "資金の借入に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260821/140120260820523990.pdf"
+    },
+    {
       "code": "6561",
       "company_name": "Ｇ－ＨＡＮＡＴＯＵＲ",
       "market_cap": 103.5,
@@ -860,6 +916,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260821/140120260820523949.pdf"
     },
     {
+      "code": "7707",
+      "company_name": "Ｇ－ＰＳＳ",
+      "market_cap": 59.2,
+      "time": "18:15",
+      "title": "2026年６月期 決算説明会の実施について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260821/140120260821524697.pdf"
+    },
+    {
       "code": "6557",
       "company_name": "Ｇ－ＡＩＡＩ",
       "market_cap": 52.5,
@@ -906,6 +970,22 @@
       "time": "16:00",
       "title": "株式会社クラステクノロジーの株式取得（子会社化）完了および同社の役員人事に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260821/140120260820523982.pdf"
+    },
+    {
+      "code": "4829",
+      "company_name": "日本エンタープライズ",
+      "market_cap": 42.4,
+      "time": "17:30",
+      "title": "機構改革および人事異動に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260821/140120260821524654.pdf"
+    },
+    {
+      "code": "4829",
+      "company_name": "日本エンタープライズ",
+      "market_cap": 42.4,
+      "time": "17:30",
+      "title": "取締役会の実効性に関する評価結果の概要について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260821/140120260821524231.pdf"
     },
     {
       "code": "6038",
