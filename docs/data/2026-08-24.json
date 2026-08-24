@@ -1,7 +1,7 @@
 {
   "date": "2026-08-24",
-  "company_count": 89,
-  "total_count": 117,
+  "company_count": 94,
+  "total_count": 124,
   "items": [
     {
       "code": "9984",
@@ -44,6 +44,22 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260824/140120260820524002.pdf"
     },
     {
+      "code": "8572",
+      "company_name": "アコム",
+      "market_cap": 7670.1,
+      "time": "18:00",
+      "title": "（訂正・数値データ訂正） 「2027年３月期 第１四半期決算短信〔日本基準〕（連結）」の一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260824/140120260824525325.pdf"
+    },
+    {
+      "code": "8572",
+      "company_name": "アコム",
+      "market_cap": 7670.1,
+      "time": "18:00",
+      "title": "（訂正・数値データ訂正）「2026年３月期 決算短信〔日本基準〕（連結）」の一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260824/140120260824525328.pdf"
+    },
+    {
       "code": "6323",
       "company_name": "ローツェ",
       "market_cap": 6973.1,
@@ -74,6 +90,14 @@
       "time": "16:30",
       "title": "自己株式立会外買付取引（ToSTNeT-３）による自己株式の買付けに関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260824/140120260824525177.pdf"
+    },
+    {
+      "code": "8252",
+      "company_name": "丸井Ｇ",
+      "market_cap": 5495.1,
+      "time": "22:30",
+      "title": "2031年満期ユーロ円建取得条項付転換社債型新株予約権付社債の発行条件等の決定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260824/140120260824525357.pdf"
     },
     {
       "code": "9706",
@@ -476,6 +500,22 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260824/140120260824525171.pdf"
     },
     {
+      "code": "7030",
+      "company_name": "スプリックス",
+      "market_cap": 178.2,
+      "time": "19:30",
+      "title": "完全子会社の吸収合併（簡易合併・略式合併）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260824/140120260821524038.pdf"
+    },
+    {
+      "code": "6572",
+      "company_name": "オープンＧ",
+      "market_cap": 168.9,
+      "time": "19:00",
+      "title": "オープングループ株式会社（証券コード：6572）に対する公開買付けに準ずる行為として政令で定める買集め行為に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260824/140120260824525352.pdf"
+    },
+    {
       "code": "9408",
       "company_name": "ＢＳＮメディアＨＤ",
       "market_cap": 161.9,
@@ -844,6 +884,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260824/140120260824524808.pdf"
     },
     {
+      "code": "7063",
+      "company_name": "Ｇ－Ｂｉｒｄｍａｎ",
+      "market_cap": 30.0,
+      "time": "17:30",
+      "title": "（訂正）「第14回定時株主総会の付議議案の決定に関するお知らせ」の一部訂正に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260824/140120260824525280.pdf"
+    },
+    {
       "code": "6081",
       "company_name": "Ｇ－アライドアーキ",
       "market_cap": 28.1,
@@ -890,6 +938,14 @@
       "time": "15:30",
       "title": "取締役候補者の選任に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260824/140120260824525063.pdf"
+    },
+    {
+      "code": "2164",
+      "company_name": "地域新聞社",
+      "market_cap": 22.1,
+      "time": "19:00",
+      "title": "（開示事項の経過）当社新株予約権の（一部）取得に係る非適格者等の確定及び当社新株予約権の消却に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260824/140120260824525385.pdf"
     },
     {
       "code": "6696",
