@@ -1,7 +1,7 @@
 {
   "date": "2026-08-26",
-  "company_count": 73,
-  "total_count": 89,
+  "company_count": 80,
+  "total_count": 101,
   "items": [
     {
       "code": "7912",
@@ -100,6 +100,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260826/140120260826526519.pdf"
     },
     {
+      "code": "4825",
+      "company_name": "ＷＮＩウェザー",
+      "market_cap": 980.2,
+      "time": "17:10",
+      "title": "＜粗利率60％超へ＞AI活用と高粗利プロダクトによる売上高総利益率の収益性向上策について（中期Vision 2026補足資料）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260826/140120260826526637.pdf"
+    },
+    {
       "code": "2157",
       "company_name": "コシダカＨＤ",
       "market_cap": 889.4,
@@ -114,6 +122,14 @@
       "time": "13:00",
       "title": "自己株式の取得状況及び取得終了ならびに自己株式の消却に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260826/140120260819522680.pdf"
+    },
+    {
+      "code": "5202",
+      "company_name": "板硝子",
+      "market_cap": 700.3,
+      "time": "22:00",
+      "title": "財務上の特約が付された金銭消費貸借契約の締結について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260826/140120260825525828.pdf"
     },
     {
       "code": "6231",
@@ -340,6 +356,30 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260826/140120260825525465.pdf"
     },
     {
+      "code": "7743",
+      "company_name": "シード",
+      "market_cap": 161.9,
+      "time": "18:30",
+      "title": "ラックスシェア・プレシジョン・ケイマン・リミテッドによる当社株式に対する公開買付けに関する賛同の意見表明及び応募推奨に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260826/140120260826526750.pdf"
+    },
+    {
+      "code": "7743",
+      "company_name": "シード",
+      "market_cap": 161.9,
+      "time": "18:30",
+      "title": "ラックスシェア・プレシジョン・ケイマン・リミテッドによる株式会社シード（証券コード：7743）の普通株式に対する公開買付けの開始に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260826/140120260826526753.pdf"
+    },
+    {
+      "code": "7743",
+      "company_name": "シード",
+      "market_cap": 161.9,
+      "time": "18:30",
+      "title": "2027年３月期の期末配当予想の修正（無配）及び株主優待制度の廃止に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260826/140120260826526720.pdf"
+    },
+    {
       "code": "3997",
       "company_name": "トレードワークス",
       "market_cap": 155.1,
@@ -348,12 +388,28 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260826/140120260826526162.pdf"
     },
     {
+      "code": "3903",
+      "company_name": "ｇｕｍｉ",
+      "market_cap": 152.0,
+      "time": "18:00",
+      "title": "(訂正) 「グループ内組織再編（子会社に対する債権放棄、現物分配による子会社株式の取得、および完全子会社の吸収合併）に関するお知らせ」の一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260826/140120260826526458.pdf"
+    },
+    {
       "code": "7875",
       "company_name": "竹田ｉＰ",
       "market_cap": 144.9,
       "time": "11:30",
       "title": "自己株式の取得結果及び取得終了に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260826/140120260824524898.pdf"
+    },
+    {
+      "code": "7377",
+      "company_name": "ＤＮホールディングス",
+      "market_cap": 142.2,
+      "time": "17:33",
+      "title": "「中期経営計画2029」策定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260826/140120260826526667.pdf"
     },
     {
       "code": "6955",
@@ -428,6 +484,30 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260826/140120260825525442.pdf"
     },
     {
+      "code": "4263",
+      "company_name": "Ｇ－サスメド",
+      "market_cap": 96.0,
+      "time": "18:00",
+      "title": "取締役候補者の選任に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260826/140120260826526605.pdf"
+    },
+    {
+      "code": "4263",
+      "company_name": "Ｇ－サスメド",
+      "market_cap": 96.0,
+      "time": "18:00",
+      "title": "塩野義製薬株式会社とのマイルストン報酬額の確定及び独占的販売契約終了に関する合意書の締結に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260826/140120260826526610.pdf"
+    },
+    {
+      "code": "4263",
+      "company_name": "Ｇ－サスメド",
+      "market_cap": 96.0,
+      "time": "18:00",
+      "title": "本社移転日の決定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260826/140120260826526614.pdf"
+    },
+    {
       "code": "7494",
       "company_name": "コナカ",
       "market_cap": 86.9,
@@ -452,6 +532,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260826/140120260826525428.pdf"
     },
     {
+      "code": "2769",
+      "company_name": "ヴィレッジＶ",
+      "market_cap": 71.6,
+      "time": "19:00",
+      "title": "役員体制に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260826/140120260826526766.pdf"
+    },
+    {
       "code": "9340",
       "company_name": "アソインター",
       "market_cap": 70.0,
@@ -474,6 +562,14 @@
       "time": "14:30",
       "title": "人事異動ならびに子会社の代表取締役異動に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260826/140120260826526260.pdf"
+    },
+    {
+      "code": "9340",
+      "company_name": "アソインター",
+      "market_cap": 70.0,
+      "time": "17:15",
+      "title": "2026年6月期アナリスト向け決算説明会資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260826/140120260826526263.pdf"
     },
     {
       "code": "7135",
