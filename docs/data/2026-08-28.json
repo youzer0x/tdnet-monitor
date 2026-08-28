@@ -1,7 +1,7 @@
 {
   "date": "2026-08-28",
-  "company_count": 140,
-  "total_count": 163,
+  "company_count": 147,
+  "total_count": 175,
   "items": [
     {
       "code": "9984",
@@ -92,6 +92,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260828/140120260828527484.pdf"
     },
     {
+      "code": "8473",
+      "company_name": "ＳＢＩ",
+      "market_cap": 22658.1,
+      "time": "22:30",
+      "title": "BASE株式会社株式（証券コード：4477）に対する公開買付けの開始及び同社との資本業務提携契約の締結に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260828/140120260828528173.pdf"
+    },
+    {
       "code": "4188",
       "company_name": "三菱ケミカルグループ",
       "market_cap": 17059.8,
@@ -156,6 +164,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260828/140120260827526898.pdf"
     },
     {
+      "code": "4506",
+      "company_name": "住友ファーマ",
+      "market_cap": 6670.7,
+      "time": "19:00",
+      "title": "当社個別財務諸表（日本基準）における退職給付信託返還益（特別利益）計上に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260828/140120260828528021.pdf"
+    },
+    {
       "code": "7282",
       "company_name": "豊田合",
       "market_cap": 6359.4,
@@ -186,6 +202,14 @@
       "time": "16:00",
       "title": "合同会社VICによる当社株式に対する公開買付けの開始予定に関する賛同の意見表明及び応募推奨に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260828/140120260828527772.pdf"
+    },
+    {
+      "code": "4812",
+      "company_name": "電通総研",
+      "market_cap": 5686.5,
+      "time": "18:00",
+      "title": "（追加）合同会社VICによる当社株式に対する公開買付けの開始予定に関する賛同の意見表明及び応募推奨に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260828/140120260828528106.pdf"
     },
     {
       "code": "3349",
@@ -338,6 +362,14 @@
       "time": "16:00",
       "title": "自己株式取得に係る事項の決定に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260828/140120260827527453.pdf"
+    },
+    {
+      "code": "3765",
+      "company_name": "ガンホー",
+      "market_cap": 1314.7,
+      "time": "19:10",
+      "title": "株式会社ソニー・ミュージックエンタテインメントとの資本業務提携、株式の売出し、 主要株主、主要株主である筆頭株主及びその他の関係会社の異動",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260828/140120260828527929.pdf"
     },
     {
       "code": "8131",
@@ -580,6 +612,30 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260828/140120260828527645.pdf"
     },
     {
+      "code": "4477",
+      "company_name": "Ｇ－ＢＡＳＥ",
+      "market_cap": 372.7,
+      "time": "22:30",
+      "title": "SBIホールディングスとの資本業務提携契約の締結等に関する補足説明資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260828/140120260828528137.pdf"
+    },
+    {
+      "code": "4477",
+      "company_name": "Ｇ－ＢＡＳＥ",
+      "market_cap": 372.7,
+      "time": "22:30",
+      "title": "自己株式の取得中止及び取得状況に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260828/140120260828528131.pdf"
+    },
+    {
+      "code": "4477",
+      "company_name": "Ｇ－ＢＡＳＥ",
+      "market_cap": 372.7,
+      "time": "22:30",
+      "title": "SBINM合同会社による当社株式に対する公開買付けに関する賛同及び応募中立の意見表明及びSBIHD株式会社との資本業務提携契約の締結に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260828/140120260828528141.pdf"
+    },
+    {
       "code": "8203",
       "company_name": "ＭｒＭａｘＨＤ",
       "market_cap": 312.1,
@@ -820,6 +876,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260828/140120260828527872.pdf"
     },
     {
+      "code": "7050",
+      "company_name": "Ｇ－フロンティアＩ",
+      "market_cap": 133.7,
+      "time": "18:00",
+      "title": "譲渡制限付株式報酬としての自己株式の処分に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260828/140120260828528097.pdf"
+    },
+    {
       "code": "3435",
       "company_name": "サンコーテクノ",
       "market_cap": 129.3,
@@ -972,6 +1036,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260828/140120260828527561.pdf"
     },
     {
+      "code": "3021",
+      "company_name": "ＰＣＮＥＴ",
+      "market_cap": 87.5,
+      "time": "18:15",
+      "title": "（訂正）「役員体制に関するお知らせ」の一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260828/140120260828528090.pdf"
+    },
+    {
       "code": "3892",
       "company_name": "岡山製紙",
       "market_cap": 85.9,
@@ -1100,6 +1172,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260828/140120260828527780.pdf"
     },
     {
+      "code": "4242",
+      "company_name": "タカギセイコー",
+      "market_cap": 51.1,
+      "time": "17:30",
+      "title": "富山県内で発生した大雨の影響に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260828/140120260828527926.pdf"
+    },
+    {
       "code": "7957",
       "company_name": "フジコピアン",
       "market_cap": 45.8,
@@ -1218,6 +1298,22 @@
       "time": "12:00",
       "title": "株式会社折居技研の株式の取得（子会社化）に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260828/140120260828527521.pdf"
+    },
+    {
+      "code": "8783",
+      "company_name": "ａｂｃ",
+      "market_cap": 24.9,
+      "time": "18:30",
+      "title": "ZoomART Foundationとの業務提携及び暗号資産の譲渡に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260828/140120260828528123.pdf"
+    },
+    {
+      "code": "8783",
+      "company_name": "ａｂｃ",
+      "market_cap": 24.9,
+      "time": "18:30",
+      "title": "暗号資産譲渡に伴う特別利益（暗号資産受贈益）及び営業外費用（暗号資産売却損）の計上に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260828/140120260828528124.pdf"
     },
     {
       "code": "2164",
