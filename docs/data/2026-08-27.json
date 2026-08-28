@@ -1,7 +1,7 @@
 {
   "date": "2026-08-27",
-  "company_count": 95,
-  "total_count": 110,
+  "company_count": 104,
+  "total_count": 122,
   "items": [
     {
       "code": "6504",
@@ -50,6 +50,14 @@
       "time": "16:00",
       "title": "自己株式取得に係る事項の決定に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260827/140120260827526817.pdf"
+    },
+    {
+      "code": "2371",
+      "company_name": "カカクコム",
+      "market_cap": 7280.6,
+      "time": "17:15",
+      "title": "Kamgras １株式会社による株式会社カカクコム（証券コード：2371）の株券等に対する公開買付けの買付条件等の変更に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260827/140120260827527261.pdf"
     },
     {
       "code": "2181",
@@ -170,6 +178,14 @@
       "time": "12:30",
       "title": "令和8年8月27日からの大雨における被害について",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260827/140120260827527080.pdf"
+    },
+    {
+      "code": "8131",
+      "company_name": "ミツウロコＧＨＤ",
+      "market_cap": 1271.9,
+      "time": "17:05",
+      "title": "自己株式の取得及び自己株式立会外買付取引（ToSTNeT－3）による自己株式の買付けに関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260827/140120260825525955.pdf"
     },
     {
       "code": "9832",
@@ -444,6 +460,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260827/140120260827526920.pdf"
     },
     {
+      "code": "4813",
+      "company_name": "ＡＣＣＥＳＳ",
+      "market_cap": 185.8,
+      "time": "19:00",
+      "title": "内部管理体制の整備及び運用状況等に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260827/140120260827527406.pdf"
+    },
+    {
       "code": "5535",
       "company_name": "ミガロＨＤ",
       "market_cap": 181.6,
@@ -484,6 +508,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260827/140120260826526626.pdf"
     },
     {
+      "code": "6562",
+      "company_name": "Ｇ－ジーニー",
+      "market_cap": 160.5,
+      "time": "17:10",
+      "title": "Ａ種優先株式の一部取得及び消却に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260827/140120260826526408.pdf"
+    },
+    {
       "code": "8908",
       "company_name": "毎日コムネット",
       "market_cap": 159.7,
@@ -492,12 +524,36 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260827/140120260827526977.pdf"
     },
     {
+      "code": "1431",
+      "company_name": "Ｇ－リブワーク",
+      "market_cap": 158.0,
+      "time": "18:30",
+      "title": "定款の一部変更に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260827/140120260827527023.pdf"
+    },
+    {
+      "code": "1431",
+      "company_name": "Ｇ－リブワーク",
+      "market_cap": 158.0,
+      "time": "18:30",
+      "title": "取締役及び監査役の選任に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260827/140120260827526995.pdf"
+    },
+    {
       "code": "8927",
       "company_name": "明豊エンター",
       "market_cap": 150.6,
       "time": "12:00",
       "title": "2026年７月期連結累計期間の販売および仕入実績に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260827/140120260827526913.pdf"
+    },
+    {
+      "code": "6176",
+      "company_name": "ブランジスタ",
+      "market_cap": 145.3,
+      "time": "18:00",
+      "title": "連結子会社の株式一部譲渡及び個別決算における特別利益の計上に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260827/140120260826526758.pdf"
     },
     {
       "code": "4366",
@@ -578,6 +634,30 @@
       "time": "15:30",
       "title": "当社株式の上場廃止のお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260827/140120260827526869.pdf"
+    },
+    {
+      "code": "3538",
+      "company_name": "ウイルプラスＨＤ",
+      "market_cap": 106.7,
+      "time": "18:00",
+      "title": "(訂正・数値データ訂正)「2026年６月期決算短信〔日本基準〕(連結)」の一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260827/140120260827527408.pdf"
+    },
+    {
+      "code": "3538",
+      "company_name": "ウイルプラスＨＤ",
+      "market_cap": 106.7,
+      "time": "18:00",
+      "title": "（訂正）「2026年6月期 決算補足説明資料」の一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260827/140120260827527395.pdf"
+    },
+    {
+      "code": "3538",
+      "company_name": "ウイルプラスＨＤ",
+      "market_cap": 106.7,
+      "time": "18:00",
+      "title": "2026年6月期 決算説明会資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260827/140120260827527397.pdf"
     },
     {
       "code": "2934",
@@ -716,12 +796,28 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260827/140120260820523643.pdf"
     },
     {
+      "code": "2901",
+      "company_name": "ウェルディッシュ",
+      "market_cap": 44.8,
+      "time": "18:00",
+      "title": "取締役の辞任に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260827/140120260827527391.pdf"
+    },
+    {
       "code": "6342",
       "company_name": "太平製作所",
       "market_cap": 43.7,
       "time": "13:00",
       "title": "当社の従業員に対する譲渡制限付株式としての自己株式処分に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260827/140120260826526783.pdf"
+    },
+    {
+      "code": "7037",
+      "company_name": "テノ．",
+      "market_cap": 38.6,
+      "time": "18:00",
+      "title": "ピジョンハーツ株式会社の株式取得（子会社化）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260827/140120260827527388.pdf"
     },
     {
       "code": "4884",
