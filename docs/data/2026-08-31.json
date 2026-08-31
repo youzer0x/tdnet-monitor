@@ -1,7 +1,7 @@
 {
   "date": "2026-08-31",
-  "company_count": 147,
-  "total_count": 177,
+  "company_count": 154,
+  "total_count": 189,
   "items": [
     {
       "code": "8001",
@@ -564,6 +564,38 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260831/140120260831528558.pdf"
     },
     {
+      "code": "4320",
+      "company_name": "ＣＥＨＤ",
+      "market_cap": 281.3,
+      "time": "18:30",
+      "title": "（変更）「SK-03株式会社による株式会社ＣＥホールディングスの株式（証券コード4320）に対する公開買付けの開始に関するお知らせ」の変更に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260831/140120260828528165.pdf"
+    },
+    {
+      "code": "4320",
+      "company_name": "ＣＥＨＤ",
+      "market_cap": 281.3,
+      "time": "18:30",
+      "title": "（変更）「SK-03株式会社による当社株式に対する公開買付けに関する賛同及び応募中立の意見表明に関するお知らせ」の一部変更について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260831/140120260828528151.pdf"
+    },
+    {
+      "code": "4320",
+      "company_name": "ＣＥＨＤ",
+      "market_cap": 281.3,
+      "time": "18:30",
+      "title": "（変更）「自己株式の公開買付けの開始予定に関するお知らせ」の一部変更について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260831/140120260831529083.pdf"
+    },
+    {
+      "code": "4320",
+      "company_name": "ＣＥＨＤ",
+      "market_cap": 281.3,
+      "time": "18:30",
+      "title": "臨時株主総会招集のための基準日設定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260831/140120260828528169.pdf"
+    },
+    {
       "code": "7318",
       "company_name": "Ｇ－セレンディップ",
       "market_cap": 281.2,
@@ -626,6 +658,14 @@
       "time": "11:20",
       "title": "2027年３月期第１四半期 決算補足説明資料",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260831/140120260831528510.pdf"
+    },
+    {
+      "code": "6167",
+      "company_name": "冨士ダイス",
+      "market_cap": 209.8,
+      "time": "17:15",
+      "title": "（訂正）「2027年３月期第１四半期 決算補足説明資料」の一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260831/140120260831529041.pdf"
     },
     {
       "code": "9322",
@@ -1044,6 +1084,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260831/140120260831528764.pdf"
     },
     {
+      "code": "2404",
+      "company_name": "鉄人化ＨＤ",
+      "market_cap": 74.6,
+      "time": "17:10",
+      "title": "当社株式の監理銘柄（確認中）指定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260831/140120260831529034.pdf"
+    },
+    {
       "code": "6897",
       "company_name": "ツインバード",
       "market_cap": 73.9,
@@ -1244,6 +1292,22 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260831/140120260831528329.pdf"
     },
     {
+      "code": "8938",
+      "company_name": "Ｇ－グロームＨＤ",
+      "market_cap": 35.0,
+      "time": "17:30",
+      "title": "連結子会社における特別損失（一部債権放棄）の計上 およびアライアンス先医療機関の施設数・病床数に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260831/140120260831528285.pdf"
+    },
+    {
+      "code": "6578",
+      "company_name": "コレックＨＤ",
+      "market_cap": 34.8,
+      "time": "19:00",
+      "title": "系統用蓄電池事業への参入及び蓄電池設備の取得に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260831/140120260831528606.pdf"
+    },
+    {
       "code": "8894",
       "company_name": "ＲＥＶＯＬＵＴＩＯＮ",
       "market_cap": 33.7,
@@ -1266,6 +1330,14 @@
       "time": "16:00",
       "title": "2026年10月期通期連結業績予想の修正（未定）及び中期経営計画の取り下げに関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260831/140120260828527818.pdf"
+    },
+    {
+      "code": "8894",
+      "company_name": "ＲＥＶＯＬＵＴＩＯＮ",
+      "market_cap": 33.7,
+      "time": "18:00",
+      "title": "社内調査委員会の調査報告書に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260831/140120260831528897.pdf"
     },
     {
       "code": "7462",
@@ -1314,6 +1386,14 @@
       "time": "14:00",
       "title": "イーサリアム（ETH）の追加取得に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260831/140120260831528635.pdf"
+    },
+    {
+      "code": "3647",
+      "company_name": "アスリナ",
+      "market_cap": 27.6,
+      "time": "17:40",
+      "title": "株式譲渡による連結子会社の異動に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260831/140120260831529081.pdf"
     },
     {
       "code": "3645",
@@ -1402,6 +1482,22 @@
       "time": "15:30",
       "title": "事業計画及び成長可能性に関する事項",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260831/140120260831528528.pdf"
+    },
+    {
+      "code": "8254",
+      "company_name": "さいか屋",
+      "market_cap": 18.3,
+      "time": "17:40",
+      "title": "当社株式の監理銘柄（確認中）指定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260831/140120260831529072.pdf"
+    },
+    {
+      "code": "4598",
+      "company_name": "Ｇ－ＤＥＬＴＡ－Ｐ",
+      "market_cap": 14.9,
+      "time": "17:05",
+      "title": "DFP-17729の臨床第2／3相試験の第２相部分のデータ解析状況に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260831/140120260831529028.pdf"
     },
     {
       "code": "4760",
