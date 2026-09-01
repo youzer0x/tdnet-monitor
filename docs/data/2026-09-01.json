@@ -1,7 +1,7 @@
 {
   "date": "2026-09-01",
-  "company_count": 317,
-  "total_count": 339,
+  "company_count": 325,
+  "total_count": 351,
   "items": [
     {
       "code": "6098",
@@ -708,6 +708,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260901/140120260901530153.pdf"
     },
     {
+      "code": "3569",
+      "company_name": "セーレン",
+      "market_cap": 2294.5,
+      "time": "17:30",
+      "title": "自己株式取得状況に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260901/140120260901530235.pdf"
+    },
+    {
       "code": "9678",
       "company_name": "カナモト",
       "market_cap": 2227.7,
@@ -834,6 +842,14 @@
       "time": "15:00",
       "title": "自己株式の取得状況に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260901/140120260901529471.pdf"
+    },
+    {
+      "code": "3863",
+      "company_name": "日本紙",
+      "market_cap": 1627.6,
+      "time": "17:01",
+      "title": "保有株式の売却に関するお知らせ（経過報告2）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260901/140120260901529710.pdf"
     },
     {
       "code": "3101",
@@ -1098,6 +1114,14 @@
       "time": "15:00",
       "title": "自己株式の取得状況に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260901/140120260901529542.pdf"
+    },
+    {
+      "code": "5726",
+      "company_name": "大阪チタ",
+      "market_cap": 993.6,
+      "time": "17:15",
+      "title": "発行価格及び売出価格等の決定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260901/140120260827527443.pdf"
     },
     {
       "code": "9310",
@@ -1380,6 +1404,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260901/140120260901529482.pdf"
     },
     {
+      "code": "2612",
+      "company_name": "かどや製油",
+      "market_cap": 505.6,
+      "time": "20:30",
+      "title": "一部報道について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260901/140120260901530315.pdf"
+    },
+    {
       "code": "4323",
       "company_name": "日本システム技術",
       "market_cap": 486.1,
@@ -1612,6 +1644,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260901/140120260831528390.pdf"
     },
     {
+      "code": "9556",
+      "company_name": "Ｇ－ＩＮＴＬＯＯＰ",
+      "market_cap": 221.2,
+      "time": "17:30",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260901/140120260831529059.pdf"
+    },
+    {
       "code": "8093",
       "company_name": "極東貿易",
       "market_cap": 220.8,
@@ -1730,6 +1770,38 @@
       "time": "15:30",
       "title": "自己株式の取得状況に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260901/140120260901529440.pdf"
+    },
+    {
+      "code": "4420",
+      "company_name": "イーソル",
+      "market_cap": 182.0,
+      "time": "20:45",
+      "title": "ＭＢＯの実施及び応募の推奨に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260901/140120260901529864.pdf"
+    },
+    {
+      "code": "4420",
+      "company_name": "イーソル",
+      "market_cap": 182.0,
+      "time": "20:45",
+      "title": "株式会社BCJ-110によるイーソル株式会社（証券コード：4420）の普通株式に対する公開買付けの開始に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260901/140120260901529882.pdf"
+    },
+    {
+      "code": "4420",
+      "company_name": "イーソル",
+      "market_cap": 182.0,
+      "time": "20:45",
+      "title": "2026年12月期 通期業績予想の修正に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260901/140120260901529867.pdf"
+    },
+    {
+      "code": "4420",
+      "company_name": "イーソル",
+      "market_cap": 182.0,
+      "time": "20:45",
+      "title": "2026年12月期の期末配当予想の修正（無配）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260901/140120260901529871.pdf"
     },
     {
       "code": "5280",
@@ -1860,6 +1932,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260901/140120260831529084.pdf"
     },
     {
+      "code": "3063",
+      "company_name": "Ｇ－ｊＧｒｏｕｐ",
+      "market_cap": 137.0,
+      "time": "18:00",
+      "title": "第６回新株予約権（行使価額修正条項付）及び第７回新株予約権（行使価額修正条項付）の月間行使状況に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260901/140120260901530233.pdf"
+    },
+    {
       "code": "8562",
       "company_name": "福島銀",
       "market_cap": 136.1,
@@ -1978,6 +2058,14 @@
       "time": "16:00",
       "title": "監査役の辞任に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260901/140120260901530125.pdf"
+    },
+    {
+      "code": "9867",
+      "company_name": "ソレキア",
+      "market_cap": 93.5,
+      "time": "17:32",
+      "title": "（訂正）「監査役の辞任に関するお知らせ」の一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260901/140120260901530236.pdf"
     },
     {
       "code": "7776",
@@ -2258,6 +2346,14 @@
       "time": "16:00",
       "title": "第三者割当により発行された第９回新株予約権（行使価額修正条項付）の月間行使状況に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260901/140120260901530136.pdf"
+    },
+    {
+      "code": "5129",
+      "company_name": "Ｇ－ＦＩＸＥＲ",
+      "market_cap": 53.9,
+      "time": "17:25",
+      "title": "2026年8月期　通期連結業績予想の修正に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260901/140120260901530119.pdf"
     },
     {
       "code": "3758",
