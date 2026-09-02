@@ -1,7 +1,7 @@
 {
   "date": "2026-09-02",
-  "company_count": 102,
-  "total_count": 109,
+  "company_count": 107,
+  "total_count": 115,
   "items": [
     {
       "code": "6501",
@@ -76,6 +76,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260902/140120260902530702.pdf"
     },
     {
+      "code": "8439",
+      "company_name": "東京センチュリー",
+      "market_cap": 13321.5,
+      "time": "18:00",
+      "title": "（開示事項の経過）連結子会社の異動（株式譲渡）に関する株式譲渡契約締結のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260902/140120260827527459.pdf"
+    },
+    {
       "code": "6724",
       "company_name": "エプソン",
       "market_cap": 12014.1,
@@ -114,6 +122,14 @@
       "time": "15:30",
       "title": "2027年2月期　8月度概況について　[国内]",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260902/140120260902530432.pdf"
+    },
+    {
+      "code": "7459",
+      "company_name": "メディパル",
+      "market_cap": 6295.7,
+      "time": "19:00",
+      "title": "株主による臨時株主総会の招集請求に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260902/140120260902530878.pdf"
     },
     {
       "code": "9301",
@@ -306,6 +322,14 @@
       "time": "16:45",
       "title": "自己株式立会外買付取引（ToSTNeT-３）による自己株式の買付けに関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260902/140120260819523271.pdf"
+    },
+    {
+      "code": "6996",
+      "company_name": "ニチコン",
+      "market_cap": 1820.7,
+      "time": "22:30",
+      "title": "2031年満期ユーロ円建取得条項付転換社債型新株予約権付社債の発行条件等の決定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260902/140120260819523266.pdf"
     },
     {
       "code": "6632",
@@ -612,6 +636,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260902/140120260901529986.pdf"
     },
     {
+      "code": "6191",
+      "company_name": "エアトリ",
+      "market_cap": 176.9,
+      "time": "18:30",
+      "title": "自己株式立会外買付取引（ToSTNeT-3）による自己株式の買付けに係る事項の決定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260902/140120260902530843.pdf"
+    },
+    {
       "code": "6224",
       "company_name": "Ｇ－ＪＲＣ",
       "market_cap": 156.2,
@@ -666,6 +698,14 @@
       "time": "13:00",
       "title": "継続的な株主優待制度の導入に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260902/140120260902530547.pdf"
+    },
+    {
+      "code": "4960",
+      "company_name": "ケミプロ化成",
+      "market_cap": 100.9,
+      "time": "18:00",
+      "title": "主要株主、主要株主である筆頭株主ならびにその他の関係会社の異動に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260902/140120260902530834.pdf"
     },
     {
       "code": "4264",
@@ -810,6 +850,14 @@
       "time": "10:00",
       "title": "自己株式立会外買付取引（ToSTNeT-3）による自己株式の取得結果及び取得終了に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260902/140120260828527987.pdf"
+    },
+    {
+      "code": "9399",
+      "company_name": "ビート",
+      "market_cap": 25.7,
+      "time": "17:40",
+      "title": "ビットコインETFの月次報告に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260902/140120260902530759.pdf"
     },
     {
       "code": "7138",
