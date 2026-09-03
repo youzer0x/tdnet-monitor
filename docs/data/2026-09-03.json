@@ -1,7 +1,7 @@
 {
   "date": "2026-09-03",
-  "company_count": 138,
-  "total_count": 145,
+  "company_count": 143,
+  "total_count": 150,
   "items": [
     {
       "code": "7203",
@@ -452,6 +452,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260903/140120260903531318.pdf"
     },
     {
+      "code": "4413",
+      "company_name": "ボードルア",
+      "market_cap": 952.6,
+      "time": "17:30",
+      "title": "（訂正）「株式会社ボードルアの株券等に対する公開買付けの開始に関するお知らせ」及び公開買付開始公告の訂正に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260903/140120260903531411.pdf"
+    },
+    {
       "code": "3950",
       "company_name": "ザ・パック",
       "market_cap": 874.0,
@@ -620,6 +628,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260903/140120260903530961.pdf"
     },
     {
+      "code": "9251",
+      "company_name": "Ｇ－ＡＢ＆Ｃ",
+      "market_cap": 239.2,
+      "time": "19:00",
+      "title": "国内店舗月次営業速報（2026年８月）のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260903/140120260903531096.pdf"
+    },
+    {
       "code": "2892",
       "company_name": "日食化",
       "market_cap": 226.9,
@@ -658,6 +674,14 @@
       "time": "16:45",
       "title": "第三者割当により発行された行使価額修正条項付第１回新株予約権の月間行使状況に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260903/140120260903531327.pdf"
+    },
+    {
+      "code": "6392",
+      "company_name": "ヤマダコーポ",
+      "market_cap": 186.7,
+      "time": "17:30",
+      "title": "主要株主である筆頭株主の異動に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260903/140120260903531410.pdf"
     },
     {
       "code": "2970",
@@ -852,6 +876,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260903/140120260903531334.pdf"
     },
     {
+      "code": "4777",
+      "company_name": "ガーラ",
+      "market_cap": 56.0,
+      "time": "18:00",
+      "title": "（追加・訂正）「親会社、その他の関係会社、主要株主及び主要株主である筆頭株主の異動に関するお知らせ」の一部追加・訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260903/140120260903531418.pdf"
+    },
+    {
       "code": "4395",
       "company_name": "Ｇ－アクリート",
       "market_cap": 55.9,
@@ -962,6 +994,14 @@
       "time": "16:45",
       "title": "上場企業及びＩＰＯを目指す企業に対するＭ＆Ａコンサルティング事業の開始に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260903/140120260903531381.pdf"
+    },
+    {
+      "code": "3645",
+      "company_name": "Ｇ－メディカルネット",
+      "market_cap": 27.3,
+      "time": "17:30",
+      "title": "東京証券取引所スタンダード市場への上場市場区分変更承認及び当社株式の監理銘柄(審査中)指定解除に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260903/140120260903531360.pdf"
     },
     {
       "code": "3686",
