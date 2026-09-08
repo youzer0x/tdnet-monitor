@@ -1,7 +1,7 @@
 {
   "date": "2026-09-08",
-  "company_count": 91,
-  "total_count": 107,
+  "company_count": 97,
+  "total_count": 115,
   "items": [
     {
       "code": "8766",
@@ -58,6 +58,14 @@
       "time": "15:30",
       "title": "社外取締役の辞任についてのお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260908/140120260908532896.pdf"
+    },
+    {
+      "code": "8194",
+      "company_name": "ライフコーポ",
+      "market_cap": 2477.9,
+      "time": "17:15",
+      "title": "アルビス株式会社（証券コード：7475）に対する公開買付けの開始に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260908/140120260905532133.pdf"
     },
     {
       "code": "9759",
@@ -300,6 +308,30 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260908/140120260908533135.pdf"
     },
     {
+      "code": "7475",
+      "company_name": "アルビス",
+      "market_cap": 231.4,
+      "time": "17:15",
+      "title": "2027年３月期第２四半期（中間期）及び通期連結業績予想の修正に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260908/140120260907532503.pdf"
+    },
+    {
+      "code": "7475",
+      "company_name": "アルビス",
+      "market_cap": 231.4,
+      "time": "17:15",
+      "title": "株式会社ライフコーポレーションによる当社株式に対する 公開買付けに関する賛同の意見表明及び応募推奨のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260908/140120260908533017.pdf"
+    },
+    {
+      "code": "7475",
+      "company_name": "アルビス",
+      "market_cap": 231.4,
+      "time": "17:15",
+      "title": "2027年３月期配当予想の修正（無配）及び株主優待制度の廃止に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260908/140120260907532597.pdf"
+    },
+    {
       "code": "9651",
       "company_name": "日プロ",
       "market_cap": 213.2,
@@ -346,6 +378,14 @@
       "time": "09:50",
       "title": "自己株式立会外買付取引（ToSTNeT-３）による自己株式の取得結果および取得終了に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260908/140120260908532844.pdf"
+    },
+    {
+      "code": "4418",
+      "company_name": "Ｇ－ＪＤＳＣ",
+      "market_cap": 177.2,
+      "time": "18:00",
+      "title": "監査役の逝去及び退任に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260908/140120260908533226.pdf"
     },
     {
       "code": "3662",
@@ -508,6 +548,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260908/140120260907532355.pdf"
     },
     {
+      "code": "4891",
+      "company_name": "Ｇ－ティムス",
+      "market_cap": 50.7,
+      "time": "19:00",
+      "title": "第10回新株予約権（行使価額修正条項付）の大量行使、行使完了及び月間行使状況に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260908/140120260908533236.pdf"
+    },
+    {
       "code": "6635",
       "company_name": "大日光",
       "market_cap": 44.3,
@@ -628,6 +676,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260908/140120260908532851.pdf"
     },
     {
+      "code": "1345",
+      "company_name": "上場Ｊリート",
+      "market_cap": 0,
+      "time": "18:35",
+      "title": "ＥＴＦの収益分配のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260908/140120260908533266.pdf"
+    },
+    {
       "code": "1349",
       "company_name": "Ｅ－ＳＳＧＡ－ＳＩＮ",
       "market_cap": 0,
@@ -666,6 +722,14 @@
       "time": "08:55",
       "title": "ＥＴＦの収益分配金見込額のお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260908/140120260908532803.pdf"
+    },
+    {
+      "code": "1597",
+      "company_name": "ＭＸＳ　Ｊリート",
+      "market_cap": 0,
+      "time": "18:20",
+      "title": "ＭＡＸＩＳ ＥＴＦの収益分配のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260908/140120260908533259.pdf"
     },
     {
       "code": "1671",
