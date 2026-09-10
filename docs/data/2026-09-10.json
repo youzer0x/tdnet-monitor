@@ -1,7 +1,7 @@
 {
   "date": "2026-09-10",
-  "company_count": 129,
-  "total_count": 175,
+  "company_count": 157,
+  "total_count": 208,
   "items": [
     {
       "code": "4568",
@@ -10,6 +10,14 @@
       "time": "17:00",
       "title": "当社に対するNTKからの損害賠償等請求訴訟に関する判決（勝訴）のお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260910534407.pdf"
+    },
+    {
+      "code": "6273",
+      "company_name": "ＳＭＣ",
+      "market_cap": 43226.8,
+      "time": "18:15",
+      "title": "自己株式の取得状況及び取得終了に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260910534502.pdf"
     },
     {
       "code": "8267",
@@ -212,6 +220,22 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260909533490.pdf"
     },
     {
+      "code": "7970",
+      "company_name": "信越ポリマ",
+      "market_cap": 1817.7,
+      "time": "17:40",
+      "title": "取締役に対するストックオプション（新株予約権）の行使価額等確定のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260909533866.pdf"
+    },
+    {
+      "code": "7970",
+      "company_name": "信越ポリマ",
+      "market_cap": 1817.7,
+      "time": "17:40",
+      "title": "当社執行役員及び当社従業員に対するストックオプション（新株予約権）の行使価額確定のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260909533862.pdf"
+    },
+    {
       "code": "9956",
       "company_name": "バローＨＤ",
       "market_cap": 1733.0,
@@ -324,6 +348,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260910534057.pdf"
     },
     {
+      "code": "7199",
+      "company_name": "プレミアグループ",
+      "market_cap": 827.1,
+      "time": "18:00",
+      "title": "当社連結子会社における訴訟（反訴）の提起に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260910534292.pdf"
+    },
+    {
       "code": "3399",
       "company_name": "山岡家",
       "market_cap": 814.6,
@@ -354,6 +386,14 @@
       "time": "15:00",
       "title": "2026年12月期 中間決算説明資料",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260910533923.pdf"
+    },
+    {
+      "code": "4051",
+      "company_name": "ＧＭＯ－ＦＧ",
+      "market_cap": 486.2,
+      "time": "17:01",
+      "title": "2026年９月期通期連結業績予想の修正及び配当予想の修正（増配）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260909533864.pdf"
     },
     {
       "code": "5976",
@@ -554,6 +594,14 @@
       "time": "15:00",
       "title": "連結総資産の減少に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260910533883.pdf"
+    },
+    {
+      "code": "9765",
+      "company_name": "オオバ",
+      "market_cap": 193.4,
+      "time": "19:00",
+      "title": "ストックオプション（新株予約権）の発行内容確定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260909533537.pdf"
     },
     {
       "code": "2903",
@@ -908,6 +956,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260908533219.pdf"
     },
     {
+      "code": "7196",
+      "company_name": "Ｃａｓａ",
+      "market_cap": 85.5,
+      "time": "17:05",
+      "title": "社外取締役の辞任に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260908533216.pdf"
+    },
+    {
       "code": "7682",
       "company_name": "浜木綿",
       "market_cap": 85.1,
@@ -970,6 +1026,14 @@
       "time": "15:30",
       "title": "2027年1月期　第2四半期(中間期)決算短信[日本基準](連結)",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260824524929.pdf"
+    },
+    {
+      "code": "3698",
+      "company_name": "ＣＲＩ・ＭＷ",
+      "market_cap": 67.1,
+      "time": "18:00",
+      "title": "代表取締役の役職変更および役員人事に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260910534401.pdf"
     },
     {
       "code": "1758",
@@ -1042,6 +1106,30 @@
       "time": "16:45",
       "title": "第７回新株予約権の譲渡の承認に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260909533728.pdf"
+    },
+    {
+      "code": "3070",
+      "company_name": "Ｇ－ジェリービーンズ",
+      "market_cap": 57.4,
+      "time": "17:30",
+      "title": "2027年１月期 第２四半期（中間期）決算短信〔日本基準〕(連結)",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260904531787.pdf"
+    },
+    {
+      "code": "3070",
+      "company_name": "Ｇ－ジェリービーンズ",
+      "market_cap": 57.4,
+      "time": "17:30",
+      "title": "2027年１月期 第２四半期（中間期）決算短信〔日本基準〕(連結)　補足説明資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260909533738.pdf"
+    },
+    {
+      "code": "3070",
+      "company_name": "Ｇ－ジェリービーンズ",
+      "market_cap": 57.4,
+      "time": "17:30",
+      "title": "特別損失の発生のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260909533715.pdf"
     },
     {
       "code": "6182",
@@ -1372,12 +1460,28 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260910533932.pdf"
     },
     {
+      "code": "1555",
+      "company_name": "上場Ａリート",
+      "market_cap": 0,
+      "time": "18:35",
+      "title": "ＥＴＦの収益分配のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260910534535.pdf"
+    },
+    {
       "code": "1557",
       "company_name": "Ｅ－ＳＳＧＡＴＣ",
       "market_cap": 0,
       "time": "11:50",
       "title": "State Street SPDR S&P500 ETFに関する日々の開示事項",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260910534053.pdf"
+    },
+    {
+      "code": "1566",
+      "company_name": "上場ＥＭ債",
+      "market_cap": 0,
+      "time": "18:35",
+      "title": "ＥＴＦの収益分配のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260910534536.pdf"
     },
     {
       "code": "1671",
@@ -1402,6 +1506,166 @@
       "time": "08:30",
       "title": "上場ETF（管理会社：WisdomTree、外国投資法人：CSL）に関する日々の開示事項",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260910533888.pdf"
+    },
+    {
+      "code": "1677",
+      "company_name": "上場外債",
+      "market_cap": 0,
+      "time": "18:35",
+      "title": "ＥＴＦの収益分配のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260910534537.pdf"
+    },
+    {
+      "code": "2080",
+      "company_name": "ＰＢＲ１倍割れ解消",
+      "market_cap": 0,
+      "time": "18:20",
+      "title": "ＥＴＦの収益分配金のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260910534516.pdf"
+    },
+    {
+      "code": "2081",
+      "company_name": "政策保有解消",
+      "market_cap": 0,
+      "time": "18:20",
+      "title": "ＥＴＦの収益分配金のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260910534517.pdf"
+    },
+    {
+      "code": "2082",
+      "company_name": "投資家経営者一心同体",
+      "market_cap": 0,
+      "time": "18:20",
+      "title": "ＥＴＦの収益分配金のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260910534518.pdf"
+    },
+    {
+      "code": "2237",
+      "company_name": "ｉＦＳＰ５００ダブル",
+      "market_cap": 0,
+      "time": "18:40",
+      "title": "iFreeETFの収益分配のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260910534540.pdf"
+    },
+    {
+      "code": "2238",
+      "company_name": "ｉＦＳＰ５００ベア",
+      "market_cap": 0,
+      "time": "18:40",
+      "title": "iFreeETFの収益分配のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260910534541.pdf"
+    },
+    {
+      "code": "2247",
+      "company_name": "ｉＦＳＰ５００Ｈ無",
+      "market_cap": 0,
+      "time": "18:40",
+      "title": "iFreeETFの収益分配のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260910534542.pdf"
+    },
+    {
+      "code": "2248",
+      "company_name": "ｉＦＳＰ５００Ｈ有",
+      "market_cap": 0,
+      "time": "18:40",
+      "title": "iFreeETFの収益分配のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260910534543.pdf"
+    },
+    {
+      "code": "2249",
+      "company_name": "ｉＦＳＰ５００Ｗベア",
+      "market_cap": 0,
+      "time": "18:40",
+      "title": "iFreeETFの収益分配のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260910534544.pdf"
+    },
+    {
+      "code": "2528",
+      "company_name": "ｉＦＪリートコア",
+      "market_cap": 0,
+      "time": "18:40",
+      "title": "iFreeETFの収益分配のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260910534545.pdf"
+    },
+    {
+      "code": "2633",
+      "company_name": "Ｓ＆Ｐ５００ヘッジ無",
+      "market_cap": 0,
+      "time": "17:15",
+      "title": "ETFの収益分配のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260910534470.pdf"
+    },
+    {
+      "code": "2634",
+      "company_name": "Ｓ＆Ｐ５００ヘッジ有",
+      "market_cap": 0,
+      "time": "17:15",
+      "title": "ETFの収益分配のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260910534471.pdf"
+    },
+    {
+      "code": "2840",
+      "company_name": "ｉＦナス１００Ｈ無",
+      "market_cap": 0,
+      "time": "18:40",
+      "title": "iFreeETFの収益分配のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260910534546.pdf"
+    },
+    {
+      "code": "2841",
+      "company_name": "ｉＦナス１００Ｈ有",
+      "market_cap": 0,
+      "time": "18:40",
+      "title": "iFreeETFの収益分配のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260910534547.pdf"
+    },
+    {
+      "code": "2842",
+      "company_name": "ｉＦナス１００ベア",
+      "market_cap": 0,
+      "time": "18:40",
+      "title": "iFreeETFの収益分配のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260910534548.pdf"
+    },
+    {
+      "code": "2865",
+      "company_name": "ＧＸＮＤＸカバコ",
+      "market_cap": 0,
+      "time": "18:00",
+      "title": "ETFの収益分配のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260910534431.pdf"
+    },
+    {
+      "code": "2866",
+      "company_name": "ＧＸ優先証券",
+      "market_cap": 0,
+      "time": "18:00",
+      "title": "ETFの収益分配のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260910534432.pdf"
+    },
+    {
+      "code": "2868",
+      "company_name": "ＧＸＳＰＸカバコ",
+      "market_cap": 0,
+      "time": "18:00",
+      "title": "ETFの収益分配のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260910534439.pdf"
+    },
+    {
+      "code": "2869",
+      "company_name": "ｉＦナス１００ダブル",
+      "market_cap": 0,
+      "time": "18:40",
+      "title": "iFreeETFの収益分配のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260910534549.pdf"
+    },
+    {
+      "code": "2870",
+      "company_name": "ｉＦナス１００Ｗベア",
+      "market_cap": 0,
+      "time": "18:40",
+      "title": "iFreeETFの収益分配のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260910/140120260910534550.pdf"
     }
   ],
   "tdnet_available": true
