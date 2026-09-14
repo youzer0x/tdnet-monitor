@@ -1,7 +1,7 @@
 {
   "date": "2026-09-14",
-  "company_count": 160,
-  "total_count": 279,
+  "company_count": 169,
+  "total_count": 293,
   "items": [
     {
       "code": "4502",
@@ -58,6 +58,14 @@
       "time": "14:00",
       "title": "代表取締役の異動について",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914535575.pdf"
+    },
+    {
+      "code": "9435",
+      "company_name": "光通信",
+      "market_cap": 16905.2,
+      "time": "19:45",
+      "title": "公開買付け開始時点では子会社である株式会社K891における株式会社レオパレス21（証券コード：8848）の株券等に対する公開買付けの開始及び子会社の異動（関連",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914536244.pdf"
     },
     {
       "code": "9831",
@@ -178,6 +186,30 @@
       "time": "15:30",
       "title": "第40期（2026年7月期）決算説明資料",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914535855.pdf"
+    },
+    {
+      "code": "8848",
+      "company_name": "レオパレス２１",
+      "market_cap": 2310.8,
+      "time": "20:00",
+      "title": "株式会社K891による当社株券等に対する公開買付けに関する賛同の意見表明及び応募推奨並びに特定子会社の異動を伴う株式譲渡に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914536142.pdf"
+    },
+    {
+      "code": "8848",
+      "company_name": "レオパレス２１",
+      "market_cap": 2310.8,
+      "time": "20:00",
+      "title": "2027年３月期の中間配当及び期末配当予想の修正（無配）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914536086.pdf"
+    },
+    {
+      "code": "8848",
+      "company_name": "レオパレス２１",
+      "market_cap": 2310.8,
+      "time": "20:00",
+      "title": "シルバー事業の譲渡（特定子会社の異動を伴う株式譲渡）に関する基本合意書の締結並びに特別損失の計上及び業績予想の修正に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914536068.pdf"
     },
     {
       "code": "9627",
@@ -378,6 +410,30 @@
       "time": "15:30",
       "title": "2027年１月期第２四半期累計期間の連結業績予想と実績値との差異に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914536013.pdf"
+    },
+    {
+      "code": "2612",
+      "company_name": "かどや製油",
+      "market_cap": 682.2,
+      "time": "23:45",
+      "title": "2027年3月期配当予想の修正（無配）及び株主優待制度の廃止に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914536248.pdf"
+    },
+    {
+      "code": "2612",
+      "company_name": "かどや製油",
+      "market_cap": 682.2,
+      "time": "23:45",
+      "title": "株式会社ITG-Gホールディングスによるかどや製油株式会社（証券コード：2612）の普通株式に対する公開買付けの開始に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914536264.pdf"
+    },
+    {
+      "code": "2612",
+      "company_name": "かどや製油",
+      "market_cap": 682.2,
+      "time": "23:45",
+      "title": "株式会社ITG-Gホールディングスによる当社株式に対する公開買付けに関する賛同の意見表明及び応募推奨のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914536265.pdf"
     },
     {
       "code": "4431",
@@ -620,6 +676,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260910534047.pdf"
     },
     {
+      "code": "3193",
+      "company_name": "エターナルホスピＧ",
+      "market_cap": 301.9,
+      "time": "18:00",
+      "title": "貸倒引当金繰入額及び関係会社株式評価損の発生（個別）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914536201.pdf"
+    },
+    {
       "code": "3452",
       "company_name": "ビーロット",
       "market_cap": 286.3,
@@ -754,6 +818,14 @@
       "time": "16:15",
       "title": "SSL/TLSサーバー証明書発行サービスの代替措置によるサービス提供継続に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260911534915.pdf"
+    },
+    {
+      "code": "4053",
+      "company_name": "サンアスタリスク",
+      "market_cap": 184.3,
+      "time": "17:15",
+      "title": "2026年12月期　第2四半期決算説明資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914536190.pdf"
     },
     {
       "code": "4053",
@@ -1268,6 +1340,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914535998.pdf"
     },
     {
+      "code": "2303",
+      "company_name": "ドーン",
+      "market_cap": 90.2,
+      "time": "18:00",
+      "title": "譲渡制限付株式報酬としての自己株式の処分に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260911535341.pdf"
+    },
+    {
       "code": "3955",
       "company_name": "イムラ",
       "market_cap": 89.4,
@@ -1418,6 +1498,14 @@
       "time": "15:30",
       "title": "2026年７月期通期決算説明資料",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914535583.pdf"
+    },
+    {
+      "code": "4380",
+      "company_name": "Ｇ－Ｍマート",
+      "market_cap": 69.6,
+      "time": "18:00",
+      "title": "2027年1月期第2四半期（中間期）決算短信〔日本基準〕（非連結）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914536149.pdf"
     },
     {
       "code": "5031",
@@ -1828,6 +1916,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260909533830.pdf"
     },
     {
+      "code": "4885",
+      "company_name": "室町ケミカル",
+      "market_cap": 35.2,
+      "time": "17:30",
+      "title": "譲渡制限付株式報酬としての自己株式の処分に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914535632.pdf"
+    },
+    {
       "code": "9417",
       "company_name": "スマートバリュー",
       "market_cap": 35.1,
@@ -2012,6 +2108,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914535932.pdf"
     },
     {
+      "code": "3930",
+      "company_name": "Ｇ－はてな",
+      "market_cap": 23.8,
+      "time": "17:30",
+      "title": "2026年７月期 通期決算説明会の質疑応答（要旨）について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914536177.pdf"
+    },
+    {
       "code": "7073",
       "company_name": "Ｇ－ジェイック",
       "market_cap": 22.3,
@@ -2138,6 +2242,14 @@
       "time": "15:31",
       "title": "親会社等の決算情報に関するお知らせ及び当社の業績について",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260909533406.pdf"
+    },
+    {
+      "code": "4378",
+      "company_name": "Ｇ－ＣＩＮＣ",
+      "market_cap": 16.3,
+      "time": "18:00",
+      "title": "連結子会社の吸収合併（簡易合併・略式合併）及び連結子会社への債権放棄、並びに連結決算から単体決算への移行に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914536117.pdf"
     },
     {
       "code": "7090",
