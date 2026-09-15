@@ -1,7 +1,7 @@
 {
   "date": "2026-09-15",
-  "company_count": 104,
-  "total_count": 127,
+  "company_count": 110,
+  "total_count": 135,
   "items": [
     {
       "code": "4063",
@@ -34,6 +34,14 @@
       "time": "15:30",
       "title": "臨時株主総会招集のための基準日設定に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260915/140120260915536587.pdf"
+    },
+    {
+      "code": "1812",
+      "company_name": "鹿島",
+      "market_cap": 25745.5,
+      "time": "18:00",
+      "title": "独占禁止法違反事件における決定（上告審）について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260915/140120260915536813.pdf"
     },
     {
       "code": "1801",
@@ -146,6 +154,14 @@
       "time": "16:00",
       "title": "主要株主及び主要株主である筆頭株主の異動に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260915/140120260915536770.pdf"
+    },
+    {
+      "code": "8086",
+      "company_name": "ニプロ",
+      "market_cap": 2487.0,
+      "time": "18:30",
+      "title": "2026年満期ユーロ円建転換社債型新株予約権付社債の転換結果および償還に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260915/140120260915536854.pdf"
     },
     {
       "code": "7649",
@@ -308,12 +324,28 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260915/140120260915536315.pdf"
     },
     {
+      "code": "9278",
+      "company_name": "ブックオフＧＨＤ",
+      "market_cap": 545.3,
+      "time": "18:00",
+      "title": "譲渡制限付株式報酬としての自己株式の処分に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260915/140120260915536782.pdf"
+    },
+    {
       "code": "4343",
       "company_name": "イオンファン",
       "market_cap": 542.5,
       "time": "15:30",
       "title": "2027年２月期８月度の売上概況",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260915/140120260915536609.pdf"
+    },
+    {
+      "code": "8281",
+      "company_name": "ゼビオＨＤ",
+      "market_cap": 537.6,
+      "time": "17:45",
+      "title": "取締役に対する株式報酬型ストックオプションの内容確定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260915/140120260915536650.pdf"
     },
     {
       "code": "5410",
@@ -628,6 +660,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260915/140120260915536355.pdf"
     },
     {
+      "code": "4430",
+      "company_name": "東海ソフト",
+      "market_cap": 86.6,
+      "time": "17:15",
+      "title": "譲渡制限付株式報酬としての自己株式の処分に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260915/140120260914536238.pdf"
+    },
+    {
       "code": "3121",
       "company_name": "マーチャント",
       "market_cap": 83.0,
@@ -698,6 +738,22 @@
       "time": "17:00",
       "title": "連結子会社の吸収合併（簡易合併・略式合併）に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260915/140120260915536786.pdf"
+    },
+    {
+      "code": "3988",
+      "company_name": "ＳＹＳＨＤ",
+      "market_cap": 59.4,
+      "time": "17:30",
+      "title": "2026年７月期決算説明会資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260915/140120260914536222.pdf"
+    },
+    {
+      "code": "4935",
+      "company_name": "リベルタ",
+      "market_cap": 59.1,
+      "time": "17:30",
+      "title": "連結業績予想及び配当予想の修正（無配）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260915/140120260915536788.pdf"
     },
     {
       "code": "7091",
@@ -834,6 +890,14 @@
       "time": "16:00",
       "title": "代表取締役の異動に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260915/140120260915536710.pdf"
+    },
+    {
+      "code": "4069",
+      "company_name": "Ｇ－ＢｌｕｅＭｅｍｅ",
+      "market_cap": 23.9,
+      "time": "18:00",
+      "title": "会社分割（吸収分割）の効力発生日の変更に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260915/140120260915536828.pdf"
     },
     {
       "code": "7477",
