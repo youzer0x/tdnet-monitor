@@ -1,7 +1,7 @@
 {
   "date": "2026-09-16",
-  "company_count": 93,
-  "total_count": 100,
+  "company_count": 95,
+  "total_count": 104,
   "items": [
     {
       "code": "6301",
@@ -18,6 +18,14 @@
       "time": "15:30",
       "title": "自己株式の取得状況および取得終了に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916536923.pdf"
+    },
+    {
+      "code": "4689",
+      "company_name": "ＬＩＮＥヤフー",
+      "market_cap": 38162.4,
+      "time": "19:00",
+      "title": "（経過開示）BCPE Blitz Cayman, L.P.による株式会社カカクコム（証券コード：2371）に対する公開買付けの開始予定に係る一部変更に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260915536688.pdf"
     },
     {
       "code": "4507",
@@ -500,6 +508,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537335.pdf"
     },
     {
+      "code": "2404",
+      "company_name": "鉄人化ＨＤ",
+      "market_cap": 72.0,
+      "time": "17:10",
+      "title": "上場維持基準への適合及び当社株式の監理銘柄(確認中)指定解除に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537409.pdf"
+    },
+    {
       "code": "3135",
       "company_name": "マーケットエンター",
       "market_cap": 62.3,
@@ -578,6 +594,22 @@
       "time": "16:35",
       "title": "執行役員制度導入に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537181.pdf"
+    },
+    {
+      "code": "4884",
+      "company_name": "Ｇ－クリングル",
+      "market_cap": 36.6,
+      "time": "17:30",
+      "title": "声帯瘢痕治療薬の日本における独占的販売許諾等に関する契約書の締結に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537121.pdf"
+    },
+    {
+      "code": "4884",
+      "company_name": "Ｇ－クリングル",
+      "market_cap": 36.6,
+      "time": "17:30",
+      "title": "2026年９月期業績予想の修正に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260915536765.pdf"
     },
     {
       "code": "8798",
