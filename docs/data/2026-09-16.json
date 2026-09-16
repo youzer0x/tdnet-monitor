@@ -1,0 +1,808 @@
+{
+  "date": "2026-09-16",
+  "company_count": 93,
+  "total_count": 100,
+  "items": [
+    {
+      "code": "6301",
+      "company_name": "コマツ",
+      "market_cap": 65542.5,
+      "time": "14:30",
+      "title": "自己株式の取得状況および取得終了に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537265.pdf"
+    },
+    {
+      "code": "5020",
+      "company_name": "ＥＮＥＯＳ",
+      "market_cap": 39897.7,
+      "time": "15:30",
+      "title": "自己株式の取得状況および取得終了に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916536923.pdf"
+    },
+    {
+      "code": "4507",
+      "company_name": "塩野義薬",
+      "market_cap": 25728.2,
+      "time": "15:00",
+      "title": "組み換えタンパクワクチン「コブゴーズ筋注」の国内における一部変更承認の取得について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537227.pdf"
+    },
+    {
+      "code": "4507",
+      "company_name": "塩野義薬",
+      "market_cap": 25728.2,
+      "time": "15:00",
+      "title": "「ブイタマークリーム」の国内における小児（12歳未満）アトピー性皮膚炎に対する 用法・用量追加の製造販売承認取得について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537323.pdf"
+    },
+    {
+      "code": "4523",
+      "company_name": "エーザイ",
+      "market_cap": 13955.4,
+      "time": "15:00",
+      "title": "早期アルツハイマー病治療剤「レケンビ」の皮下注製剤「レケンビ皮下注250 mgペン」、日本において承認取得",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537277.pdf"
+    },
+    {
+      "code": "9602",
+      "company_name": "東宝",
+      "market_cap": 13532.0,
+      "time": "08:30",
+      "title": "投資有価証券売却益（特別利益）計上に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260907532443.pdf"
+    },
+    {
+      "code": "8960",
+      "company_name": "Ｒ－ユナイテド",
+      "market_cap": 5001.6,
+      "time": "16:00",
+      "title": "資金の借入れ（グリーンローンを含む）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260915536599.pdf"
+    },
+    {
+      "code": "1860",
+      "company_name": "戸田建",
+      "market_cap": 4752.6,
+      "time": "16:00",
+      "title": "一括取得型自己株式取得（ASR）における事後調整完了のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260908533185.pdf"
+    },
+    {
+      "code": "8986",
+      "company_name": "Ｒ－大和証券リビング",
+      "market_cap": 2221.4,
+      "time": "15:30",
+      "title": "投資法人債の発行に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537221.pdf"
+    },
+    {
+      "code": "3167",
+      "company_name": "ＴＯＫＡＩ　ＨＤ",
+      "market_cap": 1907.8,
+      "time": "15:30",
+      "title": "（開示事項の変更）株式取得（連結子会社化）の日程延期に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916536950.pdf"
+    },
+    {
+      "code": "9166",
+      "company_name": "Ｇ－ＧＥＮＤＡ",
+      "market_cap": 1233.9,
+      "time": "15:30",
+      "title": "GENDA 売上進捗レポート発行に関するお知らせ【2026年９月】",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537054.pdf"
+    },
+    {
+      "code": "4044",
+      "company_name": "セ硝子",
+      "market_cap": 1188.2,
+      "time": "14:15",
+      "title": "経済産業省「重要鉱物に係る供給確保計画」認定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537178.pdf"
+    },
+    {
+      "code": "5943",
+      "company_name": "ノーリツ",
+      "market_cap": 1076.0,
+      "time": "14:00",
+      "title": "投資有価証券売却益（特別利益）の計上に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537150.pdf"
+    },
+    {
+      "code": "5842",
+      "company_name": "Ｇ－インテグラル",
+      "market_cap": 1041.6,
+      "time": "08:55",
+      "title": "株式会社オリバーの株式上場に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916536914.pdf"
+    },
+    {
+      "code": "8508",
+      "company_name": "Ｊトラスト",
+      "market_cap": 1012.1,
+      "time": "16:00",
+      "title": "特定子会社の解散及び清算に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260915536847.pdf"
+    },
+    {
+      "code": "4116",
+      "company_name": "大日精化",
+      "market_cap": 966.5,
+      "time": "11:00",
+      "title": "自己株式立会外買付取引（ToSTNeT-３）による自己株式の取得結果及び自己株式の取得終了に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260915536793.pdf"
+    },
+    {
+      "code": "8841",
+      "company_name": "テーオーシー",
+      "market_cap": 935.7,
+      "time": "15:30",
+      "title": "配当予想の修正（増配）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260904532169.pdf"
+    },
+    {
+      "code": "8977",
+      "company_name": "Ｒ－阪急阪神",
+      "market_cap": 932.3,
+      "time": "16:00",
+      "title": "資産運用会社における重要な使用人の変更に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537364.pdf"
+    },
+    {
+      "code": "2220",
+      "company_name": "亀田菓",
+      "market_cap": 899.9,
+      "time": "15:30",
+      "title": "持分法適用関連会社の異動（株式譲渡）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537235.pdf"
+    },
+    {
+      "code": "3479",
+      "company_name": "Ｇ－ＴＫＰ",
+      "market_cap": 810.5,
+      "time": "16:49",
+      "title": "連結子会社の吸収合併（簡易合併）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537205.pdf"
+    },
+    {
+      "code": "2612",
+      "company_name": "かどや製油",
+      "market_cap": 803.7,
+      "time": "15:50",
+      "title": "(訂正）「株式会社ITG-Gホールディングスによる当社株式に対する公開買付けに関する賛同の意見表明及び応募推奨のお知らせ」の一部訂正に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537363.pdf"
+    },
+    {
+      "code": "2979",
+      "company_name": "Ｒ－ＳＯＳｉＬＡ物流",
+      "market_cap": 729.7,
+      "time": "15:30",
+      "title": "資産運用会社における代表取締役社長執行役員の変更予定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260911534870.pdf"
+    },
+    {
+      "code": "6419",
+      "company_name": "マースグループＨＤ",
+      "market_cap": 719.1,
+      "time": "16:00",
+      "title": "自己株式の取得状況及び取得終了に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260908532830.pdf"
+    },
+    {
+      "code": "8624",
+      "company_name": "いちよし",
+      "market_cap": 634.2,
+      "time": "12:00",
+      "title": "2027年３月期の中間配当予定について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260915536801.pdf"
+    },
+    {
+      "code": "6309",
+      "company_name": "巴工業",
+      "market_cap": 597.2,
+      "time": "17:00",
+      "title": "2026年10月期 第３四半期決算説明資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537411.pdf"
+    },
+    {
+      "code": "5304",
+      "company_name": "ＳＥＣカーボン",
+      "market_cap": 515.7,
+      "time": "11:45",
+      "title": "自己株式の取得状況及び取得終了に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537112.pdf"
+    },
+    {
+      "code": "1888",
+      "company_name": "若築建",
+      "market_cap": 471.3,
+      "time": "16:00",
+      "title": "コミットメントライン契約に基づく借入の決定について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916536961.pdf"
+    },
+    {
+      "code": "6625",
+      "company_name": "ＪＡＬＣＯ　ＨＤ",
+      "market_cap": 423.9,
+      "time": "12:30",
+      "title": "連結子会社における販売用不動産の売却に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537168.pdf"
+    },
+    {
+      "code": "5408",
+      "company_name": "中山鋼",
+      "market_cap": 408.1,
+      "time": "17:00",
+      "title": "熱延工場における火災発生に関するお知らせとお詫び",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537337.pdf"
+    },
+    {
+      "code": "5484",
+      "company_name": "東北鋼",
+      "market_cap": 335.6,
+      "time": "16:00",
+      "title": "株式併合、単元株式数の定めの廃止及び定款一部変更に係る承認決議に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260914535491.pdf"
+    },
+    {
+      "code": "6706",
+      "company_name": "電気興",
+      "market_cap": 328.7,
+      "time": "17:00",
+      "title": "特別調査委員会の設置に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260911535273.pdf"
+    },
+    {
+      "code": "7238",
+      "company_name": "曙ブレーキ",
+      "market_cap": 292.9,
+      "time": "15:00",
+      "title": "第14回株式報酬型ストックオプション（新株予約権）の発行要項の一部変更に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537228.pdf"
+    },
+    {
+      "code": "2418",
+      "company_name": "ツカダグローバルＨＤ",
+      "market_cap": 291.8,
+      "time": "15:30",
+      "title": "連結子会社による「リーガロイヤルホテル大阪 ヴィニェット コレクション」の ウエディング事業業務提携に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916536929.pdf"
+    },
+    {
+      "code": "9644",
+      "company_name": "タナベコンサルＧ",
+      "market_cap": 256.4,
+      "time": "13:00",
+      "title": "従業員向け株式付与ＥＳＯＰ信託の導入に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537074.pdf"
+    },
+    {
+      "code": "9644",
+      "company_name": "タナベコンサルＧ",
+      "market_cap": 256.4,
+      "time": "13:00",
+      "title": "従業員向け株式付与ＥＳＯＰ信託の導入に伴う第三者割当による自己株式の処分に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537106.pdf"
+    },
+    {
+      "code": "7318",
+      "company_name": "Ｇ－セレンディップ",
+      "market_cap": 249.0,
+      "time": "15:30",
+      "title": "第三者割当による自己株式の処分に係る払込完了に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537136.pdf"
+    },
+    {
+      "code": "4251",
+      "company_name": "恵和",
+      "market_cap": 229.5,
+      "time": "15:30",
+      "title": "代表取締役の異動（追加選定）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537145.pdf"
+    },
+    {
+      "code": "2982",
+      "company_name": "ＡＤワークスグループ",
+      "market_cap": 218.0,
+      "time": "15:00",
+      "title": "連結子会社におけるホテル運営事業の開始に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260915536869.pdf"
+    },
+    {
+      "code": "9163",
+      "company_name": "Ｇ－ナレルグループ",
+      "market_cap": 208.3,
+      "time": "15:30",
+      "title": "2026年８月度　ＫＰＩのお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916536989.pdf"
+    },
+    {
+      "code": "5388",
+      "company_name": "クニミネ工業",
+      "market_cap": 197.4,
+      "time": "15:30",
+      "title": "業績予想の修正に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916536930.pdf"
+    },
+    {
+      "code": "3512",
+      "company_name": "日フエルト",
+      "market_cap": 195.2,
+      "time": "11:00",
+      "title": "自己株式立会外買付取引（ＴｏＳＴＮｅＴ－３）による自己株式の取得結果に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537012.pdf"
+    },
+    {
+      "code": "2998",
+      "company_name": "Ｇ－クリアル",
+      "market_cap": 189.7,
+      "time": "14:30",
+      "title": "クリアル、シンガポールを拠点とする不動産投資運用会社Q Investment Partnersと覚書（MOU）を締結",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537285.pdf"
+    },
+    {
+      "code": "7539",
+      "company_name": "アイナボＨＤ",
+      "market_cap": 189.4,
+      "time": "15:30",
+      "title": "配当予想の修正に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537197.pdf"
+    },
+    {
+      "code": "4762",
+      "company_name": "ＸＮＥＴ",
+      "market_cap": 179.8,
+      "time": "16:00",
+      "title": "「2027年３月期第２四半期（中間期）及び通期業績予想の修正」及び「第２四半期末配当（エクストラ配当）予想の修正」に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260915536475.pdf"
+    },
+    {
+      "code": "3640",
+      "company_name": "電算",
+      "market_cap": 162.9,
+      "time": "15:50",
+      "title": "業績予想の修正（上方修正）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260915536407.pdf"
+    },
+    {
+      "code": "6405",
+      "company_name": "鈴茂器工",
+      "market_cap": 158.8,
+      "time": "15:30",
+      "title": "執行役員の異動に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537202.pdf"
+    },
+    {
+      "code": "3321",
+      "company_name": "ミタチ",
+      "market_cap": 134.2,
+      "time": "15:30",
+      "title": "業績予想の修正に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537160.pdf"
+    },
+    {
+      "code": "7819",
+      "company_name": "粧美堂",
+      "market_cap": 132.2,
+      "time": "15:00",
+      "title": "組織変更及び人事異動に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537067.pdf"
+    },
+    {
+      "code": "9227",
+      "company_name": "Ｇ－マイクロ波化学",
+      "market_cap": 129.0,
+      "time": "15:30",
+      "title": "第三者割当による第８回新株予約権（行使価額修正条項付）の発行に係る払込完了に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537248.pdf"
+    },
+    {
+      "code": "9227",
+      "company_name": "Ｇ－マイクロ波化学",
+      "market_cap": 129.0,
+      "time": "15:30",
+      "title": "ファシリティ契約に基づく第８回新株予約権（行使価額修正条項付）の行使許可通知に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537260.pdf"
+    },
+    {
+      "code": "2927",
+      "company_name": "ＡＦＣ－ＨＤ",
+      "market_cap": 124.3,
+      "time": "16:33",
+      "title": "株式会社さいか屋が整理銘柄に指定されたことを踏まえた今後の資本政策及び株式交換方針について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537173.pdf"
+    },
+    {
+      "code": "8705",
+      "company_name": "日産証券グループ",
+      "market_cap": 122.7,
+      "time": "12:00",
+      "title": "2027年３月期配当予想に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260907532376.pdf"
+    },
+    {
+      "code": "7374",
+      "company_name": "Ｇ－コンフィデンスＩ",
+      "market_cap": 101.5,
+      "time": "17:00",
+      "title": "譲渡制限付株式報酬としての自己株式処分に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260915536906.pdf"
+    },
+    {
+      "code": "6286",
+      "company_name": "靜甲",
+      "market_cap": 96.8,
+      "time": "15:30",
+      "title": "当社及び当社子会社の執行役員・フェローに対する譲渡制限付株式制度の導入に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537237.pdf"
+    },
+    {
+      "code": "6047",
+      "company_name": "Ｇｕｎｏｓｙ",
+      "market_cap": 93.1,
+      "time": "15:30",
+      "title": "譲渡制限付株式報酬としての自己株式の処分の払込完了に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537174.pdf"
+    },
+    {
+      "code": "3077",
+      "company_name": "ホリイフード",
+      "market_cap": 87.9,
+      "time": "14:00",
+      "title": "株主優待制度の拡充について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260915536892.pdf"
+    },
+    {
+      "code": "3077",
+      "company_name": "ホリイフード",
+      "market_cap": 87.9,
+      "time": "14:00",
+      "title": "2026年11月期 月次売上速報（8月度）のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260915536893.pdf"
+    },
+    {
+      "code": "8107",
+      "company_name": "キムラタン",
+      "market_cap": 85.4,
+      "time": "15:30",
+      "title": "不動産の売却に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537338.pdf"
+    },
+    {
+      "code": "3691",
+      "company_name": "Ｇ－デジタルプラス",
+      "market_cap": 84.6,
+      "time": "17:00",
+      "title": "2026年9月期第３四半期決算を終えてのTOPメッセージ動画公開のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537384.pdf"
+    },
+    {
+      "code": "5923",
+      "company_name": "高田機工",
+      "market_cap": 80.2,
+      "time": "14:30",
+      "title": "政策保有株式の売却及び投資有価証券売却益（特別利益）の計上に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537011.pdf"
+    },
+    {
+      "code": "1447",
+      "company_name": "Ｇ－ＳＡＡＦＨＤ",
+      "market_cap": 75.5,
+      "time": "15:00",
+      "title": "（開示事項の経過）当社株主による臨時株主総会招集許可申立ての取下げに関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537262.pdf"
+    },
+    {
+      "code": "6380",
+      "company_name": "オリチエン工業",
+      "market_cap": 75.0,
+      "time": "16:00",
+      "title": "Ｘ―ＡＩプロジェクト始動及び株式会社ＫＵＲＯＪＩＫＡとの業務提携に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537335.pdf"
+    },
+    {
+      "code": "3135",
+      "company_name": "マーケットエンター",
+      "market_cap": 62.3,
+      "time": "15:30",
+      "title": "月次リユース売上高（速報）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537132.pdf"
+    },
+    {
+      "code": "7771",
+      "company_name": "日本精密",
+      "market_cap": 60.5,
+      "time": "16:00",
+      "title": "(開示事項の経過)第三者割当により発行した新株式の発行について、割当先による一部売却及び保有方針等に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537025.pdf"
+    },
+    {
+      "code": "4287",
+      "company_name": "ジャストプラ",
+      "market_cap": 57.1,
+      "time": "16:00",
+      "title": "連結業績予想の修正に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537098.pdf"
+    },
+    {
+      "code": "4287",
+      "company_name": "ジャストプラ",
+      "market_cap": 57.1,
+      "time": "16:00",
+      "title": "当社連結子会社株式会社JPパワーにおける太陽光発電事業譲渡に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537097.pdf"
+    },
+    {
+      "code": "6888",
+      "company_name": "アクモス",
+      "market_cap": 51.0,
+      "time": "15:00",
+      "title": "支配株主等に関する事項について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537186.pdf"
+    },
+    {
+      "code": "6888",
+      "company_name": "アクモス",
+      "market_cap": 51.0,
+      "time": "15:00",
+      "title": "公益財団法人 財務会計基準機構への加入状況について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537188.pdf"
+    },
+    {
+      "code": "3856",
+      "company_name": "Ａｂａｌａｎｃｅ",
+      "market_cap": 46.4,
+      "time": "16:40",
+      "title": "自己株式立会外買付取引（ToSTNeT-3）による自己株式の買付けに関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537407.pdf"
+    },
+    {
+      "code": "7957",
+      "company_name": "フジコピアン",
+      "market_cap": 45.8,
+      "time": "15:30",
+      "title": "組織変更ならびに人事異動のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537149.pdf"
+    },
+    {
+      "code": "7602",
+      "company_name": "レダックス",
+      "market_cap": 44.1,
+      "time": "15:30",
+      "title": "株式会社ハリカの事業を承継する会社の株式取得（連結子会社化）に向けたスポンサー契約締結に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537297.pdf"
+    },
+    {
+      "code": "4884",
+      "company_name": "Ｇ－クリングル",
+      "market_cap": 36.6,
+      "time": "16:35",
+      "title": "執行役員制度導入に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537181.pdf"
+    },
+    {
+      "code": "8798",
+      "company_name": "アドバンスクリエイト",
+      "market_cap": 31.5,
+      "time": "15:30",
+      "title": "2026年8月度 当社の業績概要について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537316.pdf"
+    },
+    {
+      "code": "6656",
+      "company_name": "ＩＮＳＰＥＣ",
+      "market_cap": 29.9,
+      "time": "16:00",
+      "title": "株式報酬型ストックオプション（新株予約権）発行内容確定のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916536915.pdf"
+    },
+    {
+      "code": "7043",
+      "company_name": "Ｇ－アルー",
+      "market_cap": 24.1,
+      "time": "16:00",
+      "title": "2026年８月度　etudes月次KPI（速報）のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537033.pdf"
+    },
+    {
+      "code": "4260",
+      "company_name": "Ｇ－ハイブリッドテク",
+      "market_cap": 23.7,
+      "time": "15:30",
+      "title": "（開示事項の経過）子会社の商号変更完了に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537223.pdf"
+    },
+    {
+      "code": "8254",
+      "company_name": "さいか屋",
+      "market_cap": 20.4,
+      "time": "16:40",
+      "title": "当社株式の上場廃止の決定及び整理銘柄への指定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537396.pdf"
+    },
+    {
+      "code": "2164",
+      "company_name": "地域新聞社",
+      "market_cap": 17.1,
+      "time": "11:30",
+      "title": "第11回新株予約権（行使価額修正条項付）の取得に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537077.pdf"
+    },
+    {
+      "code": "2156",
+      "company_name": "セーラー広告",
+      "market_cap": 17.0,
+      "time": "15:30",
+      "title": "公認会計士等の異動および一時会計監査人の選任に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260914535633.pdf"
+    },
+    {
+      "code": "3370",
+      "company_name": "フジタコーポ",
+      "market_cap": 16.3,
+      "time": "16:30",
+      "title": "農地所有適格法人である株式会社市川牧場の株式取得（連結子会社化）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537372.pdf"
+    },
+    {
+      "code": "6696",
+      "company_name": "Ｇ－トラースＯＰ",
+      "market_cap": 15.0,
+      "time": "15:30",
+      "title": "AIrux技術を応用した、省人化DXソリューションの受注に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260915536529.pdf"
+    },
+    {
+      "code": "2721",
+      "company_name": "ＪＨＤ",
+      "market_cap": 13.7,
+      "time": "16:30",
+      "title": "第10回新株予約権（行使価額修正条項付）の取得及び消却に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916536931.pdf"
+    },
+    {
+      "code": "4760",
+      "company_name": "アルファ",
+      "market_cap": 12.8,
+      "time": "17:00",
+      "title": "東京証券取引所における当社株式の上場廃止の決定及び整理銘柄への指定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260915536757.pdf"
+    },
+    {
+      "code": "1326",
+      "company_name": "Ｅ－ワールド",
+      "market_cap": 0,
+      "time": "12:15",
+      "title": "SPDRゴールド・シェアに関する日々の開示事項",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537137.pdf"
+    },
+    {
+      "code": "1329",
+      "company_name": "Ｅ－ブラックロック",
+      "market_cap": 0,
+      "time": "10:30",
+      "title": "上場ETF（管理会社：ブラックロック・ジャパン）に関する日々の開示事項",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916536933.pdf"
+    },
+    {
+      "code": "1343",
+      "company_name": "ＮＦＪ－ＲＥＩＴ",
+      "market_cap": 0,
+      "time": "13:00",
+      "title": "NEXT FUNDS 東証REIT指数連動型上場投信 決算短信",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537060.pdf"
+    },
+    {
+      "code": "1349",
+      "company_name": "Ｅ－ＳＳＧＡ－ＳＩＮ",
+      "market_cap": 0,
+      "time": "12:10",
+      "title": "アジア国債・公債ＥＴＦ（正式名称：ＡＢＦ汎アジア債券インデックス・ファンド）に関する日々の開示事項",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537135.pdf"
+    },
+    {
+      "code": "1545",
+      "company_name": "ナスダックヘッジ無",
+      "market_cap": 0,
+      "time": "13:00",
+      "title": "NEXT FUNDS NASDAQ－１００（Ｒ）（為替ヘッジなし）連動型上場投信 決算短信",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537083.pdf"
+    },
+    {
+      "code": "1546",
+      "company_name": "ダウヘッジ無",
+      "market_cap": 0,
+      "time": "13:00",
+      "title": "NEXT FUNDS ダウ・ジョーンズ工業株３０種平均株価（為替ヘッジなし）連動型上場投信 決算短信",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537085.pdf"
+    },
+    {
+      "code": "1557",
+      "company_name": "Ｅ－ＳＳＧＡＴＣ",
+      "market_cap": 0,
+      "time": "12:20",
+      "title": "State Street SPDR S&P500 ETFに関する日々の開示事項",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537139.pdf"
+    },
+    {
+      "code": "1559",
+      "company_name": "ＮＦタイ株",
+      "market_cap": 0,
+      "time": "13:00",
+      "title": "NEXT FUNDS タイ株式SET50指数連動型上場投信 決算短信",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537071.pdf"
+    },
+    {
+      "code": "1560",
+      "company_name": "ＮＦマレーシア株",
+      "market_cap": 0,
+      "time": "13:00",
+      "title": "NEXT FUNDS FTSEブルサ・マレーシアKLCI連動型上場投信 決算短信",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537088.pdf"
+    },
+    {
+      "code": "1671",
+      "company_name": "Ｅ－シンプレクス",
+      "market_cap": 0,
+      "time": "10:00",
+      "title": "上場ＥＴＦ(管理会社：シンプレクス・アセット・マネジメント)に関する日々の開示事項",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916536954.pdf"
+    },
+    {
+      "code": "1672",
+      "company_name": "Ｅ－ＷｉｓｄｏｍＴｒ",
+      "market_cap": 0,
+      "time": "08:30",
+      "title": "上場ETF（管理会社：WisdomTree、外国投資法人：MSL）に関する日々の開示事項",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916536908.pdf"
+    },
+    {
+      "code": "1672",
+      "company_name": "Ｅ－ＷｉｓｄｏｍＴｒ",
+      "market_cap": 0,
+      "time": "08:30",
+      "title": "上場ETF（管理会社：WisdomTree、外国投資法人：CSL）に関する日々の開示事項",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916536909.pdf"
+    },
+    {
+      "code": "1678",
+      "company_name": "ＮＦインド株",
+      "market_cap": 0,
+      "time": "13:00",
+      "title": "NEXT FUNDS インド株式指数・Nifty 50連動型上場投信 決算短信",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537090.pdf"
+    },
+    {
+      "code": "1699",
+      "company_name": "ＮＦ原油先物",
+      "market_cap": 0,
+      "time": "13:00",
+      "title": "NEXT FUNDS NOMURA原油インデックス連動型上場投信 中間決算短信",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537068.pdf"
+    },
+    {
+      "code": "2070",
+      "company_name": "Ｎ－三菱ＵＦＪ証ＨＤ",
+      "market_cap": 0,
+      "time": "11:30",
+      "title": "上場ETN（発行者：三菱UFJ証券ホールディングス株式会社）に関する日々の開示事項",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537018.pdf"
+    },
+    {
+      "code": "2845",
+      "company_name": "ナスダックヘッジ有",
+      "market_cap": 0,
+      "time": "13:00",
+      "title": "NEXT FUNDS NASDAQ－１００（Ｒ）（為替ヘッジあり）連動型上場投信 決算短信",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537092.pdf"
+    },
+    {
+      "code": "2846",
+      "company_name": "ダウヘッジ有",
+      "market_cap": 0,
+      "time": "13:00",
+      "title": "NEXT FUNDS ダウ・ジョーンズ工業株３０種平均株価（為替ヘッジあり）連動型上場投信 決算短信",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537094.pdf"
+    }
+  ],
+  "tdnet_available": true
+}
