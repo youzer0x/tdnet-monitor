@@ -1,7 +1,7 @@
 {
   "date": "2026-09-17",
-  "company_count": 90,
-  "total_count": 118,
+  "company_count": 98,
+  "total_count": 129,
   "items": [
     {
       "code": "9503",
@@ -82,6 +82,30 @@
       "time": "17:30",
       "title": "自己株式立会外買付取引（ToSTNeT-3）への売付け及び 投資有価証券売却益（特別利益）の計上見込みに関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537804.pdf"
+    },
+    {
+      "code": "278A",
+      "company_name": "Ｇ－テラドローン",
+      "market_cap": 1976.5,
+      "time": "11:30",
+      "title": "2027年１月期 第２四半期決算説明会 書き起こし公開のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537703.pdf"
+    },
+    {
+      "code": "290A",
+      "company_name": "Ｇ－Ｓｙｎｓ",
+      "market_cap": 1899.7,
+      "time": "17:30",
+      "title": "財務上の特約が付されたシンジケートローン契約締結および営業外費用の計上に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917538149.pdf"
+    },
+    {
+      "code": "290A",
+      "company_name": "Ｇ－Ｓｙｎｓ",
+      "market_cap": 1899.7,
+      "time": "17:30",
+      "title": "打上げ保険契約の変更に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917538123.pdf"
     },
     {
       "code": "7685",
@@ -260,6 +284,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260916537452.pdf"
     },
     {
+      "code": "219A",
+      "company_name": "Ｇ－ハートシード",
+      "market_cap": 563.2,
+      "time": "15:30",
+      "title": "社外取締役の辞任に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260916537472.pdf"
+    },
+    {
       "code": "8614",
       "company_name": "東洋証",
       "market_cap": 520.8,
@@ -298,6 +330,14 @@
       "time": "16:00",
       "title": "2027年３月期　第１四半期決算短信〔日本基準〕(非連結)",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537870.pdf"
+    },
+    {
+      "code": "590A",
+      "company_name": "ギフティグループ",
+      "market_cap": 383.5,
+      "time": "17:45",
+      "title": "簡易株式交換における株式交換比率の決定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917538087.pdf"
     },
     {
       "code": "4792",
@@ -452,6 +492,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537800.pdf"
     },
     {
+      "code": "332A",
+      "company_name": "Ｇ－ミーク",
+      "market_cap": 136.7,
+      "time": "17:30",
+      "title": "執行役員の人事に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917538062.pdf"
+    },
+    {
       "code": "4978",
       "company_name": "Ｇ－リプロセル",
       "market_cap": 134.4,
@@ -498,6 +546,30 @@
       "time": "15:30",
       "title": "株主優待制度の一部変更（拡充及び継続保有要件追加）に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537848.pdf"
+    },
+    {
+      "code": "625A",
+      "company_name": "Ｇ－Ｓｋｙｆａｌｌ",
+      "market_cap": 112.4,
+      "time": "08:00",
+      "title": "東京証券取引所グロース市場への上場に伴う決算情報等のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260916537319.pdf"
+    },
+    {
+      "code": "625A",
+      "company_name": "Ｇ－Ｓｋｙｆａｌｌ",
+      "market_cap": 112.4,
+      "time": "08:00",
+      "title": "事業計画及び成長可能性に関する事項",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260916537342.pdf"
+    },
+    {
+      "code": "625A",
+      "company_name": "Ｇ－Ｓｋｙｆａｌｌ",
+      "market_cap": 112.4,
+      "time": "08:00",
+      "title": "親会社以外の支配株主及び主要株主の異動に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260916537343.pdf"
     },
     {
       "code": "4169",
@@ -844,6 +916,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260916537473.pdf"
     },
     {
+      "code": "149A",
+      "company_name": "Ｇ－シンカ",
+      "market_cap": 26.3,
+      "time": "15:30",
+      "title": "（開示事項の経過）弊社運営サービス紹介サイトへの不正アクセスに関する調査結果のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537753.pdf"
+    },
+    {
       "code": "3672",
       "company_name": "オルトプラス",
       "market_cap": 26.1,
@@ -908,6 +988,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537932.pdf"
     },
     {
+      "code": "302A",
+      "company_name": "Ｇ－ビースタイルＨＤ",
+      "market_cap": 17.0,
+      "time": "15:30",
+      "title": "株式会社HRアソシエの株式取得（子会社化）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537842.pdf"
+    },
+    {
       "code": "6731",
       "company_name": "ピクセラ",
       "market_cap": 16.3,
@@ -948,5 +1036,8 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260909533769.pdf"
     }
   ],
-  "tdnet_available": true
+  "tdnet_available": true,
+  "notified": {
+    "night": true
+  }
 }
