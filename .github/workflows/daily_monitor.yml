@@ -2,13 +2,15 @@ name: TDnet Daily Monitor
 
 on:
   schedule:
-    # 17:00 JST evening は cron-job.org からトリガに移行(GitHub schedule の数時間遅延を回避)
-    # 24:00 JST = 15:00 UTC → night
-    - cron: "59 14 * * *"
+    # 17:05 JST の evening は cron-job.org から workflow_dispatch で起動する（GitHub schedule の数時間遅延を回避）。
+    # night は GitHub schedule: 1回目 00:10 JST、予備 05:30 JST。予備は1回目が記録・通知を済ませていれば
+    # 何もしない（メールは増えない）。schedule 実行はすべて night 扱い（main.py が対象日を JST 時刻で決める）。
+    - cron: "10 15 * * *"
+    - cron: "30 20 * * *"
   workflow_dispatch:
     inputs:
       run_mode:
-        description: "Run mode: evening (00:00-17:00) or night (17:01-23:59)"
+        description: "Run mode: evening (00:00-17:00) or night (full day, adds unrecorded items)"
         required: false
         default: "evening"
         type: choice
@@ -16,17 +18,28 @@ on:
           - evening
           - night
       target_date:
-        description: "Target date YYYY-MM-DD (空欄なら当日)"
+        description: "Target date YYYY-MM-DD (空欄なら当日。night は JST 17時前なら前日)"
         required: false
         default: ""
         type: string
+      send_email:
+        description: "メールを送る（false = 記録のみ。リプレイ用）"
+        required: false
+        default: true
+        type: boolean
 
 permissions:
   contents: write
 
+# 遅延した night 1回目と予備、あるいは手動実行との重なりを直列化する（どれも冪等なので順序は問わない）。
+concurrency:
+  group: tdnet-monitor
+  cancel-in-progress: false
+
 jobs:
   monitor:
     runs-on: ubuntu-latest
+    timeout-minutes: 180
 
     env:
       GMAIL_ADDRESS: ${{ secrets.GMAIL_ADDRESS }}
@@ -50,19 +63,23 @@ jobs:
       - name: Determine run mode
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            # 手動実行: ユーザーが選択した値を使用
+            # 手動実行（cron-job.org の evening を含む）: 入力値を使用
             echo "RUN_MODE=${{ github.event.inputs.run_mode }}" >> $GITHUB_ENV
-          elif [ "${{ github.event.schedule }}" = "0 8 * * *" ]; then
-            # cron 08:00 UTC = 17:00 JST → evening
-            echo "RUN_MODE=evening" >> $GITHUB_ENV
-          elif [ "${{ github.event.schedule }}" = "59 14 * * *" ]; then
-            # cron 15:00 UTC = 24:00 JST → night
-            echo "RUN_MODE=night" >> $GITHUB_ENV
           else
-            echo "RUN_MODE=evening" >> $GITHUB_ENV
+            # schedule はすべて night（1回目・予備）
+            echo "RUN_MODE=night" >> $GITHUB_ENV
+          fi
+          # inputs.send_email は schedule 実行時に null になり、式の `== false` が真になってしまう。
+          # 文字列で比較し、明示的に false のときだけ送信を止める。
+          if [ "${{ github.event.inputs.send_email }}" = "false" ]; then
+            echo "SEND_EMAIL=0" >> $GITHUB_ENV
+          else
+            echo "SEND_EMAIL=1" >> $GITHUB_ENV
           fi
 
       - name: Run TDnet Monitor
+        # step の timeout は failure 扱い（cancel ではない）なので、後続の commit ステップが走る
+        timeout-minutes: 150
         working-directory: scripts
         env:
           TARGET_DATE: ${{ github.event.inputs.target_date }}
@@ -71,14 +88,18 @@ jobs:
         run: python main.py
 
       - name: Commit and push GitHub Pages
+        # メール送信で失敗しても記録（pending_notify 付き）を残し、予備実行が再送できるようにする
+        if: ${{ !cancelled() }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          if [ -d "docs" ] && [ -n "$(ls -A docs/ 2>/dev/null)" ]; then
-            git add --force docs/index.html
-            git add --force docs/data/
-            git add cache/ 2>/dev/null || true
-            git diff --cached --quiet || (git commit -m "Update disclosures $(date +%Y-%m-%d) [${RUN_MODE}]" && git push)
+          git add --force docs/index.html
+          git add --force docs/data/
+          git add cache/ 2>/dev/null || true
+          if git diff --cached --quiet; then
+            echo "No changes to commit."
           else
-            echo "No docs to commit (market closed or no disclosures)."
+            git commit -m "Update disclosures ${TARGET_DATE_RESOLVED:-$(date +%Y-%m-%d)} [${RUN_MODE}]"
+            # 実行中に別の push があった場合は取り込んでから push する（二重送信・push 失敗を防ぐ）
+            git push || (git pull --rebase origin main && git push)
           fi

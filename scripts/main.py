@@ -1,21 +1,47 @@
 """TDnet 適時開示モニター メイン処理
 
-2回/日の実行に対応:
-  - evening (17:00): 00:00〜17:00 の開示を取得・メール通知（上位30件）
-  - night   (24:00): 17:01〜24:00 の開示を取得・既存データにマージ・メール通知（差分全件）
+1営業日あたり 3 回の実行に対応:
+  - evening   (17:05 JST, cron-job.org → workflow_dispatch): 00:00〜17:00 の開示を記録・メール通知（上位30件）
+  - night     (00:10 JST, GitHub schedule): 当日全件を取得し、未記録の開示だけを追記・メール通知（差分全件）
+  - night 予備 (05:30 JST, GitHub schedule): 同上。1回目が記録・通知を済ませていれば何もしない
+
+記録の単位は TDnet の書類 ID（PDF ファイル名。原本 URL でも Release 退避後の URL でも同じ）。
+記録済みの開示は再取得しても追加されないため、どの実行も冪等で、夕方の実行が抜けた日は深夜の
+1回目が日中分を補完する。メールは JSON の `notified`（モード別の通知済みフラグ）と各項目の
+`pending_notify`（記録済み・未通知）で制御し、「未通知の開示がある」かつ「そのモードでまだ
+通知していない」時だけ送る（予備実行・手動再実行・遅れて見つかった追加分ではメールが増えない）。
+補完時の深夜メールは上位30件に絞り、件名で知らせる。
 """
 
 import os
 import json
 import glob
-from datetime import date, datetime, timedelta
+from datetime import date, datetime, timedelta, timezone
+from typing import NamedTuple
+
 import jpholiday
 
+from html_generator import DisplayItem
+from pdf_archive import pdf_id, TDNET_PDF_BASE
+
+
+JST = timezone(timedelta(hours=9))   # 固定オフセット（tzdata 非依存）
 
 # 日次データの保持期間（ローリング）。開示日から RETAIN_DAYS 日以内のものだけを
 # GitHub 上で管理し、それより古い日次 JSON と Release 上の PDF は削除する。
 # 配信元 TDnet は PDF を約30日で消すため、ここで消した分は復元不可。
 RETAIN_DAYS = 90
+
+# night の対象日: JST でこの時刻より前に動いた実行は「前日分」（GitHub schedule は 23:59 JST の
+# cron でも数時間遅れて翌日未明に動く。遅延ゼロで 23:59 に動いた場合は当日）。
+NIGHT_ROLLBACK_HOUR = 17
+
+# TARGET_DATE 手動指定でこれより古い日は TDnet 一覧が複数日分を返すため取得しない（保守処理のみ）。
+REPLAY_MAX_AGE_DAYS = 28
+
+EVENING_WINDOW = ("00:00", "17:00")
+EMAIL_TOP_N = 30
+DOCS_DIR_DEFAULT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "docs")
 
 
 def retention_cutoff(today: date | None = None) -> date:
@@ -25,6 +51,25 @@ def retention_cutoff(today: date | None = None) -> date:
     巻き戻るため、保持窓の基準には使わない。
     """
     return (today or date.today()) - timedelta(days=RETAIN_DAYS)
+
+
+def resolve_target_date(run_mode: str, now_jst: datetime, date_arg: str | None) -> date:
+    """対象日を決める。TARGET_DATE 指定が最優先。night は JST 17 時前なら前日、以降は当日。"""
+    if date_arg:
+        return datetime.strptime(date_arg, "%Y-%m-%d").date()
+    today = now_jst.date()
+    if run_mode == "night" and now_jst.hour < NIGHT_ROLLBACK_HOUR:
+        return today - timedelta(days=1)
+    return today
+
+
+def export_github_env(name: str, value: str) -> None:
+    """GitHub Actions の後続ステップへ環境変数を渡す（GITHUB_ENV 未設定なら何もしない）。"""
+    path = os.environ.get("GITHUB_ENV")
+    if not path:
+        return
+    with open(path, "a", encoding="utf-8") as f:
+        f.write(f"{name}={value}\n")
 
 
 def is_market_open(target_date: date) -> bool:
@@ -50,20 +95,151 @@ def filter_by_time(disclosures: list, start_time: str, end_time: str) -> list:
     return filtered
 
 
-def load_existing_json(json_path: str) -> list[dict]:
-    """既存の JSON データを読み込む"""
+# ── 日次 JSON（レコード＝dict）───────────────────────────────
+
+def _sort_key(rec: dict):
+    """時価総額降順 → コード昇順 → 時刻昇順"""
+    return (-(rec.get("market_cap") or 0), rec.get("code", ""), rec.get("time", ""))
+
+
+def _meta_key(rec: dict) -> str:
+    return f"{rec.get('code', '')}|{rec.get('time', '')}|{rec.get('title', '')}"
+
+
+def item_key(rec: dict) -> str:
+    """開示の同一性キー。TDnet の書類 ID（PDF ファイル名）を主キーにし、URL 無しは code|time|title。"""
+    pid = pdf_id(rec.get("pdf_url") or "")
+    return pid if pid else _meta_key(rec)
+
+
+def split_new_records(existing: list[dict], fetched: list[dict]) -> list[dict]:
+    """取得分のうち未記録のものだけを返す（順序は fetched のまま）。
+
+    URL 無しで記録された既存項目（TDnet にリンクが無かった・公開終了で URL を落とした）は
+    ID で突合できないため、(code, time, title) が一致する取得分も既登録とみなす。
+    """
+    known = {item_key(r) for r in existing}
+    urlless = {_meta_key(r) for r in existing if not (r.get("pdf_url") or "")}
+    out: list[dict] = []
+    for rec in fetched:
+        k = item_key(rec)
+        if k in known:
+            continue
+        if urlless and _meta_key(rec) in urlless:
+            continue
+        known.add(k)
+        out.append(rec)
+    return out
+
+
+def merge_records(existing: list[dict], new: list[dict]) -> list[dict]:
+    """既存レコードはそのまま（pdf_expired 等の付加情報を保持）、新規を追記して再ソート。"""
+    merged = list(existing) + list(new)
+    merged.sort(key=_sort_key)
+    return merged
+
+
+def load_daily_data(json_path: str, target_date: date | None = None) -> dict:
+    """日次 JSON 全体（top-level キー込み）を読む。無ければ骨格を返す。"""
+    data: dict = {}
     if os.path.exists(json_path):
         with open(json_path, "r", encoding="utf-8") as f:
             data = json.load(f)
-            return data.get("items", [])
-    return []
+    if target_date is not None:
+        data.setdefault("date", target_date.isoformat())
+    data.setdefault("items", [])
+    data.setdefault("notified", {})
+    return data
+
+
+def save_daily_data(json_path: str, data: dict) -> None:
+    """件数を再計算して保存。date/company_count/total_count/items 以外のキーも保持する。"""
+    items = data.get("items", [])
+    out = {
+        "date": data.get("date"),
+        "company_count": len({it.get("code") for it in items}),
+        "total_count": len(items),
+        "items": items,
+    }
+    for k, v in data.items():
+        if k not in out:
+            out[k] = v
+    os.makedirs(os.path.dirname(os.path.abspath(json_path)), exist_ok=True)
+    with open(json_path, "w", encoding="utf-8") as f:
+        json.dump(out, f, ensure_ascii=False, indent=2)
+
+
+def load_existing_json(json_path: str) -> list[dict]:
+    """既存の JSON の items を読み込む（無ければ空）"""
+    return load_daily_data(json_path).get("items", [])
+
+
+def disclosure_to_record(d) -> dict:
+    """スクレイプ結果（Disclosure）を JSON レコードへ（時価総額は後で付与）。"""
+    return {
+        "code": d.code,
+        "company_name": d.company_name,
+        "market_cap": 0,
+        "time": d.time,
+        "title": d.title,
+        "pdf_url": d.pdf_url,
+    }
+
+
+def record_from_item(item: DisplayItem) -> dict:
+    return {
+        "code": item.code,
+        "company_name": item.company_name,
+        "market_cap": item.market_cap,
+        "time": item.time,
+        "title": item.title,
+        "pdf_url": item.pdf_url,
+    }
+
+
+def records_to_display_items(records: list[dict], for_email: bool = False) -> list[DisplayItem]:
+    """レコードを表示用 DisplayItem に変換する（順序は records のまま）。
+
+    for_email=True のときは、リンク先を TDnet 原本 URL（ブラウザ内表示できる）に再構成する。
+    Release 退避後の URL はダウンロードになるため、当日中に読むメールでは原本を優先する。
+    """
+    items = []
+    for r in records:
+        url = r.get("pdf_url") or ""
+        if for_email and url:
+            pid = pdf_id(url)
+            if pid:
+                url = f"{TDNET_PDF_BASE}{pid}.pdf"
+        items.append(DisplayItem(
+            code=r["code"],
+            company_name=r["company_name"],
+            market_cap=r.get("market_cap") or 0,
+            time=r["time"],
+            title=r["title"],
+            pdf_url=url,
+        ))
+    return items
+
+
+def save_daily_json(items: list, target_date: date, docs_dir: str) -> None:
+    """DisplayItem のリストをその日の全件として保存する（backfill.py 用の互換ラッパ）。
+
+    既存ファイルの top-level キー（tdnet_available, notified 等）は保持する。
+    """
+    data_dir = os.path.join(docs_dir, "data")
+    os.makedirs(data_dir, exist_ok=True)
+    json_path = os.path.join(data_dir, f"{target_date.isoformat()}.json")
+    data = load_daily_data(json_path, target_date)
+    data["items"] = [record_from_item(it) for it in items]
+    save_daily_data(json_path, data)
+    print(f"  Daily JSON saved: {json_path} ({len(items)} items)")
 
 
 def _load_cached_market_caps(data_dir: str, target_date: date, max_days: int = 30) -> dict[str, float]:
     """直近 max_days 日分の日次 JSON を新しい順に走査し、
     各コードの最新の正値 market_cap を返す（target_date 自身は除外）。
 
-    kabutan.jp 取得失敗時のフォールバック用。
+    時価総額取得失敗時のフォールバック用。
     """
     cache: dict[str, float] = {}
     if not os.path.exists(data_dir):
@@ -91,73 +267,6 @@ def _load_cached_market_caps(data_dir: str, target_date: date, max_days: int = 3
             if code and mcap and mcap > 0 and code not in cache:
                 cache[code] = mcap
     return cache
-
-
-def save_daily_json(items: list, target_date: date, docs_dir: str) -> None:
-    """当日の開示データを JSON として保存する"""
-    data_dir = os.path.join(docs_dir, "data")
-    os.makedirs(data_dir, exist_ok=True)
-
-    records = []
-    for item in items:
-        records.append({
-            "code": item.code,
-            "company_name": item.company_name,
-            "market_cap": item.market_cap,
-            "time": item.time,
-            "title": item.title,
-            "pdf_url": item.pdf_url,
-        })
-
-    daily_data = {
-        "date": target_date.isoformat(),
-        "company_count": len(set(item.code for item in items)),
-        "total_count": len(items),
-        "items": records,
-    }
-
-    json_path = os.path.join(data_dir, f"{target_date.isoformat()}.json")
-    with open(json_path, "w", encoding="utf-8") as f:
-        json.dump(daily_data, f, ensure_ascii=False, indent=2)
-    print(f"  Daily JSON saved: {json_path} ({len(items)} items)")
-
-
-def merge_items(existing_records: list[dict], new_items: list) -> list:
-    """既存のレコード（dict）と新規アイテム（DisplayItem）をマージする
-
-    重複排除は pdf_url で判定する。
-    マージ後は時価総額降順 → 同一コード内は時刻昇順でソートする。
-    """
-    from html_generator import DisplayItem
-
-    # 既存レコードを DisplayItem に変換
-    existing = []
-    for r in existing_records:
-        existing.append(DisplayItem(
-            code=r["code"],
-            company_name=r["company_name"],
-            market_cap=r.get("market_cap", 0),
-            time=r["time"],
-            title=r["title"],
-            pdf_url=r["pdf_url"],
-        ))
-
-    # 既存の pdf_url セット
-    existing_urls = set(item.pdf_url for item in existing)
-
-    # 新規アイテムのうち、既存にないものだけ追加
-    added = 0
-    for item in new_items:
-        if item.pdf_url not in existing_urls:
-            existing.append(item)
-            existing_urls.add(item.pdf_url)
-            added += 1
-
-    print(f"  Merge: {len(existing) - added} existing + {added} new = {len(existing)} total")
-
-    # 再ソート: 時価総額降順 → コード昇順 → 時刻昇順
-    existing.sort(key=lambda x: (-x.market_cap, x.code, x.time))
-    return existing
 
 
 def cleanup_old_data(docs_dir: str, start_date: date) -> None:
@@ -201,130 +310,148 @@ def update_manifest(docs_dir: str) -> list[str]:
     return dates
 
 
+# ── 通知判定 ────────────────────────────────────────────────
+
+class NotifyDecision(NamedTuple):
+    action: str              # "send" | "clear" | "none"
+    items: list              # pending レコード（未ソート）
+    max_items: int | None
+    subject_suffix: str
+    mark: dict               # 成功後に立てる notified フラグ
+
+
+def select_notification(data: dict, run_mode: str, send_email: bool) -> NotifyDecision:
+    """メールを送るか・何を送るかを決める（純粋関数）。
+
+    - 未通知（pending_notify）の項目が無い → none（保存もしない）
+    - そのモードで通知済み（予備実行・手動再実行・遅れて見つかった追加分） → clear（記録のみ）
+    - SEND_EMAIL=0（リプレイ） → clear、通知済み扱いにする
+    - night で夕方が未通知 → 補完モード（上位30件・件名で知らせる・両モードを通知済みに）
+    """
+    pending = [r for r in data.get("items", []) if r.get("pending_notify")]
+    notified = data.get("notified") or {}
+    if not pending:
+        return NotifyDecision("none", [], None, "", {})
+    if notified.get(run_mode):
+        return NotifyDecision("clear", pending, None, "", {})
+    if not send_email:
+        return NotifyDecision("clear", pending, None, "", {run_mode: True})
+    if run_mode == "night":
+        if not notified.get("evening"):
+            return NotifyDecision("send", pending, EMAIL_TOP_N, "（夜間更新分・夕方分を補完）",
+                                  {"evening": True, "night": True})
+        return NotifyDecision("send", pending, None, "（夜間更新分）", {"night": True})
+    return NotifyDecision("send", pending, EMAIL_TOP_N, "", {"evening": True})
+
+
+def apply_notification(data: dict, decision: NotifyDecision) -> dict:
+    """pending_notify を全項目から外し、notified フラグを更新する。"""
+    for r in data.get("items", []):
+        r.pop("pending_notify", None)
+    notified = dict(data.get("notified") or {})
+    notified.update(decision.mark)
+    data["notified"] = notified
+    return data
+
+
+# ── メイン ──────────────────────────────────────────────────
+
 def main():
     print("=" * 60)
     print("TDnet 適時開示モニター")
     print("=" * 60)
 
-    # 対象日
-    date_arg = os.environ.get("TARGET_DATE")
-    if date_arg:
-        target_date = datetime.strptime(date_arg, "%Y-%m-%d").date()
-    else:
-        target_date = date.today()
-
-    # 実行モード: evening (17:00) or night (24:00)
+    now_jst = datetime.now(JST)
     run_mode = os.environ.get("RUN_MODE", "evening")
-    print(f"\nRUN_MODE env: '{run_mode}'")
-    print(f"date.today(): {date.today()}")
+    send_email = os.environ.get("SEND_EMAIL", "1") != "0"
+    archive_pdfs = os.environ.get("ARCHIVE_PDFS", "1") != "0"
+    date_arg = os.environ.get("TARGET_DATE") or None
+    target_date = resolve_target_date(run_mode, now_jst, date_arg)
+    export_github_env("TARGET_DATE_RESOLVED", target_date.isoformat())
 
-    # night モードは JST 24:00 = 翌日 0:00 に実行されるため、
-    # date.today() が翌日を返す → 前日に戻す
-    if run_mode == "night" and not date_arg:
-        target_date = target_date - timedelta(days=1)
-        print(f"Night mode: adjusted target_date to previous day")
-
-    print(f"Target date: {target_date}")
-    print(f"Run mode: {run_mode}")
+    print(f"\nnow (JST): {now_jst:%Y-%m-%d %H:%M}  mode={run_mode}  target={target_date}"
+          f"  send_email={send_email}  archive={archive_pdfs}")
 
     if not is_market_open(target_date):
         print("Market is closed. Skipping.")
         return
 
-    # 時間フィルタの設定
-    if run_mode == "night":
-        time_start, time_end = "17:01", "23:59"
-    else:
-        time_start, time_end = "00:00", "17:00"
-
-    print(f"\n[1/6] Fetching disclosures from TDnet...")
-    from tdnet_scraper import fetch_disclosures
-    all_disclosures = fetch_disclosures(target_date)
-
-    if not all_disclosures:
-        print("No disclosures found. Exiting.")
-        return
-
-    # 時間フィルタ適用
-    disclosures = filter_by_time(all_disclosures, time_start, time_end)
-
-    if not disclosures:
-        print(f"No disclosures in time range [{time_start}~{time_end}]. Exiting.")
-        return
-
-    print(f"\n[2/6] Filtering REIT/ETF...")
-    from filter_reit_etf import get_excluded_codes, filter_disclosures as reit_filter
-    excluded_codes = get_excluded_codes()
-    disclosures = reit_filter(disclosures, excluded_codes)
-
-    if not disclosures:
-        print("No disclosures after filtering. Exiting.")
-        return
-
-    docs_dir = os.path.join(os.path.dirname(__file__), "..", "docs")
-    os.makedirs(docs_dir, exist_ok=True)
+    docs_dir = os.environ.get("DOCS_DIR") or DOCS_DIR_DEFAULT
     data_dir = os.path.join(docs_dir, "data")
     os.makedirs(data_dir, exist_ok=True)
     json_path = os.path.join(data_dir, f"{target_date.isoformat()}.json")
+    data = load_daily_data(json_path, target_date)
+    print(f"  Existing records: {len(data['items'])}  notified={data.get('notified')}")
 
-    print(f"\n[3/6] Fetching market cap data...")
-    from market_cap_jquants import fetch_market_caps, fetch_tse_codes
-
-    # 東証本則 (プライム/スタンダード/グロース) のみを対象とする。
-    # 東京プロマーケット・名証/福証/札証単独上場銘柄は Web ページにも掲載しない。
-    tse_codes = fetch_tse_codes(target_date)
-    if tse_codes:
-        before = len(disclosures)
-        disclosures = [d for d in disclosures if d.code in tse_codes]
-        excluded = before - len(disclosures)
-        if excluded:
-            print(f"  Non-TSE filter: {before} -> {len(disclosures)} (excluded {excluded} TOKYO PRO/regional listings)")
-
-    if not disclosures:
-        print("No disclosures after non-TSE filter. Exiting.")
-        return
-
-    codes = set(d.code for d in disclosures)
-    market_caps = fetch_market_caps(codes, target_date)
-
-    # フォールバック: 取得失敗コードを直近日次キャッシュから補完
-    missing = codes - set(market_caps.keys())
-    if missing:
-        cached = _load_cached_market_caps(data_dir, target_date)
-        filled = {c: cached[c] for c in missing if c in cached}
-        if filled:
-            market_caps.update(filled)
-            print(f"  Filled {len(filled)} market caps from cache (still missing: {len(missing) - len(filled)})")
-
-    print(f"\n[4/6] Processing data...")
-    from html_generator import prepare_display_items, generate_email_html, generate_pages_html
-
-    new_items = prepare_display_items(disclosures, market_caps)
-
-    if run_mode == "night":
-        # night: 既存データとマージ
-        existing_records = load_existing_json(json_path)
-        all_items = merge_items(existing_records, new_items)
-        email_items = new_items  # メールには差分のみ
-        email_max_items = None   # 全件
+    # ── [1/6] 取得（失敗しても保守処理と通知判定までは進む）
+    print(f"\n[1/6] Fetching disclosures from TDnet...")
+    disclosures: list = []
+    age_days = (now_jst.date() - target_date).days
+    if age_days > REPLAY_MAX_AGE_DAYS:
+        print(f"  WARNING: target is {age_days} days old (> {REPLAY_MAX_AGE_DAYS}); "
+              f"TDnet returns multi-day lists for old dates. Skipping fetch.")
     else:
-        # evening: 新規データのみ
-        all_items = new_items
-        email_items = new_items
-        email_max_items = 30     # 上位30件
-
-    # JSON 保存（evening: 新規、night: マージ済み）
-    save_daily_json(all_items, target_date, docs_dir)
-
-    # 適時開示PDFを GitHub Releases へ退避し、JSON のリンクを恒久URLへ書き換える。
-    # 配信元(TDnet)は約1か月で PDF を削除するため、当日中に退避しておく。
-    # 失敗しても通常運用は止めない（次回実行で再試行）。
-    if os.environ.get("ARCHIVE_PDFS", "1") != "0":
         try:
-            from pdf_archive import mirror_json_file, gh_available
+            from tdnet_scraper import fetch_disclosures
+            disclosures = fetch_disclosures(target_date)
+        except Exception as e:
+            print(f"  !!! TDnet fetch failed (continuing with maintenance): {type(e).__name__}: {e}")
+            disclosures = []
+    if run_mode == "night":
+        print("  Night mode: full day (00:00~23:59), only unrecorded items are added")
+    elif disclosures:
+        disclosures = filter_by_time(disclosures, *EVENING_WINDOW)
+
+    # ── [2/6] REIT/ETF・東証本則フィルタ
+    print(f"\n[2/6] Filtering REIT/ETF and non-TSE listings...")
+    if disclosures:
+        from filter_reit_etf import get_excluded_codes, filter_disclosures as reit_filter
+        disclosures = reit_filter(disclosures, get_excluded_codes())
+    from market_cap_jquants import fetch_market_caps, fetch_tse_codes
+    if disclosures:
+        # 東証本則 (プライム/スタンダード/グロース) のみを対象とする。
+        # 東京プロマーケット・名証/福証/札証単独上場銘柄は Web ページにも掲載しない。
+        tse_codes = fetch_tse_codes(target_date)
+        if tse_codes:
+            before = len(disclosures)
+            disclosures = [d for d in disclosures if d.code in tse_codes]
+            if before != len(disclosures):
+                print(f"  Non-TSE filter: {before} -> {len(disclosures)} "
+                      f"(excluded {before - len(disclosures)} TOKYO PRO/regional listings)")
+
+    # ── [3/6] 未記録分だけ時価総額を付けて追記
+    print(f"\n[3/6] Recording new disclosures...")
+    new = split_new_records(data["items"], [disclosure_to_record(d) for d in disclosures])
+    print(f"  New records: {len(new)} (fetched {len(disclosures)}, existing {len(data['items'])})")
+    if new:
+        codes = {r["code"] for r in new}
+        market_caps = fetch_market_caps(codes, target_date)
+        missing = codes - set(market_caps.keys())
+        if missing:
+            cached = _load_cached_market_caps(data_dir, target_date)
+            filled = {c: cached[c] for c in missing if c in cached}
+            if filled:
+                market_caps.update(filled)
+                print(f"  Filled {len(filled)} market caps from cache "
+                      f"(still missing: {len(missing) - len(filled)})")
+        for r in new:
+            r["market_cap"] = market_caps.get(r["code"], 0)
+            r["pending_notify"] = True
+        data["items"] = merge_records(data["items"], new)
+        save_daily_data(json_path, data)
+        print(f"  Daily JSON saved: {json_path} ({len(data['items'])} items)")
+
+    # ── [4/6] 保守（新規の有無に関わらず実行。失敗しても通常運用は止めない）
+    print(f"\n[4/6] Maintenance (PDF archive, retention, availability)...")
+    if archive_pdfs:
+        try:
+            from pdf_archive import mirror_json_file, remirror_recent, gh_available
             if gh_available():
-                stats = mirror_json_file(json_path)
-                print(f"  PDF archive -> Releases: {stats}")
+                if os.path.exists(json_path):
+                    # 適時開示PDFを GitHub Releases へ退避し、JSON のリンクを恒久URLへ書き換える。
+                    print(f"  PDF archive -> Releases: {mirror_json_file(json_path)}")
+                # 過去数日分で退避し損ねた PDF（GitHub の一時障害等）を拾う
+                print(f"  PDF re-mirror (recent days): {remirror_recent(data_dir, today=target_date)}")
             else:
                 print("  PDF archive skipped (gh CLI not available)")
         except Exception as e:
@@ -332,61 +459,68 @@ def main():
 
     # ローリング保持: 90日より古い日次 JSON と Release 上の PDF を削除する。
     # JSON と Release アセットで同一 cutoff を共有し、ズレを防ぐ。
-    cutoff = retention_cutoff(date.today())
+    cutoff = retention_cutoff(now_jst.date())
     cleanup_old_data(docs_dir, cutoff)
-
-    if os.environ.get("ARCHIVE_PDFS", "1") != "0":
+    if archive_pdfs:
         try:
             from pdf_archive import cleanup_expired_assets, gh_available
             if gh_available():
-                st = cleanup_expired_assets(cutoff_date=cutoff)
-                print(f"  PDF asset cleanup -> Releases: {st}")
+                print(f"  PDF asset cleanup -> Releases: {cleanup_expired_assets(cutoff_date=cutoff)}")
             else:
                 print("  PDF asset cleanup skipped (gh CLI not available)")
         except Exception as e:
             print(f"  PDF asset cleanup error (non-fatal): {e}")
 
     # TDnet 原本がまだ閲覧可能な日は原本(ブラウザ内表示)へ、取り下げ後はアーカイブへ
-    # リンクするための per-day フラグ(tdnet_available)を実応答で更新する。
-    # 固定日数では区切らず、TDnet の実際の応答で判定する。非致命。
+    # リンクするための per-day フラグ(tdnet_available)を実応答で更新する。非致命。
     try:
         from pdf_archive import refresh_tdnet_availability
-        st = refresh_tdnet_availability(data_dir)
-        print(f"  TDnet availability refresh: {st}")
+        print(f"  TDnet availability refresh: {refresh_tdnet_availability(data_dir, today=now_jst.date())}")
     except Exception as e:
         print(f"  TDnet availability refresh error (non-fatal): {e}")
 
     available_dates = update_manifest(docs_dir)
 
+    # ── [5/6] GitHub Pages
     print(f"\n[5/6] Generating GitHub Pages HTML...")
+    from html_generator import generate_pages_html, generate_email_html
     github_user = os.environ.get("GITHUB_REPOSITORY_OWNER", "user")
     repo_name = os.environ.get("GITHUB_REPOSITORY", "").split("/")[-1] or "tdnet-monitor"
     pages_url = f"https://{github_user}.github.io/{repo_name}/"
 
-    pages_html = generate_pages_html(available_dates)
     pages_path = os.path.join(docs_dir, "index.html")
     with open(pages_path, "w", encoding="utf-8") as f:
-        f.write(pages_html)
+        f.write(generate_pages_html(available_dates))
     print(f"  GitHub Pages HTML written to: {pages_path}")
 
-    # メール用 HTML
-    if run_mode == "night":
-        email_subject_suffix = "（夜間更新分）"
+    # ── [6/6] 通知（退避後の JSON を再読込して判定）
+    print(f"\n[6/6] Notification...")
+    data = load_daily_data(json_path, target_date)
+    decision = select_notification(data, run_mode, send_email)
+    if decision.action == "send":
+        pending_sorted = sorted(decision.items, key=_sort_key)
+        email_items = records_to_display_items(pending_sorted, for_email=True)
+        email_html = generate_email_html(
+            email_items, target_date, pages_url,
+            max_items=decision.max_items,
+            subject_suffix=decision.subject_suffix,
+        )
+        from gmail_sender import send_gmail
+        send_gmail(email_html, target_date, subject_suffix=decision.subject_suffix)
+        print(f"  Notified {len(email_items)} items"
+              f"{f' (top {decision.max_items} shown)' if decision.max_items else ''}"
+              f"{decision.subject_suffix}")
+    elif decision.action == "clear":
+        why = "SEND_EMAIL=0" if not send_email else f"{run_mode} already notified"
+        print(f"  Recorded {len(decision.items)} items without email ({why})")
     else:
-        email_subject_suffix = ""
-
-    email_html = generate_email_html(
-        email_items, target_date, pages_url,
-        max_items=email_max_items,
-        subject_suffix=email_subject_suffix,
-    )
-
-    print(f"\n[6/6] Sending Gmail notification...")
-    from gmail_sender import send_gmail
-    send_gmail(email_html, target_date, subject_suffix=email_subject_suffix)
+        print("  Nothing new to notify")
+    if decision.action != "none":
+        save_daily_data(json_path, apply_notification(data, decision))
 
     print(f"\n{'=' * 60}")
-    print(f"Done! mode={run_mode}, {len(email_items)} items in email, {len(all_items)} items total.")
+    print(f"Done! mode={run_mode}, target={target_date}, new={len(new)}, "
+          f"total={len(data['items'])}, notify={decision.action}")
     print(f"{'=' * 60}")
 
 

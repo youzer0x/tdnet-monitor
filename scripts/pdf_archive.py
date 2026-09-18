@@ -7,11 +7,13 @@ TDnet の配信サーバ (release.tdnet.info) は PDF を約1か月（スライ�
 へ退避し、JSON のリンクを恒久URLへ書き換える。
 
 設計:
-  - 1か月 = 1リリース（タグ `pdf-YYYYMM`）。アセット名は `{TDnet PDF ID}.pdf`。
+  - 1営業日 = 1リリース（タグ `pdf-YYYYMMDD`。決算ピーク日は `-2`, `-3` … の追加パート）。
+    アセット名は `{TDnet PDF ID}.pdf`。
   - 退避済み（Release に同名アセットが既にある）PDF は再取得・再アップロードしない（冪等）。
   - 退避できた項目は pdf_url を Release アセットURLへ書き換える。
   - 配信元から既に消えている (404/410) 項目は pdf_url="" とし pdf_expired=True を付す。
-  - アップロード失敗・一時エラーの項目は pdf_url を据え置き、次回実行で再試行する。
+  - アップロード失敗・一時エラーの項目は pdf_url を据え置き、次回実行で再試行する
+    （remirror_recent が直近数日分の JSON を毎回見直して拾う）。
 
 外部の第三者アーカイブには一切依存しない。アップロードは `gh` CLI（GitHub Actions
 では自動認証、ローカルでは `gh auth login` 済みであること）を使う。
@@ -86,14 +88,20 @@ def _asset_base(repo: str, tag: str) -> str:
     return f"https://github.com/{repo}/releases/download/{tag}"
 
 
-def _pdf_id(url: str) -> str | None:
-    """PDF URL から ID（ファイル名の拡張子なし部分）を取り出す。"""
+def pdf_id(url: str) -> str | None:
+    """PDF URL から ID（ファイル名の拡張子なし部分）を取り出す。
+
+    TDnet 原本 URL でも Release アセット URL でも同じ ID になる（重複判定のキーに使う）。
+    """
     if not url:
         return None
     name = url.rsplit("/", 1)[-1].split("?")[0]
     if name.lower().endswith(".pdf"):
         name = name[:-4]
     return name or None
+
+
+_pdf_id = pdf_id  # 後方互換
 
 
 # 退避/期限切れ削除で対象とする日次リリースのタグ形式（無関係リリースに触れない）。
@@ -125,13 +133,13 @@ def _part_num(tag: str) -> int:
 
 def _existing_assets(repo: str, tag: str) -> set[str]:
     """リリースに既に存在するアセット名の集合。リリースが無ければ空集合。"""
-    res = subprocess.run(
+    res = _run_gh(
         ["gh", "release", "view", tag, "--repo", repo,
          "--json", "assets", "-q", ".assets[].name"],
-        capture_output=True, text=True,
+        f"view {tag}",
     )
     if res.returncode != 0:
-        return set()  # リリース未作成、または取得不可
+        return set()  # リリース未作成（即時に返る）、または取得不可
     return {ln.strip() for ln in res.stdout.splitlines() if ln.strip()}
 
 
@@ -143,13 +151,33 @@ def _is_rate_limited(blob: str) -> bool:
             or "rate limit" in b and "exceeded" in b)
 
 
-def _run_gh(cmd: list[str], what: str, attempts: int = 6) -> subprocess.CompletedProcess:
-    """gh コマンドを実行。GitHub のレート制限(403)時はバックオフ再試行する。
+# GitHub 側の一時障害・ネットワーク断を示す文言（gh の stderr）。数十秒〜数分で解消するので再試行する。
+_TRANSIENT_MARKERS = (
+    "no server is currently available",   # GitHub の 503 本文
+    "connection reset",
+    "unexpected eof",
+    "context deadline exceeded",
+    "tls handshake timeout",
+    "i/o timeout",
+)
+_HTTP_5XX_RE = re.compile(r"\bhttp\s*50[234]\b")
 
-    二次レート制限(作成系の速度制限。数分で解除)を待ち越すのが主目的。
+
+def _is_transient(blob: str) -> bool:
+    """再試行すべき一時エラーか（レート制限 / HTTP 502-504 / 接続断）。"""
+    b = blob.lower()
+    return (_is_rate_limited(b)
+            or bool(_HTTP_5XX_RE.search(b))
+            or any(m in b for m in _TRANSIENT_MARKERS))
+
+
+def _run_gh(cmd: list[str], what: str, attempts: int = 6) -> subprocess.CompletedProcess:
+    """gh コマンドを実行。レート制限(403)・GitHub の一時障害(5xx)・接続断はバックオフ再試行する。
+
+    二次レート制限(作成系の速度制限。数分で解除)や 503 を待ち越すのが主目的。
     一次の時間あたり上限を使い切った場合は短いバックオフでは解除されないため、
     数回で諦めて呼び出し側がエラー計上 → 後続の再実行で続きから処理する（冪等）。
-    レート制限以外のエラーは即座に返す。
+    それ以外のエラー（存在しないリリース等）は即座に返す。
     """
     res = None
     for i in range(attempts):
@@ -157,12 +185,12 @@ def _run_gh(cmd: list[str], what: str, attempts: int = 6) -> subprocess.Complete
         if res.returncode == 0:
             return res
         blob = res.stderr + res.stdout
-        if _is_rate_limited(blob):
+        if _is_transient(blob):
             wait = min(300, 30 * (2 ** i))  # 30,60,120,240,300...
-            print(f"    … GitHub rate limited on {what}; wait {wait}s and retry (attempt {i + 1})")
+            print(f"    … GitHub transient error on {what}; wait {wait}s and retry (attempt {i + 1})")
             time.sleep(wait)
             continue
-        return res  # レート制限以外は再試行しない
+        return res  # 一時エラー以外は再試行しない
     return res
 
 
@@ -326,7 +354,7 @@ def mirror_json_file(
                 stats["already"] += 1  # 退避済み
                 continue
 
-            pid = _pdf_id(url)
+            pid = pdf_id(url)
             if not pid:
                 stats["skip"] += 1
                 continue
@@ -383,16 +411,66 @@ def mirror_json_file(
 
 def _list_release_tags(repo: str) -> list[str]:
     """`pdf-YYYYMMDD[-N]` 形式の日次リリースタグ一覧。失敗時は空。"""
-    res = subprocess.run(
+    res = _run_gh(
         ["gh", "release", "list", "--repo", repo, "--limit", "1000",
          "--json", "tagName", "-q", ".[].tagName"],
-        capture_output=True, text=True,
+        "release list",
     )
     if res.returncode != 0:
         print(f"    ! release list failed: {res.stderr.strip()[:200]}")
         return []
     return [ln.strip() for ln in res.stdout.splitlines()
             if _RELEASE_TAG_RE.match(ln.strip())]
+
+
+def _needs_mirror(data: dict) -> bool:
+    """日次 JSON に、まだ配信元(TDnet)を指したままの PDF が1件でもあるか。"""
+    for it in data.get("items", []):
+        url = it.get("pdf_url") or ""
+        if TDNET_HOST in url and ARCHIVE_URL_MARKER not in url:
+            return True
+    return False
+
+
+def remirror_recent(
+    data_dir: str,
+    today: date,
+    lookback_days: int = 10,
+    repo: str | None = None,
+) -> dict:
+    """直近 lookback_days 日（today の前日まで）の日次 JSON のうち、退避し損ねた PDF が
+    残るものだけ mirror_json_file で再退避する。
+
+    退避失敗（GitHub 側の一時障害等）は「次回再試行」の設計だが、翌日以降の実行は自分の
+    対象日の JSON しか触らないため、ここで過去数日分を毎回見直す。通常日は JSON を読むだけで
+    通信は発生しない。冪等・非致命（呼び出し側で try/except する）。
+    """
+    stats = {"checked": 0, "mirrored": 0, "archived": 0, "error": 0}
+    start = today - timedelta(days=lookback_days)
+    for fp in sorted(glob.glob(os.path.join(data_dir, "*.json"))):
+        name = os.path.basename(fp)
+        if name == "manifest.json":
+            continue
+        try:
+            d = date.fromisoformat(name[:-5])
+        except ValueError:
+            continue
+        if not (start <= d < today):
+            continue
+        try:
+            with open(fp, "r", encoding="utf-8") as f:
+                data = json.load(f)
+        except (OSError, json.JSONDecodeError):
+            continue
+        stats["checked"] += 1
+        if not _needs_mirror(data):
+            continue
+        print(f"  Re-mirroring {name} (PDFs still on TDnet)")
+        st = mirror_json_file(fp, repo=repo)
+        stats["mirrored"] += 1
+        stats["archived"] += st.get("archived", 0)
+        stats["error"] += st.get("error", 0)
+    return stats
 
 
 def cleanup_expired_assets(
@@ -519,7 +597,7 @@ def refresh_tdnet_availability(
             cand = [it for it in data.get("items", []) if (it.get("pdf_url") or "")]
             results = []
             for i in _sample_indices(len(cand), samples):
-                pid = _pdf_id(cand[i].get("pdf_url", ""))
+                pid = pdf_id(cand[i].get("pdf_url", ""))
                 if not pid:
                     continue
                 results.append(_probe(session, TDNET_PDF_BASE + pid + ".pdf"))

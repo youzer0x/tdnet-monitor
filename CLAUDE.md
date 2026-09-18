@@ -1,7 +1,7 @@
 # CLAUDE.md — 開発時の規範（Claude Code 向け）
 
-TDnet 適時開示モニター。毎営業日 evening(17:00)/night(24:00) の2回、GitHub Actions で
-無人実行し、Gmail 通知＋GitHub Pages 公開する。運用フローは `README.md` を参照。
+TDnet 適時開示モニター。毎営業日 evening(17:05・cron-job.org 起動)/night(00:10)/night 予備(05:30) の
+3回、GitHub Actions で無人実行し、Gmail 通知＋GitHub Pages 公開する（予備は1回目が済んでいれば何もしない）。運用フローは `README.md` を参照。
 
 ## テスト規範（pytest）
 

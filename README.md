@@ -7,18 +7,20 @@ TDnet（適時開示情報閲覧サービス）から適時開示資料を毎営
 ## システム構成
 
 ```
-GitHub Actions (毎営業日 2回)
-  ├─ 17:00 JST [evening] ─┬─ 休場日判定 → 休場なら終了
+GitHub Actions (毎営業日 3回)
+  ├─ 17:05 JST [evening] ─┬─ 休場日判定 → 休場なら終了                 ※ cron-job.org から起動
   │                        ├─ TDnet スクレイピング (00:00〜17:00)
-  │                        ├─ JPX 上場銘柄リストで REIT/ETF 除外
-  │                        ├─ J-Quants V2 API で時価総額計算（終値×発行済株式数、分割補正）
-  │                        ├─ JSON 保存 → GitHub Pages 更新
+  │                        ├─ JPX 上場銘柄リストで REIT/ETF 除外・J-Quants で東証本則のみに絞る
+  │                        ├─ 未記録の開示だけ J-Quants V2 API で時価総額計算（終値×発行済株式数、分割補正）
+  │                        ├─ JSON 追記 → PDF を GitHub Releases へ退避 → GitHub Pages 更新
   │                        └─ Gmail 通知 (上位30件)
   │
-  └─ 24:00 JST [night]  ──┬─ TDnet スクレイピング (17:01〜23:59)
-                           ├─ 既存データとマージ (重複排除)
-                           ├─ JSON 更新 → GitHub Pages 更新
-                           └─ Gmail 通知 (差分全件)
+  ├─ 00:10 JST [night] ───┬─ TDnet スクレイピング (当日全件)             ※ GitHub schedule
+  │                        ├─ 未記録の開示だけ追記（書類 ID で重複排除。夕方が抜けた日は日中分も補完）
+  │                        ├─ JSON 更新 → PDF 退避 → GitHub Pages 更新
+  │                        └─ Gmail 通知 (差分全件。補完時は上位30件・件名に「夕方分を補完」)
+  │
+  └─ 05:30 JST [night 予備] ─ 同上。1回目が記録・通知済みなら何もしない（メールは増えない）
 ```
 
 ---
@@ -118,13 +120,16 @@ tdnet-monitor/
 
 ## 実行スケジュール
 
-| 時刻 (JST) | モード | 取得範囲 | メール |
-|------------|--------|---------|--------|
-| 17:00 | evening | 00:00〜17:00 | 上位30件 |
-| 24:00 | night | 17:01〜23:59（差分） | 差分全件 |
+| 時刻 (JST) | モード | 起動 | 取得範囲 | メール |
+|------------|--------|------|---------|--------|
+| 17:05 | evening | cron-job.org → workflow_dispatch | 00:00〜17:00 | 上位30件 |
+| 00:10 | night | GitHub schedule（数時間遅れることがある） | 当日全件（未記録分だけ追記） | 未通知分の全件。夕方が抜けた日は上位30件＋件名「夕方分を補完」 |
+| 05:30 | night 予備 | GitHub schedule | 同上 | 1回目が送れなかった時だけ。それ以外は記録のみ |
 
 - 土日祝日・東証休場日はスキップされます
 - 実行履歴は GitHub の Actions タブで確認できます
+- 記録の単位は TDnet の書類 ID なので、どの実行も重複なく再実行できます。`Run workflow` の `send_email=false` で記録のみのリプレイが可能（対象日は `target_date`。night は JST 17時前の実行なら前日が対象）
+- メールの制御: 日次 JSON の `notified`（モード別の通知済みフラグ）と各項目の `pending_notify`（記録済み・未通知）。「未通知の項目がある」かつ「そのモードで未通知」の時だけ送るため、予備実行・手動再実行・遅れて見つかった追加分でメールは増えない
 
 ---
 
@@ -134,6 +139,8 @@ tdnet-monitor/
 |------|------|
 | Actions が動かない | Settings → Actions → General →「Allow all actions」を確認 |
 | メールが届かない | Secrets の値を再確認。アプリパスワードにスペースが入っていないか確認 |
+| 夕方のメールが来なかった | cron-job.org 側で起動しなかった可能性。深夜の実行が日中分を補完し、件名「夕方分を補完」で届く（上位30件）。Actions タブで evening の実行有無を確認 |
+| 深夜のメールが来なかった | 1回目（00:10）が失敗しても予備（05:30）が送る。両方来ない場合は Actions の失敗ログを確認。JSON の `notified.night` が無いまま `pending_notify` が残っていれば `Run workflow`（night）で再送できる |
 | Pages が表示されない | Settings → Pages で Branch: main / Folder: /docs を確認 |
 | 時価総額が「—」 | `JQUANTS_API_KEY` 未設定、または Light 未満のプラン (Free は12週間遅延で当日値なし)。新規上場銘柄は Yahoo Finance JP 側も失敗した場合に発生 |
 | PDFリンクが404 | 配信元(TDnet)は約1か月でPDFを削除する。当日分は自動で GitHub Releases へ退避するため**90日間は**開ける。退避前に配信元から消えた分は一覧上で「(公開終了)」と表示。90日を超えた分は JSON ごと削除され一覧からも消える（復元不可） |
@@ -146,7 +153,7 @@ tdnet-monitor/
 - **時価総額**: J-Quants V2 API（`fins/summary` の `ShOutFY` × `equities/bars/daily` の `AdjC`、株式分割補正済）。Light プラン以上が必要。新規上場銘柄は Yahoo Finance JP からフォールバック取得
 - **休場日判定**: `jpholiday`（祝日）+ 土日 + 年末年始（12/31〜1/3）
 - **データ保持**: 開示日から **90日間のローリング保持**。91日以上経過した分は日次 JSON も Release 上の PDF も自動削除する（配信元 TDnet も約30日で消すため復元不可）。削除は毎営業日の実行で `cleanup_old_data`（JSON）と `pdf_archive.cleanup_expired_assets`（Release アセット）が同一 cutoff で実施。基準は実行日（JST）
-- **PDF退避**: 配信元(TDnet `release.tdnet.info`)は PDF を約1か月しか保持しないため、毎回の実行で PDF を **GitHub Releases**（**1営業日=1リリース**、タグ `pdf-YYYYMMDD`、アセット名 `{TDnet ID}.pdf`）へ退避し、JSON のリンクを恒久URL（`https://github.com/<owner>/<repo>/releases/download/pdf-YYYYMMDD/<ID>.pdf`）へ書き換える。GitHub の上限は1リリース1000アセットのため、決算ピーク日（1日1000件超）は超過分を追加パート `pdf-YYYYMMDD-2`, `-3` … へ自動振り分け（1リリース900件未満）。退避は `gh` CLI で行い、Actions では `GH_TOKEN`(=`github.token`)、ローカルでは `gh auth login` 済みであることが必要。冪等（退避済みは再取得しない）。第三者アーカイブには依存しない
+- **PDF退避**: 配信元(TDnet `release.tdnet.info`)は PDF を約1か月しか保持しないため、毎回の実行で PDF を **GitHub Releases**（**1営業日=1リリース**、タグ `pdf-YYYYMMDD`、アセット名 `{TDnet ID}.pdf`）へ退避し、JSON のリンクを恒久URL（`https://github.com/<owner>/<repo>/releases/download/pdf-YYYYMMDD/<ID>.pdf`）へ書き換える。GitHub の上限は1リリース1000アセットのため、決算ピーク日（1日1000件超）は超過分を追加パート `pdf-YYYYMMDD-2`, `-3` … へ自動振り分け（1リリース900件未満）。退避は `gh` CLI で行い、Actions では `GH_TOKEN`(=`github.token`)、ローカルでは `gh auth login` 済みであることが必要。冪等（退避済みは再取得しない）。GitHub 側の一時障害（5xx・レート制限）は待って再試行し、それでも残った分は以後の実行が直近10日分の JSON を見直して再退避する。第三者アーカイブには依存しない
 
 ### 既存分の一括退避（一回限り）
 
