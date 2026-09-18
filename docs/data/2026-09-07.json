@@ -1,7 +1,7 @@
 {
   "date": "2026-09-07",
-  "company_count": 117,
-  "total_count": 134,
+  "company_count": 89,
+  "total_count": 105,
   "items": [
     {
       "code": "6981",
@@ -68,14 +68,6 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260907/140120260907532217.pdf"
     },
     {
-      "code": "8951",
-      "company_name": "Ｒ－ビルＦ",
-      "market_cap": 10798.4,
-      "time": "17:00",
-      "title": "資金の借入に関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260907/140120260907532469.pdf"
-    },
-    {
       "code": "3086",
       "company_name": "Ｊフロント",
       "market_cap": 7289.0,
@@ -108,14 +100,6 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260907/140120260907532273.pdf"
     },
     {
-      "code": "3471",
-      "company_name": "Ｒ－三井不ロジパーク",
-      "market_cap": 3319.5,
-      "time": "16:15",
-      "title": "資金の借入れ及び返済に関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260907/140120260907532577.pdf"
-    },
-    {
       "code": "4272",
       "company_name": "日化薬",
       "market_cap": 3081.8,
@@ -130,14 +114,6 @@
       "time": "16:00",
       "title": "ハンガリー連結子会社の事業活動停止に伴う特別損失計上に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260907/140120260907532570.pdf"
-    },
-    {
-      "code": "3287",
-      "company_name": "Ｒ－星野",
-      "market_cap": 1403.7,
-      "time": "11:30",
-      "title": "ポートフォリオ運営実績に関するお知らせ（2026年7月度）",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260907/140120260904531761.pdf"
     },
     {
       "code": "8117",
@@ -644,14 +620,6 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260907/140120260904532153.pdf"
     },
     {
-      "code": "9285",
-      "company_name": "Ｉ－東京インフラＦ",
-      "market_cap": 71.6,
-      "time": "15:30",
-      "title": "保有資産に係る月次発電量実績及び出力制御の実施状況に関するお知らせ（2026年8月）",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260907/140120260907532482.pdf"
-    },
-    {
       "code": "9904",
       "company_name": "ベリテ",
       "market_cap": 67.0,
@@ -874,206 +842,6 @@
       "time": "15:40",
       "title": "月次売上高前年比等（速報）に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260907/140120260907532352.pdf"
-    },
-    {
-      "code": "1326",
-      "company_name": "Ｅ－ワールド",
-      "market_cap": 0,
-      "time": "11:35",
-      "title": "SPDRゴールド・シェアに関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260907/140120260907532345.pdf"
-    },
-    {
-      "code": "1329",
-      "company_name": "Ｅ－ブラックロック",
-      "market_cap": 0,
-      "time": "10:00",
-      "title": "上場ETF（管理会社：ブラックロック・ジャパン）に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260907/140120260907532269.pdf"
-    },
-    {
-      "code": "1349",
-      "company_name": "Ｅ－ＳＳＧＡ－ＳＩＮ",
-      "market_cap": 0,
-      "time": "11:30",
-      "title": "アジア国債・公債ＥＴＦ（正式名称：ＡＢＦ汎アジア債券インデックス・ファンド）に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260907/140120260907532342.pdf"
-    },
-    {
-      "code": "1557",
-      "company_name": "Ｅ－ＳＳＧＡＴＣ",
-      "market_cap": 0,
-      "time": "11:40",
-      "title": "State Street SPDR S&P500 ETFに関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260907/140120260907532356.pdf"
-    },
-    {
-      "code": "1671",
-      "company_name": "Ｅ－シンプレクス",
-      "market_cap": 0,
-      "time": "10:00",
-      "title": "上場ＥＴＦ(管理会社：シンプレクス・アセット・マネジメント)に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260907/140120260907532246.pdf"
-    },
-    {
-      "code": "1672",
-      "company_name": "Ｅ－ＷｉｓｄｏｍＴｒ",
-      "market_cap": 0,
-      "time": "08:30",
-      "title": "上場ETF（管理会社：WisdomTree、外国投資法人：MSL）に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260907/140120260907532184.pdf"
-    },
-    {
-      "code": "1672",
-      "company_name": "Ｅ－ＷｉｓｄｏｍＴｒ",
-      "market_cap": 0,
-      "time": "08:30",
-      "title": "上場ETF（管理会社：WisdomTree、外国投資法人：CSL）に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260907/140120260907532185.pdf"
-    },
-    {
-      "code": "2019",
-      "company_name": "ＧＸ優先証券隔月",
-      "market_cap": 0,
-      "time": "11:00",
-      "title": "2026年7月期（2026年1月25日～2026年7月24日）決算短信",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260907/140120260907532326.pdf"
-    },
-    {
-      "code": "2070",
-      "company_name": "Ｎ－三菱ＵＦＪ証ＨＤ",
-      "market_cap": 0,
-      "time": "11:30",
-      "title": "上場ETN（発行者：三菱UFJ証券ホールディングス株式会社）に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260907/140120260907532307.pdf"
-    },
-    {
-      "code": "2245",
-      "company_name": "独債７－１０ヘッジ有",
-      "market_cap": 0,
-      "time": "18:15",
-      "title": "ETFの収益分配のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260907/140120260907532723.pdf"
-    },
-    {
-      "code": "2510",
-      "company_name": "ＮＦ国内債券",
-      "market_cap": 0,
-      "time": "18:15",
-      "title": "ETFの収益分配のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260907/140120260907532724.pdf"
-    },
-    {
-      "code": "2511",
-      "company_name": "ＮＦ外債ヘッジ無",
-      "market_cap": 0,
-      "time": "18:15",
-      "title": "ETFの収益分配のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260907/140120260907532725.pdf"
-    },
-    {
-      "code": "2512",
-      "company_name": "ＮＦ外債ヘッジ有",
-      "market_cap": 0,
-      "time": "18:15",
-      "title": "ETFの収益分配のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260907/140120260907532726.pdf"
-    },
-    {
-      "code": "2513",
-      "company_name": "ＮＦ外株ヘッジ無",
-      "market_cap": 0,
-      "time": "18:15",
-      "title": "ETFの収益分配のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260907/140120260907532727.pdf"
-    },
-    {
-      "code": "2514",
-      "company_name": "ＮＦ外株ヘッジ有",
-      "market_cap": 0,
-      "time": "18:15",
-      "title": "ETFの収益分配のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260907/140120260907532728.pdf"
-    },
-    {
-      "code": "2515",
-      "company_name": "ＮＦ外ＲＥＩＴヘ無",
-      "market_cap": 0,
-      "time": "18:15",
-      "title": "ETFの収益分配のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260907/140120260907532729.pdf"
-    },
-    {
-      "code": "2519",
-      "company_name": "ＮＦ新興国債券ヘ無",
-      "market_cap": 0,
-      "time": "18:15",
-      "title": "ETFの収益分配のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260907/140120260907532730.pdf"
-    },
-    {
-      "code": "2520",
-      "company_name": "ＮＦ新興国株式ヘ無",
-      "market_cap": 0,
-      "time": "18:15",
-      "title": "ETFの収益分配のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260907/140120260907532731.pdf"
-    },
-    {
-      "code": "2554",
-      "company_name": "ＮＦ米社債ヘ有",
-      "market_cap": 0,
-      "time": "18:15",
-      "title": "ETFの収益分配のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260907/140120260907532732.pdf"
-    },
-    {
-      "code": "2564",
-      "company_name": "ＧＸスーパーディビ",
-      "market_cap": 0,
-      "time": "11:00",
-      "title": "2026年7月期（2026年1月25日～2026年7月24日）決算短信",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260907/140120260907532311.pdf"
-    },
-    {
-      "code": "2626",
-      "company_name": "ＧＸデジタル日株",
-      "market_cap": 0,
-      "time": "11:00",
-      "title": "2026年7月期（2026年1月25日～2026年7月24日）決算短信",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260907/140120260907532318.pdf"
-    },
-    {
-      "code": "2627",
-      "company_name": "ＧＸｅコマース日株",
-      "market_cap": 0,
-      "time": "11:00",
-      "title": "2026年7月期（2026年1月25日～2026年7月24日）決算短信",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260907/140120260907532302.pdf"
-    },
-    {
-      "code": "2647",
-      "company_name": "米債７－１０ヘッジ無",
-      "market_cap": 0,
-      "time": "18:15",
-      "title": "ETFの収益分配のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260907/140120260907532733.pdf"
-    },
-    {
-      "code": "2648",
-      "company_name": "米債７－１０ヘッジ有",
-      "market_cap": 0,
-      "time": "18:15",
-      "title": "ETFの収益分配のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260907/140120260907532734.pdf"
-    },
-    {
-      "code": "2849",
-      "company_name": "ＧＸ高配当ＥＳＧ日株",
-      "market_cap": 0,
-      "time": "11:00",
-      "title": "2026年7月期（2026年1月25日～2026年7月24日）決算短信",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260907/140120260907532305.pdf"
     }
   ],
   "tdnet_available": true

@@ -1,7 +1,7 @@
 {
   "date": "2026-09-17",
-  "company_count": 128,
-  "total_count": 169,
+  "company_count": 90,
+  "total_count": 118,
   "items": [
     {
       "code": "9503",
@@ -44,22 +44,6 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537920.pdf"
     },
     {
-      "code": "8953",
-      "company_name": "Ｒ－都市ファンド",
-      "market_cap": 8012.8,
-      "time": "15:30",
-      "title": "国内不動産の譲渡に関するお知らせ【ライフ下寺店（底地）】",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260916537271.pdf"
-    },
-    {
-      "code": "8953",
-      "company_name": "Ｒ－都市ファンド",
-      "market_cap": 8012.8,
-      "time": "15:30",
-      "title": "固定賃料型底地の高値売却及びインフレ対応型底地への資本再配分（プレスリリースに関する補足説明資料）",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260916537274.pdf"
-    },
-    {
       "code": "2371",
       "company_name": "カカクコム",
       "market_cap": 7522.4,
@@ -74,30 +58,6 @@
       "time": "15:30",
       "title": "経営改革の方向性について",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537577.pdf"
-    },
-    {
-      "code": "3462",
-      "company_name": "Ｒ－ＮＭＦ",
-      "market_cap": 6635.0,
-      "time": "15:30",
-      "title": "投資法人債の発行に係る包括決議に関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537723.pdf"
-    },
-    {
-      "code": "8954",
-      "company_name": "Ｒ－オリックスＦ",
-      "market_cap": 5315.8,
-      "time": "15:30",
-      "title": "資金の借入に関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537849.pdf"
-    },
-    {
-      "code": "8985",
-      "company_name": "Ｒ－ＪＨＲ",
-      "market_cap": 5000.7,
-      "time": "15:30",
-      "title": "資金の借入れ（新規及び一部グリーンローンによる借換え）に関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260916537375.pdf"
     },
     {
       "code": "6890",
@@ -122,78 +82,6 @@
       "time": "17:30",
       "title": "自己株式立会外買付取引（ToSTNeT-3）への売付け及び 投資有価証券売却益（特別利益）の計上見込みに関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537804.pdf"
-    },
-    {
-      "code": "3269",
-      "company_name": "Ｒ－ＡＤＲ",
-      "market_cap": 4061.7,
-      "time": "16:30",
-      "title": "2026年07月期決算短信（REIT）",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537732.pdf"
-    },
-    {
-      "code": "3269",
-      "company_name": "Ｒ－ＡＤＲ",
-      "market_cap": 4061.7,
-      "time": "16:30",
-      "title": "2026年07月期（第32期） 決算説明資料",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537746.pdf"
-    },
-    {
-      "code": "8955",
-      "company_name": "Ｒ－Ｊプライム",
-      "market_cap": 3837.7,
-      "time": "15:30",
-      "title": "資金の借入れに関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537871.pdf"
-    },
-    {
-      "code": "3249",
-      "company_name": "Ｒ－産業ファ",
-      "market_cap": 3426.1,
-      "time": "15:30",
-      "title": "2026年7月期　決算短信(REIT)",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260916537453.pdf"
-    },
-    {
-      "code": "3249",
-      "company_name": "Ｒ－産業ファ",
-      "market_cap": 3426.1,
-      "time": "15:30",
-      "title": "規約変更及び役員選任に関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260916537497.pdf"
-    },
-    {
-      "code": "3249",
-      "company_name": "Ｒ－産業ファ",
-      "market_cap": 3426.1,
-      "time": "15:30",
-      "title": "資金の借入（新規借入）及び借入金の期限前弁済に関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260916537501.pdf"
-    },
-    {
-      "code": "3471",
-      "company_name": "Ｒ－三井不ロジパーク",
-      "market_cap": 3287.3,
-      "time": "15:30",
-      "title": "2026年7月期 決算短信（REIT）",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260915536646.pdf"
-    },
-    {
-      "code": "3471",
-      "company_name": "Ｒ－三井不ロジパーク",
-      "market_cap": 3287.3,
-      "time": "15:30",
-      "title": "国内不動産信託受益権の取得及び貸借並びに譲渡に関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537864.pdf"
-    },
-    {
-      "code": "8956",
-      "company_name": "Ｒ－ＮＴＴ都市開発Ｒ",
-      "market_cap": 1866.1,
-      "time": "15:30",
-      "title": "コミットメントラインの更新に関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537810.pdf"
     },
     {
       "code": "7685",
@@ -412,60 +300,12 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537870.pdf"
     },
     {
-      "code": "3463",
-      "company_name": "Ｒ－いちごホテル",
-      "market_cap": 364.2,
-      "time": "15:30",
-      "title": "2026年7月期 決算短信（REIT）",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537640.pdf"
-    },
-    {
-      "code": "3463",
-      "company_name": "Ｒ－いちごホテル",
-      "market_cap": 364.2,
-      "time": "15:30",
-      "title": "2026年7月期（第22期）決算説明資料",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537722.pdf"
-    },
-    {
-      "code": "3463",
-      "company_name": "Ｒ－いちごホテル",
-      "market_cap": 364.2,
-      "time": "15:30",
-      "title": "2026年7月期の分配予想と決算値との差異のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537717.pdf"
-    },
-    {
-      "code": "3463",
-      "company_name": "Ｒ－いちごホテル",
-      "market_cap": 364.2,
-      "time": "15:30",
-      "title": "規約変更および役員選任のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537721.pdf"
-    },
-    {
-      "code": "3463",
-      "company_name": "Ｒ－いちごホテル",
-      "market_cap": 364.2,
-      "time": "15:30",
-      "title": "投資主優待制度（宿泊代金割引）の概要決定のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537716.pdf"
-    },
-    {
       "code": "4792",
       "company_name": "山田コンサル",
       "market_cap": 356.5,
       "time": "15:30",
       "title": "財務上の特約が付されたコミットメントライン契約の締結について",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537984.pdf"
-    },
-    {
-      "code": "9284",
-      "company_name": "Ｉ－カナディアンソラ",
-      "market_cap": 328.9,
-      "time": "17:00",
-      "title": "運用資産における電気ケーブルの盗難被害等に関するお知らせ（続報）",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537977.pdf"
     },
     {
       "code": "9273",
@@ -482,38 +322,6 @@
       "time": "15:30",
       "title": "第40期（2026年７月期）期末　決算説明会資料",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537886.pdf"
-    },
-    {
-      "code": "2989",
-      "company_name": "Ｒ－東海道リート",
-      "market_cap": 302.6,
-      "time": "16:10",
-      "title": "2026年７月期　決算短信（REIT）",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260916537437.pdf"
-    },
-    {
-      "code": "2989",
-      "company_name": "Ｒ－東海道リート",
-      "market_cap": 302.6,
-      "time": "16:10",
-      "title": "2027年１月期の運用状況及び分配金の予想の修正に関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260916537470.pdf"
-    },
-    {
-      "code": "2989",
-      "company_name": "Ｒ－東海道リート",
-      "market_cap": 302.6,
-      "time": "16:10",
-      "title": "規約一部変更及び役員選任に関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260916537521.pdf"
-    },
-    {
-      "code": "2989",
-      "company_name": "Ｒ－東海道リート",
-      "market_cap": 302.6,
-      "time": "16:10",
-      "title": "メインスポンサーによる本投資法人投資口の追加取得に関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260916537478.pdf"
     },
     {
       "code": "9788",
@@ -1138,222 +946,6 @@
       "time": "15:40",
       "title": "上場廃止後の当社株式の取扱いに関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260909533769.pdf"
-    },
-    {
-      "code": "1326",
-      "company_name": "Ｅ－ワールド",
-      "market_cap": 0,
-      "time": "11:55",
-      "title": "SPDRゴールド・シェアに関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537773.pdf"
-    },
-    {
-      "code": "1329",
-      "company_name": "Ｅ－ブラックロック",
-      "market_cap": 0,
-      "time": "10:30",
-      "title": "上場ETF（管理会社：ブラックロック・ジャパン）に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537625.pdf"
-    },
-    {
-      "code": "1349",
-      "company_name": "Ｅ－ＳＳＧＡ－ＳＩＮ",
-      "market_cap": 0,
-      "time": "11:50",
-      "title": "アジア国債・公債ＥＴＦ（正式名称：ＡＢＦ汎アジア債券インデックス・ファンド）に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537765.pdf"
-    },
-    {
-      "code": "1369",
-      "company_name": "Ｏｎｅ・日経２２５",
-      "market_cap": 0,
-      "time": "15:30",
-      "title": "投資信託約款の変更に関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537875.pdf"
-    },
-    {
-      "code": "1473",
-      "company_name": "Ｏｎｅ・トピックス",
-      "market_cap": 0,
-      "time": "15:30",
-      "title": "投資信託約款の変更に関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537876.pdf"
-    },
-    {
-      "code": "1474",
-      "company_name": "Ｏｎｅ・ＪＰＸ４００",
-      "market_cap": 0,
-      "time": "15:30",
-      "title": "投資信託約款の変更に関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537877.pdf"
-    },
-    {
-      "code": "1484",
-      "company_name": "Ｏｎｅ・設備人材投資",
-      "market_cap": 0,
-      "time": "15:30",
-      "title": "投資信託約款の変更に関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537878.pdf"
-    },
-    {
-      "code": "1493",
-      "company_name": "Ｏｎｅ・中小型",
-      "market_cap": 0,
-      "time": "15:30",
-      "title": "投資信託約款の変更に関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537879.pdf"
-    },
-    {
-      "code": "1498",
-      "company_name": "Ｏｎｅ・ＥＳＧ",
-      "market_cap": 0,
-      "time": "15:30",
-      "title": "投資信託約款の変更に関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537880.pdf"
-    },
-    {
-      "code": "1557",
-      "company_name": "Ｅ－ＳＳＧＡＴＣ",
-      "market_cap": 0,
-      "time": "12:00",
-      "title": "State Street SPDR S&P500 ETFに関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537777.pdf"
-    },
-    {
-      "code": "1671",
-      "company_name": "Ｅ－シンプレクス",
-      "market_cap": 0,
-      "time": "10:00",
-      "title": "上場ＥＴＦ(管理会社：シンプレクス・アセット・マネジメント)に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537600.pdf"
-    },
-    {
-      "code": "1672",
-      "company_name": "Ｅ－ＷｉｓｄｏｍＴｒ",
-      "market_cap": 0,
-      "time": "09:30",
-      "title": "上場ETF（管理会社：WisdomTree、外国投資法人：MSL）に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537580.pdf"
-    },
-    {
-      "code": "1672",
-      "company_name": "Ｅ－ＷｉｓｄｏｍＴｒ",
-      "market_cap": 0,
-      "time": "09:30",
-      "title": "上場ETF（管理会社：WisdomTree、外国投資法人：CSL）に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537582.pdf"
-    },
-    {
-      "code": "2019",
-      "company_name": "ＧＸ優先証券隔月",
-      "market_cap": 0,
-      "time": "08:50",
-      "title": "ETFの収益分配金見込額のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260916537482.pdf"
-    },
-    {
-      "code": "2070",
-      "company_name": "Ｎ－三菱ＵＦＪ証ＨＤ",
-      "market_cap": 0,
-      "time": "11:30",
-      "title": "上場ETN（発行者：三菱UFJ証券ホールディングス株式会社）に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537661.pdf"
-    },
-    {
-      "code": "2095",
-      "company_name": "ＧＸＵＳ配当貴族ヘ",
-      "market_cap": 0,
-      "time": "08:50",
-      "title": "ETFの収益分配金見込額のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260916537483.pdf"
-    },
-    {
-      "code": "2236",
-      "company_name": "ＧＸＵＳ配当貴族",
-      "market_cap": 0,
-      "time": "08:50",
-      "title": "ETFの収益分配金見込額のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260916537484.pdf"
-    },
-    {
-      "code": "2243",
-      "company_name": "ＧＸ半導体",
-      "market_cap": 0,
-      "time": "08:50",
-      "title": "ETFの収益分配金見込額のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260916537485.pdf"
-    },
-    {
-      "code": "2244",
-      "company_name": "ＧＸＵＳテック２０",
-      "market_cap": 0,
-      "time": "08:50",
-      "title": "ETFの収益分配金見込額のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260916537486.pdf"
-    },
-    {
-      "code": "2252",
-      "company_name": "ＧＸＵＳ中小モート",
-      "market_cap": 0,
-      "time": "08:50",
-      "title": "ETFの収益分配金見込額のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260916537487.pdf"
-    },
-    {
-      "code": "2253",
-      "company_name": "ＧＸＵＳスーパーＤ",
-      "market_cap": 0,
-      "time": "08:50",
-      "title": "ETFの収益分配金見込額のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260916537488.pdf"
-    },
-    {
-      "code": "2254",
-      "company_name": "ＧＸ中国ＥＶバッテリ",
-      "market_cap": 0,
-      "time": "08:50",
-      "title": "ETFの収益分配金見込額のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260916537489.pdf"
-    },
-    {
-      "code": "2553",
-      "company_name": "Ｏｎｅ・ＣＳＩ５００",
-      "market_cap": 0,
-      "time": "15:30",
-      "title": "投資信託約款の変更に関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537881.pdf"
-    },
-    {
-      "code": "2556",
-      "company_name": "Ｏｎｅ・Ｊリート",
-      "market_cap": 0,
-      "time": "15:30",
-      "title": "投資信託約款の変更に関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260917537882.pdf"
-    },
-    {
-      "code": "2636",
-      "company_name": "ＧＸガバナンス日株",
-      "market_cap": 0,
-      "time": "08:50",
-      "title": "ETFの収益分配金見込額のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260916537490.pdf"
-    },
-    {
-      "code": "2637",
-      "company_name": "ＧＸクリーン日株",
-      "market_cap": 0,
-      "time": "08:50",
-      "title": "ETFの収益分配金見込額のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260916537491.pdf"
-    },
-    {
-      "code": "2867",
-      "company_name": "ＧＸ自動ＥＶ",
-      "market_cap": 0,
-      "time": "08:50",
-      "title": "ETFの収益分配金見込額のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260916537492.pdf"
     }
   ],
   "tdnet_available": true

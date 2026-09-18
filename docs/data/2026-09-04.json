@@ -1,7 +1,7 @@
 {
   "date": "2026-09-04",
-  "company_count": 118,
-  "total_count": 140,
+  "company_count": 105,
+  "total_count": 125,
   "items": [
     {
       "code": "9984",
@@ -100,14 +100,6 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260904/140120260904531839.pdf"
     },
     {
-      "code": "3462",
-      "company_name": "Ｒ－ＮＭＦ",
-      "market_cap": 6751.2,
-      "time": "15:30",
-      "title": "（訂正）「国内不動産の取得に関するお知らせ」の一部訂正について",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260904/140120260904531939.pdf"
-    },
-    {
       "code": "9041",
       "company_name": "近鉄ＧＨＤ",
       "market_cap": 6551.1,
@@ -122,14 +114,6 @@
       "time": "15:30",
       "title": "第138回及び第139回無担保社債の発行について",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260904/140120260903531354.pdf"
-    },
-    {
-      "code": "8960",
-      "company_name": "Ｒ－ユナイテド",
-      "market_cap": 5100.8,
-      "time": "17:00",
-      "title": "国内資産の取得に関するお知らせ （箱根上強羅プロジェクト（ホテル開発）特定目的会社　優先出資証券）",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260904/140120260903531458.pdf"
     },
     {
       "code": "6674",
@@ -258,14 +242,6 @@
       "time": "16:30",
       "title": "(開示事項の経過)連結子会社(中国プライムウェーハ事業)の組織再編検討開始のお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260904/140120260904532010.pdf"
-    },
-    {
-      "code": "8975",
-      "company_name": "Ｒ－いちごオフィス",
-      "market_cap": 1433.0,
-      "time": "15:30",
-      "title": "ポートフォリオ稼働率速報値（2026年8月末時点）のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260904/140120260904531517.pdf"
     },
     {
       "code": "3046",
@@ -1026,102 +1002,6 @@
       "time": "18:00",
       "title": "（開示事項の経過）臨時株主総会招集のための基準日の取り消しに関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260904/140120260904531914.pdf"
-    },
-    {
-      "code": "1326",
-      "company_name": "Ｅ－ワールド",
-      "market_cap": 0,
-      "time": "11:40",
-      "title": "SPDRゴールド・シェアに関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260904/140120260904531723.pdf"
-    },
-    {
-      "code": "1329",
-      "company_name": "Ｅ－ブラックロック",
-      "market_cap": 0,
-      "time": "10:00",
-      "title": "上場ETF（管理会社：ブラックロック・ジャパン）に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260904/140120260904531555.pdf"
-    },
-    {
-      "code": "1345",
-      "company_name": "上場Ｊリート",
-      "market_cap": 0,
-      "time": "08:55",
-      "title": "ＥＴＦの収益分配金見込額のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260904/140120260904531477.pdf"
-    },
-    {
-      "code": "1349",
-      "company_name": "Ｅ－ＳＳＧＡ－ＳＩＮ",
-      "market_cap": 0,
-      "time": "11:35",
-      "title": "アジア国債・公債ＥＴＦ（正式名称：ＡＢＦ汎アジア債券インデックス・ファンド）に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260904/140120260904531718.pdf"
-    },
-    {
-      "code": "1398",
-      "company_name": "ＳＭＤＡＭ　Ｊリート",
-      "market_cap": 0,
-      "time": "10:20",
-      "title": "ＥＴＦの収益分配金見込額のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260904/140120260904531627.pdf"
-    },
-    {
-      "code": "1488",
-      "company_name": "ｉＦＪリート",
-      "market_cap": 0,
-      "time": "18:25",
-      "title": "iFreeETFの収益分配のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260904/140120260904532145.pdf"
-    },
-    {
-      "code": "1557",
-      "company_name": "ＳＰＤＲ５００",
-      "market_cap": 0,
-      "time": "10:30",
-      "title": "State Street SPDR S&P500 ETF分配金の支払いに係る基準日のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260904/140120260904531600.pdf"
-    },
-    {
-      "code": "1557",
-      "company_name": "Ｅ－ＳＳＧＡＴＣ",
-      "market_cap": 0,
-      "time": "11:45",
-      "title": "State Street SPDR S&P500 ETFに関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260904/140120260904531728.pdf"
-    },
-    {
-      "code": "1597",
-      "company_name": "ＭＸＳ　Ｊリート",
-      "market_cap": 0,
-      "time": "10:40",
-      "title": "ＭＡＸＩＳ ＥＴＦの収益分配金見込額のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260904/140120260904531663.pdf"
-    },
-    {
-      "code": "1671",
-      "company_name": "Ｅ－シンプレクス",
-      "market_cap": 0,
-      "time": "10:00",
-      "title": "上場ＥＴＦ(管理会社：シンプレクス・アセット・マネジメント)に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260904/140120260904531548.pdf"
-    },
-    {
-      "code": "1672",
-      "company_name": "Ｅ－ＷｉｓｄｏｍＴｒ",
-      "market_cap": 0,
-      "time": "08:30",
-      "title": "上場ETF（管理会社：WisdomTree、外国投資法人：MSL）に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260904/140120260904531493.pdf"
-    },
-    {
-      "code": "1672",
-      "company_name": "Ｅ－ＷｉｓｄｏｍＴｒ",
-      "market_cap": 0,
-      "time": "08:30",
-      "title": "上場ETF（管理会社：WisdomTree、外国投資法人：CSL）に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260904/140120260904531494.pdf"
     }
   ],
   "tdnet_available": true

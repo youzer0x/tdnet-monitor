@@ -1,7 +1,7 @@
 {
   "date": "2026-09-11",
-  "company_count": 172,
-  "total_count": 283,
+  "company_count": 162,
+  "total_count": 272,
   "items": [
     {
       "code": "9503",
@@ -50,14 +50,6 @@
       "time": "15:30",
       "title": "不正事案の未然防止・早期発見に向けたソニー生命の取組進捗について（2026年８月末時点）",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260911/140120260911535045.pdf"
-    },
-    {
-      "code": "8951",
-      "company_name": "Ｒ－ビルＦ",
-      "market_cap": 10745.5,
-      "time": "16:30",
-      "title": "資金の借入及び期限前返済に関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260911/140120260911535169.pdf"
     },
     {
       "code": "8377",
@@ -266,14 +258,6 @@
       "time": "15:30",
       "title": "2026年10月期第3四半期決算短信〔日本基準〕（連結）",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260911/140120260910534371.pdf"
-    },
-    {
-      "code": "3287",
-      "company_name": "Ｒ－星野",
-      "market_cap": 1363.2,
-      "time": "16:30",
-      "title": "サステナビリティ・リンク・ローンの設定目標達成による適用利率引下げに関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260911/140120260911534718.pdf"
     },
     {
       "code": "9166",
@@ -754,14 +738,6 @@
       "time": "15:30",
       "title": "2026年７月期 決算短信〔日本基準〕（連結）",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260911/140120260911535034.pdf"
-    },
-    {
-      "code": "3472",
-      "company_name": "Ｒ－日本ホテル＆レジ",
-      "market_cap": 282.3,
-      "time": "16:30",
-      "title": "アパホールディングス株式会社による本投資法人投資口の追加取得に関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260911/140120260911535154.pdf"
     },
     {
       "code": "4165",
@@ -2202,70 +2178,6 @@
       "time": "16:00",
       "title": "第三者割当により発行された第７回新株予約権（行使価額修正条項付）の大量行使に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260911/140120260911534850.pdf"
-    },
-    {
-      "code": "1326",
-      "company_name": "Ｅ－ワールド",
-      "market_cap": 0,
-      "time": "11:45",
-      "title": "SPDRゴールド・シェアに関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260911/140120260911534812.pdf"
-    },
-    {
-      "code": "1329",
-      "company_name": "Ｅ－ブラックロック",
-      "market_cap": 0,
-      "time": "10:00",
-      "title": "上場ETF（管理会社：ブラックロック・ジャパン）に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260911/140120260911534688.pdf"
-    },
-    {
-      "code": "1349",
-      "company_name": "Ｅ－ＳＳＧＡ－ＳＩＮ",
-      "market_cap": 0,
-      "time": "11:40",
-      "title": "アジア国債・公債ＥＴＦ（正式名称：ＡＢＦ汎アジア債券インデックス・ファンド）に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260911/140120260911534826.pdf"
-    },
-    {
-      "code": "1557",
-      "company_name": "Ｅ－ＳＳＧＡＴＣ",
-      "market_cap": 0,
-      "time": "11:50",
-      "title": "State Street SPDR S&P500 ETFに関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260911/140120260911534813.pdf"
-    },
-    {
-      "code": "1671",
-      "company_name": "Ｅ－シンプレクス",
-      "market_cap": 0,
-      "time": "10:00",
-      "title": "上場ＥＴＦ(管理会社：シンプレクス・アセット・マネジメント)に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260911/140120260911534682.pdf"
-    },
-    {
-      "code": "1672",
-      "company_name": "Ｅ－ＷｉｓｄｏｍＴｒ",
-      "market_cap": 0,
-      "time": "08:30",
-      "title": "上場ETF（管理会社：WisdomTree、外国投資法人：MSL）に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260911/140120260911534157.pdf"
-    },
-    {
-      "code": "1672",
-      "company_name": "Ｅ－ＷｉｓｄｏｍＴｒ",
-      "market_cap": 0,
-      "time": "08:30",
-      "title": "上場ETF（管理会社：WisdomTree、外国投資法人：CSL）に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260911/140120260911534158.pdf"
-    },
-    {
-      "code": "2070",
-      "company_name": "Ｎ－三菱ＵＦＪ証ＨＤ",
-      "market_cap": 0,
-      "time": "11:30",
-      "title": "上場ETN（発行者：三菱UFJ証券ホールディングス株式会社）に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260911/140120260911534745.pdf"
     }
   ],
   "tdnet_available": true

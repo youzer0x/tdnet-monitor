@@ -1,7 +1,7 @@
 {
   "date": "2026-09-14",
-  "company_count": 169,
-  "total_count": 293,
+  "company_count": 150,
+  "total_count": 257,
   "items": [
     {
       "code": "4502",
@@ -76,14 +76,6 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914535542.pdf"
     },
     {
-      "code": "8954",
-      "company_name": "Ｒ－オリックスＦ",
-      "market_cap": 5293.7,
-      "time": "15:30",
-      "title": "資金の借入及び借入金の期限前弁済に関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914535600.pdf"
-    },
-    {
       "code": "8078",
       "company_name": "阪和興",
       "market_cap": 4078.7,
@@ -122,70 +114,6 @@
       "time": "16:00",
       "title": "2026年10月期　速報数値　8月度",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914536041.pdf"
-    },
-    {
-      "code": "3279",
-      "company_name": "Ｒ－ＡＰＩ",
-      "market_cap": 3117.7,
-      "time": "17:00",
-      "title": "資金の借入れに関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260911535340.pdf"
-    },
-    {
-      "code": "8967",
-      "company_name": "Ｒ－ニホンロジ",
-      "market_cap": 2545.7,
-      "time": "15:30",
-      "title": "2026年7月期　決算短信（REIT）",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914535669.pdf"
-    },
-    {
-      "code": "3292",
-      "company_name": "Ｒ－イオンリート",
-      "market_cap": 2418.0,
-      "time": "15:30",
-      "title": "2026年7月期　決算短信（ＲＥＩＴ）",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914535840.pdf"
-    },
-    {
-      "code": "3292",
-      "company_name": "Ｒ－イオンリート",
-      "market_cap": 2418.0,
-      "time": "15:30",
-      "title": "2026年7月期の分配金の予想額と決定額との差異に関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914535847.pdf"
-    },
-    {
-      "code": "3292",
-      "company_name": "Ｒ－イオンリート",
-      "market_cap": 2418.0,
-      "time": "15:30",
-      "title": "2026年7月期（第27期）決算説明会資料",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914535881.pdf"
-    },
-    {
-      "code": "3292",
-      "company_name": "Ｒ－イオンリート",
-      "market_cap": 2418.0,
-      "time": "15:30",
-      "title": "分配金の除斥期間の経過に関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914535861.pdf"
-    },
-    {
-      "code": "3234",
-      "company_name": "Ｒ－森ヒルズ",
-      "market_cap": 2352.1,
-      "time": "15:30",
-      "title": "2026年7月期　決算短信（ＲＥＩＴ）",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260910534332.pdf"
-    },
-    {
-      "code": "3234",
-      "company_name": "Ｒ－森ヒルズ",
-      "market_cap": 2352.1,
-      "time": "15:30",
-      "title": "第40期（2026年7月期）決算説明資料",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914535855.pdf"
     },
     {
       "code": "8848",
@@ -228,22 +156,6 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260910534365.pdf"
     },
     {
-      "code": "8957",
-      "company_name": "Ｒ－東急ＲＥ",
-      "market_cap": 1778.5,
-      "time": "15:30",
-      "title": "2026年７月期　決算短信（ＲＥＩＴ）",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914535723.pdf"
-    },
-    {
-      "code": "8957",
-      "company_name": "Ｒ－東急ＲＥ",
-      "market_cap": 1778.5,
-      "time": "15:30",
-      "title": "国内不動産の取得（スタイリオ新丸子駅前）に関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914535744.pdf"
-    },
-    {
       "code": "7287",
       "company_name": "日本精機",
       "market_cap": 1562.4,
@@ -252,68 +164,12 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914535865.pdf"
     },
     {
-      "code": "3468",
-      "company_name": "Ｒ－スターアジア",
-      "market_cap": 1421.4,
-      "time": "15:30",
-      "title": "2026年7月期分配金の予想額と決定額との差異に関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260911534979.pdf"
-    },
-    {
-      "code": "3468",
-      "company_name": "Ｒ－スターアジア",
-      "market_cap": 1421.4,
-      "time": "15:30",
-      "title": "2027年1月期の運用状況及び分配金の予想の修正に関するお知らせ（上方修正）",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260911534894.pdf"
-    },
-    {
-      "code": "3468",
-      "company_name": "Ｒ－スターアジア",
-      "market_cap": 1421.4,
-      "time": "15:30",
-      "title": "2026年7月期　決算短信（ＲＥＩＴ）",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260821524319.pdf"
-    },
-    {
-      "code": "3468",
-      "company_name": "Ｒ－スターアジア",
-      "market_cap": 1421.4,
-      "time": "15:30",
-      "title": "国内不動産信託受益権及び匿名組合出資持分の取得並びに国内不動産信託受益権の譲渡（第13回資産入替）に関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260911535258.pdf"
-    },
-    {
-      "code": "3468",
-      "company_name": "Ｒ－スターアジア",
-      "market_cap": 1421.4,
-      "time": "15:30",
-      "title": "資金の借入れに関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260911535325.pdf"
-    },
-    {
       "code": "7177",
       "company_name": "ＧＭＯＦＨＤ",
       "market_cap": 1419.9,
       "time": "15:31",
       "title": "2026年８月の月次業績（速報）に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914535912.pdf"
-    },
-    {
-      "code": "8975",
-      "company_name": "Ｒ－いちごオフィス",
-      "market_cap": 1408.5,
-      "time": "15:30",
-      "title": "資金の借入のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260911534159.pdf"
-    },
-    {
-      "code": "8975",
-      "company_name": "Ｒ－いちごオフィス",
-      "market_cap": 1408.5,
-      "time": "15:30",
-      "title": "自己投資口の取得状況および取得終了ならびに消却のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260911534622.pdf"
     },
     {
       "code": "7972",
@@ -338,46 +194,6 @@
       "time": "17:00",
       "title": "自己株式の取得状況および取得終了に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914536158.pdf"
-    },
-    {
-      "code": "3282",
-      "company_name": "Ｒ－コンフォリア",
-      "market_cap": 757.8,
-      "time": "16:00",
-      "title": "2026年７月期　決算短信（ＲＥＩＴ）",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260911535353.pdf"
-    },
-    {
-      "code": "3459",
-      "company_name": "Ｒ－サムティレジ",
-      "market_cap": 746.1,
-      "time": "15:30",
-      "title": "2026年７月期　決算短信（REIT）",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914535475.pdf"
-    },
-    {
-      "code": "3459",
-      "company_name": "Ｒ－サムティレジ",
-      "market_cap": 746.1,
-      "time": "15:30",
-      "title": "国内不動産信託受益権の取得に関するお知らせ（S-RESIDENCE堺blaze及びS-RESIDENCE小松原afford）",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914535479.pdf"
-    },
-    {
-      "code": "3459",
-      "company_name": "Ｒ－サムティレジ",
-      "market_cap": 746.1,
-      "time": "15:30",
-      "title": "資金の借入れに関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914535486.pdf"
-    },
-    {
-      "code": "3459",
-      "company_name": "Ｒ－サムティレジ",
-      "market_cap": 746.1,
-      "time": "15:30",
-      "title": "規約一部変更及び役員選任に関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914535494.pdf"
     },
     {
       "code": "3399",
@@ -604,52 +420,12 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914535878.pdf"
     },
     {
-      "code": "2971",
-      "company_name": "Ｒ－エスコンジャパン",
-      "market_cap": 387.4,
-      "time": "15:30",
-      "title": "2026年7月期 決算短信（REIT）",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914535520.pdf"
-    },
-    {
-      "code": "2971",
-      "company_name": "Ｒ－エスコンジャパン",
-      "market_cap": 387.4,
-      "time": "15:30",
-      "title": "2026年7月期 決算説明資料",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914535534.pdf"
-    },
-    {
       "code": "6369",
       "company_name": "トーヨーカネツ",
       "market_cap": 376.6,
       "time": "15:30",
       "title": "自己株式の取得状況及び取得終了に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260911535294.pdf"
-    },
-    {
-      "code": "3455",
-      "company_name": "Ｒ－ＨＣＭ",
-      "market_cap": 346.2,
-      "time": "15:30",
-      "title": "2026年7月期　決算短信（ＲＥＩＴ）",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260911535259.pdf"
-    },
-    {
-      "code": "3455",
-      "company_name": "Ｒ－ＨＣＭ",
-      "market_cap": 346.2,
-      "time": "15:30",
-      "title": "2026年7月期（第23期）決算説明資料",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260911535282.pdf"
-    },
-    {
-      "code": "3455",
-      "company_name": "Ｒ－ＨＣＭ",
-      "market_cap": 346.2,
-      "time": "15:30",
-      "title": "規約変更及び役員選任に関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260911535271.pdf"
     },
     {
       "code": "2305",
@@ -2282,70 +2058,6 @@
       "time": "15:30",
       "title": "その他の関係会社の異動に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260911534788.pdf"
-    },
-    {
-      "code": "1326",
-      "company_name": "Ｅ－ワールド",
-      "market_cap": 0,
-      "time": "11:40",
-      "title": "SPDRゴールド・シェアに関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914535663.pdf"
-    },
-    {
-      "code": "1329",
-      "company_name": "Ｅ－ブラックロック",
-      "market_cap": 0,
-      "time": "10:30",
-      "title": "上場ETF（管理会社：ブラックロック・ジャパン）に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914535562.pdf"
-    },
-    {
-      "code": "1349",
-      "company_name": "Ｅ－ＳＳＧＡ－ＳＩＮ",
-      "market_cap": 0,
-      "time": "11:35",
-      "title": "アジア国債・公債ＥＴＦ（正式名称：ＡＢＦ汎アジア債券インデックス・ファンド）に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914535659.pdf"
-    },
-    {
-      "code": "1557",
-      "company_name": "Ｅ－ＳＳＧＡＴＣ",
-      "market_cap": 0,
-      "time": "11:45",
-      "title": "State Street SPDR S&P500 ETFに関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914535665.pdf"
-    },
-    {
-      "code": "1671",
-      "company_name": "Ｅ－シンプレクス",
-      "market_cap": 0,
-      "time": "10:00",
-      "title": "上場ＥＴＦ(管理会社：シンプレクス・アセット・マネジメント)に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914535530.pdf"
-    },
-    {
-      "code": "1672",
-      "company_name": "Ｅ－ＷｉｓｄｏｍＴｒ",
-      "market_cap": 0,
-      "time": "08:30",
-      "title": "上場ETF（管理会社：WisdomTree、外国投資法人：MSL）に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914535420.pdf"
-    },
-    {
-      "code": "1672",
-      "company_name": "Ｅ－ＷｉｓｄｏｍＴｒ",
-      "market_cap": 0,
-      "time": "08:30",
-      "title": "上場ETF（管理会社：WisdomTree、外国投資法人：CSL）に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914535421.pdf"
-    },
-    {
-      "code": "2070",
-      "company_name": "Ｎ－三菱ＵＦＪ証ＨＤ",
-      "market_cap": 0,
-      "time": "11:30",
-      "title": "上場ETN（発行者：三菱UFJ証券ホールディングス株式会社）に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260914/140120260914535605.pdf"
     }
   ],
   "tdnet_available": true

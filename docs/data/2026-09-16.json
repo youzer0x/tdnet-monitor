@@ -1,7 +1,7 @@
 {
   "date": "2026-09-16",
-  "company_count": 95,
-  "total_count": 104,
+  "company_count": 75,
+  "total_count": 83,
   "items": [
     {
       "code": "6301",
@@ -60,28 +60,12 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260907532443.pdf"
     },
     {
-      "code": "8960",
-      "company_name": "Ｒ－ユナイテド",
-      "market_cap": 5001.6,
-      "time": "16:00",
-      "title": "資金の借入れ（グリーンローンを含む）に関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260915536599.pdf"
-    },
-    {
       "code": "1860",
       "company_name": "戸田建",
       "market_cap": 4752.6,
       "time": "16:00",
       "title": "一括取得型自己株式取得（ASR）における事後調整完了のお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260908533185.pdf"
-    },
-    {
-      "code": "8986",
-      "company_name": "Ｒ－大和証券リビング",
-      "market_cap": 2221.4,
-      "time": "15:30",
-      "title": "投資法人債の発行に関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537221.pdf"
     },
     {
       "code": "3167",
@@ -148,14 +132,6 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260904532169.pdf"
     },
     {
-      "code": "8977",
-      "company_name": "Ｒ－阪急阪神",
-      "market_cap": 932.3,
-      "time": "16:00",
-      "title": "資産運用会社における重要な使用人の変更に関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537364.pdf"
-    },
-    {
       "code": "2220",
       "company_name": "亀田菓",
       "market_cap": 899.9,
@@ -178,14 +154,6 @@
       "time": "15:50",
       "title": "(訂正）「株式会社ITG-Gホールディングスによる当社株式に対する公開買付けに関する賛同の意見表明及び応募推奨のお知らせ」の一部訂正に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537363.pdf"
-    },
-    {
-      "code": "2979",
-      "company_name": "Ｒ－ＳＯＳｉＬＡ物流",
-      "market_cap": 729.7,
-      "time": "15:30",
-      "title": "資産運用会社における代表取締役社長執行役員の変更予定に関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260911534870.pdf"
     },
     {
       "code": "6419",
@@ -698,142 +666,6 @@
       "time": "17:00",
       "title": "東京証券取引所における当社株式の上場廃止の決定及び整理銘柄への指定に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260915536757.pdf"
-    },
-    {
-      "code": "1326",
-      "company_name": "Ｅ－ワールド",
-      "market_cap": 0,
-      "time": "12:15",
-      "title": "SPDRゴールド・シェアに関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537137.pdf"
-    },
-    {
-      "code": "1329",
-      "company_name": "Ｅ－ブラックロック",
-      "market_cap": 0,
-      "time": "10:30",
-      "title": "上場ETF（管理会社：ブラックロック・ジャパン）に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916536933.pdf"
-    },
-    {
-      "code": "1343",
-      "company_name": "ＮＦＪ－ＲＥＩＴ",
-      "market_cap": 0,
-      "time": "13:00",
-      "title": "NEXT FUNDS 東証REIT指数連動型上場投信 決算短信",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537060.pdf"
-    },
-    {
-      "code": "1349",
-      "company_name": "Ｅ－ＳＳＧＡ－ＳＩＮ",
-      "market_cap": 0,
-      "time": "12:10",
-      "title": "アジア国債・公債ＥＴＦ（正式名称：ＡＢＦ汎アジア債券インデックス・ファンド）に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537135.pdf"
-    },
-    {
-      "code": "1545",
-      "company_name": "ナスダックヘッジ無",
-      "market_cap": 0,
-      "time": "13:00",
-      "title": "NEXT FUNDS NASDAQ－１００（Ｒ）（為替ヘッジなし）連動型上場投信 決算短信",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537083.pdf"
-    },
-    {
-      "code": "1546",
-      "company_name": "ダウヘッジ無",
-      "market_cap": 0,
-      "time": "13:00",
-      "title": "NEXT FUNDS ダウ・ジョーンズ工業株３０種平均株価（為替ヘッジなし）連動型上場投信 決算短信",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537085.pdf"
-    },
-    {
-      "code": "1557",
-      "company_name": "Ｅ－ＳＳＧＡＴＣ",
-      "market_cap": 0,
-      "time": "12:20",
-      "title": "State Street SPDR S&P500 ETFに関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537139.pdf"
-    },
-    {
-      "code": "1559",
-      "company_name": "ＮＦタイ株",
-      "market_cap": 0,
-      "time": "13:00",
-      "title": "NEXT FUNDS タイ株式SET50指数連動型上場投信 決算短信",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537071.pdf"
-    },
-    {
-      "code": "1560",
-      "company_name": "ＮＦマレーシア株",
-      "market_cap": 0,
-      "time": "13:00",
-      "title": "NEXT FUNDS FTSEブルサ・マレーシアKLCI連動型上場投信 決算短信",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537088.pdf"
-    },
-    {
-      "code": "1671",
-      "company_name": "Ｅ－シンプレクス",
-      "market_cap": 0,
-      "time": "10:00",
-      "title": "上場ＥＴＦ(管理会社：シンプレクス・アセット・マネジメント)に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916536954.pdf"
-    },
-    {
-      "code": "1672",
-      "company_name": "Ｅ－ＷｉｓｄｏｍＴｒ",
-      "market_cap": 0,
-      "time": "08:30",
-      "title": "上場ETF（管理会社：WisdomTree、外国投資法人：MSL）に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916536908.pdf"
-    },
-    {
-      "code": "1672",
-      "company_name": "Ｅ－ＷｉｓｄｏｍＴｒ",
-      "market_cap": 0,
-      "time": "08:30",
-      "title": "上場ETF（管理会社：WisdomTree、外国投資法人：CSL）に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916536909.pdf"
-    },
-    {
-      "code": "1678",
-      "company_name": "ＮＦインド株",
-      "market_cap": 0,
-      "time": "13:00",
-      "title": "NEXT FUNDS インド株式指数・Nifty 50連動型上場投信 決算短信",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537090.pdf"
-    },
-    {
-      "code": "1699",
-      "company_name": "ＮＦ原油先物",
-      "market_cap": 0,
-      "time": "13:00",
-      "title": "NEXT FUNDS NOMURA原油インデックス連動型上場投信 中間決算短信",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537068.pdf"
-    },
-    {
-      "code": "2070",
-      "company_name": "Ｎ－三菱ＵＦＪ証ＨＤ",
-      "market_cap": 0,
-      "time": "11:30",
-      "title": "上場ETN（発行者：三菱UFJ証券ホールディングス株式会社）に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537018.pdf"
-    },
-    {
-      "code": "2845",
-      "company_name": "ナスダックヘッジ有",
-      "market_cap": 0,
-      "time": "13:00",
-      "title": "NEXT FUNDS NASDAQ－１００（Ｒ）（為替ヘッジあり）連動型上場投信 決算短信",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537092.pdf"
-    },
-    {
-      "code": "2846",
-      "company_name": "ダウヘッジ有",
-      "market_cap": 0,
-      "time": "13:00",
-      "title": "NEXT FUNDS ダウ・ジョーンズ工業株３０種平均株価（為替ヘッジあり）連動型上場投信 決算短信",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260916/140120260916537094.pdf"
     }
   ],
   "tdnet_available": true

@@ -1,7 +1,7 @@
 {
   "date": "2026-09-15",
-  "company_count": 110,
-  "total_count": 135,
+  "company_count": 101,
+  "total_count": 125,
   "items": [
     {
       "code": "4063",
@@ -1002,86 +1002,6 @@
       "time": "16:30",
       "title": "株式会社オレンジページの株式取得（子会社化）に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260915/140120260726599677.pdf"
-    },
-    {
-      "code": "1326",
-      "company_name": "Ｅ－ワールド",
-      "market_cap": 0,
-      "time": "11:35",
-      "title": "SPDRゴールド・シェアに関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260915/140120260915536447.pdf"
-    },
-    {
-      "code": "1329",
-      "company_name": "Ｅ－ブラックロック",
-      "market_cap": 0,
-      "time": "10:30",
-      "title": "上場ETF（管理会社：ブラックロック・ジャパン）に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260915/140120260915536336.pdf"
-    },
-    {
-      "code": "1349",
-      "company_name": "Ｅ－ＳＳＧＡ－ＳＩＮ",
-      "market_cap": 0,
-      "time": "11:30",
-      "title": "アジア国債・公債ＥＴＦ（正式名称：ＡＢＦ汎アジア債券インデックス・ファンド）に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260915/140120260915536397.pdf"
-    },
-    {
-      "code": "1557",
-      "company_name": "Ｅ－ＳＳＧＡＴＣ",
-      "market_cap": 0,
-      "time": "11:40",
-      "title": "State Street SPDR S&P500 ETFに関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260915/140120260915536448.pdf"
-    },
-    {
-      "code": "1560",
-      "company_name": "ＮＦマレーシア株",
-      "market_cap": 0,
-      "time": "16:00",
-      "title": "上場投資信託（ETF）の連動対象指標の構成銘柄数変更のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260915/140120260915536737.pdf"
-    },
-    {
-      "code": "1671",
-      "company_name": "Ｅ－シンプレクス",
-      "market_cap": 0,
-      "time": "10:00",
-      "title": "上場ＥＴＦ(管理会社：シンプレクス・アセット・マネジメント)に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260915/140120260915536307.pdf"
-    },
-    {
-      "code": "1672",
-      "company_name": "Ｅ－ＷｉｓｄｏｍＴｒ",
-      "market_cap": 0,
-      "time": "08:30",
-      "title": "上場ETF（管理会社：WisdomTree、外国投資法人：MSL）に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260915/140120260915536287.pdf"
-    },
-    {
-      "code": "1672",
-      "company_name": "Ｅ－ＷｉｓｄｏｍＴｒ",
-      "market_cap": 0,
-      "time": "08:30",
-      "title": "上場ETF（管理会社：WisdomTree、外国投資法人：CSL）に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260915/140120260915536288.pdf"
-    },
-    {
-      "code": "2251",
-      "company_name": "ＪＧＢダブルインバ",
-      "market_cap": 0,
-      "time": "16:00",
-      "title": "上場投資信託（ETF）の投資信託約款変更のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260915/140120260915536730.pdf"
-    },
-    {
-      "code": "2643",
-      "company_name": "日本株セレクトＥＴＦ",
-      "market_cap": 0,
-      "time": "17:00",
-      "title": "「NEXT FUNDS MSCI ジャパンカントリー指数（セレクト）連動型上場投信」保有する現物株式等の売却のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260915/140120260915536845.pdf"
     }
   ],
   "tdnet_available": true

@@ -1,7 +1,7 @@
 {
   "date": "2026-09-03",
-  "company_count": 143,
-  "total_count": 150,
+  "company_count": 121,
+  "total_count": 127,
   "items": [
     {
       "code": "7203",
@@ -300,14 +300,6 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260903/140120260831528730.pdf"
     },
     {
-      "code": "3309",
-      "company_name": "Ｒ－積水ハウスリート",
-      "market_cap": 3137.6,
-      "time": "12:00",
-      "title": "資金の借入れ（グリーンローン他）に関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260903/140120260903531043.pdf"
-    },
-    {
       "code": "1414",
       "company_name": "ショーボンド",
       "market_cap": 2757.0,
@@ -522,14 +514,6 @@
       "time": "15:30",
       "title": "自己株式の取得状況に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260903/140120260903531098.pdf"
-    },
-    {
-      "code": "3290",
-      "company_name": "Ｒ－Ｏｎｅリート",
-      "market_cap": 598.4,
-      "time": "15:30",
-      "title": "金利スワップ契約の締結に関するお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260903/140120260903531282.pdf"
     },
     {
       "code": "5304",
@@ -956,14 +940,6 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260903/140120260903531322.pdf"
     },
     {
-      "code": "9282",
-      "company_name": "Ｉ－いちごグリーン",
-      "market_cap": 35.2,
-      "time": "15:30",
-      "title": "太陽光発電所月次発電実績（2026年8月）のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260903/140120260903531194.pdf"
-    },
-    {
       "code": "3958",
       "company_name": "笹徳印刷",
       "market_cap": 34.1,
@@ -1042,166 +1018,6 @@
       "time": "16:40",
       "title": "臨時株主総会開催日及び付議議案の決定並びに定款の一部変更に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260903/140120260901530293.pdf"
-    },
-    {
-      "code": "1326",
-      "company_name": "Ｅ－ワールド",
-      "market_cap": 0,
-      "time": "12:00",
-      "title": "SPDRゴールド・シェアに関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260903/140120260903531133.pdf"
-    },
-    {
-      "code": "1329",
-      "company_name": "Ｅ－ブラックロック",
-      "market_cap": 0,
-      "time": "10:00",
-      "title": "上場ETF（管理会社：ブラックロック・ジャパン）に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260903/140120260903530979.pdf"
-    },
-    {
-      "code": "1349",
-      "company_name": "Ｅ－ＳＳＧＡ－ＳＩＮ",
-      "market_cap": 0,
-      "time": "11:50",
-      "title": "アジア国債・公債ＥＴＦ（正式名称：ＡＢＦ汎アジア債券インデックス・ファンド）に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260903/140120260903531130.pdf"
-    },
-    {
-      "code": "1557",
-      "company_name": "Ｅ－ＳＳＧＡＴＣ",
-      "market_cap": 0,
-      "time": "12:10",
-      "title": "State Street SPDR S&P500 ETFに関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260903/140120260903531134.pdf"
-    },
-    {
-      "code": "1671",
-      "company_name": "Ｅ－シンプレクス",
-      "market_cap": 0,
-      "time": "10:00",
-      "title": "上場ＥＴＦ(管理会社：シンプレクス・アセット・マネジメント)に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260903/140120260903530935.pdf"
-    },
-    {
-      "code": "1672",
-      "company_name": "Ｅ－ＷｉｓｄｏｍＴｒ",
-      "market_cap": 0,
-      "time": "08:30",
-      "title": "上場ETF（管理会社：WisdomTree、外国投資法人：MSL）に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260903/140120260903530925.pdf"
-    },
-    {
-      "code": "1672",
-      "company_name": "Ｅ－ＷｉｓｄｏｍＴｒ",
-      "market_cap": 0,
-      "time": "08:30",
-      "title": "上場ETF（管理会社：WisdomTree、外国投資法人：CSL）に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260903/140120260903530926.pdf"
-    },
-    {
-      "code": "2070",
-      "company_name": "Ｎ－三菱ＵＦＪ証ＨＤ",
-      "market_cap": 0,
-      "time": "11:30",
-      "title": "上場ETN（発行者：三菱UFJ証券ホールディングス株式会社）に関する日々の開示事項",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260903/140120260903531036.pdf"
-    },
-    {
-      "code": "2245",
-      "company_name": "独債７－１０ヘッジ有",
-      "market_cap": 0,
-      "time": "10:00",
-      "title": "ETFの収益分配金見込額のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260903/140120260903530986.pdf"
-    },
-    {
-      "code": "2510",
-      "company_name": "ＮＦ国内債券",
-      "market_cap": 0,
-      "time": "10:00",
-      "title": "ETFの収益分配金見込額のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260903/140120260903530987.pdf"
-    },
-    {
-      "code": "2511",
-      "company_name": "ＮＦ外債ヘッジ無",
-      "market_cap": 0,
-      "time": "10:00",
-      "title": "ETFの収益分配金見込額のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260903/140120260903530988.pdf"
-    },
-    {
-      "code": "2512",
-      "company_name": "ＮＦ外債ヘッジ有",
-      "market_cap": 0,
-      "time": "10:00",
-      "title": "ETFの収益分配金見込額のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260903/140120260903530989.pdf"
-    },
-    {
-      "code": "2513",
-      "company_name": "ＮＦ外株ヘッジ無",
-      "market_cap": 0,
-      "time": "10:00",
-      "title": "ETFの収益分配金見込額のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260903/140120260903530990.pdf"
-    },
-    {
-      "code": "2514",
-      "company_name": "ＮＦ外株ヘッジ有",
-      "market_cap": 0,
-      "time": "10:00",
-      "title": "ETFの収益分配金見込額のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260903/140120260903530991.pdf"
-    },
-    {
-      "code": "2515",
-      "company_name": "ＮＦ外ＲＥＩＴヘ無",
-      "market_cap": 0,
-      "time": "10:00",
-      "title": "ETFの収益分配金見込額のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260903/140120260903530992.pdf"
-    },
-    {
-      "code": "2519",
-      "company_name": "ＮＦ新興国債券ヘ無",
-      "market_cap": 0,
-      "time": "10:00",
-      "title": "ETFの収益分配金見込額のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260903/140120260903530993.pdf"
-    },
-    {
-      "code": "2520",
-      "company_name": "ＮＦ新興国株式ヘ無",
-      "market_cap": 0,
-      "time": "10:00",
-      "title": "ETFの収益分配金見込額のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260903/140120260903530994.pdf"
-    },
-    {
-      "code": "2554",
-      "company_name": "ＮＦ米社債ヘ有",
-      "market_cap": 0,
-      "time": "10:00",
-      "title": "ETFの収益分配金見込額のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260903/140120260903530995.pdf"
-    },
-    {
-      "code": "2647",
-      "company_name": "米債７－１０ヘッジ無",
-      "market_cap": 0,
-      "time": "10:00",
-      "title": "ETFの収益分配金見込額のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260903/140120260903530996.pdf"
-    },
-    {
-      "code": "2648",
-      "company_name": "米債７－１０ヘッジ有",
-      "market_cap": 0,
-      "time": "10:00",
-      "title": "ETFの収益分配金見込額のお知らせ",
-      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260903/140120260903530997.pdf"
     }
   ],
   "tdnet_available": true
