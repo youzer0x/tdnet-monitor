@@ -108,6 +108,8 @@ tdnet-monitor/
 ├── docs/
 │   ├── index.html           # GitHub Pages（自動更新）
 │   └── data/                # 日次 JSON データ（直近90日ローリング保持）
+├── cache/
+│   └── jpx_excluded.json    # JPX 上場銘柄一覧から得た REIT/ETF 除外コード（取得失敗時のフォールバック。変化時のみ更新）
 ├── requirements.txt
 └── README.md
 ```
@@ -140,7 +142,7 @@ tdnet-monitor/
 
 ## 技術仕様
 
-- **REIT/ETF 除外**: JPX 上場銘柄一覧の「市場・商品区分」列から正確に判定（証券コード範囲は不使用）
+- **REIT/ETF 除外**: JPX 上場銘柄一覧（`data_j.xlsx`）の「市場・商品区分」列から正確に判定（証券コード範囲は不使用）。JPX から取得できない場合は前回取得分 `cache/jpx_excluded.json` を使う（2026-09-03 に JPX が .xls → .xlsx へ切り替え、旧 URL が 404 になり除外が無効化された教訓）
 - **時価総額**: J-Quants V2 API（`fins/summary` の `ShOutFY` × `equities/bars/daily` の `AdjC`、株式分割補正済）。Light プラン以上が必要。新規上場銘柄は Yahoo Finance JP からフォールバック取得
 - **休場日判定**: `jpholiday`（祝日）+ 土日 + 年末年始（12/31〜1/3）
 - **データ保持**: 開示日から **90日間のローリング保持**。91日以上経過した分は日次 JSON も Release 上の PDF も自動削除する（配信元 TDnet も約30日で消すため復元不可）。削除は毎営業日の実行で `cleanup_old_data`（JSON）と `pdf_archive.cleanup_expired_assets`（Release アセット）が同一 cutoff で実施。基準は実行日（JST）

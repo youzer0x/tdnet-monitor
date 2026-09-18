@@ -1,24 +1,28 @@
 """REIT / ETF のフィルタリング
 
-JPX が公開する上場銘柄一覧を取得し、
-「市場・商品区分」列から ETF/ETN/REIT/インフラファンド等を正確に判定する。
-証券コード範囲による近似判定は使用しない。
+JPX が公開する上場銘柄一覧を取得し、「市場・商品区分」列から
+ETF/ETN/REIT/インフラファンド等を正確に判定する。証券コード範囲による近似判定は使用しない。
 
-JPX は .xls 形式で公開しているため、CSV版を優先的に使用する。
-CSV が取得できない場合は xlrd で .xls を読み取る。
+配布形式は 2026-09-03 に .xls から .xlsx へ切り替わった（旧 URL の .xls/.csv は 404）。
+JPX 側の URL 変更・一時障害で取得できない間に除外が黙って無効化されるのを防ぐため、
+最後に取得できた除外コード集合を cache/jpx_excluded.json に保存し、取得失敗時はそれを使う。
+優先順: xlsx 取得 → キャッシュ → 空集合（除外なしで続行・WARNING）。
 """
 
+import json
+import os
+from datetime import date
+from io import BytesIO
+
 import requests
-import csv
-from io import StringIO
 
-# JPX 上場銘柄一覧（CSV版）
-JPX_CSV_URL = "https://www.jpx.co.jp/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_j.csv"
+# JPX 上場銘柄一覧（xlsx）。ページ: https://www.jpx.co.jp/markets/statistics-equities/misc/01.html
+JPX_XLSX_URL = "https://www.jpx.co.jp/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_j.xlsx"
 
-# Excel版のURL（フォールバック用）
-JPX_XLS_URL = "https://www.jpx.co.jp/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_j.xls"
+# 最後に取得できた除外コード集合（リポジトリにコミットして GitHub Actions でも使う）
+CACHE_PATH = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "cache", "jpx_excluded.json")
 
-# 除外キーワード
+# 除外キーワード（「市場・商品区分」列に含まれていれば除外）
 EXCLUDE_KEYWORDS = [
     "ETF", "ETN",
     "REIT", "不動産投資信託",
@@ -27,134 +31,133 @@ EXCLUDE_KEYWORDS = [
     "ベンチャーファンド",
 ]
 
+# ヘッダー検出に失敗した場合の列位置（現行 xlsx: 日付, コード, 銘柄名, 市場・商品区分, ...）
+_FALLBACK_CODE_COL = 1
+_FALLBACK_SEGMENT_COL = 3
 
-def _fetch_from_csv() -> set[str]:
-    """CSV版の上場銘柄一覧からREIT/ETFコードを取得"""
-    print(f"  Downloading JPX list (CSV): {JPX_CSV_URL}")
-    resp = requests.get(JPX_CSV_URL, timeout=60)
-    resp.raise_for_status()
 
-    # エンコーディング判定
-    for encoding in ["utf-8", "shift_jis", "cp932"]:
-        try:
-            text = resp.content.decode(encoding)
-            break
-        except UnicodeDecodeError:
-            continue
-    else:
-        raise RuntimeError("JPX CSV のデコードに失敗しました")
+def _norm_cell(value) -> str:
+    """セル値を文字列に正規化する（openpyxl は数値コードを int/float で返す）。"""
+    if value is None:
+        return ""
+    if isinstance(value, float):
+        return str(int(value)) if value.is_integer() else str(value)
+    return str(value).strip()
 
-    reader = csv.reader(StringIO(text))
-    header = next(reader)
 
-    # ヘッダーから列インデックスを特定
+def _parse_rows(header, rows) -> set[str]:
+    """ヘッダー行とデータ行から REIT/ETF 等の証券コード集合を返す（純粋関数）。
+
+    列は「コード」「市場・商品区分」を名前で探し、見つからなければ既定位置を使う。
+    """
     code_col = None
     segment_col = None
     for i, col_name in enumerate(header):
-        col_name = col_name.strip()
-        if "コード" in col_name and code_col is None:
+        name = _norm_cell(col_name)
+        if "コード" in name and code_col is None:
             code_col = i
-        if "市場・商品区分" in col_name or "市場商品区分" in col_name:
+        if "市場・商品区分" in name or "市場商品区分" in name:
             segment_col = i
-
     if code_col is None or segment_col is None:
-        print(f"  Warning: Header detection failed. Headers: {header[:6]}")
-        code_col = 0
-        segment_col = 2
+        print(f"  Warning: Header detection failed. Headers: {list(header)[:6]}")
+        code_col, segment_col = _FALLBACK_CODE_COL, _FALLBACK_SEGMENT_COL
 
     excluded: set[str] = set()
-    for row in reader:
-        if len(row) <= max(code_col, segment_col):
+    for row in rows:
+        if row is None or len(row) <= max(code_col, segment_col):
             continue
-        code = row[code_col].strip()
+        code = _norm_cell(row[code_col])
         code = code[:4] if len(code) >= 4 else code
         if not any(c.isdigit() for c in code):
             continue
-
-        segment = row[segment_col].strip()
+        segment = _norm_cell(row[segment_col])
         if any(kw in segment for kw in EXCLUDE_KEYWORDS):
             excluded.add(code)
-
     return excluded
 
 
-def _fetch_from_xls() -> set[str]:
-    """XLS版の上場銘柄一覧からREIT/ETFコードを取得（フォールバック）"""
-    try:
-        import xlrd
-    except ImportError:
-        raise RuntimeError(
-            "xlrd がインストールされていません。"
-            "pip install xlrd でインストールしてください。"
-        )
+def _fetch_from_xlsx(url: str = JPX_XLSX_URL) -> set[str]:
+    """JPX の xlsx をダウンロードして除外コード集合を返す（ネットワーク）。"""
+    import openpyxl  # 遅延インポート（テスト・オフライン解析で不要）
 
-    print(f"  Downloading JPX list (XLS): {JPX_XLS_URL}")
-    resp = requests.get(JPX_XLS_URL, timeout=60)
+    print(f"  Downloading JPX list (XLSX): {url}")
+    resp = requests.get(url, timeout=60)
     resp.raise_for_status()
 
-    wb = xlrd.open_workbook(file_contents=resp.content)
-    ws = wb.sheet_by_index(0)
-
-    # ヘッダー行を探す
-    code_col = None
-    segment_col = None
-    header_row = 0
-
-    for row_idx in range(min(5, ws.nrows)):
-        for col_idx in range(ws.ncols):
-            val = str(ws.cell_value(row_idx, col_idx)).strip()
-            if "コード" in val and code_col is None:
-                code_col = col_idx
-                header_row = row_idx
-            if "市場・商品区分" in val or "市場商品区分" in val:
-                segment_col = col_idx
-                header_row = row_idx
-
-    if code_col is None or segment_col is None:
-        code_col = 0
-        segment_col = 2
-        header_row = 0
-
-    excluded: set[str] = set()
-    for row_idx in range(header_row + 1, ws.nrows):
-        code_val = ws.cell_value(row_idx, code_col)
-        if isinstance(code_val, float):
-            code = str(int(code_val))
-        else:
-            code = str(code_val).strip()
-        code = code[:4] if len(code) >= 4 else code
-        if not any(c.isdigit() for c in code):
-            continue
-
-        segment = str(ws.cell_value(row_idx, segment_col)).strip()
-        if any(kw in segment for kw in EXCLUDE_KEYWORDS):
-            excluded.add(code)
-
-    return excluded
+    wb = openpyxl.load_workbook(BytesIO(resp.content), read_only=True, data_only=True)
+    try:
+        ws = wb.worksheets[0]
+        rows = ws.iter_rows(values_only=True)
+        header = next(rows, None)
+        if header is None:
+            raise RuntimeError("JPX xlsx にヘッダー行がありません")
+        return _parse_rows(header, rows)
+    finally:
+        wb.close()
 
 
-def get_excluded_codes() -> set[str]:
+def load_cache(path: str = CACHE_PATH) -> tuple[set[str], str | None]:
+    """キャッシュを読む。無ければ (set(), None)。"""
+    if not os.path.exists(path):
+        return set(), None
+    try:
+        with open(path, "r", encoding="utf-8") as f:
+            data = json.load(f)
+        codes = {str(c) for c in data.get("codes", [])}
+        return codes, data.get("fetched_at")
+    except (OSError, json.JSONDecodeError, AttributeError):
+        return set(), None
+
+
+def save_cache(codes: set[str], path: str = CACHE_PATH, today: date | None = None) -> bool:
+    """コード集合が前回と異なる時だけキャッシュを書き換える。書いたら True。
+
+    毎回書き換えると内容不変でも日次コミットが発生するため、変化時のみ更新する。
     """
-    REIT / ETF / ETN / インフラファンド 等の証券コードセットを返す。
-    CSV版を優先し、失敗時はXLS版にフォールバックする。
+    existing, _ = load_cache(path)
+    if existing == set(codes) and os.path.exists(path):
+        return False
+    os.makedirs(os.path.dirname(os.path.abspath(path)), exist_ok=True)
+    payload = {
+        "source": JPX_XLSX_URL,
+        "fetched_at": (today or date.today()).isoformat(),
+        "count": len(codes),
+        "codes": sorted(codes),
+    }
+    with open(path, "w", encoding="utf-8") as f:
+        json.dump(payload, f, ensure_ascii=False, indent=2)
+        f.write("\n")
+    return True
+
+
+def get_excluded_codes(
+    cache_path: str = CACHE_PATH,
+    fetch=_fetch_from_xlsx,
+    today: date | None = None,
+) -> set[str]:
+    """REIT / ETF / ETN / インフラファンド 等の証券コード集合を返す。
+
+    JPX から取得できればキャッシュを更新して返す。取得失敗（例外・空）ならキャッシュを使い、
+    キャッシュも無ければ空集合を返して除外なしで続行する（WARNING を出す）。
     """
     try:
-        excluded = _fetch_from_csv()
+        excluded = fetch()
         if excluded:
+            if save_cache(excluded, cache_path, today=today):
+                print(f"  JPX exclusion cache updated: {cache_path}")
             print(f"  Excluded codes (REIT/ETF/etc.): {len(excluded)} companies")
             return excluded
-        print("  CSV returned no results, trying XLS...")
+        print("  JPX list returned no excluded codes; falling back to cache...")
     except Exception as e:
-        print(f"  CSV fetch failed ({e}), trying XLS...")
+        print(f"  JPX fetch failed ({e}); falling back to cache...")
 
-    try:
-        excluded = _fetch_from_xls()
-        print(f"  Excluded codes (REIT/ETF/etc.): {len(excluded)} companies")
-        return excluded
-    except Exception as e:
-        print(f"  WARNING: XLS fetch also failed ({e})")
-        print("  Proceeding without REIT/ETF filtering.")
-        return set()
+    cached, fetched_at = load_cache(cache_path)
+    if cached:
+        print(f"  WARNING: using cached JPX exclusion list ({len(cached)} codes, fetched {fetched_at})")
+        return cached
+
+    print("  WARNING: no JPX list and no cache. Proceeding without REIT/ETF filtering.")
+    return set()
 
 
 def filter_disclosures(disclosures: list, excluded_codes: set[str]) -> list:

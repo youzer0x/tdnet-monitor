@@ -77,6 +77,7 @@ jobs:
           if [ -d "docs" ] && [ -n "$(ls -A docs/ 2>/dev/null)" ]; then
             git add --force docs/index.html
             git add --force docs/data/
+            git add cache/ 2>/dev/null || true
             git diff --cached --quiet || (git commit -m "Update disclosures $(date +%Y-%m-%d) [${RUN_MODE}]" && git push)
           else
             echo "No docs to commit (market closed or no disclosures)."
