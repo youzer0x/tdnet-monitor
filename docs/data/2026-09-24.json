@@ -1,7 +1,7 @@
 {
   "date": "2026-09-24",
-  "company_count": 108,
-  "total_count": 128,
+  "company_count": 116,
+  "total_count": 139,
   "items": [
     {
       "code": "9984",
@@ -44,6 +44,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260924/140120260916537070.pdf"
     },
     {
+      "code": "9107",
+      "company_name": "川崎船",
+      "market_cap": 20616.5,
+      "time": "18:00",
+      "title": "取締役の辞任に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260924/140120260916537393.pdf"
+    },
+    {
       "code": "1803",
       "company_name": "清水建",
       "market_cap": 16845.8,
@@ -74,6 +82,14 @@
       "time": "16:50",
       "title": "ユーロ円建転換社債(CB)発行及び自己株式取得に関する補足説明資料",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260924/140120260924539671.pdf"
+    },
+    {
+      "code": "1803",
+      "company_name": "清水建",
+      "market_cap": 15960.8,
+      "time": "23:30",
+      "title": "2031年満期ユーロ円建取得条項付転換社債型新株予約権付社債及び2033年満期ユーロ円建取得条項付転換社債型新株予約権付社債の発行条件等の決定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260924/140120260924539842.pdf"
     },
     {
       "code": "5201",
@@ -154,6 +170,14 @@
       "time": "15:45",
       "title": "古河電気工業株式会社による当社株式の売却に関する当社の見解",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260924/140120260924539441.pdf"
+    },
+    {
+      "code": "9449",
+      "company_name": "ＧＭＯ",
+      "market_cap": 3827.1,
+      "time": "18:31",
+      "title": "当社孫会社（タイにおけるデジタルアセット事業）の異動（株式譲渡）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260924/140120260924539658.pdf"
     },
     {
       "code": "4922",
@@ -298,6 +322,14 @@
       "time": "16:00",
       "title": "2027年３月期第２四半期（累計）業績予想の修正に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260924/140120260924539536.pdf"
+    },
+    {
+      "code": "5726",
+      "company_name": "大阪チタ",
+      "market_cap": 1054.7,
+      "time": "17:10",
+      "title": "第三者割当増資における発行株式数の確定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260924/140120260924539138.pdf"
     },
     {
       "code": "1948",
@@ -556,6 +588,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260924/140120260917538132.pdf"
     },
     {
+      "code": "4875",
+      "company_name": "メディシノバ",
+      "market_cap": 199.3,
+      "time": "19:00",
+      "title": "MN-166（イブジラスト）の筋萎縮性側索硬化症（ALS）を対象とするフェーズ2b/3臨床試験の二重盲検治療期間における最終患者最終来院完了に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260924/140120260918538942.pdf"
+    },
+    {
       "code": "6337",
       "company_name": "テセック",
       "market_cap": 198.9,
@@ -658,6 +698,22 @@
       "time": "15:30",
       "title": "2027年5月期 第1四半期決算短信〔日本基準〕（連結）",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260924/140120260918538541.pdf"
+    },
+    {
+      "code": "415A",
+      "company_name": "Ｇ－ＧＭＯＴＥ－ＨＤ",
+      "market_cap": 84.3,
+      "time": "17:01",
+      "title": "完全子会社間の合併に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260924/140120260924539308.pdf"
+    },
+    {
+      "code": "155A",
+      "company_name": "Ｇ－情報戦略",
+      "market_cap": 83.8,
+      "time": "17:30",
+      "title": "（訂正）「臨時株主総会招集のための基準日設定及び臨時株主総会の付議議案（取締役１名の解任）の決定並びに当社子会社代表取締役の解任に関するお知らせ」",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260924/140120260924539677.pdf"
     },
     {
       "code": "7682",
@@ -794,6 +850,14 @@
       "time": "16:00",
       "title": "設備投資に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260924/140120260924539533.pdf"
+    },
+    {
+      "code": "190A",
+      "company_name": "Ｇ－Ｃｈｏｒｄｉａ",
+      "market_cap": 54.1,
+      "time": "17:30",
+      "title": "Rogocekib初期拡大コホートの症例登録完了に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260924/140120260924539639.pdf"
     },
     {
       "code": "7357",
@@ -956,6 +1020,22 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260924/140120260924539665.pdf"
     },
     {
+      "code": "7477",
+      "company_name": "ムラキ",
+      "market_cap": 22.5,
+      "time": "21:30",
+      "title": "当社株式の大量買付行為への対応方針に関する株式会社イクヨおよびBlue Goats Capital株式会社による共同協調行為等の認定についてのお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260924/140120260924539804.pdf"
+    },
+    {
+      "code": "7477",
+      "company_name": "ムラキ",
+      "market_cap": 22.5,
+      "time": "21:30",
+      "title": "臨時株主総会招集のための基準日設定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260924/140120260924539590.pdf"
+    },
+    {
       "code": "4814",
       "company_name": "ネクストウェア",
       "market_cap": 21.6,
@@ -996,6 +1076,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260924/140120260924539427.pdf"
     },
     {
+      "code": "2667",
+      "company_name": "イメージワン",
+      "market_cap": 16.5,
+      "time": "17:15",
+      "title": "訴訟の提起方針の決定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260924/140120260924539641.pdf"
+    },
+    {
       "code": "3634",
       "company_name": "ソケッツ",
       "market_cap": 15.0,
@@ -1029,7 +1117,8 @@
     }
   ],
   "notified": {
-    "evening": true
+    "evening": true,
+    "night": true
   },
   "tdnet_available": true
 }
