@@ -21,7 +21,8 @@ TDnet 適時開示モニター。毎営業日 evening(17:05・cron-job.org 起�
 ## SOT（単一の真実源）との同期
 
 `market_cap_jquants.py` / `market_cap_yahoo.py` は、共有リポ **`market-scripts-common`** を
-単一の真実源とするベンダリング（時価総額算出方式の出自は本リポ）。`scripts/vendor.lock.json` に
+単一の真実源とするベンダリング（時価総額取得ロジックの出自は本リポ。v2.0.0 以降は J-Quants
+`equities/valuation` の `MktCap`＝自己株式控除後を使用）。`scripts/vendor.lock.json` に
 バージョン・sha256 が刻印され、CI の `python scripts/check_vendor.py` が不一致を検知して fail する。
 
 - **ベンダリング済みファイルは本リポで直接編集しない**。変更フロー：market-scripts-common 側の

@@ -1,11 +1,11 @@
 {
   "source": "market-scripts-common",
-  "version": "1.4.1",
-  "commit": "d4d05c3",
-  "synced_at": "2026-09-18",
+  "version": "2.0.0",
+  "commit": "2470e24",
+  "synced_at": "2026-09-24",
   "files": {
-    "market_cap_jquants.py": "a73feba022856c5a6d052544885ad3b3cdb48d1a429c0428ff6d25e4a349d84f",
-    "market_cap_yahoo.py": "dc3df53c0c6dfef0cc85abbec39dc0e5ac4edaba24351bcf155e15a50df5c588",
+    "market_cap_jquants.py": "e0d8e245d139da7f8ce4307aa7942125a3e6857017ae32002c79081ab1fad3bb",
+    "market_cap_yahoo.py": "7e46bd88f3cd88da5f9784e0564f4241975537550f567659635c96b851623538",
     "check_vendor.py": "9c23674c1339d9ea40bbca884a502168c796418c8a76429c6e5ca86c77be53e2"
   }
 }

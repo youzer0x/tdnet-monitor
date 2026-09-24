@@ -11,7 +11,7 @@ GitHub Actions (毎営業日 3回)
   ├─ 17:05 JST [evening] ─┬─ 休場日判定 → 休場なら終了                 ※ cron-job.org から起動
   │                        ├─ TDnet スクレイピング (00:00〜17:00)
   │                        ├─ JPX 上場銘柄リストで REIT/ETF 除外・J-Quants で東証本則のみに絞る
-  │                        ├─ 未記録の開示だけ J-Quants V2 API で時価総額計算（終値×発行済株式数、分割補正）
+  │                        ├─ 未記録の開示だけ J-Quants V2 API で時価総額取得（valuation の MktCap、自己株式控除後）
   │                        ├─ JSON 追記 → PDF を GitHub Releases へ退避 → GitHub Pages 更新
   │                        └─ Gmail 通知 (上位30件)
   │
@@ -150,7 +150,7 @@ tdnet-monitor/
 ## 技術仕様
 
 - **REIT/ETF 除外**: JPX 上場銘柄一覧（`data_j.xlsx`）の「市場・商品区分」列から正確に判定（証券コード範囲は不使用）。JPX から取得できない場合は前回取得分 `cache/jpx_excluded.json` を使う（2026-09-03 に JPX が .xls → .xlsx へ切り替え、旧 URL が 404 になり除外が無効化された教訓）
-- **時価総額**: J-Quants V2 API（`fins/summary` の `ShOutFY` × `equities/bars/daily` の `AdjC`、株式分割補正済）。Light プラン以上が必要。新規上場銘柄は Yahoo Finance JP からフォールバック取得
+- **時価総額**: J-Quants V2 API `equities/valuation` の `MktCap`（百万円→億円換算。当日終値 × **自己株式を控除した株式数**、分割・併合対応済。発行済株式数ベースより自己株式分だけ小さい）。Light プラン以上が必要。MktCap が無い新規上場銘柄（最初の決算短信前）は Yahoo Finance JP からフォールバック取得。共有スクリプト v2.0.0 導入（2026-09-24）より前に保存された日次 JSON は旧方式（`ShOutFY` × `AdjC`・分割補正、自己株式込み）の値のまま
 - **休場日判定**: `jpholiday`（祝日）+ 土日 + 年末年始（12/31〜1/3）
 - **データ保持**: 開示日から **90日間のローリング保持**。91日以上経過した分は日次 JSON も Release 上の PDF も自動削除する（配信元 TDnet も約30日で消すため復元不可）。削除は毎営業日の実行で `cleanup_old_data`（JSON）と `pdf_archive.cleanup_expired_assets`（Release アセット）が同一 cutoff で実施。基準は実行日（JST）
 - **PDF退避**: 配信元(TDnet `release.tdnet.info`)は PDF を約1か月しか保持しないため、毎回の実行で PDF を **GitHub Releases**（**1営業日=1リリース**、タグ `pdf-YYYYMMDD`、アセット名 `{TDnet ID}.pdf`）へ退避し、JSON のリンクを恒久URL（`https://github.com/<owner>/<repo>/releases/download/pdf-YYYYMMDD/<ID>.pdf`）へ書き換える。GitHub の上限は1リリース1000アセットのため、決算ピーク日（1日1000件超）は超過分を追加パート `pdf-YYYYMMDD-2`, `-3` … へ自動振り分け（1リリース900件未満）。退避は `gh` CLI で行い、Actions では `GH_TOKEN`(=`github.token`)、ローカルでは `gh auth login` 済みであることが必要。冪等（退避済みは再取得しない）。GitHub 側の一時障害（5xx・レート制限）は待って再試行し、それでも残った分は以後の実行が直近10日分の JSON を見直して再退避する。第三者アーカイブには依存しない
