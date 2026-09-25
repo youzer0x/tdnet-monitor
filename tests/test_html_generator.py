@@ -1,8 +1,10 @@
 """html_generator.py の書式・変換関数の単体テスト（純粋変換・ネット非接触）。"""
+import re
 from datetime import date
 
 from html_generator import (
     _format_market_cap, prepare_display_items, generate_email_html, DisplayItem,
+    generate_pages_html,
 )
 
 
@@ -58,3 +60,29 @@ def test_generate_email_html_respects_max_items():
 def test_generate_email_html_handles_empty():
     html = generate_email_html([], date(2026, 7, 3), "https://x/")
     assert isinstance(html, str) and len(html) > 0
+
+
+# ── generate_pages_html（ナイトモード）──────────────────────────
+def _dark_block(html):
+    """prefers-color-scheme: dark の @media 内 :root 宣言を取り出す。"""
+    m = re.search(r"@media \(prefers-color-scheme: dark\)\s*\{\s*:root\s*\{([^}]*)\}", html)
+    assert m, "ダーク用の @media :root ブロックが無い"
+    return m.group(1)
+
+
+def test_generate_pages_html_declares_color_scheme():
+    html = generate_pages_html([])
+    assert '<meta name="color-scheme" content="light dark">' in html
+    assert "color-scheme: light dark;" in html
+
+
+def test_generate_pages_html_dark_overrides_core_tokens():
+    block = _dark_block(generate_pages_html([]))
+    for token in ("--bg:", "--card:", "--text:", "--text-sub:", "--border:", "--link:"):
+        assert token in block, token
+
+
+def test_generate_pages_html_keeps_core_elements():
+    html = generate_pages_html(["2026-07-03"])
+    assert 'id="dateSelect"' in html
+    assert "data/manifest.json" in html

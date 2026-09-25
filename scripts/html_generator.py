@@ -167,20 +167,55 @@ def generate_pages_html(available_dates: list[str]) -> str:
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="color-scheme" content="light dark">
+  <meta name="theme-color" content="#1a237e" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0d1442" media="(prefers-color-scheme: dark)">
   <title>適時開示モニター</title>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
   <style>
     :root {
+      color-scheme: light dark;
       --bg: #f0f2f5;
       --card: #ffffff;
       --primary: #1a237e;
       --primary-light: #3949ab;
+      --header-from: #1a237e;
+      --header-to: #3949ab;
       --accent: #ff6d00;
       --text: #263238;
       --text-sub: #78909c;
       --border: #e0e4e8;
       --hover: #f5f7ff;
+      --thead-bg: #f8f9fc;
+      --link: #3949ab;
+      --emph: #1a237e;
+      --visited: #b0b8c0;
+      --visited-hover: #90979e;
+      --muted: #9aa0a6;
       --shadow: 0 2px 8px rgba(0,0,0,0.06);
+    }
+    /* ナイトモード（OS/ブラウザのダーク設定に追従） */
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --bg: #121418;
+        --card: #1c1f26;
+        --primary: #3949ab;
+        --primary-light: #7986cb;
+        --header-from: #0d1442;
+        --header-to: #1a237e;
+        --accent: #ffab40;
+        --text: #e3e6ea;
+        --text-sub: #9aa5b1;
+        --border: #2c313a;
+        --hover: #262c3a;
+        --thead-bg: #22262e;
+        --link: #8c9eff;
+        --emph: #9fa8da;
+        --visited: #6b7480;
+        --visited-hover: #8a939e;
+        --muted: #6b7480;
+        --shadow: 0 2px 8px rgba(0,0,0,0.4);
+      }
     }
     * { margin:0; padding:0; box-sizing:border-box; }
     body {
@@ -191,7 +226,7 @@ def generate_pages_html(available_dates: list[str]) -> str:
 
     /* ヘッダー */
     .header {
-      background: linear-gradient(135deg, var(--primary) 0%, var(--primary-light) 100%);
+      background: linear-gradient(135deg, var(--header-from) 0%, var(--header-to) 100%);
       color: #fff; padding: 28px 32px 20px;
     }
     .header-inner {
@@ -244,7 +279,7 @@ def generate_pages_html(available_dates: list[str]) -> str:
     }
     .summary-chip .num {
       font-family: 'JetBrains Mono', monospace;
-      font-weight: 700; font-size: 16px; color: var(--primary);
+      font-weight: 700; font-size: 16px; color: var(--emph);
     }
 
     /* メインカード */
@@ -263,6 +298,7 @@ def generate_pages_html(available_dates: list[str]) -> str:
       padding: 7px 14px; border: 1px solid var(--border);
       border-radius: 6px; font-size: 13px; width: 280px;
       font-family: 'Noto Sans JP', sans-serif;
+      background: var(--card); color: var(--text);
       transition: border-color 0.2s;
     }
     .toolbar input[type="text"]:focus {
@@ -302,7 +338,7 @@ def generate_pages_html(available_dates: list[str]) -> str:
     table { width: 100%; border-collapse: collapse; font-size: 13px; }
     thead th {
       padding: 10px 14px; text-align: left;
-      background: #f8f9fc; border-bottom: 2px solid var(--primary);
+      background: var(--thead-bg); border-bottom: 2px solid var(--primary);
       font-weight: 500; font-size: 12px; color: var(--text-sub);
       text-transform: uppercase; letter-spacing: 0.05em;
       position: sticky; top: 0; z-index: 1;
@@ -328,16 +364,16 @@ def generate_pages_html(available_dates: list[str]) -> str:
       white-space: nowrap; color: var(--text-sub);
     }
     .title-cell a {
-      color: var(--primary-light); text-decoration: none;
+      color: var(--link); text-decoration: none;
       transition: color 0.15s;
     }
     .title-cell a:hover { color: var(--accent); text-decoration: underline; }
     .title-cell a.visited {
-      color: #b0b8c0;
+      color: var(--visited);
     }
-    .title-cell a.visited:hover { color: #90979e; }
+    .title-cell a.visited:hover { color: var(--visited-hover); }
     .pdf-expired {
-      color: #9aa0a6; font-size: 0.8em; margin-left: 6px; white-space: nowrap;
+      color: var(--muted); font-size: 0.8em; margin-left: 6px; white-space: nowrap;
     }
 
     /* ページネーション */
