@@ -141,6 +141,7 @@ tdnet-monitor/
 | メールが届かない | Secrets の値を再確認。アプリパスワードにスペースが入っていないか確認 |
 | 夕方のメールが来なかった | cron-job.org 側で起動しなかった可能性。深夜の実行が日中分を補完し、件名「夕方分を補完」で届く（上位30件）。Actions タブで evening の実行有無を確認 |
 | 深夜のメールが来なかった | 1回目（00:10）が失敗しても予備（05:30）が送る。両方来ない場合は Actions の失敗ログを確認。JSON の `notified.night` が無いまま `pending_notify` が残っていれば `Run workflow`（night）で再送できる |
+| 件名に「⚠テスト失敗」が付いた | 実行前の pytest（`Pre-run tests` ステップ）が失敗した。配信はいつも通り行われている。Actions のログで失敗したテストを確認し、依存ライブラリの新バージョンが原因なら `requirements.txt` で上限を指定する |
 | Pages が表示されない | Settings → Pages で Branch: main / Folder: /docs を確認 |
 | 時価総額が「—」 | `JQUANTS_API_KEY` 未設定、または Light 未満のプラン (Free は12週間遅延で当日値なし)。新規上場銘柄は Yahoo Finance JP 側も失敗した場合に発生 |
 | PDFリンクが404 | 配信元(TDnet)は約1か月でPDFを削除する。当日分は自動で GitHub Releases へ退避するため**90日間は**開ける。退避前に配信元から消えた分は一覧上で「(公開終了)」と表示。90日を超えた分は JSON ごと削除され一覧からも消える（復元不可） |

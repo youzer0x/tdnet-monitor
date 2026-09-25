@@ -60,6 +60,16 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
+      - name: Pre-run tests
+        # 配信前テストゲート（警告のみ）: 失敗しても配信は止めず、main.py がメール件名に「⚠テスト失敗」を付ける。
+        # push CI（tests.yml）では拾えない、実行時に入る依存ライブラリの新バージョンによる不具合を検知する。
+        id: pytest
+        continue-on-error: true
+        timeout-minutes: 5
+        run: |
+          pip install -r requirements-dev.txt
+          python -m pytest
+
       - name: Determine run mode
         run: |
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
@@ -85,6 +95,7 @@ jobs:
           TARGET_DATE: ${{ github.event.inputs.target_date }}
           # 適時開示PDFを GitHub Releases へ退避するため gh の認証に使う
           GH_TOKEN: ${{ github.token }}
+          PYTEST_OUTCOME: ${{ steps.pytest.outcome }}
         run: python main.py
 
       - name: Commit and push GitHub Pages

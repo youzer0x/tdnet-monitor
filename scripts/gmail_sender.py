@@ -7,7 +7,13 @@ from email.mime.multipart import MIMEMultipart
 from datetime import date
 
 
-def send_gmail(html_body: str, target_date: date, subject_suffix: str = "") -> None:
+def build_subject(target_date: date, subject_suffix: str = "", subject_prefix: str = "") -> str:
+    """メール件名を組み立てる（純粋関数）。"""
+    return f"{subject_prefix}【適時開示】{target_date:%Y/%m/%d} の開示情報{subject_suffix}"
+
+
+def send_gmail(html_body: str, target_date: date, subject_suffix: str = "",
+               subject_prefix: str = "") -> None:
     """Gmail でHTML形式のメールを送信する"""
     sender = os.environ["GMAIL_ADDRESS"]
     password = os.environ["GMAIL_APP_PASSWORD"]
@@ -16,7 +22,7 @@ def send_gmail(html_body: str, target_date: date, subject_suffix: str = "") -> N
     date_str = target_date.strftime("%Y/%m/%d")
 
     msg = MIMEMultipart("alternative")
-    msg["Subject"] = f"【適時開示】{date_str} の開示情報{subject_suffix}"
+    msg["Subject"] = build_subject(target_date, subject_suffix, subject_prefix)
     msg["From"] = sender
     msg["To"] = recipient
 

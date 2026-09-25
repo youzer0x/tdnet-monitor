@@ -354,6 +354,14 @@ def apply_notification(data: dict, decision: NotifyDecision) -> dict:
     return data
 
 
+def gate_warning_prefix(outcome: str | None) -> str:
+    """配信前テストゲート（daily_monitor.yml の pytest ステップ）の結果から件名の接頭辞を決める。
+
+    テストが落ちても配信は止めない。件名で知らせるだけ（outcome は steps.<id>.outcome）。
+    """
+    return "⚠テスト失敗 " if outcome == "failure" else ""
+
+
 # ── メイン ──────────────────────────────────────────────────
 
 def main():
@@ -506,7 +514,11 @@ def main():
             subject_suffix=decision.subject_suffix,
         )
         from gmail_sender import send_gmail
-        send_gmail(email_html, target_date, subject_suffix=decision.subject_suffix)
+        prefix = gate_warning_prefix(os.environ.get("PYTEST_OUTCOME"))
+        send_gmail(email_html, target_date, subject_suffix=decision.subject_suffix,
+                   subject_prefix=prefix)
+        if prefix:
+            print("  WARNING: pre-run tests failed; subject flagged")
         print(f"  Notified {len(email_items)} items"
               f"{f' (top {decision.max_items} shown)' if decision.max_items else ''}"
               f"{decision.subject_suffix}")

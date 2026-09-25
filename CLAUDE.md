@@ -39,5 +39,6 @@ CI: `.github/workflows/tests.yml` が push 時（`scripts/`・`tests/`・`requir
 自動で `python -m pytest` を回す。**日次運用ジョブ（`daily_monitor.yml`）とは独立**で、
 docs/data への bot コミットでは走らない。
 
-> 配信前テストゲート（`daily_monitor.yml` の実行前に pytest を挟む案）は未導入。push CI
-> （2026-07-04 運用開始）で偽陽性が無いことを確認してから追加する方針。
+配信前テストゲート: `daily_monitor.yml` も `main.py` の前に `python -m pytest` を回す（警告のみ）。
+失敗しても配信は止めず、メール件名の先頭に「⚠テスト失敗」が付く（`PYTEST_OUTCOME` → `gate_warning_prefix`）。
+push CI では拾えない、実行時に入る依存ライブラリの新バージョン（`>=` 指定）による不具合の検知が目的。

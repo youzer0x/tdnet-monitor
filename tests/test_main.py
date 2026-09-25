@@ -333,3 +333,14 @@ def test_backup_night_run_resends_when_first_run_saved_but_did_not_notify():
     data = _data(["7203"], {"evening": True})
     d = main.select_notification(data, "night", True)
     assert d.action == "send" and [r["code"] for r in d.items] == ["7203"]
+
+
+@pytest.mark.parametrize("outcome, expected", [
+    ("failure", "⚠テスト失敗 "),
+    ("success", ""),
+    ("skipped", ""),
+    (None, ""),   # ローカル実行・手動実行で PYTEST_OUTCOME 未設定
+    ("", ""),
+])
+def test_gate_warning_prefix_only_on_failure(outcome, expected):
+    assert main.gate_warning_prefix(outcome) == expected
