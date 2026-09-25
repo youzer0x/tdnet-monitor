@@ -20,7 +20,7 @@ TDnet 適時開示モニター。毎営業日 evening(17:05・cron-job.org 起�
 
 ## SOT（単一の真実源）との同期
 
-`market_cap_jquants.py` / `market_cap_yahoo.py` は、共有リポ **`market-scripts-common`** を
+`market_cap_jquants.py` / `market_cap_yahoo.py` / `check_vendor.py` は、共有リポ **`market-scripts-common`** を
 単一の真実源とするベンダリング（時価総額取得ロジックの出自は本リポ。v2.0.0 以降は J-Quants
 `equities/valuation` の `MktCap`＝自己株式控除後を使用）。`scripts/vendor.lock.json` に
 バージョン・sha256 が刻印され、CI の `python scripts/check_vendor.py` が不一致を検知して fail する。
@@ -35,9 +35,9 @@ python -m pip install -r requirements-dev.txt   # 初回のみ
 python -m pytest                                 # 全テスト（数秒・オフラインで完結）
 ```
 
-CI: `.github/workflows/tests.yml` が push 時（`scripts/`・`tests/`・`requirements*` 変更時）に
+CI: `.github/workflows/tests.yml` が push 時（`scripts/`・`tests/`・`requirements*`・`pytest.ini`・`tests.yml` 自身の変更時）に
 自動で `python -m pytest` を回す。**日次運用ジョブ（`daily_monitor.yml`）とは独立**で、
 docs/data への bot コミットでは走らない。
 
-> 配信前テストゲート（`daily_monitor.yml` の実行前に pytest を挟む案）は、push CI を
-> 1〜2週間運用して偽陽性が無いことを確認してから追加する方針（未導入）。
+> 配信前テストゲート（`daily_monitor.yml` の実行前に pytest を挟む案）は未導入。push CI
+> （2026-07-04 運用開始）で偽陽性が無いことを確認してから追加する方針。
