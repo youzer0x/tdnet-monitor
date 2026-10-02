@@ -1,7 +1,7 @@
 {
   "date": "2026-10-02",
-  "company_count": 131,
-  "total_count": 159,
+  "company_count": 136,
+  "total_count": 169,
   "items": [
     {
       "code": "6501",
@@ -26,6 +26,14 @@
       "time": "15:30",
       "title": "自己株式の取得状況に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261002/140120261002545393.pdf"
+    },
+    {
+      "code": "6723",
+      "company_name": "ルネサス",
+      "market_cap": 65332.7,
+      "time": "17:30",
+      "title": "（開示事項の経過）特定子会社の異動（米国での子会社設立）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261002/140120261002545124.pdf"
     },
     {
       "code": "4578",
@@ -218,6 +226,14 @@
       "time": "11:00",
       "title": "（開示事項の経過）Fundare社の全持分取得に伴う タイトオイル・ガス資産の取得完了について",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261002/140120261001544581.pdf"
+    },
+    {
+      "code": "6141",
+      "company_name": "ＤＭＧ森精機",
+      "market_cap": 4438.8,
+      "time": "19:15",
+      "title": "ドミネーション・アグリーメントに係る裁判終結に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261002/140120261002545529.pdf"
     },
     {
       "code": "9006",
@@ -466,6 +482,14 @@
       "time": "15:00",
       "title": "2027年２月期９月度売上高速報についてのお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261002/140120261002545250.pdf"
+    },
+    {
+      "code": "7611",
+      "company_name": "ハイデ日高",
+      "market_cap": 1069.7,
+      "time": "17:25",
+      "title": "自己株式の取得および自己株式立会外買付取引（ToSTNeT‐３）による 自己株式の買付けに関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261002/140120261002545503.pdf"
     },
     {
       "code": "6349",
@@ -876,6 +900,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261002/140120261002545261.pdf"
     },
     {
+      "code": "3189",
+      "company_name": "ＡＮＡＰ",
+      "market_cap": 112.9,
+      "time": "17:10",
+      "title": "（訂正）「（開示事項の経過）第三者割当による新株式、第11回新株予約権及び第12回新株予約権並びにＡ種種類株式の発行に係る払込完了に関するお知らせ」",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261002/140120261002545302.pdf"
+    },
+    {
       "code": "3675",
       "company_name": "クロスマーケティング",
       "market_cap": 109.0,
@@ -898,6 +930,14 @@
       "time": "13:00",
       "title": "当社連結子会社と株式会社シーイーシーとのGPU データセンター事業に関する包括的基本合意書締結に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261002/140120261002545265.pdf"
+    },
+    {
+      "code": "3083",
+      "company_name": "スターシーズ",
+      "market_cap": 101.6,
+      "time": "18:00",
+      "title": "主要株主の異動に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261002/140120261002545542.pdf"
     },
     {
       "code": "5967",
@@ -1188,6 +1228,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261002/140120261002545152.pdf"
     },
     {
+      "code": "9760",
+      "company_name": "進学会ＨＤ",
+      "market_cap": 19.5,
+      "time": "17:30",
+      "title": "連結子会社の保有する有価証券の評価損発生に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261002/140120261002545019.pdf"
+    },
+    {
       "code": "6573",
       "company_name": "Ｇ－ＣＲＡＶＩＡ",
       "market_cap": 18.7,
@@ -1218,6 +1266,38 @@
       "time": "17:00",
       "title": "株式会社ベルウッドグループとの合弁会社の設立に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261002/140120260916537405.pdf"
+    },
+    {
+      "code": "2345",
+      "company_name": "ＨＯＤＬ１",
+      "market_cap": 17.6,
+      "time": "18:35",
+      "title": "臨時株主総会に係る基準日設定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261002/140120261002545495.pdf"
+    },
+    {
+      "code": "9444",
+      "company_name": "トーシンＨＤ",
+      "market_cap": 17.3,
+      "time": "17:10",
+      "title": "更生計画案に定める第三者割当による種類株式、普通株式及び新株予約権の発行、定款の一部変更並びに主要株主の異動可能性に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261002/140120261002545494.pdf"
+    },
+    {
+      "code": "9444",
+      "company_name": "トーシンＨＤ",
+      "market_cap": 17.3,
+      "time": "17:10",
+      "title": "資本金及び資本準備金の額の減少に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261002/140120261002545501.pdf"
+    },
+    {
+      "code": "9444",
+      "company_name": "トーシンＨＤ",
+      "market_cap": 17.3,
+      "time": "17:10",
+      "title": "更生計画案の開示について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261002/140120261002545504.pdf"
     },
     {
       "code": "2778",
@@ -1277,7 +1357,8 @@
     }
   ],
   "notified": {
-    "evening": true
+    "evening": true,
+    "night": true
   },
   "tdnet_available": true
 }
