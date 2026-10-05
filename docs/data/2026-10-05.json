@@ -1,7 +1,7 @@
 {
   "date": "2026-10-05",
-  "company_count": 136,
-  "total_count": 154,
+  "company_count": 143,
+  "total_count": 166,
   "items": [
     {
       "code": "7203",
@@ -204,6 +204,38 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261005/140120261005545987.pdf"
     },
     {
+      "code": "3350",
+      "company_name": "メタプラネット",
+      "market_cap": 4051.8,
+      "time": "18:45",
+      "title": "ネット・インタレスト・インカム戦略の導入に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261005/140120261005546228.pdf"
+    },
+    {
+      "code": "3350",
+      "company_name": "メタプラネット",
+      "market_cap": 4051.8,
+      "time": "18:45",
+      "title": "ビットコイン・インカム事業の2026年12月期第３四半期業績に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261005/140120261005546230.pdf"
+    },
+    {
+      "code": "3350",
+      "company_name": "メタプラネット",
+      "market_cap": 4051.8,
+      "time": "18:45",
+      "title": "キャピタル・アロケーション・ポリシー（資本配分方針）の再改定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261005/140120261005546266.pdf"
+    },
+    {
+      "code": "3350",
+      "company_name": "メタプラネット",
+      "market_cap": 4051.8,
+      "time": "18:45",
+      "title": "ビットコインの追加購入に関するお知らせ（流動性の実証を目的としたビットコインの売却・再取得の実施を含む）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261005/140120261005546273.pdf"
+    },
+    {
       "code": "9449",
       "company_name": "ＧＭＯ",
       "market_cap": 3856.4,
@@ -258,6 +290,14 @@
       "time": "15:30",
       "title": "2026年11月期 第３四半期決算短信〔日本基準〕(連結)",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261005/140120261002545461.pdf"
+    },
+    {
+      "code": "3097",
+      "company_name": "物語コーポ",
+      "market_cap": 2131.2,
+      "time": "17:05",
+      "title": "当社『焼肉きんぐ』公式アプリ会員管理システムへの第三者からの不正アクセスによる個人情報漏えいに関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261005/140120261005546223.pdf"
     },
     {
       "code": "3148",
@@ -532,6 +572,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261005/140120261005546098.pdf"
     },
     {
+      "code": "247A",
+      "company_name": "Ｇ－Ａｉロボティクス",
+      "market_cap": 600.3,
+      "time": "17:30",
+      "title": "（開示事項の経過）ＢＪＣ株式取得資金の長期借入金への借換え及び財務上の特約付金銭消費貸借契約の締結に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261005/140120261002545423.pdf"
+    },
+    {
       "code": "8200",
       "company_name": "リンガーハット",
       "market_cap": 591.4,
@@ -546,6 +594,30 @@
       "time": "15:30",
       "title": "自己株式の取得状況に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261005/140120261005545695.pdf"
+    },
+    {
+      "code": "4390",
+      "company_name": "ｉｐｓ",
+      "market_cap": 519.8,
+      "time": "17:05",
+      "title": "新株式発行及び株式売出しに関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261005/140120261002545589.pdf"
+    },
+    {
+      "code": "4390",
+      "company_name": "ｉｐｓ",
+      "market_cap": 519.8,
+      "time": "17:05",
+      "title": "2027年３月期第１四半期決算短信〔日本基準〕（連結）（公認会計士等による期中レビューの完了）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261005/140120261002545592.pdf"
+    },
+    {
+      "code": "4390",
+      "company_name": "ｉｐｓ",
+      "market_cap": 519.8,
+      "time": "17:05",
+      "title": "国内公募増資に関する補足説明資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261005/140120261002545585.pdf"
     },
     {
       "code": "4092",
@@ -730,6 +802,14 @@
       "time": "15:30",
       "title": "2027年３月期９月度売上推移速報に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261005/140120261004545609.pdf"
+    },
+    {
+      "code": "9251",
+      "company_name": "Ｇ－ＡＢ＆Ｃ",
+      "market_cap": 217.1,
+      "time": "19:00",
+      "title": "国内店舗月次営業速報（2026年９月）のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261005/140120261005545989.pdf"
     },
     {
       "code": "2970",
@@ -1084,6 +1164,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261005/140120261005546147.pdf"
     },
     {
+      "code": "3070",
+      "company_name": "Ｇ－ジェリービーンズ",
+      "market_cap": 37.4,
+      "time": "17:45",
+      "title": "子会社による仲裁申立てに関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261005/140120261005546236.pdf"
+    },
+    {
       "code": "2330",
       "company_name": "フォーサイド",
       "market_cap": 37.0,
@@ -1228,6 +1316,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261005/140120261005545812.pdf"
     },
     {
+      "code": "2345",
+      "company_name": "ＨＯＤＬ１",
+      "market_cap": 17.5,
+      "time": "17:45",
+      "title": "暗号資産（イーサリアム）保有状況に関するお知らせ（2026年9月末時点）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261005/140120261005546240.pdf"
+    },
+    {
       "code": "6731",
       "company_name": "ピクセラ",
       "market_cap": 16.1,
@@ -1237,7 +1333,8 @@
     }
   ],
   "notified": {
-    "evening": true
+    "evening": true,
+    "night": true
   },
   "tdnet_available": true
 }
