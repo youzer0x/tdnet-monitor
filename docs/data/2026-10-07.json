@@ -1,7 +1,7 @@
 {
   "date": "2026-10-07",
-  "company_count": 78,
-  "total_count": 99,
+  "company_count": 81,
+  "total_count": 102,
   "items": [
     {
       "code": "6981",
@@ -140,6 +140,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261007/140120261007547071.pdf"
     },
     {
+      "code": "6890",
+      "company_name": "フェローテック",
+      "market_cap": 6557.1,
+      "time": "17:30",
+      "title": "TOPIX（東証株価指数）構成銘柄への新規採用に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261007/140120261006546922.pdf"
+    },
+    {
       "code": "7211",
       "company_name": "三菱自",
       "market_cap": 4577.9,
@@ -274,6 +282,14 @@
       "time": "15:00",
       "title": "自己株式の取得状況に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261007/140120261007547074.pdf"
+    },
+    {
+      "code": "3763",
+      "company_name": "プロシップ",
+      "market_cap": 529.1,
+      "time": "17:10",
+      "title": "当社主要株主による株式売却に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261007/140120261007547324.pdf"
     },
     {
       "code": "9639",
@@ -716,6 +732,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261007/140120261006546788.pdf"
     },
     {
+      "code": "5987",
+      "company_name": "オーネックス",
+      "market_cap": 31.3,
+      "time": "18:30",
+      "title": "第三者割当による新株式の失権、第１回新株予約権の発行の払込完了並びに主要株主の異動の取り消しに関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261007/140120261007547549.pdf"
+    },
+    {
       "code": "4920",
       "company_name": "日本色材",
       "market_cap": 24.3,
@@ -797,7 +821,8 @@
     }
   ],
   "notified": {
-    "evening": true
+    "evening": true,
+    "night": true
   },
   "tdnet_available": true
 }
