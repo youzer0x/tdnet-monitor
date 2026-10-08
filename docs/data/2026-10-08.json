@@ -1,7 +1,7 @@
 {
   "date": "2026-10-08",
-  "company_count": 96,
-  "total_count": 143,
+  "company_count": 102,
+  "total_count": 152,
   "items": [
     {
       "code": "9983",
@@ -162,6 +162,22 @@
       "time": "11:30",
       "title": "第47期（2027年３月期）９月の売上の状況に関するお知らせ（速報）",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261008/140120261008547580.pdf"
+    },
+    {
+      "code": "3107",
+      "company_name": "ダイワボＨＤ",
+      "market_cap": 3039.5,
+      "time": "18:40",
+      "title": "自己株式の取得状況および取得終了に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261008/140120261008548183.pdf"
+    },
+    {
+      "code": "3107",
+      "company_name": "ダイワボＨＤ",
+      "market_cap": 3039.5,
+      "time": "18:40",
+      "title": "自己株式の消却株式数に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261008/140120261008548185.pdf"
     },
     {
       "code": "9861",
@@ -540,6 +556,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261008/140120261008547753.pdf"
     },
     {
+      "code": "4345",
+      "company_name": "シーティーエス",
+      "market_cap": 332.1,
+      "time": "17:15",
+      "title": "自己株式の取得状況に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261008/140120261008548103.pdf"
+    },
+    {
       "code": "5484",
       "company_name": "東北鋼",
       "market_cap": 331.3,
@@ -570,6 +594,14 @@
       "time": "15:30",
       "title": "2027年２月期第２四半期（中間期）連結業績予想と実績値との差異に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261008/140120261006546901.pdf"
+    },
+    {
+      "code": "4763",
+      "company_name": "Ｃ＆Ｒ社",
+      "market_cap": 316.6,
+      "time": "18:25",
+      "title": "2027年２月期 第２四半期（中間期） 決算説明会資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261008/140120261006546880.pdf"
     },
     {
       "code": "7814",
@@ -756,6 +788,22 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261008/140120260929541936.pdf"
     },
     {
+      "code": "2998",
+      "company_name": "Ｇ－クリアル",
+      "market_cap": 156.3,
+      "time": "18:40",
+      "title": "信託受益権（販売用不動産）の売却に関するお知らせ（Garner Hotel 大阪本町御堂筋）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261008/140120261007547200.pdf"
+    },
+    {
+      "code": "2998",
+      "company_name": "Ｇ－クリアル",
+      "market_cap": 156.3,
+      "time": "18:40",
+      "title": "借入金の期限前返済に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261008/140120261008547730.pdf"
+    },
+    {
       "code": "3834",
       "company_name": "朝日ネット",
       "market_cap": 151.3,
@@ -810,6 +858,14 @@
       "time": "15:30",
       "title": "自己株式の取得状況に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261008/140120261008547760.pdf"
+    },
+    {
+      "code": "6082",
+      "company_name": "ライドオンＥＸＨＤ",
+      "market_cap": 96.1,
+      "time": "18:30",
+      "title": "当社連結子会社におけるシステム障害発生に関するお知らせ（第１報）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261008/140120261008548127.pdf"
     },
     {
       "code": "2303",
@@ -874,6 +930,14 @@
       "time": "15:30",
       "title": "2026年12月期第３四半期決算短信〔日本基準〕(連結)",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261008/140120261006546386.pdf"
+    },
+    {
+      "code": "7091",
+      "company_name": "Ｇ－ＬＰＦ",
+      "market_cap": 51.7,
+      "time": "18:30",
+      "title": "連結子会社における会社分割（吸収分割）による事業の承継に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261008/140120261008548190.pdf"
     },
     {
       "code": "4728",
@@ -986,6 +1050,14 @@
       "time": "15:30",
       "title": "（開示事項の経過）宅地建物取引業免許の取消処分に伴う監査等委員である取締役の辞任に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261008/140120261008548032.pdf"
+    },
+    {
+      "code": "9073",
+      "company_name": "京極運輸",
+      "market_cap": 35.1,
+      "time": "18:00",
+      "title": "臨時株主総会招集のための基準日設定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261008/140120261008547792.pdf"
     },
     {
       "code": "5820",
@@ -1149,7 +1221,8 @@
     }
   ],
   "notified": {
-    "evening": true
+    "evening": true,
+    "night": true
   },
   "tdnet_available": true
 }
