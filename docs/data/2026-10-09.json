@@ -1,7 +1,7 @@
 {
   "date": "2026-10-09",
-  "company_count": 148,
-  "total_count": 235,
+  "company_count": 157,
+  "total_count": 246,
   "items": [
     {
       "code": "9984",
@@ -10,6 +10,14 @@
       "time": "15:30",
       "title": "2021年発行ユーロ建普通社債の期限前償還に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261009/140120261009548411.pdf"
+    },
+    {
+      "code": "7741",
+      "company_name": "ＨＯＹＡ",
+      "market_cap": 83813.6,
+      "time": "18:15",
+      "title": "子会社等の異動（株式譲渡）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261009/140120261009548466.pdf"
     },
     {
       "code": "9503",
@@ -114,6 +122,14 @@
       "time": "15:30",
       "title": "2026年9月度 月次売上高速報(小売)",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261009/140120261009548407.pdf"
+    },
+    {
+      "code": "4681",
+      "company_name": "リゾートトラ",
+      "market_cap": 3693.1,
+      "time": "17:30",
+      "title": "当社ウェブサイトへの一部不正アクセスによる 個人情報漏洩に関するお詫びとご報告",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261009/140120261009548970.pdf"
     },
     {
       "code": "8570",
@@ -274,6 +290,14 @@
       "time": "15:30",
       "title": "剰余金の配当に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261009/140120261008548240.pdf"
+    },
+    {
+      "code": "6523",
+      "company_name": "ＰＨＣＨＤ",
+      "market_cap": 2016.0,
+      "time": "17:30",
+      "title": "当社に関する一部報道に関するその後の状況について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261009/140120261009548779.pdf"
     },
     {
       "code": "7981",
@@ -892,6 +916,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261009/140120261008548224.pdf"
     },
     {
+      "code": "9556",
+      "company_name": "Ｇ－ＩＮＴＬＯＯＰ",
+      "market_cap": 220.2,
+      "time": "19:30",
+      "title": "（訂正・数値データ訂正）「2026年７月期 決算短信〔日本基準〕(連結)」の一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261009/140120261009549004.pdf"
+    },
+    {
       "code": "7713",
       "company_name": "シグマ光機",
       "market_cap": 219.6,
@@ -906,6 +938,14 @@
       "time": "15:00",
       "title": "2027年５月期 第２四半期（中間期）業績予想及び通期業績予想の修正に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261009/140120261006546382.pdf"
+    },
+    {
+      "code": "5589",
+      "company_name": "オートサーバー",
+      "market_cap": 218.1,
+      "time": "17:30",
+      "title": "コーポレートサイト/IRサイトの閲覧障害について（復旧のお知らせ）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261009/140120261009548957.pdf"
     },
     {
       "code": "3178",
@@ -1268,6 +1308,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261009/140120260930543727.pdf"
     },
     {
+      "code": "1447",
+      "company_name": "Ｇ－ＳＡＡＦＨＤ",
+      "market_cap": 84.3,
+      "time": "17:30",
+      "title": "主要株主及び主要株主である筆頭株主の異動に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261009/140120261009548938.pdf"
+    },
+    {
       "code": "4430",
       "company_name": "東海ソフト",
       "market_cap": 83.8,
@@ -1300,6 +1348,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261009/140120261003544979.pdf"
     },
     {
+      "code": "7590",
+      "company_name": "タカショー",
+      "market_cap": 66.2,
+      "time": "18:00",
+      "title": "持株会社体制への移行の検討開始に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261009/140120261008548136.pdf"
+    },
+    {
       "code": "205A",
       "company_name": "Ｇ－ロゴスＨＤ",
       "market_cap": 62.7,
@@ -1330,6 +1386,14 @@
       "time": "15:30",
       "title": "有償ストック・オプション（新株予約権）の発行に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261009/140120261009548355.pdf"
+    },
+    {
+      "code": "5026",
+      "company_name": "Ｇ－トリプルアイズ",
+      "market_cap": 52.9,
+      "time": "19:00",
+      "title": "当社及び当社取締役に対する訴訟の提起に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261009/140120261009548854.pdf"
     },
     {
       "code": "7427",
@@ -1516,6 +1580,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261009/140120261007547092.pdf"
     },
     {
+      "code": "7162",
+      "company_name": "アストマックス",
+      "market_cap": 38.9,
+      "time": "18:10",
+      "title": "子会社の第三者割当増資に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261009/140120261009548669.pdf"
+    },
+    {
       "code": "9972",
       "company_name": "アルテック",
       "market_cap": 37.3,
@@ -1682,6 +1754,22 @@
       "time": "17:00",
       "title": "2027年２月期　第２四半期（中間期）決算短信〔日本基準〕（連結）",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261009/140120261009548704.pdf"
+    },
+    {
+      "code": "7603",
+      "company_name": "ジーイエット",
+      "market_cap": 30.3,
+      "time": "17:15",
+      "title": "持株会社体制への移行の検討開始に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261009/140120261009548943.pdf"
+    },
+    {
+      "code": "7603",
+      "company_name": "ジーイエット",
+      "market_cap": 30.3,
+      "time": "19:30",
+      "title": "連結子会社における新たな事業の開始及び株式会社i.Dとの基本合意書締結に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261009/140120261009549010.pdf"
     },
     {
       "code": "3550",
@@ -1885,7 +1973,8 @@
     }
   ],
   "notified": {
-    "evening": true
+    "evening": true,
+    "night": true
   },
   "tdnet_available": true
 }
