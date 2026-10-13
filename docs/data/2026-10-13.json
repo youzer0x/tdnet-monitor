@@ -1,7 +1,7 @@
 {
   "date": "2026-10-13",
-  "company_count": 117,
-  "total_count": 203,
+  "company_count": 124,
+  "total_count": 217,
   "items": [
     {
       "code": "8267",
@@ -44,6 +44,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261013/140120261013549882.pdf"
     },
     {
+      "code": "7733",
+      "company_name": "オリンパス",
+      "market_cap": 21601.8,
+      "time": "18:00",
+      "title": "FDAからのWarning Letterの受領に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261013/140120261013549222.pdf"
+    },
+    {
       "code": "7532",
       "company_name": "パンパシフィックＨＤ",
       "market_cap": 21094.4,
@@ -66,6 +74,22 @@
       "time": "08:45",
       "title": "産業用PCの開発・製造・販売を手掛ける米国OnLogic社及びその親会社（Interlogic, Inc.）の買収合意に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261013/140120261009548913.pdf"
+    },
+    {
+      "code": "3003",
+      "company_name": "ヒューリック",
+      "market_cap": 12751.2,
+      "time": "18:00",
+      "title": "株式会社リソー教育グループ（証券コード：4714）の株券等に対する公開買付けの開始に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261013/140120261013549957.pdf"
+    },
+    {
+      "code": "3003",
+      "company_name": "ヒューリック",
+      "market_cap": 12751.2,
+      "time": "18:00",
+      "title": "株式会社リソー教育グループの株券等に対する公開買付けの開始に関する補足資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261013/140120261013549959.pdf"
     },
     {
       "code": "3064",
@@ -122,6 +146,38 @@
       "time": "09:00",
       "title": "2026年9月 月次データ（単体）",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261013/140120261006546509.pdf"
+    },
+    {
+      "code": "3350",
+      "company_name": "メタプラネット",
+      "market_cap": 3560.7,
+      "time": "18:00",
+      "title": "ゼロ・クーポン2031年満期ユーロ円建転換社債型新株予約権付社債の発行に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261013/140120261013549590.pdf"
+    },
+    {
+      "code": "3350",
+      "company_name": "メタプラネット",
+      "market_cap": 3560.7,
+      "time": "18:00",
+      "title": "自己株式の取得状況及び取得終了並びに自己株式の取得枠設定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261013/140120261013549598.pdf"
+    },
+    {
+      "code": "3350",
+      "company_name": "メタプラネット",
+      "market_cap": 3560.7,
+      "time": "18:00",
+      "title": "自己株式立会外買付取引（ToSTNeT-３）による自己株式の買付けに関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261013/140120261013549603.pdf"
+    },
+    {
+      "code": "3350",
+      "company_name": "メタプラネット",
+      "market_cap": 3560.7,
+      "time": "18:05",
+      "title": "ユーロ円CB発行及び自己株式取得に関する補足説明資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261013/140120261013550032.pdf"
     },
     {
       "code": "6432",
@@ -548,6 +604,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261013/140120261013549619.pdf"
     },
     {
+      "code": "4475",
+      "company_name": "Ｇ－ＨＥＮＮＧＥ",
+      "market_cap": 594.8,
+      "time": "18:00",
+      "title": "発行価格及び売出価格等の決定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261013/140120261009549028.pdf"
+    },
+    {
       "code": "3817",
       "company_name": "ＳＲＡＨＤ",
       "market_cap": 594.4,
@@ -692,6 +756,38 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261013/140120261013549452.pdf"
     },
     {
+      "code": "4714",
+      "company_name": "リソー教育Ｇ",
+      "market_cap": 366.1,
+      "time": "18:00",
+      "title": "当社親会社であるヒューリック株式会社による当社株券等に対する公開買付けに関する賛同の意見表明及び応募推奨のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261013/140120261013549920.pdf"
+    },
+    {
+      "code": "4714",
+      "company_name": "リソー教育Ｇ",
+      "market_cap": 366.1,
+      "time": "18:00",
+      "title": "剰余金の配当（無配）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261013/140120261013550012.pdf"
+    },
+    {
+      "code": "4714",
+      "company_name": "リソー教育Ｇ",
+      "market_cap": 366.1,
+      "time": "18:00",
+      "title": "2027年２月期（第42期）中間連結会計期間の経営成績について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261013/140120261013550018.pdf"
+    },
+    {
+      "code": "4714",
+      "company_name": "リソー教育Ｇ",
+      "market_cap": 366.1,
+      "time": "18:05",
+      "title": "2027年２月期 第２四半期（中間期）決算短信〔日本基準〕（連結）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261013/140120261013549776.pdf"
+    },
+    {
       "code": "2674",
       "company_name": "ハードオフ",
       "market_cap": 354.6,
@@ -762,6 +858,14 @@
       "time": "15:00",
       "title": "2026年11月期第３四半期決算短信〔日本基準〕(連結)",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261013/140120261013549604.pdf"
+    },
+    {
+      "code": "6040",
+      "company_name": "Ｇ－日本スキー",
+      "market_cap": 215.6,
+      "time": "17:30",
+      "title": "「丸沼高原スキー場」の株主優待対象施設への追加及び「つがいけマウンテンリゾート」における株主優待の対象範囲拡大に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261013/140120261013549615.pdf"
     },
     {
       "code": "1436",
@@ -858,6 +962,14 @@
       "time": "14:00",
       "title": "2026年９月度 月次業績速報",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261013/140120261013549464.pdf"
+    },
+    {
+      "code": "3175",
+      "company_name": "ＡＰＨＤ",
+      "market_cap": 122.6,
+      "time": "17:30",
+      "title": "月次営業レポート（2026年9月度）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261013/140120261013549842.pdf"
     },
     {
       "code": "7646",
@@ -1629,7 +1741,8 @@
     }
   ],
   "notified": {
-    "evening": true
+    "evening": true,
+    "night": true
   },
   "tdnet_available": true
 }
