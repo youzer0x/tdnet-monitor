@@ -1,7 +1,7 @@
 {
   "date": "2026-10-14",
-  "company_count": 169,
-  "total_count": 315,
+  "company_count": 174,
+  "total_count": 325,
   "items": [
     {
       "code": "6098",
@@ -50,6 +50,14 @@
       "time": "15:30",
       "title": "自己株式の取得状況に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261014/140120261014550362.pdf"
+    },
+    {
+      "code": "2371",
+      "company_name": "カカクコム",
+      "market_cap": 7517.9,
+      "time": "17:40",
+      "title": "Kamgras １株式会社による株式会社カカクコム（証券コード：2371）の株券等に対する公開買付けの買付条件等の変更に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261014/140120261014550805.pdf"
     },
     {
       "code": "3350",
@@ -364,6 +372,30 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261014/140120261014550527.pdf"
     },
     {
+      "code": "464A",
+      "company_name": "Ｇ－ＱＰＳＨＤ",
+      "market_cap": 806.5,
+      "time": "17:30",
+      "title": "連結業績予想修正に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261014/140120261014550601.pdf"
+    },
+    {
+      "code": "464A",
+      "company_name": "Ｇ－ＱＰＳＨＤ",
+      "market_cap": 806.5,
+      "time": "17:30",
+      "title": "2027年５月期第１四半期決算説明資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261014/140120261014550627.pdf"
+    },
+    {
+      "code": "464A",
+      "company_name": "Ｇ－ＱＰＳＨＤ",
+      "market_cap": 806.5,
+      "time": "17:30",
+      "title": "2027年５月期 第１四半期 決算短信〔日本基準〕（連結）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261014/140120261014550614.pdf"
+    },
+    {
       "code": "6143",
       "company_name": "ソディック",
       "market_cap": 799.6,
@@ -490,6 +522,14 @@
       "time": "14:00",
       "title": "2026年11月期連結業績予想の修正に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261014/140120261014550319.pdf"
+    },
+    {
+      "code": "4390",
+      "company_name": "ｉｐｓ",
+      "market_cap": 452.2,
+      "time": "17:30",
+      "title": "発行価格及び売出価格等の決定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261014/140120261014550124.pdf"
     },
     {
       "code": "3093",
@@ -1034,6 +1074,38 @@
       "time": "15:30",
       "title": "（訂正）株式会社JG44による公開買付届出書の訂正届出書の提出に伴う公開買付開始公告の訂正に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261014/140120261013550004.pdf"
+    },
+    {
+      "code": "4575",
+      "company_name": "Ｇ－ＣＡＮＢＡＳ",
+      "market_cap": 149.0,
+      "time": "17:05",
+      "title": "第三者割当による第22回新株予約権（行使価額修正条項付）、第23回・第24回新株予約権（行使価額修正選択権付）の発行に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261014/140120261014550549.pdf"
+    },
+    {
+      "code": "4575",
+      "company_name": "Ｇ－ＣＡＮＢＡＳ",
+      "market_cap": 149.0,
+      "time": "17:05",
+      "title": "極度方式基本契約の締結に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261014/140120261014550556.pdf"
+    },
+    {
+      "code": "4575",
+      "company_name": "Ｇ－ＣＡＮＢＡＳ",
+      "market_cap": 149.0,
+      "time": "17:05",
+      "title": "調達資金の使途及び支出時期の変更について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261014/140120261014550584.pdf"
+    },
+    {
+      "code": "4575",
+      "company_name": "Ｇ－ＣＡＮＢＡＳ",
+      "market_cap": 149.0,
+      "time": "17:05",
+      "title": "第22～24回新株予約権の発行に関する補足ご説明資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261014/140120261014550587.pdf"
     },
     {
       "code": "6597",
@@ -1860,6 +1932,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261014/140120261008548189.pdf"
     },
     {
+      "code": "9337",
+      "company_name": "Ｇ－トリドリ",
+      "market_cap": 48.7,
+      "time": "17:30",
+      "title": "完全子会社間の合併に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261014/140120261014550379.pdf"
+    },
+    {
       "code": "640A",
       "company_name": "Ｇ－ＡＳＮＯＶＡ",
       "market_cap": 48.4,
@@ -2525,7 +2605,8 @@
     }
   ],
   "notified": {
-    "evening": true
+    "evening": true,
+    "night": true
   },
   "tdnet_available": true
 }
