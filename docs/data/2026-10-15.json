@@ -1,8 +1,16 @@
 {
   "date": "2026-10-15",
-  "company_count": 207,
-  "total_count": 425,
+  "company_count": 218,
+  "total_count": 444,
   "items": [
+    {
+      "code": "8031",
+      "company_name": "三井物産",
+      "market_cap": 139106.0,
+      "time": "20:00",
+      "title": "（経過開示）Penske Corporationと共同での米国Penske Automotive Group, Inc.の浮動株買収の決定",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261015/140120261015551440.pdf"
+    },
     {
       "code": "8331",
       "company_name": "千葉銀",
@@ -268,6 +276,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261015/140120261015551630.pdf"
     },
     {
+      "code": "9075",
+      "company_name": "福山運",
+      "market_cap": 2173.2,
+      "time": "19:00",
+      "title": "（開示事項の経過）投資有価証券売却益（特別利益）の計上に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261015/140120261015551910.pdf"
+    },
+    {
       "code": "7730",
       "company_name": "マニー",
       "market_cap": 1488.4,
@@ -284,6 +300,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261015/140120261014550939.pdf"
     },
     {
+      "code": "2146",
+      "company_name": "ＵＴグループ",
+      "market_cap": 1451.9,
+      "time": "17:20",
+      "title": "当社グループの元従業員による不正行為について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261015/140120261015551835.pdf"
+    },
+    {
       "code": "6866",
       "company_name": "日置電",
       "market_cap": 1437.1,
@@ -298,6 +322,14 @@
       "time": "15:30",
       "title": "イエローハットにおける不正アクセスによる個人情報漏えいに関する【第二報】",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261015/140120261015551164.pdf"
+    },
+    {
+      "code": "3765",
+      "company_name": "ガンホー",
+      "market_cap": 1272.5,
+      "time": "17:45",
+      "title": "株主による臨時株主総会の招集請求に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261015/140120261015551770.pdf"
     },
     {
       "code": "8237",
@@ -714,6 +746,14 @@
       "time": "16:00",
       "title": "定款一部変更に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261015/140120261015551346.pdf"
+    },
+    {
+      "code": "9628",
+      "company_name": "燦ＨＤ",
+      "market_cap": 289.9,
+      "time": "19:00",
+      "title": "2026年８月期決算補足資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261015/140120261015551892.pdf"
     },
     {
       "code": "3915",
@@ -1676,6 +1716,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261015/140120261015551316.pdf"
     },
     {
+      "code": "6085",
+      "company_name": "Ｇ－アーキテクツＳＪ",
+      "market_cap": 105.6,
+      "time": "19:40",
+      "title": "2027年２月期半期報告書の提出予定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261015/140120261015551899.pdf"
+    },
+    {
       "code": "7514",
       "company_name": "ヒマラヤ",
       "market_cap": 104.3,
@@ -1770,6 +1818,38 @@
       "time": "15:30",
       "title": "2027年2月期 第2四半期（中間期）決算短信〔日本基準〕（連結）",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261015/140120260924539520.pdf"
+    },
+    {
+      "code": "3189",
+      "company_name": "ＡＮＡＰ",
+      "market_cap": 95.3,
+      "time": "17:45",
+      "title": "2026年8月期決算短信〔日本基準〕（連結）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261015/140120261014550787.pdf"
+    },
+    {
+      "code": "3189",
+      "company_name": "ＡＮＡＰ",
+      "market_cap": 95.3,
+      "time": "17:45",
+      "title": "特別損失（事業再編損）の計上に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261015/140120261014550778.pdf"
+    },
+    {
+      "code": "3189",
+      "company_name": "ＡＮＡＰ",
+      "market_cap": 95.3,
+      "time": "17:45",
+      "title": "営業外費用（暗号資産評価損）の計上に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261015/140120261014550746.pdf"
+    },
+    {
+      "code": "3189",
+      "company_name": "ＡＮＡＰ",
+      "market_cap": 95.3,
+      "time": "17:45",
+      "title": "連結業績及び個別業績の前期実績値との差異に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261015/140120261015551825.pdf"
     },
     {
       "code": "6522",
@@ -2652,6 +2732,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261015/140120260930543473.pdf"
     },
     {
+      "code": "3627",
+      "company_name": "テクミラ",
+      "market_cap": 31.7,
+      "time": "18:00",
+      "title": "2027年２月期 第２四半期 決算説明会資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261015/140120261015551548.pdf"
+    },
+    {
       "code": "4616",
       "company_name": "川上塗料",
       "market_cap": 31.1,
@@ -2738,6 +2826,14 @@
       "time": "15:00",
       "title": "代表取締役の逝去に関するお知らせ（訃報）",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261015/140120261015551518.pdf"
+    },
+    {
+      "code": "5125",
+      "company_name": "Ｇ－ファインズ",
+      "market_cap": 28.2,
+      "time": "18:00",
+      "title": "株式報酬型ストック・オプション（新株予約権）の発行内容確定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261015/140120261015551202.pdf"
     },
     {
       "code": "7571",
@@ -2908,6 +3004,22 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261015/140120261015551172.pdf"
     },
     {
+      "code": "8254",
+      "company_name": "さいか屋",
+      "market_cap": 23.4,
+      "time": "17:30",
+      "title": "2026年８月期　決算短信［日本基準］（連結）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261015/140120261015551348.pdf"
+    },
+    {
+      "code": "8254",
+      "company_name": "さいか屋",
+      "market_cap": 23.4,
+      "time": "17:30",
+      "title": "剰余金の配当（期末配当）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261015/140120261015551585.pdf"
+    },
+    {
       "code": "9250",
       "company_name": "Ｇ－ＧＲＣＳ",
       "market_cap": 23.3,
@@ -2954,6 +3066,38 @@
       "time": "16:00",
       "title": "分配可能額を超えた剰余金の配当に関する調査委員会設置のお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261015/140120261015551688.pdf"
+    },
+    {
+      "code": "8783",
+      "company_name": "ａｂｃ",
+      "market_cap": 21.9,
+      "time": "17:15",
+      "title": "2026年８月期 決算短信〔日本基準〕（連結）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261015/140120261015551728.pdf"
+    },
+    {
+      "code": "8783",
+      "company_name": "ａｂｃ",
+      "market_cap": 21.9,
+      "time": "17:15",
+      "title": "連結業績における営業損失、営業外費用及び特別損失の計上並びに連結業績の当期予想値との差異に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261015/140120261015551729.pdf"
+    },
+    {
+      "code": "8783",
+      "company_name": "ａｂｃ",
+      "market_cap": 21.9,
+      "time": "17:15",
+      "title": "個別業績における営業外費用及び特別利益、特別損失計上並びに個別業績の前期実績値との差異に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261015/140120261015551730.pdf"
+    },
+    {
+      "code": "8783",
+      "company_name": "ａｂｃ",
+      "market_cap": 21.9,
+      "time": "17:15",
+      "title": "WOWOO PTE. LTD. との業務委託契約の締結に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261015/140120261015551733.pdf"
     },
     {
       "code": "4370",
@@ -3356,6 +3500,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261015/140120261015551772.pdf"
     },
     {
+      "code": "7831",
+      "company_name": "ウイルコＨＤ",
+      "market_cap": 10.2,
+      "time": "19:00",
+      "title": "連結子会社に対する債権放棄に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261015/140120261015551161.pdf"
+    },
+    {
       "code": "7689",
       "company_name": "Ｇ－コパ",
       "market_cap": 9.7,
@@ -3405,7 +3557,8 @@
     }
   ],
   "notified": {
-    "evening": true
+    "evening": true,
+    "night": true
   },
   "tdnet_available": true
 }
