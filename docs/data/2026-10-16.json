@@ -1,8 +1,16 @@
 {
   "date": "2026-10-16",
-  "company_count": 111,
-  "total_count": 130,
+  "company_count": 124,
+  "total_count": 146,
   "items": [
+    {
+      "code": "6503",
+      "company_name": "三菱電",
+      "market_cap": 102446.4,
+      "time": "19:30",
+      "title": "自動車機器事業に伴う会社分割（簡易吸収分割）等及び三菱電機モビリティの株式の50%譲渡に係る株式譲渡契約締結のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261016/140120261016552155.pdf"
+    },
     {
       "code": "8802",
       "company_name": "三菱地所",
@@ -10,6 +18,14 @@
       "time": "15:30",
       "title": "子会社の異動に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261016/140120261016552049.pdf"
+    },
+    {
+      "code": "2503",
+      "company_name": "キリンＨＤ",
+      "market_cap": 23165.6,
+      "time": "18:00",
+      "title": "当社子会社（株式会社ファンケル）における不正アクセスによる個人情報漏えいに関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261016/140120261016552454.pdf"
     },
     {
       "code": "1928",
@@ -34,6 +50,14 @@
       "time": "12:00",
       "title": "役員責任調査委員会からの調査報告書の受領について",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261016/140120261016552134.pdf"
+    },
+    {
+      "code": "6594",
+      "company_name": "ニデック",
+      "market_cap": 20633.5,
+      "time": "20:00",
+      "title": "役員責任調査委員会からの調査報告について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261016/140120261016552498.pdf"
     },
     {
       "code": "8439",
@@ -132,6 +156,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261016/140120261015551221.pdf"
     },
     {
+      "code": "485A",
+      "company_name": "Ｇ－パワーエックス",
+      "market_cap": 2064.1,
+      "time": "18:30",
+      "title": "定置用蓄電システム48.54億円の受注及び累計設置拠点数100拠点突破に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261016/140120261016552502.pdf"
+    },
+    {
       "code": "1377",
       "company_name": "サカタのタネ",
       "market_cap": 1793.1,
@@ -202,6 +234,14 @@
       "time": "15:30",
       "title": "（訂正）「2027年５月期第１四半期 決算説明資料」の一部訂正について",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261016/140120261016552303.pdf"
+    },
+    {
+      "code": "4996",
+      "company_name": "クミアイ化",
+      "market_cap": 803.5,
+      "time": "17:30",
+      "title": "簡易株式交換における株式交換比率の決定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261016/140120261016552465.pdf"
     },
     {
       "code": "8613",
@@ -492,12 +532,28 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261016/140120261016552240.pdf"
     },
     {
+      "code": "3656",
+      "company_name": "ＫＬａｂ",
+      "market_cap": 147.2,
+      "time": "18:30",
+      "title": "（訂正）「主要株主及び主要株主である筆頭株主の異動に関するお知らせ」の訂正につきまして",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261016/140120261016552440.pdf"
+    },
+    {
       "code": "8349",
       "company_name": "東北銀",
       "market_cap": 146.1,
       "time": "16:30",
       "title": "取得価額の修正に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261016/140120261016552247.pdf"
+    },
+    {
+      "code": "5237",
+      "company_name": "ノザワ",
+      "market_cap": 133.4,
+      "time": "17:45",
+      "title": "当社及び当社連結子会社の従業員に対する譲渡制限付株式としての自己株式処分に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261016/140120261016552459.pdf"
     },
     {
       "code": "7110",
@@ -548,6 +604,22 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261016/140120261016552197.pdf"
     },
     {
+      "code": "6030",
+      "company_name": "Ｇ－アドベンチャー",
+      "market_cap": 108.3,
+      "time": "19:15",
+      "title": "不正アクセスによるお客様情報の流出に関するお詫びとお知らせ（第2報）及び第1報の一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261016/140120261016552377.pdf"
+    },
+    {
+      "code": "4446",
+      "company_name": "Ｌｉｎｋ－Ｕグループ",
+      "market_cap": 108.0,
+      "time": "17:10",
+      "title": "Studio株式会社で発生した不正アクセスに伴う個人情報漏えいの可能性に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261016/140120261016552453.pdf"
+    },
+    {
       "code": "8127",
       "company_name": "ヤマトインター",
       "market_cap": 105.7,
@@ -596,6 +668,22 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261016/140120261016552008.pdf"
     },
     {
+      "code": "1401",
+      "company_name": "Ｇ－エムビーエス",
+      "market_cap": 98.0,
+      "time": "17:30",
+      "title": "テックビルド株式会社との合弁会社設立に向けた契約締結に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261016/140120261016552052.pdf"
+    },
+    {
+      "code": "634A",
+      "company_name": "レイヤード",
+      "market_cap": 89.3,
+      "time": "19:30",
+      "title": "第三者割当増資の結果に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261016/140120261016552494.pdf"
+    },
+    {
       "code": "6228",
       "company_name": "ジェイ・イー・ティ",
       "market_cap": 87.2,
@@ -634,6 +722,14 @@
       "time": "16:30",
       "title": "(訂正)「連結業績及び個別業績の前期実績値との差異に関するお知らせ」の一部訂正について",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261016/140120261016552388.pdf"
+    },
+    {
+      "code": "3189",
+      "company_name": "ＡＮＡＰ",
+      "market_cap": 84.7,
+      "time": "18:15",
+      "title": "(訂正)「(訂正)連結業績及び個別業績の前期実績値との差異に関するお知らせ」の一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261016/140120261016552511.pdf"
     },
     {
       "code": "4571",
@@ -756,6 +852,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261016/140120261016552171.pdf"
     },
     {
+      "code": "8105",
+      "company_name": "ＢｉｔｃｏｉｎＪＰＮ",
+      "market_cap": 49.8,
+      "time": "17:15",
+      "title": "（開示事項の経過）UBTECHグループとの業務提携（日本国内における対象製品等の独占販売契約）締結の決定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261016/140120261016552363.pdf"
+    },
+    {
       "code": "3172",
       "company_name": "ティーライフ",
       "market_cap": 48.3,
@@ -780,6 +884,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261016/140120261016552018.pdf"
     },
     {
+      "code": "3490",
+      "company_name": "アズ企画設計",
+      "market_cap": 47.8,
+      "time": "17:30",
+      "title": "（訂正）「販売用不動産（信託受益権）の取得並びに取得に係る資金借入に関するお知らせ」の一部訂正に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261016/140120261016552450.pdf"
+    },
+    {
       "code": "6325",
       "company_name": "タカキタ",
       "market_cap": 46.9,
@@ -802,6 +914,14 @@
       "time": "16:30",
       "title": "株式会社アースコーポレーション及び株式会社ワンエイトの株式の取得（子会社化）に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261016/140120261016552148.pdf"
+    },
+    {
+      "code": "3935",
+      "company_name": "エディア",
+      "market_cap": 41.4,
+      "time": "18:35",
+      "title": "2027年２月期 第２四半期決算説明動画公開のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261016/140120261016552513.pdf"
     },
     {
       "code": "7150",
@@ -906,6 +1026,14 @@
       "time": "15:30",
       "title": "2027年2月期 第2四半期(中間期) 決算説明会資料",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261016/140120261015551806.pdf"
+    },
+    {
+      "code": "6659",
+      "company_name": "メディアリンクス",
+      "market_cap": 29.9,
+      "time": "17:30",
+      "title": "一時会計監査人の選任に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261016/140120261016552239.pdf"
     },
     {
       "code": "7986",
@@ -1045,7 +1173,8 @@
     }
   ],
   "notified": {
-    "evening": true
+    "evening": true,
+    "night": true
   },
   "tdnet_available": true
 }
