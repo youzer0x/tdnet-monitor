@@ -1,7 +1,7 @@
 {
   "date": "2026-10-19",
-  "company_count": 79,
-  "total_count": 88,
+  "company_count": 90,
+  "total_count": 102,
   "items": [
     {
       "code": "6503",
@@ -50,6 +50,22 @@
       "time": "16:00",
       "title": "業績予想の修正に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261019/140120261019552780.pdf"
+    },
+    {
+      "code": "6407",
+      "company_name": "ＣＫＤ",
+      "market_cap": 3298.3,
+      "time": "17:45",
+      "title": "売出価格等の決定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261019/140120261019552749.pdf"
+    },
+    {
+      "code": "6407",
+      "company_name": "ＣＫＤ",
+      "market_cap": 3298.3,
+      "time": "17:45",
+      "title": "（開示事項の経過）自己株式取得に係る事項の決定に関するお知らせ（会社法第459条第１項の規定による定款の定めに基づく自己株式の取得）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261019/140120261019552754.pdf"
     },
     {
       "code": "3048",
@@ -116,6 +132,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261019/140120261019552966.pdf"
     },
     {
+      "code": "7516",
+      "company_name": "コーナン商",
+      "market_cap": 1346.4,
+      "time": "18:00",
+      "title": "役員の委嘱事項の変更等に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261019/140120261016552427.pdf"
+    },
+    {
       "code": "6947",
       "company_name": "図研",
       "market_cap": 1201.3,
@@ -124,12 +148,28 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261019/140120261016552358.pdf"
     },
     {
+      "code": "9842",
+      "company_name": "アークランズ",
+      "market_cap": 1191.1,
+      "time": "17:30",
+      "title": "（訂正）「2027年２月期　第１四半期決算短信〔日本基準〕（連結）」の一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261019/140120261019553120.pdf"
+    },
+    {
       "code": "8173",
       "company_name": "Ｊｏｓｈｉｎ",
       "market_cap": 1090.8,
       "time": "12:30",
       "title": "不正アクセスによるシステム障害発生のお詫びとお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261019/140120261019552813.pdf"
+    },
+    {
+      "code": "7595",
+      "company_name": "アルゴグラフ",
+      "market_cap": 901.7,
+      "time": "17:30",
+      "title": "剰余金の配当に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261019/140120261019552782.pdf"
     },
     {
       "code": "8793",
@@ -164,6 +204,22 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261019/140120261016552519.pdf"
     },
     {
+      "code": "6200",
+      "company_name": "インソース",
+      "market_cap": 574.1,
+      "time": "17:30",
+      "title": "連結子会社の商号変更及び連結子会社間の吸収合併に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261019/140120261019552941.pdf"
+    },
+    {
+      "code": "6200",
+      "company_name": "インソース",
+      "market_cap": 574.1,
+      "time": "17:30",
+      "title": "組織変更及び人事異動に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261019/140120261019552944.pdf"
+    },
+    {
       "code": "4258",
       "company_name": "Ｇ－網屋",
       "market_cap": 509.7,
@@ -178,6 +234,14 @@
       "time": "16:30",
       "title": "主要株主及び主要株主である筆頭株主の異動に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261019/140120261019553078.pdf"
+    },
+    {
+      "code": "3905",
+      "company_name": "Ｇ－データセクション",
+      "market_cap": 502.7,
+      "time": "18:40",
+      "title": "第23回新株予約権の行使期間満了に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261019/140120261019553166.pdf"
     },
     {
       "code": "8624",
@@ -292,6 +356,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261019/140120261014550196.pdf"
     },
     {
+      "code": "584A",
+      "company_name": "Ｇ－ＬｉＮＫＸ",
+      "market_cap": 162.4,
+      "time": "18:00",
+      "title": "Studio株式会社で発生した不正アクセスに伴う個人情報漏えいの可能性に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261019/140120261019553109.pdf"
+    },
+    {
       "code": "7122",
       "company_name": "近畿車輌",
       "market_cap": 161.8,
@@ -380,6 +452,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261019/140120261019552936.pdf"
     },
     {
+      "code": "4572",
+      "company_name": "Ｇ－カルナバイオ",
+      "market_cap": 92.4,
+      "time": "17:15",
+      "title": "新株予約権付社債発行プログラム設定契約に基づく第三者割当による第５回無担保転換社債型新株予約権付社債の発行に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261019/140120261014550573.pdf"
+    },
+    {
       "code": "6159",
       "company_name": "ミクロン精密",
       "market_cap": 90.6,
@@ -442,6 +522,14 @@
       "time": "15:30",
       "title": "連結子会社間の合併に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261019/140120261019552886.pdf"
+    },
+    {
+      "code": "3323",
+      "company_name": "レカム",
+      "market_cap": 71.5,
+      "time": "19:00",
+      "title": "連結子会社レカムIEパートナー株式会社の株式交換（簡易株式交換）による完全子会社化に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261019/140120261019553000.pdf"
     },
     {
       "code": "4597",
@@ -564,6 +652,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261019/140120261019552968.pdf"
     },
     {
+      "code": "4372",
+      "company_name": "Ｇ－ユミルリンク",
+      "market_cap": 48.6,
+      "time": "17:05",
+      "title": "当社システムへの不正なアクセスに関するご報告（第一報）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261019/140120261019553124.pdf"
+    },
+    {
       "code": "7370",
       "company_name": "Ｇ－Ｅｎｊｉｎ",
       "market_cap": 48.2,
@@ -620,6 +716,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261019/140120261015551890.pdf"
     },
     {
+      "code": "324A",
+      "company_name": "Ｇ－ブッキングＲ",
+      "market_cap": 37.7,
+      "time": "17:30",
+      "title": "グランピング特化型SEOメディア「みんなのグランピング（みんぐら）」の事業譲受けに関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261019/140120261019553111.pdf"
+    },
+    {
       "code": "3996",
       "company_name": "サインポスト",
       "market_cap": 34.1,
@@ -634,6 +738,14 @@
       "time": "15:30",
       "title": "株式併合並びに単元株式数の定めの廃止及び定款の一部変更に関する臨時株主総会開催のお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261019/140120261019552795.pdf"
+    },
+    {
+      "code": "340A",
+      "company_name": "Ｇ－ジグザグ",
+      "market_cap": 24.7,
+      "time": "18:00",
+      "title": "不正アクセスによる海外のお客様の個人情報漏えいに関するお詫びとお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261019/140120261019553141.pdf"
     },
     {
       "code": "130A",
@@ -709,7 +821,8 @@
     }
   ],
   "notified": {
-    "evening": true
+    "evening": true,
+    "night": true
   },
   "tdnet_available": true
 }
