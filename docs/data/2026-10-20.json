@@ -1,7 +1,7 @@
 {
   "date": "2026-10-20",
-  "company_count": 68,
-  "total_count": 82,
+  "company_count": 74,
+  "total_count": 93,
   "items": [
     {
       "code": "6503",
@@ -34,6 +34,22 @@
       "time": "15:30",
       "title": "2027年３月期第１四半期 決算発表日に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261020/140120261020553230.pdf"
+    },
+    {
+      "code": "6890",
+      "company_name": "フェローテック",
+      "market_cap": 4472.0,
+      "time": "17:30",
+      "title": "中際旭創股フン有限公司（InnoLight社）との戦略的提携契約締結に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261020/140120261019553164.pdf"
+    },
+    {
+      "code": "6890",
+      "company_name": "フェローテック",
+      "market_cap": 4472.0,
+      "time": "17:30",
+      "title": "持分法適用会社の株式取得に伴う特定子会社への異動のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261020/140120261020553550.pdf"
     },
     {
       "code": "8876",
@@ -114,6 +130,22 @@
       "time": "17:00",
       "title": "固定資産の譲渡に伴う特別利益の計上に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261020/140120261020553571.pdf"
+    },
+    {
+      "code": "2733",
+      "company_name": "あらた",
+      "market_cap": 876.3,
+      "time": "18:00",
+      "title": "公正取引委員会による当社連結子会社への立入検査について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261020/140120261020553638.pdf"
+    },
+    {
+      "code": "3962",
+      "company_name": "チェンジＨＤ",
+      "market_cap": 685.4,
+      "time": "18:35",
+      "title": "当社連結子会社における不正アクセスによる個人情報の外部流出に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261020/140120261020553586.pdf"
     },
     {
       "code": "9519",
@@ -372,6 +404,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261020/140120261020553449.pdf"
     },
     {
+      "code": "2428",
+      "company_name": "ウェルネット",
+      "market_cap": 115.9,
+      "time": "18:00",
+      "title": "譲渡制限付株式報酬の株主総会決議超過及び自己株式の無償取得に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261020/140120261020553333.pdf"
+    },
+    {
       "code": "6721",
       "company_name": "ウインテスト",
       "market_cap": 113.8,
@@ -418,6 +458,14 @@
       "time": "14:30",
       "title": "社外取締役の辞任に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261020/140120261020553490.pdf"
+    },
+    {
+      "code": "5575",
+      "company_name": "Ｇ－Ｇｌｏｂｅｅ",
+      "market_cap": 59.5,
+      "time": "18:30",
+      "title": "第三者による不正アクセスおよび個人情報漏えいのおそれに関するお詫びとお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261020/140120261020553707.pdf"
     },
     {
       "code": "2373",
@@ -522,6 +570,46 @@
       "time": "15:30",
       "title": "業績予想の修正に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261020/140120261020553410.pdf"
+    },
+    {
+      "code": "2901",
+      "company_name": "ウェルディッシュ",
+      "market_cap": 34.0,
+      "time": "18:15",
+      "title": "改善計画の策定方針に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261020/140120261020553664.pdf"
+    },
+    {
+      "code": "2901",
+      "company_name": "ウェルディッシュ",
+      "market_cap": 34.0,
+      "time": "18:15",
+      "title": "第70期定時株主総会及び継続会の開催に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261020/140120261020553666.pdf"
+    },
+    {
+      "code": "2901",
+      "company_name": "ウェルディッシュ",
+      "market_cap": 34.0,
+      "time": "18:15",
+      "title": "会計監査人の選任に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261020/140120261020553671.pdf"
+    },
+    {
+      "code": "2901",
+      "company_name": "ウェルディッシュ",
+      "market_cap": 34.0,
+      "time": "18:15",
+      "title": "剰余金の配当（無配）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261020/140120261020553697.pdf"
+    },
+    {
+      "code": "2901",
+      "company_name": "ウェルディッシュ",
+      "market_cap": 34.0,
+      "time": "18:15",
+      "title": "株主優待制度廃止に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261020/140120261020553675.pdf"
     },
     {
       "code": "7064",
@@ -661,7 +749,8 @@
     }
   ],
   "notified": {
-    "evening": true
+    "evening": true,
+    "night": true
   },
   "tdnet_available": true
 }
