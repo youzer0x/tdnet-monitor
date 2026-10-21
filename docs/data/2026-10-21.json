@@ -1,7 +1,7 @@
 {
   "date": "2026-10-21",
-  "company_count": 58,
-  "total_count": 65,
+  "company_count": 63,
+  "total_count": 72,
   "items": [
     {
       "code": "7733",
@@ -26,6 +26,14 @@
       "time": "13:30",
       "title": "自己株式の取得状況及び取得終了に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261021/140120261021553917.pdf"
+    },
+    {
+      "code": "5076",
+      "company_name": "インフロニアＨＤ",
+      "market_cap": 5685.1,
+      "time": "17:15",
+      "title": "発行価格及び売出価格等の決定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261021/140120261020553408.pdf"
     },
     {
       "code": "6417",
@@ -236,6 +244,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261021/140120261021553794.pdf"
     },
     {
+      "code": "2469",
+      "company_name": "ヒビノ",
+      "market_cap": 278.0,
+      "time": "18:00",
+      "title": "主要株主の異動に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261021/140120261020553787.pdf"
+    },
+    {
       "code": "276A",
       "company_name": "Ｇ－ククレブ",
       "market_cap": 230.7,
@@ -282,6 +298,14 @@
       "time": "15:30",
       "title": "新規ナトリウムチャネル遮断薬の第II相臨床試験開始に伴う一時金受領のお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261021/140120261020553610.pdf"
+    },
+    {
+      "code": "3712",
+      "company_name": "情報企画",
+      "market_cap": 150.0,
+      "time": "17:20",
+      "title": "連結子会社における固定資産の譲渡に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261021/140120261021554192.pdf"
     },
     {
       "code": "3656",
@@ -412,6 +436,38 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261021/140120261021554170.pdf"
     },
     {
+      "code": "4829",
+      "company_name": "日本エンタープライズ",
+      "market_cap": 39.3,
+      "time": "17:30",
+      "title": "株式会社ハニー・ビーの株式取得（子会社化）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261021/140120261021554197.pdf"
+    },
+    {
+      "code": "5029",
+      "company_name": "Ｇ－サークレイス",
+      "market_cap": 38.9,
+      "time": "17:15",
+      "title": "（訂正）「主要株主である筆頭株主の異動に関するお知らせ」の訂正につきまして",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261021/140120261021554181.pdf"
+    },
+    {
+      "code": "5029",
+      "company_name": "Ｇ－サークレイス",
+      "market_cap": 38.9,
+      "time": "17:15",
+      "title": "（訂正）「支配株主等に関する事項について」の訂正につきまして",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261021/140120261021554187.pdf"
+    },
+    {
+      "code": "5029",
+      "company_name": "Ｇ－サークレイス",
+      "market_cap": 38.9,
+      "time": "17:15",
+      "title": "（訂正）「代表取締役会長兼社長による当社株式取得に関するお知らせ」の訂正につきまして",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261021/140120261021554188.pdf"
+    },
+    {
       "code": "4391",
       "company_name": "Ｇ－ロジザード",
       "market_cap": 37.2,
@@ -525,7 +581,8 @@
     }
   ],
   "notified": {
-    "evening": true
+    "evening": true,
+    "night": true
   },
   "tdnet_available": true
 }
