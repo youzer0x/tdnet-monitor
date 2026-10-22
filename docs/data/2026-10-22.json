@@ -1,7 +1,7 @@
 {
   "date": "2026-10-22",
-  "company_count": 72,
-  "total_count": 101,
+  "company_count": 76,
+  "total_count": 105,
   "items": [
     {
       "code": "4519",
@@ -74,6 +74,14 @@
       "time": "17:00",
       "title": "不正アクセスによるお客様情報漏えいのお詫びとお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261022/140120261022554474.pdf"
+    },
+    {
+      "code": "9202",
+      "company_name": "ＡＮＡ",
+      "market_cap": 12687.2,
+      "time": "20:00",
+      "title": "一部報道について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261022/140120261022554845.pdf"
     },
     {
       "code": "9501",
@@ -348,6 +356,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261022/140120261022554492.pdf"
     },
     {
+      "code": "5932",
+      "company_name": "三協立山",
+      "market_cap": 243.5,
+      "time": "18:00",
+      "title": "株式報酬制度の導入に伴う信託設定及び自己株式の処分の中止に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261022/140120261022554770.pdf"
+    },
+    {
       "code": "5574",
       "company_name": "Ｇ－ＡＢＥＪＡ",
       "market_cap": 238.1,
@@ -564,6 +580,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261022/140120261019552774.pdf"
     },
     {
+      "code": "365A",
+      "company_name": "伊澤タオル",
+      "market_cap": 66.0,
+      "time": "18:00",
+      "title": "取締役の辞任及び人事異動に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261022/140120261022554810.pdf"
+    },
+    {
       "code": "549A",
       "company_name": "ヒトトヒトＨＤ",
       "market_cap": 65.0,
@@ -586,6 +610,14 @@
       "time": "14:00",
       "title": "2027年３月期　第２四半期（中間期）決算短信〔日本基準〕（非連結）",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261022/140120261021554066.pdf"
+    },
+    {
+      "code": "9159",
+      "company_name": "Ｇ－ＷＴＯＫＹＯ",
+      "market_cap": 51.5,
+      "time": "17:15",
+      "title": "自己株式の取得状況及び取得終了に関するお知らせ （会社法第165条第２項の規定による定款の定めに基づく自己株式の取得）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261022/140120261022554797.pdf"
     },
     {
       "code": "3815",
@@ -813,7 +845,8 @@
     }
   ],
   "notified": {
-    "evening": true
+    "evening": true,
+    "night": true
   },
   "tdnet_available": true
 }
