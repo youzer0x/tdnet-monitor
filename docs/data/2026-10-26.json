@@ -1,7 +1,7 @@
 {
   "date": "2026-10-26",
-  "company_count": 97,
-  "total_count": 117,
+  "company_count": 105,
+  "total_count": 131,
   "items": [
     {
       "code": "4689",
@@ -116,6 +116,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261026/140120261026556093.pdf"
     },
     {
+      "code": "1333",
+      "company_name": "Ｕｍｉｏｓ",
+      "market_cap": 1837.2,
+      "time": "20:30",
+      "title": "北米 大手水産加工会社High Liner Foods Incorporatedの株式取得（完全子会社化）に関する契約締結のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261026/140120261026556143.pdf"
+    },
+    {
       "code": "7970",
       "company_name": "信越ポリマ",
       "market_cap": 1798.5,
@@ -154,6 +162,14 @@
       "time": "15:30",
       "title": "2027年３月期第２四半期末の有価証券含み損に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261026/140120261023555205.pdf"
+    },
+    {
+      "code": "8173",
+      "company_name": "Ｊｏｓｈｉｎ",
+      "market_cap": 1092.1,
+      "time": "17:40",
+      "title": "不正アクセスによるシステム障害発生のお詫びとお知らせ（第2報）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261026/140120261026556267.pdf"
     },
     {
       "code": "4559",
@@ -364,6 +380,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261026/140120261023555371.pdf"
     },
     {
+      "code": "590A",
+      "company_name": "ギフティグループ",
+      "market_cap": 309.2,
+      "time": "19:17",
+      "title": "当社連結子会社の一部システムへの不正アクセスに伴うeギフトの不正発行および特別損失計上見込みに関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261026/140120261026556413.pdf"
+    },
+    {
       "code": "8364",
       "company_name": "清水銀",
       "market_cap": 294.0,
@@ -386,6 +410,22 @@
       "time": "15:30",
       "title": "資本金の額の減少（減資）及び資本準備金の額の減少に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261026/140120261026555939.pdf"
+    },
+    {
+      "code": "367A",
+      "company_name": "プリモＧＨＤ",
+      "market_cap": 268.1,
+      "time": "18:00",
+      "title": "株式の売出しに関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261026/140120261026556135.pdf"
+    },
+    {
+      "code": "367A",
+      "company_name": "プリモＧＨＤ",
+      "market_cap": 268.1,
+      "time": "18:00",
+      "title": "主要株主及び主要株主である筆頭株主の異動に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261026/140120261026556163.pdf"
     },
     {
       "code": "7191",
@@ -628,6 +668,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261026/140120261023555310.pdf"
     },
     {
+      "code": "2391",
+      "company_name": "プラネット",
+      "market_cap": 76.1,
+      "time": "17:30",
+      "title": "その他の関係会社の異動に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261026/140120261026556318.pdf"
+    },
+    {
       "code": "1718",
       "company_name": "美樹工業",
       "market_cap": 74.0,
@@ -636,12 +684,44 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261026/140120261017552552.pdf"
     },
     {
+      "code": "4936",
+      "company_name": "アクシージア",
+      "market_cap": 70.2,
+      "time": "17:30",
+      "title": "取締役の担当業務の決定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261026/140120261026555688.pdf"
+    },
+    {
       "code": "2311",
       "company_name": "エプコ",
       "market_cap": 69.8,
       "time": "15:30",
       "title": "2026年9月度 月次業績に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261026/140120261026555897.pdf"
+    },
+    {
+      "code": "3189",
+      "company_name": "ＡＮＡＰ",
+      "market_cap": 68.2,
+      "time": "18:30",
+      "title": "外部の専門家から構成される調査チームからの調査報告書公表について（1/3）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261026/140120261026556331.pdf"
+    },
+    {
+      "code": "3189",
+      "company_name": "ＡＮＡＰ",
+      "market_cap": 68.2,
+      "time": "18:30",
+      "title": "外部の専門家から構成される調査チームからの調査報告書公表について（2/3）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261026/140120261026556358.pdf"
+    },
+    {
+      "code": "3189",
+      "company_name": "ＡＮＡＰ",
+      "market_cap": 68.2,
+      "time": "18:30",
+      "title": "外部の専門家から構成される調査チームからの調査報告書公表について（3/3）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261026/140120261026556373.pdf"
     },
     {
       "code": "3021",
@@ -780,6 +860,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261026/140120261025555640.pdf"
     },
     {
+      "code": "9235",
+      "company_name": "Ｇ－売れるネットＧ",
+      "market_cap": 38.1,
+      "time": "18:30",
+      "title": "上場維持基準（純資産基準）への適合に向けた計画（改善期間入り）について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261026/140120261025555638.pdf"
+    },
+    {
       "code": "3917",
       "company_name": "Ｇ－アイリッジ",
       "market_cap": 38.0,
@@ -818,6 +906,14 @@
       "time": "15:30",
       "title": "中期経営計画",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261026/140120261026555858.pdf"
+    },
+    {
+      "code": "7477",
+      "company_name": "ムラキ",
+      "market_cap": 25.0,
+      "time": "17:30",
+      "title": "株式会社イクヨによる当社株式に対する公開買付けの開始予定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261026/140120261026556313.pdf"
     },
     {
       "code": "3647",
@@ -924,6 +1020,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261026/140120261026556094.pdf"
     },
     {
+      "code": "7063",
+      "company_name": "Ｇ－Ｂｉｒｄｍａｎ",
+      "market_cap": 14.3,
+      "time": "18:00",
+      "title": "その他の関係会社の異動に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261026/140120261026556333.pdf"
+    },
+    {
       "code": "3667",
       "company_name": "ｅｎｉｓｈ",
       "market_cap": 11.8,
@@ -938,10 +1042,19 @@
       "time": "17:00",
       "title": "取締役の辞任に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261026/140120261026556106.pdf"
+    },
+    {
+      "code": "9241",
+      "company_name": "Ｇ－ＦＬＮ",
+      "market_cap": 10.2,
+      "time": "17:30",
+      "title": "資本金及び資本準備金の額の減少並びに剰余金の処分に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261026/140120261026556327.pdf"
     }
   ],
   "notified": {
-    "evening": true
+    "evening": true,
+    "night": true
   },
   "tdnet_available": true
 }

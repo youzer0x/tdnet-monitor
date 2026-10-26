@@ -1036,7 +1036,7 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20260917/140120260909533769.pdf"
     }
   ],
-  "tdnet_available": true,
+  "tdnet_available": false,
   "notified": {
     "night": true
   }
