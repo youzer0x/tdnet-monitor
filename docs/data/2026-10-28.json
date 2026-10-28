@@ -1,7 +1,7 @@
 {
   "date": "2026-10-28",
-  "company_count": 160,
-  "total_count": 264,
+  "company_count": 172,
+  "total_count": 277,
   "items": [
     {
       "code": "6857",
@@ -204,6 +204,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261028/140120261027557174.pdf"
     },
     {
+      "code": "4523",
+      "company_name": "エーザイ",
+      "market_cap": 14317.9,
+      "time": "19:00",
+      "title": "抗アミロイドβ抗体「レケンビ」の売上収益（速報）について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261028/140120261028558217.pdf"
+    },
+    {
       "code": "6479",
       "company_name": "ミネベアミツミ",
       "market_cap": 13276.7,
@@ -234,6 +242,14 @@
       "time": "13:00",
       "title": "監査等委員である社外取締役の逝去及び退任に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261028/140120261027557134.pdf"
+    },
+    {
+      "code": "2371",
+      "company_name": "カカクコム",
+      "market_cap": 7413.0,
+      "time": "18:40",
+      "title": "Kamgras １株式会社による株式会社カカクコム（証券コード：2371）の株券等に対する公開買付けの買付条件等の変更に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261028/140120261028558577.pdf"
     },
     {
       "code": "7276",
@@ -844,6 +860,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261028/140120261027557213.pdf"
     },
     {
+      "code": "2612",
+      "company_name": "かどや製油",
+      "market_cap": 817.4,
+      "time": "21:00",
+      "title": "（変更）「株式会社ITG-Gホールディングスによる当社株式に対する公開買付けに関する賛同の意見表明及び応募推奨のお知らせ」の一部変更に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261028/140120261028558671.pdf"
+    },
+    {
       "code": "7979",
       "company_name": "松風",
       "market_cap": 798.1,
@@ -1380,6 +1404,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261028/140120261028557814.pdf"
     },
     {
+      "code": "9424",
+      "company_name": "日本通信",
+      "market_cap": 201.2,
+      "time": "18:00",
+      "title": "（開示事項の経過）ドコモの音声通信網及びSMS網との相互接続に基づく新サービスの開始予定時期の変更に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261028/140120261028558280.pdf"
+    },
+    {
       "code": "6382",
       "company_name": "トリニ工",
       "market_cap": 193.5,
@@ -1588,6 +1620,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261028/140120261028557373.pdf"
     },
     {
+      "code": "4446",
+      "company_name": "Ｌｉｎｋ－Ｕグループ",
+      "market_cap": 105.7,
+      "time": "18:30",
+      "title": "連結子会社間の吸収合併に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261028/140120261028557987.pdf"
+    },
+    {
       "code": "2315",
       "company_name": "ＣＡＩＣＡ　Ｄ",
       "market_cap": 105.1,
@@ -1610,6 +1650,14 @@
       "time": "15:30",
       "title": "2027年３月期  第２四半期（中間期）決算短信〔日本基準〕（非連結）",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261028/140120261020553264.pdf"
+    },
+    {
+      "code": "6030",
+      "company_name": "Ｇ－アドベンチャー",
+      "market_cap": 104.7,
+      "time": "18:00",
+      "title": "（開示事項の経過） 不正アクセスによるお客様情報の流出に関するお詫びとお知らせ（第3報）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261028/140120261027557101.pdf"
     },
     {
       "code": "8945",
@@ -1844,6 +1892,22 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261028/140120261027557177.pdf"
     },
     {
+      "code": "5031",
+      "company_name": "Ｇ－モイ",
+      "market_cap": 59.2,
+      "time": "18:10",
+      "title": "当社サーバーへの不正アクセスに関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261028/140120261028558252.pdf"
+    },
+    {
+      "code": "8025",
+      "company_name": "ツカモト",
+      "market_cap": 57.0,
+      "time": "19:35",
+      "title": "固定資産の譲渡及び特別利益の計上に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261028/140120261028558527.pdf"
+    },
+    {
       "code": "8617",
       "company_name": "光世証",
       "market_cap": 53.2,
@@ -1946,6 +2010,22 @@
       "time": "17:00",
       "title": "持分法適用関連会社株式の譲渡に伴う特別損失（投資有価証券売却損）の計上に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261028/140120261026556394.pdf"
+    },
+    {
+      "code": "9073",
+      "company_name": "京極運輸",
+      "market_cap": 38.0,
+      "time": "17:30",
+      "title": "臨時株主総会の開催及び付議議案の決定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261028/140120261028558346.pdf"
+    },
+    {
+      "code": "9073",
+      "company_name": "京極運輸",
+      "market_cap": 38.0,
+      "time": "17:30",
+      "title": "代表取締役の異動に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261028/140120261028558366.pdf"
     },
     {
       "code": "3469",
@@ -2052,12 +2132,28 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261028/140120261026555655.pdf"
     },
     {
+      "code": "2901",
+      "company_name": "ウェルディッシュ",
+      "market_cap": 21.2,
+      "time": "19:00",
+      "title": "（開示事項の経過）新株予約権（第５回）の強制行使に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261028/140120261028558632.pdf"
+    },
+    {
       "code": "7601",
       "company_name": "ポプラ",
       "market_cap": 19.3,
       "time": "14:00",
       "title": "連結子会社からの配当金受領に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261028/140120261028557797.pdf"
+    },
+    {
+      "code": "3672",
+      "company_name": "オルトプラスＨＤ",
+      "market_cap": 19.0,
+      "time": "17:30",
+      "title": "『カリスマダミス CHARISMA de MURDER MYSTERY』のリリース時期変更に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261028/140120261028557743.pdf"
     },
     {
       "code": "6573",
@@ -2108,6 +2204,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261028/140120261028557623.pdf"
     },
     {
+      "code": "4059",
+      "company_name": "まぐまぐ",
+      "market_cap": 9.8,
+      "time": "17:20",
+      "title": "東京証券取引所における当社株式の上場廃止の決定及び整理銘柄への指定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261028/140120261028558445.pdf"
+    },
+    {
       "code": "1773",
       "company_name": "ＹＴＬ",
       "market_cap": 0,
@@ -2117,7 +2221,8 @@
     }
   ],
   "notified": {
-    "evening": true
+    "evening": true,
+    "night": true
   },
   "tdnet_available": true
 }
