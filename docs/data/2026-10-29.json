@@ -1,7 +1,7 @@
 {
   "date": "2026-10-29",
-  "company_count": 224,
-  "total_count": 396,
+  "company_count": 229,
+  "total_count": 406,
   "items": [
     {
       "code": "6861",
@@ -988,6 +988,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261029/140120261015551669.pdf"
     },
     {
+      "code": "6622",
+      "company_name": "ダイヘン",
+      "market_cap": 2794.0,
+      "time": "17:30",
+      "title": "2027年３月期第２四半期（中間期）及び通期連結業績予想の修正並びに期末配当予想の修正に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261029/140120261029559900.pdf"
+    },
+    {
       "code": "8714",
       "company_name": "池田泉州",
       "market_cap": 2712.0,
@@ -1474,6 +1482,22 @@
       "time": "15:40",
       "title": "2027年３月期 第２四半期（中間期）決算短信〔日本基準〕(連結)",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261029/140120261028557963.pdf"
+    },
+    {
+      "code": "2612",
+      "company_name": "かどや製油",
+      "market_cap": 856.1,
+      "time": "19:30",
+      "title": "（変更）「株式会社ITG-Gホールディングスによる当社株式に対する公開買付けに関する賛同の意見表明及び応募推奨のお知らせ」の一部変更に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261029/140120261029560108.pdf"
+    },
+    {
+      "code": "2612",
+      "company_name": "かどや製油",
+      "market_cap": 856.1,
+      "time": "19:30",
+      "title": "（株）ITG-Gホールディングスによる公開買付届出書の訂正に伴う「かどや製油（株）の普通株式に対する公開買付けの開始に関するお知らせ」の変更について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261029/140120261029559761.pdf"
     },
     {
       "code": "4290",
@@ -2764,6 +2788,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261029/140120261029558961.pdf"
     },
     {
+      "code": "4015",
+      "company_name": "Ｇ－ペイクラウドＨＤ",
+      "market_cap": 82.5,
+      "time": "17:35",
+      "title": "2026年9月 月次業績報告",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261029/140120261029560030.pdf"
+    },
+    {
       "code": "6518",
       "company_name": "三相電機",
       "market_cap": 82.3,
@@ -2850,6 +2882,46 @@
       "time": "16:00",
       "title": "NOX-A12を用い初発膠芽腫を対象とした臨床試験に関する共同事業についてのタームシート締結と子会社設立に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261029/140120261029559341.pdf"
+    },
+    {
+      "code": "4380",
+      "company_name": "Ｇ－Ｍマート",
+      "market_cap": 64.3,
+      "time": "18:00",
+      "title": "第27期（2027年1月期2Q）上半期決算及び会社説明資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261029/140120261029559410.pdf"
+    },
+    {
+      "code": "3691",
+      "company_name": "Ｇ－デジタルプラス",
+      "market_cap": 63.5,
+      "time": "19:00",
+      "title": "2026年９月期 連結業績予想の開示に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261029/140120261029560032.pdf"
+    },
+    {
+      "code": "3691",
+      "company_name": "Ｇ－デジタルプラス",
+      "market_cap": 63.5,
+      "time": "19:00",
+      "title": "2027年９月期 連結業績予想及び株主優待制度の拡充に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261029/140120261029559944.pdf"
+    },
+    {
+      "code": "3691",
+      "company_name": "Ｇ－デジタルプラス",
+      "market_cap": 63.5,
+      "time": "19:00",
+      "title": "2027年９月期通期業績予想および株主還元 補足説明資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261029/140120261029560175.pdf"
+    },
+    {
+      "code": "3691",
+      "company_name": "Ｇ－デジタルプラス",
+      "market_cap": 63.5,
+      "time": "19:00",
+      "title": "2026年９月期第4四半期流通速報及び事業進捗 補足説明資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261029/140120261029560173.pdf"
     },
     {
       "code": "8742",
@@ -3156,6 +3228,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261029/140120261029559852.pdf"
     },
     {
+      "code": "7063",
+      "company_name": "Ｇ－Ｂｉｒｄｍａｎ",
+      "market_cap": 15.4,
+      "time": "19:00",
+      "title": "資金の借入及び担保提供に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261029/140120261029560132.pdf"
+    },
+    {
       "code": "2667",
       "company_name": "イメージワン",
       "market_cap": 12.7,
@@ -3173,7 +3253,8 @@
     }
   ],
   "notified": {
-    "evening": true
+    "evening": true,
+    "night": true
   },
   "tdnet_available": true
 }
