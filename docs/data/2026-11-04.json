@@ -1,7 +1,7 @@
 {
   "date": "2026-11-04",
-  "company_count": 215,
-  "total_count": 341,
+  "company_count": 216,
+  "total_count": 343,
   "items": [
     {
       "code": "7203",
@@ -452,6 +452,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261104/140120261102563279.pdf"
     },
     {
+      "code": "7729",
+      "company_name": "東精密",
+      "market_cap": 6056.0,
+      "time": "18:00",
+      "title": "2026年度（2027年3月期）第2四半期 決算説明会（ノート付）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261104/140120261104563485.pdf"
+    },
+    {
       "code": "9142",
       "company_name": "ＪＲ九州",
       "market_cap": 5412.1,
@@ -650,6 +658,14 @@
       "time": "14:00",
       "title": "2027年3月期 第2四半期 決算説明資料",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261104/140120261026556111.pdf"
+    },
+    {
+      "code": "6407",
+      "company_name": "ＣＫＤ",
+      "market_cap": 3020.9,
+      "time": "19:00",
+      "title": "自己株式の取得状況及び取得終了に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261104/140120261104564747.pdf"
     },
     {
       "code": "6526",
@@ -2733,7 +2749,8 @@
     }
   ],
   "notified": {
-    "evening": true
+    "evening": true,
+    "night": true
   },
   "tdnet_available": true
 }
