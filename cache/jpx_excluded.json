@@ -1,7 +1,7 @@
 {
   "source": "https://www.jpx.co.jp/markets/statistics-equities/misc/tvdivq0000001vg2-att/data_j.xlsx",
-  "fetched_at": "2026-10-05",
-  "count": 550,
+  "fetched_at": "2026-11-05",
+  "count": 553,
   "codes": [
     "1305",
     "1306",
@@ -523,6 +523,9 @@
     "639A",
     "643A",
     "644A",
+    "650A",
+    "651A",
+    "659A",
     "8301",
     "8421",
     "8951",
