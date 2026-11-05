@@ -1,7 +1,7 @@
 {
   "date": "2026-11-05",
-  "company_count": 278,
-  "total_count": 491,
+  "company_count": 287,
+  "total_count": 503,
   "items": [
     {
       "code": "7203",
@@ -900,6 +900,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261105/140120261104564335.pdf"
     },
     {
+      "code": "8524",
+      "company_name": "北洋銀行",
+      "market_cap": 4395.9,
+      "time": "18:00",
+      "title": "（訂正・数値データ訂正）「業績予想の修正及び配当予想の修正（増配）に関するお知らせ」の一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261105/140120261104564096.pdf"
+    },
+    {
       "code": "3110",
       "company_name": "日東紡",
       "market_cap": 4224.9,
@@ -1364,6 +1372,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261105/140120261105565865.pdf"
     },
     {
+      "code": "485A",
+      "company_name": "Ｇ－パワーエックス",
+      "market_cap": 1889.2,
+      "time": "18:30",
+      "title": "米国等での協業に向けたEnergy Vaultグループとの基本合意のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261105/140120261105566305.pdf"
+    },
+    {
       "code": "7278",
       "company_name": "エクセディ",
       "market_cap": 1857.2,
@@ -1740,6 +1756,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261105/140120261105565362.pdf"
     },
     {
+      "code": "2678",
+      "company_name": "アスクル",
+      "market_cap": 1121.8,
+      "time": "17:30",
+      "title": "その他の関係会社の決算に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261105/140120261105566273.pdf"
+    },
+    {
       "code": "6941",
       "company_name": "山一電機",
       "market_cap": 1109.2,
@@ -1826,6 +1850,14 @@
       "time": "15:30",
       "title": "剰余金の配当（中間配当・増配）及び2027年3月期配当予想の修正（増配）に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261105/140120261105565370.pdf"
+    },
+    {
+      "code": "3034",
+      "company_name": "クオールＨＤ",
+      "market_cap": 949.2,
+      "time": "17:30",
+      "title": "2027年３月期　第２四半期決算説明会資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261105/140120261105565727.pdf"
     },
     {
       "code": "3028",
@@ -2364,6 +2396,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261105/140120261102562391.pdf"
     },
     {
+      "code": "6099",
+      "company_name": "エラン",
+      "market_cap": 473.6,
+      "time": "17:30",
+      "title": "株式報酬型ストック・オプションの発行内容の確定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261105/140120261105566333.pdf"
+    },
+    {
       "code": "5261",
       "company_name": "リソル",
       "market_cap": 466.8,
@@ -2850,6 +2890,22 @@
       "time": "16:00",
       "title": "業績予想の修正に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261105/140120261105566038.pdf"
+    },
+    {
+      "code": "4310",
+      "company_name": "ＤＩ",
+      "market_cap": 200.7,
+      "time": "17:30",
+      "title": "2027年３月期 第２四半期（中間期）決算短信〔日本基準〕（連結）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261105/140120261029559186.pdf"
+    },
+    {
+      "code": "4310",
+      "company_name": "ＤＩ",
+      "market_cap": 200.7,
+      "time": "17:30",
+      "title": "2027年３月期 第２四半期決算説明会資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261105/140120261029559204.pdf"
     },
     {
       "code": "9537",
@@ -3540,6 +3596,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261105/140120261104564526.pdf"
     },
     {
+      "code": "8230",
+      "company_name": "はせがわ",
+      "market_cap": 53.3,
+      "time": "17:30",
+      "title": "当社委託先のメール配信サービスへの不正アクセスによる個人情報漏えいに関するお知らせ（第２報）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261105/140120261105566324.pdf"
+    },
+    {
       "code": "3058",
       "company_name": "三洋堂ＨＤ",
       "market_cap": 53.0,
@@ -3732,6 +3796,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261105/140120261105565968.pdf"
     },
     {
+      "code": "9778",
+      "company_name": "昴",
+      "market_cap": 32.6,
+      "time": "18:00",
+      "title": "代表取締役の異動（辞任）および社長交代に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261105/140120261105566389.pdf"
+    },
+    {
       "code": "8995",
       "company_name": "誠建設",
       "market_cap": 30.2,
@@ -3868,6 +3940,22 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261105/140120261104563520.pdf"
     },
     {
+      "code": "8783",
+      "company_name": "ａｂｃ",
+      "market_cap": 19.7,
+      "time": "18:00",
+      "title": "（開示事項の経過）株主優待ポイントの利用サービス「優待のいずみ」の提携先でのご利用開始日の変更およびご利用方法の一部変更に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261105/140120261105566361.pdf"
+    },
+    {
+      "code": "4735",
+      "company_name": "京進",
+      "market_cap": 19.2,
+      "time": "18:00",
+      "title": "上場維持基準への適合に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261105/140120261105566386.pdf"
+    },
+    {
       "code": "9225",
       "company_name": "Ｇ－ブリッジコンサル",
       "market_cap": 19.1,
@@ -3908,6 +3996,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261105/140120261105566241.pdf"
     },
     {
+      "code": "6867",
+      "company_name": "リーダ電子",
+      "market_cap": 16.7,
+      "time": "19:10",
+      "title": "（訂正）「2027年３月期 第２四半期（中間期）決算短信〔日本基準〕（連結）」の一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261105/140120261105566545.pdf"
+    },
+    {
       "code": "3908",
       "company_name": "コラボス",
       "market_cap": 16.6,
@@ -3933,7 +4029,8 @@
     }
   ],
   "notified": {
-    "evening": true
+    "evening": true,
+    "night": true
   },
   "tdnet_available": true
 }
