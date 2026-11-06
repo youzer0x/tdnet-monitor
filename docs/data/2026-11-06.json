@@ -1,7 +1,7 @@
 {
   "date": "2026-11-06",
-  "company_count": 360,
-  "total_count": 678,
+  "company_count": 371,
+  "total_count": 694,
   "items": [
     {
       "code": "9984",
@@ -1076,6 +1076,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261106/140120261106567249.pdf"
     },
     {
+      "code": "7984",
+      "company_name": "コクヨ",
+      "market_cap": 3516.2,
+      "time": "18:00",
+      "title": "（開示事項の経過）Thien Long Group Corporationの子会社化及び公開買付けに関するお知らせ（特定子会社の異動を伴う株式取得）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261106/140120261106567577.pdf"
+    },
+    {
       "code": "8425",
       "company_name": "みずほリース",
       "market_cap": 3462.5,
@@ -1194,6 +1202,14 @@
       "time": "15:30",
       "title": "2026年12月期第3四半期決算短信〔日本基準〕（連結）",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261106/140120261030560549.pdf"
+    },
+    {
+      "code": "9449",
+      "company_name": "ＧＭＯ",
+      "market_cap": 2890.3,
+      "time": "18:30",
+      "title": "連結子会社GMOインターネット株式会社における不正アクセスに関する補償の対応状況に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261106/140120261106568195.pdf"
     },
     {
       "code": "8361",
@@ -1354,6 +1370,14 @@
       "time": "15:30",
       "title": "従業員持株会を通じた譲渡制限付株式付与のための第三者割当による自己株式の処分に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261106/140120261106566751.pdf"
+    },
+    {
+      "code": "3360",
+      "company_name": "シップＨＤ",
+      "market_cap": 2223.0,
+      "time": "18:00",
+      "title": "株式会社チャーム・ケア・コーポレーション（証券コード：6062）に対する公開買付けの開始に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261106/140120261106567511.pdf"
     },
     {
       "code": "4588",
@@ -1732,6 +1756,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261106/140120261022554629.pdf"
     },
     {
+      "code": "4784",
+      "company_name": "ＧＭＯインターネット",
+      "market_cap": 1140.9,
+      "time": "18:30",
+      "title": "当社が提供するサービスにおける不正アクセスに関する補償の対応状況に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261106/140120261106567874.pdf"
+    },
+    {
       "code": "6875",
       "company_name": "メガチップス",
       "market_cap": 1127.1,
@@ -1858,6 +1890,14 @@
       "time": "13:00",
       "title": "2027年３月期　第２四半期（中間期）連結業績予想値と実績値との差異及び通期連結業績予想の修正に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261106/140120261106567307.pdf"
+    },
+    {
+      "code": "4028",
+      "company_name": "石原産",
+      "market_cap": 900.4,
+      "time": "17:15",
+      "title": "（訂正）「2027年３月期　第２四半期（中間期）決算短信〔日本基準〕(連結)」の訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261106/140120261106567795.pdf"
     },
     {
       "code": "3036",
@@ -2548,6 +2588,38 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261106/140120261106567208.pdf"
     },
     {
+      "code": "6062",
+      "company_name": "チャームケア",
+      "market_cap": 464.4,
+      "time": "18:00",
+      "title": "その他の関係会社の親会社であるシップヘルスケアホールディングス株式会社による当社株券等に対する公開買付けに関する賛同及び応募推奨の意見表明のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261106/140120261106567703.pdf"
+    },
+    {
+      "code": "6062",
+      "company_name": "チャームケア",
+      "market_cap": 464.4,
+      "time": "18:00",
+      "title": "2027年６月期中間配当及び期末配当予想の修正（無配）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261106/140120261106567516.pdf"
+    },
+    {
+      "code": "6062",
+      "company_name": "チャームケア",
+      "market_cap": 464.4,
+      "time": "18:00",
+      "title": "2027年６月期第１四半期決算短信〔日本基準〕(連結)",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261106/140120261106567485.pdf"
+    },
+    {
+      "code": "6062",
+      "company_name": "チャームケア",
+      "market_cap": 464.4,
+      "time": "18:00",
+      "title": "2027年６月期　第１四半期　決算説明資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261106/140120261106567510.pdf"
+    },
+    {
       "code": "1375",
       "company_name": "ユキグニファクトリー",
       "market_cap": 448.3,
@@ -3066,6 +3138,14 @@
       "time": "15:30",
       "title": "2026年12月期第３四半期決算説明会資料",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261106/140120261106566857.pdf"
+    },
+    {
+      "code": "325A",
+      "company_name": "Ｇ－ＴＥＮＴＩＡＬ",
+      "market_cap": 230.6,
+      "time": "18:00",
+      "title": "2026年8月期 通期決算および中期経営計画に関する補足説明（質疑応答）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261106/140120261106568147.pdf"
     },
     {
       "code": "6245",
@@ -3636,6 +3716,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261106/140120261105566614.pdf"
     },
     {
+      "code": "6224",
+      "company_name": "Ｇ－ＪＲＣ",
+      "market_cap": 139.6,
+      "time": "19:30",
+      "title": "2027年2月期 第2四半期（中間期）決算説明会における質疑応答（要旨）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261106/140120261106566747.pdf"
+    },
+    {
       "code": "2700",
       "company_name": "木徳神糧",
       "market_cap": 139.2,
@@ -4180,12 +4268,28 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261106/140120261104563892.pdf"
     },
     {
+      "code": "6769",
+      "company_name": "ザイン",
+      "market_cap": 89.9,
+      "time": "18:05",
+      "title": "（訂正・数値データ訂正）「2026年12月期第３四半期決算短信［日本基準］（連結）の一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261106/140120261106567649.pdf"
+    },
+    {
       "code": "1905",
       "company_name": "テノックス",
       "market_cap": 89.6,
       "time": "13:30",
       "title": "2027年3月期　第2四半期（中間期）決算短信〔日本基準〕（連結）",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261106/140120261105565541.pdf"
+    },
+    {
+      "code": "8416",
+      "company_name": "高知銀行",
+      "market_cap": 89.1,
+      "time": "18:00",
+      "title": "債権の取立不能または取立遅延のおそれに関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261106/140120261106568163.pdf"
     },
     {
       "code": "3955",
@@ -4698,6 +4802,22 @@
       "time": "15:30",
       "title": "2027年6月期　第1四半期決算短信〔日本基準〕（連結）",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261106/140120261030560932.pdf"
+    },
+    {
+      "code": "4015",
+      "company_name": "Ｇ－ペイクラウドＨＤ",
+      "market_cap": 47.7,
+      "time": "17:50",
+      "title": "当社連結子会社が提供する「アララメッセージ」への不正アクセスによる情報流出およびサービス停止について（第３報）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261106/140120261106568143.pdf"
+    },
+    {
+      "code": "4015",
+      "company_name": "Ｇ－ペイクラウドＨＤ",
+      "market_cap": 47.7,
+      "time": "19:52",
+      "title": "（訂正）当社連結子会社が提供する「アララメッセージ」への不正アクセスによる情報流出およびサービス停止について（第３報）の一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261106/140120261106568259.pdf"
     },
     {
       "code": "4263",
@@ -5228,6 +5348,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261106/140120261106567480.pdf"
     },
     {
+      "code": "9760",
+      "company_name": "進学会ＨＤ",
+      "market_cap": 18.3,
+      "time": "17:30",
+      "title": "販売用不動産の売却に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261106/140120261106567549.pdf"
+    },
+    {
       "code": "8783",
       "company_name": "ａｂｃ",
       "market_cap": 18.1,
@@ -5429,7 +5557,8 @@
     }
   ],
   "notified": {
-    "evening": true
+    "evening": true,
+    "night": true
   },
   "tdnet_available": true
 }
