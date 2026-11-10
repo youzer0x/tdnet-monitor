@@ -1360,5 +1360,5 @@
     "evening": true,
     "night": true
   },
-  "tdnet_available": true
+  "tdnet_available": false
 }
