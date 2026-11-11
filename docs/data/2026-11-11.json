@@ -1,7 +1,7 @@
 {
   "date": "2026-11-11",
-  "company_count": 337,
-  "total_count": 712,
+  "company_count": 343,
+  "total_count": 728,
   "items": [
     {
       "code": "6098",
@@ -26,6 +26,14 @@
       "time": "15:30",
       "title": "2027年3月期第2四半期決算サマリー",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261111/140120261110570848.pdf"
+    },
+    {
+      "code": "8591",
+      "company_name": "オリックス",
+      "market_cap": 57723.1,
+      "time": "20:00",
+      "title": "オリックス株式会社の子会社（OPI・ITホールディングス株式会社）によるアイビーシー株式会社（証券コード：3920）に対する公開買付けの開始について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261111/140120261110571635.pdf"
     },
     {
       "code": "5020",
@@ -514,6 +522,22 @@
       "time": "10:00",
       "title": "自己株式立会外買付取引（ToSTNeT-3）による自己株式の取得結果に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261111/140120261110572187.pdf"
+    },
+    {
+      "code": "6845",
+      "company_name": "アズビル",
+      "market_cap": 7553.7,
+      "time": "18:59",
+      "title": "（訂正）「2027年３月期　第２四半期（中間期）決算短信〔ＩＦＲＳ〕（連結）」の一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261111/140120261111573563.pdf"
+    },
+    {
+      "code": "6845",
+      "company_name": "アズビル",
+      "market_cap": 7553.7,
+      "time": "18:59",
+      "title": "（訂正）「自己株式の取得状況及び取得終了」及び「自己株式の取得及び消却」に関するお知らせの一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261111/140120261111573464.pdf"
     },
     {
       "code": "2371",
@@ -1098,6 +1122,22 @@
       "time": "15:00",
       "title": "自己株式取得に係る事項の決定に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261111/140120261111573144.pdf"
+    },
+    {
+      "code": "6770",
+      "company_name": "アルプスアルパイン",
+      "market_cap": 3796.8,
+      "time": "17:30",
+      "title": "自己株式取得状況に関するお知らせの一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261111/140120261111574166.pdf"
+    },
+    {
+      "code": "6770",
+      "company_name": "アルプスアルパイン",
+      "market_cap": 3796.8,
+      "time": "17:30",
+      "title": "自己株式取得状況に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261111/140120261111574184.pdf"
     },
     {
       "code": "4118",
@@ -2212,12 +2252,44 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261111/140120261111573497.pdf"
     },
     {
+      "code": "3673",
+      "company_name": "ブロドリーフ",
+      "market_cap": 862.5,
+      "time": "17:40",
+      "title": "2026年12月期 第3四半期決算説明会資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261111/140120261111573866.pdf"
+    },
+    {
+      "code": "3673",
+      "company_name": "ブロドリーフ",
+      "market_cap": 862.5,
+      "time": "17:40",
+      "title": "データブック 2026",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261111/140120261111574291.pdf"
+    },
+    {
       "code": "6237",
       "company_name": "イワキポンプ",
       "market_cap": 859.6,
       "time": "16:00",
       "title": "2027年３月期第２四半期業績予想の修正及び通期業績予想の修正並びに期末配当予想の修正（増配）に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261111/140120261111573476.pdf"
+    },
+    {
+      "code": "2612",
+      "company_name": "かどや製油",
+      "market_cap": 853.3,
+      "time": "21:00",
+      "title": "（株）ITG-Gホールディングスによる公開買付届出書の訂正に伴う「かどや製油（株）の普通株式に対する公開買付けの開始に関するお知らせ」の変更について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261111/140120261111574588.pdf"
+    },
+    {
+      "code": "2612",
+      "company_name": "かどや製油",
+      "market_cap": 853.3,
+      "time": "21:00",
+      "title": "（変更）「株式会社ITG-Gホールディングスによる当社株式に対する公開買付けに関する賛同の意見表明及び応募推奨のお知らせ」の一部変更に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261111/140120261111573558.pdf"
     },
     {
       "code": "3950",
@@ -3612,6 +3684,22 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261111/140120261111573405.pdf"
     },
     {
+      "code": "428A",
+      "company_name": "サイプレスＨＤ",
+      "market_cap": 186.6,
+      "time": "17:20",
+      "title": "売出価格等の決定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261111/140120261111574098.pdf"
+    },
+    {
+      "code": "428A",
+      "company_name": "サイプレスＨＤ",
+      "market_cap": 186.6,
+      "time": "17:20",
+      "title": "（開示事項の経過）自己株式取得に係る事項の決定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261111/140120261111574158.pdf"
+    },
+    {
       "code": "4231",
       "company_name": "タイガーポリ",
       "market_cap": 186.1,
@@ -4316,6 +4404,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261111/140120261111573192.pdf"
     },
     {
+      "code": "6156",
+      "company_name": "エーワン精密",
+      "market_cap": 92.5,
+      "time": "17:20",
+      "title": "譲渡制限付株式報酬としての自己株式の処分の払込み完了に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261111/140120261111574199.pdf"
+    },
+    {
       "code": "4237",
       "company_name": "フジプレアム",
       "market_cap": 91.7,
@@ -4450,6 +4546,38 @@
       "time": "17:00",
       "title": "2027年3月期 第2四半期決算説明資料",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261111/140120261110571733.pdf"
+    },
+    {
+      "code": "3920",
+      "company_name": "アイビーシー",
+      "market_cap": 84.4,
+      "time": "20:00",
+      "title": "OPI・ITホールディングス株式会社による当社株式に対する公開買付けに関する賛同の意見表明及び応募推奨のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261111/140120261111573919.pdf"
+    },
+    {
+      "code": "3920",
+      "company_name": "アイビーシー",
+      "market_cap": 84.4,
+      "time": "20:00",
+      "title": "2026年9月期　剰余金の配当（無配）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261111/140120261111573841.pdf"
+    },
+    {
+      "code": "3920",
+      "company_name": "アイビーシー",
+      "market_cap": 84.4,
+      "time": "20:00",
+      "title": "2026年9月期決算短信〔日本基準〕（非連結）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261111/140120261111573818.pdf"
+    },
+    {
+      "code": "3920",
+      "company_name": "アイビーシー",
+      "market_cap": 84.4,
+      "time": "20:00",
+      "title": "2026年9月期通期決算説明資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261111/140120261111573846.pdf"
     },
     {
       "code": "3571",
@@ -5701,7 +5829,8 @@
     }
   ],
   "notified": {
-    "evening": true
+    "evening": true,
+    "night": true
   },
   "tdnet_available": true
 }
