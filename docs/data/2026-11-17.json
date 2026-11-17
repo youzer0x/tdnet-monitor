@@ -1,7 +1,7 @@
 {
   "date": "2026-11-17",
-  "company_count": 92,
-  "total_count": 109,
+  "company_count": 102,
+  "total_count": 122,
   "items": [
     {
       "code": "8766",
@@ -122,6 +122,14 @@
       "time": "17:00",
       "title": "売出価格等の決定に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261117/140120261117582038.pdf"
+    },
+    {
+      "code": "3046",
+      "company_name": "ＪＩＮＳＨＤ",
+      "market_cap": 1564.3,
+      "time": "18:00",
+      "title": "当社子会社の委託先に対する不正アクセスによる個人情報漏えいに関するお詫びとお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261117/140120261117582109.pdf"
     },
     {
       "code": "7283",
@@ -260,6 +268,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261117/140120261117581880.pdf"
     },
     {
+      "code": "9278",
+      "company_name": "ブックオフＧＨＤ",
+      "market_cap": 456.0,
+      "time": "18:00",
+      "title": "子会社等の異動（出資額の変更及び事業開始）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261117/140120261117582147.pdf"
+    },
+    {
       "code": "4249",
       "company_name": "森六",
       "market_cap": 411.4,
@@ -356,12 +372,44 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261117/140120261116581123.pdf"
     },
     {
+      "code": "421A",
+      "company_name": "Ｇ－ムービン",
+      "market_cap": 243.2,
+      "time": "18:30",
+      "title": "2026年12月期 第３四半期決算説明会書き起こし",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261117/140120261117582345.pdf"
+    },
+    {
+      "code": "3788",
+      "company_name": "ＧＭＯＧＳＨＤ",
+      "market_cap": 222.4,
+      "time": "17:01",
+      "title": "（訂正）「主要株主、主要株主である筆頭株主及び親会社の異動に関するお知らせ」の一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261117/140120261117582226.pdf"
+    },
+    {
       "code": "8789",
       "company_name": "フィンテック",
       "market_cap": 205.7,
       "time": "16:30",
       "title": "連結子会社の資本業務提携に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261117/140120261116581498.pdf"
+    },
+    {
+      "code": "8789",
+      "company_name": "フィンテック",
+      "market_cap": 205.7,
+      "time": "17:10",
+      "title": "当社従業員並びに当社子会社の取締役及び従業員に対するストックオプション（新株予約権）の付与に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261117/140120261117582040.pdf"
+    },
+    {
+      "code": "8789",
+      "company_name": "フィンテック",
+      "market_cap": 205.7,
+      "time": "17:10",
+      "title": "定款の一部変更に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261117/140120261117582037.pdf"
     },
     {
       "code": "5532",
@@ -532,12 +580,36 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261117/140120261117581832.pdf"
     },
     {
+      "code": "6819",
+      "company_name": "伊豆シャボテンＲ",
+      "market_cap": 86.4,
+      "time": "18:00",
+      "title": "（訂正）アニタッチ鎌倉小町オープンに関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261117/140120261117582317.pdf"
+    },
+    {
+      "code": "4436",
+      "company_name": "Ｇ－ミンカブ",
+      "market_cap": 82.7,
+      "time": "18:00",
+      "title": "（訂正）「2027年３月期 第２四半期決算説明資料」の一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261117/140120261117582341.pdf"
+    },
+    {
       "code": "4896",
       "company_name": "Ｇ－ケイファーマ",
       "market_cap": 79.8,
       "time": "16:00",
       "title": "2026年12月期　第3四半期決算説明資料",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261117/140120261116581532.pdf"
+    },
+    {
+      "code": "6094",
+      "company_name": "Ｇ－フリークアウト",
+      "market_cap": 79.6,
+      "time": "17:30",
+      "title": "2026年9月期 通期決算 質疑応答集",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261117/140120261117582293.pdf"
     },
     {
       "code": "2134",
@@ -596,6 +668,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261117/140120261106568216.pdf"
     },
     {
+      "code": "4884",
+      "company_name": "Ｇ－クリングル",
+      "market_cap": 49.3,
+      "time": "17:30",
+      "title": "2026年9月期 通期決算説明会 質疑応答について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261117/140120261117582308.pdf"
+    },
+    {
       "code": "4172",
       "company_name": "Ｈｉクラテス",
       "market_cap": 48.8,
@@ -612,12 +692,36 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261117/140120261116581476.pdf"
     },
     {
+      "code": "598A",
+      "company_name": "Ｇ－チャットプラス",
+      "market_cap": 45.7,
+      "time": "17:30",
+      "title": "当社サービスに対する不正アクセスに関するお知らせ（第一報）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261117/140120261117582334.pdf"
+    },
+    {
       "code": "4394",
       "company_name": "Ｇ－エクスモーション",
       "market_cap": 45.1,
       "time": "15:30",
       "title": "監査等委員である取締役（社外取締役）の逝去に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261117/140120261117581958.pdf"
+    },
+    {
+      "code": "280A",
+      "company_name": "Ｇ－ＴＭＨ",
+      "market_cap": 35.7,
+      "time": "17:15",
+      "title": "自己株式の取得状況および取得完了に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261117/140120261117582286.pdf"
+    },
+    {
+      "code": "4586",
+      "company_name": "メドレックス",
+      "market_cap": 35.6,
+      "time": "17:30",
+      "title": "第三者割当により発行された第35回新株予約権(行使価額修正条項付)の行使完了及び月間行使状況に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261117/140120261117582105.pdf"
     },
     {
       "code": "4645",
@@ -877,7 +981,8 @@
     }
   ],
   "notified": {
-    "evening": true
+    "evening": true,
+    "night": true
   },
   "tdnet_available": true
 }
