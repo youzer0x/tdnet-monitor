@@ -1,7 +1,7 @@
 {
   "date": "2026-11-18",
-  "company_count": 94,
-  "total_count": 107,
+  "company_count": 102,
+  "total_count": 115,
   "items": [
     {
       "code": "6098",
@@ -164,6 +164,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261118/140120261117582288.pdf"
     },
     {
+      "code": "8771",
+      "company_name": "Ｅギャランティ",
+      "market_cap": 761.2,
+      "time": "18:40",
+      "title": "主要株主の異動に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261118/140120261118582889.pdf"
+    },
+    {
       "code": "6676",
       "company_name": "ＢＵＦＦＡＬＯ",
       "market_cap": 753.4,
@@ -234,6 +242,14 @@
       "time": "15:45",
       "title": "2026年10月期　10月度月次売上高等に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261118/140120261111573671.pdf"
+    },
+    {
+      "code": "9639",
+      "company_name": "三協フロンテ",
+      "market_cap": 503.6,
+      "time": "17:30",
+      "title": "処分価格及び売出価格等の決定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261118/140120261118582849.pdf"
     },
     {
       "code": "3687",
@@ -314,6 +330,14 @@
       "time": "10:30",
       "title": "主要株主及び主要株主である筆頭株主の異動に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261118/140120261118582520.pdf"
+    },
+    {
+      "code": "2114",
+      "company_name": "フジ日本",
+      "market_cap": 321.6,
+      "time": "17:45",
+      "title": "連結子会社（ユニテックフーズ株式会社）の株式上場承認及び当社所有株式の一部売出しに関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261118/140120261118582706.pdf"
     },
     {
       "code": "5038",
@@ -532,6 +556,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261118/140120261118582577.pdf"
     },
     {
+      "code": "5033",
+      "company_name": "Ｇ－ヌーラボ",
+      "market_cap": 73.6,
+      "time": "18:00",
+      "title": "当社サービス「Cacoo」における不正アクセスに関する現在の状況について（第二報）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261118/140120261118582953.pdf"
+    },
+    {
       "code": "407A",
       "company_name": "ＵＮＩＣＯＮ　ＨＤ",
       "market_cap": 67.7,
@@ -586,6 +618,14 @@
       "time": "16:30",
       "title": "自己株式の取得及び自己株式立会外買付取引（ToSTNeT-3）による自己株式の買付けに関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261118/140120261106568165.pdf"
+    },
+    {
+      "code": "627A",
+      "company_name": "アキッパ",
+      "market_cap": 62.2,
+      "time": "18:30",
+      "title": "2026年12月期第3四半期　決算説明会の質疑応答要旨公開のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261118/140120261118582865.pdf"
     },
     {
       "code": "3021",
@@ -652,6 +692,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261118/140120261118582888.pdf"
     },
     {
+      "code": "2449",
+      "company_name": "プラップＪ",
+      "market_cap": 48.9,
+      "time": "18:00",
+      "title": "（訂正）「株式の売り出しならびに主要株主、主要株主である筆頭株主及びその他関係会社の異動に関するお知らせ」の一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261118/140120261118582962.pdf"
+    },
+    {
       "code": "9219",
       "company_name": "Ｇ－ギックス",
       "market_cap": 47.5,
@@ -690,6 +738,14 @@
       "time": "11:00",
       "title": "自己株式の取得状況および取得終了に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261118/140120261117582327.pdf"
+    },
+    {
+      "code": "6545",
+      "company_name": "Ｇ－ＩＩＦ",
+      "market_cap": 38.7,
+      "time": "17:20",
+      "title": "2027年３月期第２四半期（中間期）決算説明会における質疑応答（要旨）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261118/140120261118582954.pdf"
     },
     {
       "code": "3461",
@@ -754,6 +810,14 @@
       "time": "15:30",
       "title": "会社分割（簡易新設分割）による子会社設立に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261118/140120261116581096.pdf"
+    },
+    {
+      "code": "138A",
+      "company_name": "Ｇ－光フードサービス",
+      "market_cap": 30.3,
+      "time": "17:30",
+      "title": "本社移転日決定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261118/140120261112576514.pdf"
     },
     {
       "code": "6193",
@@ -861,7 +925,8 @@
     }
   ],
   "notified": {
-    "evening": true
+    "evening": true,
+    "night": true
   },
   "tdnet_available": true
 }
