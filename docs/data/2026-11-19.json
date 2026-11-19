@@ -1,7 +1,7 @@
 {
   "date": "2026-11-19",
-  "company_count": 113,
-  "total_count": 155,
+  "company_count": 121,
+  "total_count": 163,
   "items": [
     {
       "code": "8766",
@@ -228,12 +228,28 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261119/140120261119583350.pdf"
     },
     {
+      "code": "5186",
+      "company_name": "ニッタ",
+      "market_cap": 1657.0,
+      "time": "19:00",
+      "title": "Gates社との合弁事業解消によるゲイツ・ユニッタ・アジア株式会社の完全子会社化と持分法適用関連会社の異動および特別利益の計上見込みに関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261119/140120261118582765.pdf"
+    },
+    {
       "code": "8803",
       "company_name": "平和不",
       "market_cap": 1575.2,
       "time": "16:20",
       "title": "通期業績予想の修正に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261119/140120261119583455.pdf"
+    },
+    {
+      "code": "9936",
+      "company_name": "王将フード",
+      "market_cap": 1565.9,
+      "time": "18:30",
+      "title": "2027年3月期第2四半期　決算説明会",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261119/140120261119583732.pdf"
     },
     {
       "code": "8214",
@@ -532,6 +548,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261119/140120261118582687.pdf"
     },
     {
+      "code": "6706",
+      "company_name": "電気興",
+      "market_cap": 258.1,
+      "time": "18:30",
+      "title": "中間配当（無配）および期末配当予想の修正（未定）に関する補足のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261119/140120261119583682.pdf"
+    },
+    {
       "code": "7409",
       "company_name": "Ｇ－ＡｅｒｏＥｄｇｅ",
       "market_cap": 249.8,
@@ -820,6 +844,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261119/140120261118582749.pdf"
     },
     {
+      "code": "8127",
+      "company_name": "ヤマトインター",
+      "market_cap": 98.5,
+      "time": "18:00",
+      "title": "（訂正）「2026年8月期 決算短信〔日本基準〕（連結）」の一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261119/140120261119583646.pdf"
+    },
+    {
       "code": "463A",
       "company_name": "インテリックスＨＤ",
       "market_cap": 92.7,
@@ -890,6 +922,14 @@
       "time": "16:45",
       "title": "自己株式の取得及び自己株式立会外買付取引（ToSTNeT-3）による自己株式の買付けに関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261119/140120261119583476.pdf"
+    },
+    {
+      "code": "7590",
+      "company_name": "タカショー",
+      "market_cap": 64.9,
+      "time": "17:45",
+      "title": "財務上の特約が付された既存コミットメントライン契約に基づく借入の実施について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261119/140120261119583693.pdf"
     },
     {
       "code": "7506",
@@ -1004,6 +1044,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261119/140120261118582726.pdf"
     },
     {
+      "code": "4591",
+      "company_name": "Ｇ－リボミック",
+      "market_cap": 33.1,
+      "time": "18:00",
+      "title": "2027年3月期第2四半期（中間期）決算説明会資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261119/140120261118582855.pdf"
+    },
+    {
       "code": "4918",
       "company_name": "アイビー",
       "market_cap": 31.5,
@@ -1034,6 +1082,14 @@
       "time": "15:30",
       "title": "取締役候補者の選任に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261119/140120261117581778.pdf"
+    },
+    {
+      "code": "7603",
+      "company_name": "ジーイエット",
+      "market_cap": 24.1,
+      "time": "17:30",
+      "title": "第三者割当による第13回新株予約権、第14回新株予約権（行使価額修正条項付）及び第３回無担保普通社債の発行並びに新株予約権の買取契約の締結に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261119/140120261119583617.pdf"
     },
     {
       "code": "264A",
@@ -1130,6 +1186,14 @@
       "time": "15:30",
       "title": "2027年３月期 第２四半期決算説明会における質疑応答（要旨）",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261119/140120261112576622.pdf"
+    },
+    {
+      "code": "4260",
+      "company_name": "Ｇ－ハイブリッドテク",
+      "market_cap": 19.1,
+      "time": "17:45",
+      "title": "会計監査人の異動に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261119/140120261119583703.pdf"
     },
     {
       "code": "5131",
@@ -1245,7 +1309,8 @@
     }
   ],
   "notified": {
-    "evening": true
+    "evening": true,
+    "night": true
   },
   "tdnet_available": true
 }
