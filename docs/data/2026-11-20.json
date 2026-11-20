@@ -1,7 +1,7 @@
 {
   "date": "2026-11-20",
-  "company_count": 173,
-  "total_count": 208,
+  "company_count": 185,
+  "total_count": 237,
   "items": [
     {
       "code": "6971",
@@ -220,6 +220,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261119583662.pdf"
     },
     {
+      "code": "6376",
+      "company_name": "日機装",
+      "market_cap": 1514.9,
+      "time": "17:20",
+      "title": "（経過事項の開示）タックス・ヘイブン対策税制に基づく更正処分に係る最高裁判所の決定（上告不受理）について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261120583849.pdf"
+    },
+    {
       "code": "6250",
       "company_name": "やまびこ",
       "market_cap": 1385.6,
@@ -308,12 +316,44 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261120583822.pdf"
     },
     {
+      "code": "6727",
+      "company_name": "ワコム",
+      "market_cap": 883.1,
+      "time": "19:40",
+      "title": "MBOの実施及び公開買付けの開始予定に関する意見表明並びに応募の推奨に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261113579942.pdf"
+    },
+    {
+      "code": "6727",
+      "company_name": "ワコム",
+      "market_cap": 883.1,
+      "time": "19:40",
+      "title": "MP-2611株式会社による株式会社ワコム株式（証券コード：6727）に対する公開買付けの開始予定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261120584437.pdf"
+    },
+    {
+      "code": "6727",
+      "company_name": "ワコム",
+      "market_cap": 883.1,
+      "time": "19:40",
+      "title": "2027年３月期期末配当予想の修正（無配）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261120584035.pdf"
+    },
+    {
       "code": "8061",
       "company_name": "西華産",
       "market_cap": 881.6,
       "time": "15:30",
       "title": "2027年3月期第2四半期（中間期）決算説明会資料",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261120584053.pdf"
+    },
+    {
+      "code": "2612",
+      "company_name": "かどや製油",
+      "market_cap": 851.9,
+      "time": "20:30",
+      "title": "（変更）「株式会社ITG-Gホールディングスによる当社株式に対する公開買付けに関する賛同の意見表明及び応募推奨のお知らせ」の一部変更に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261120584380.pdf"
     },
     {
       "code": "6277",
@@ -362,6 +402,22 @@
       "time": "13:00",
       "title": "2026年度（2027年3月期）第2四半期決算説明",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261120584047.pdf"
+    },
+    {
+      "code": "3479",
+      "company_name": "Ｇ－ＴＫＰ",
+      "market_cap": 704.9,
+      "time": "17:20",
+      "title": "連結子会社の吸収合併（簡易合併）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261120584081.pdf"
+    },
+    {
+      "code": "3479",
+      "company_name": "Ｇ－ＴＫＰ",
+      "market_cap": 704.9,
+      "time": "17:20",
+      "title": "株主優待制度の拡充に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261120584292.pdf"
     },
     {
       "code": "2734",
@@ -460,6 +516,38 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261120583936.pdf"
     },
     {
+      "code": "4933",
+      "company_name": "Ｉｎｅ",
+      "market_cap": 438.9,
+      "time": "17:45",
+      "title": "ＭＢＯの実施に関する賛同及び応募中立の意見表明のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261119583727.pdf"
+    },
+    {
+      "code": "4933",
+      "company_name": "Ｉｎｅ",
+      "market_cap": 438.9,
+      "time": "17:45",
+      "title": "ジャンボ株式会社による株式会社Ｉ－ｎｅ（証券コード：4933）の株券等に対する公開買付けの開始に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261119583729.pdf"
+    },
+    {
+      "code": "4933",
+      "company_name": "Ｉｎｅ",
+      "market_cap": 438.9,
+      "time": "17:45",
+      "title": "2026年12月期の配当予想の修正（無配）及び株主優待制度の廃止に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261119583737.pdf"
+    },
+    {
+      "code": "4933",
+      "company_name": "Ｉｎｅ",
+      "market_cap": 438.9,
+      "time": "17:45",
+      "title": "当社代表取締役社長からの損失補填に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261119583740.pdf"
+    },
+    {
       "code": "6644",
       "company_name": "大崎電",
       "market_cap": 430.3,
@@ -514,6 +602,14 @@
       "time": "16:45",
       "title": "連結子会社の合併及び特定子会社の異動に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261120584338.pdf"
+    },
+    {
+      "code": "6264",
+      "company_name": "マルマエ",
+      "market_cap": 358.9,
+      "time": "17:15",
+      "title": "自己株式の取得状況及び取得終了に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261120584412.pdf"
     },
     {
       "code": "6249",
@@ -844,6 +940,30 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261119583735.pdf"
     },
     {
+      "code": "9249",
+      "company_name": "日本エコシステム",
+      "market_cap": 139.4,
+      "time": "17:30",
+      "title": "役員候補者に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261119583707.pdf"
+    },
+    {
+      "code": "9249",
+      "company_name": "日本エコシステム",
+      "market_cap": 139.4,
+      "time": "17:30",
+      "title": "公認会計士等の異動に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261119583715.pdf"
+    },
+    {
+      "code": "9249",
+      "company_name": "日本エコシステム",
+      "market_cap": 139.4,
+      "time": "17:30",
+      "title": "特定の株主からの自己株式取得に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261119583716.pdf"
+    },
+    {
       "code": "4165",
       "company_name": "Ｇ－プレイド",
       "market_cap": 139.0,
@@ -890,6 +1010,14 @@
       "time": "09:00",
       "title": "「Wallet Station」への不正アクセスによる個人情報漏えいに関するお詫びとお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261120583076.pdf"
+    },
+    {
+      "code": "438A",
+      "company_name": "Ｇ－インフキュリオン",
+      "market_cap": 124.8,
+      "time": "17:50",
+      "title": "「Wallet Station」への不正アクセスによる個人情報漏えいに関するお詫びと緊急点検の実施について（第２報）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261120584369.pdf"
     },
     {
       "code": "366A",
@@ -986,6 +1114,14 @@
       "time": "11:35",
       "title": "2026年９月期 決算説明会における質疑応答（要旨）のお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261120584019.pdf"
+    },
+    {
+      "code": "5137",
+      "company_name": "Ｇ－スマートドライブ",
+      "market_cap": 106.2,
+      "time": "18:30",
+      "title": "役員人事に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261120584494.pdf"
     },
     {
       "code": "1783",
@@ -1364,6 +1500,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261120583820.pdf"
     },
     {
+      "code": "4172",
+      "company_name": "Ｈｉクラテス",
+      "market_cap": 46.8,
+      "time": "17:30",
+      "title": "剰余金の配当（特別配当）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261120584254.pdf"
+    },
+    {
       "code": "6543",
       "company_name": "日宣",
       "market_cap": 44.8,
@@ -1434,6 +1578,14 @@
       "time": "16:00",
       "title": "財務上の特約が付された金銭消費貸借契約の締結に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261119583645.pdf"
+    },
+    {
+      "code": "7120",
+      "company_name": "ＳＨＩＮＫＯ",
+      "market_cap": 36.4,
+      "time": "17:30",
+      "title": "資金の借入に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261120584439.pdf"
     },
     {
       "code": "3461",
@@ -1620,6 +1772,54 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261119583705.pdf"
     },
     {
+      "code": "3133",
+      "company_name": "Ｇ－海帆",
+      "market_cap": 14.6,
+      "time": "18:00",
+      "title": "（開示事項の訂正）「調達資金の資金使途及び支出時期の変更に関するお知らせ」の一部訂正に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261120584346.pdf"
+    },
+    {
+      "code": "3133",
+      "company_name": "Ｇ－海帆",
+      "market_cap": 14.6,
+      "time": "18:00",
+      "title": "第三者割当による新株式（金銭出資及び現物出資）、第10回新株予約権の発行、主要株主・その他の関係会社の異動、第８回・第９回新株予約権の取得及び消却",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261120584432.pdf"
+    },
+    {
+      "code": "3133",
+      "company_name": "Ｇ－海帆",
+      "market_cap": 14.6,
+      "time": "18:00",
+      "title": "（開示事項の経過及び変更）臨時株主総会開催日及び総会付議議案決定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261120584351.pdf"
+    },
+    {
+      "code": "3133",
+      "company_name": "Ｇ－海帆",
+      "market_cap": 14.6,
+      "time": "18:00",
+      "title": "定款一部変更に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261120584356.pdf"
+    },
+    {
+      "code": "3133",
+      "company_name": "Ｇ－海帆",
+      "market_cap": 14.6,
+      "time": "18:00",
+      "title": "取締役選任議案の付議に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261120584358.pdf"
+    },
+    {
+      "code": "3133",
+      "company_name": "Ｇ－海帆",
+      "market_cap": 14.6,
+      "time": "18:00",
+      "title": "（開示事項の変更）連結子会社におけるネパール水力発電事業の進捗状況および収益化予定時期の再変更に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261120584359.pdf"
+    },
+    {
       "code": "7138",
       "company_name": "Ｇ－ＴＯＲＩＣＯ",
       "market_cap": 14.5,
@@ -1660,6 +1860,38 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261119583591.pdf"
     },
     {
+      "code": "9444",
+      "company_name": "トーシンＨＤ",
+      "market_cap": 8.9,
+      "time": "17:55",
+      "title": "更生計画の認可決定、代表取締役の異動、定款の一部変更、決算期（事業年度の末日）の変更、会社更生法72条４項による決定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261120584446.pdf"
+    },
+    {
+      "code": "9444",
+      "company_name": "トーシンＨＤ",
+      "market_cap": 8.9,
+      "time": "17:55",
+      "title": "株式会社ハーモニーとの出資に関する基本合意書の締結に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261120584450.pdf"
+    },
+    {
+      "code": "9444",
+      "company_name": "トーシンＨＤ",
+      "market_cap": 8.9,
+      "time": "17:55",
+      "title": "（開示事項の経過） 当社管財人の解任申立てに係る取締役会決議に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261120584453.pdf"
+    },
+    {
+      "code": "9444",
+      "company_name": "トーシンＨＤ",
+      "market_cap": 8.9,
+      "time": "17:55",
+      "title": "更生計画案の決議をするための関係人集会招集の申立て及びこれに対する却下決定について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261120/140120261120584452.pdf"
+    },
+    {
       "code": "1773",
       "company_name": "ＹＴＬ",
       "market_cap": 0,
@@ -1669,7 +1901,8 @@
     }
   ],
   "notified": {
-    "evening": true
+    "evening": true,
+    "night": true
   },
   "tdnet_available": true
 }
