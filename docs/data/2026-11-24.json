@@ -1,8 +1,32 @@
 {
   "date": "2026-11-24",
-  "company_count": 111,
-  "total_count": 121,
+  "company_count": 127,
+  "total_count": 141,
   "items": [
+    {
+      "code": "4661",
+      "company_name": "ＯＬＣ",
+      "market_cap": 62652.5,
+      "time": "17:30",
+      "title": "自己株式の取得および自己株式の消却に係る事項の決定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261124/140120261124585361.pdf"
+    },
+    {
+      "code": "4661",
+      "company_name": "ＯＬＣ",
+      "market_cap": 62652.5,
+      "time": "17:30",
+      "title": "自己株式立会外買付取引（ToSTNeT-3）による自己株式の買付けに関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261124/140120261124585365.pdf"
+    },
+    {
+      "code": "9101",
+      "company_name": "郵船",
+      "market_cap": 26949.2,
+      "time": "19:00",
+      "title": "持分法適用会社からの配当金受領に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261124/140120261124585288.pdf"
+    },
     {
       "code": "4004",
       "company_name": "レゾナックＨＤ",
@@ -10,6 +34,22 @@
       "time": "15:30",
       "title": "監査等委員会設置会社への移行に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261124/140120261124585042.pdf"
+    },
+    {
+      "code": "9104",
+      "company_name": "商船三井",
+      "market_cap": 22592.7,
+      "time": "19:00",
+      "title": "持分法適用関連会社OCEAN NETWORK EXPRESS PTE.LTD.からの配当金受領に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261124/140120261116581331.pdf"
+    },
+    {
+      "code": "9107",
+      "company_name": "川崎船",
+      "market_cap": 17923.0,
+      "time": "19:00",
+      "title": "当社個別決算における営業外収益（受取配当金）の計上に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261124/140120261119583583.pdf"
     },
     {
       "code": "5713",
@@ -28,12 +68,28 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261124/140120261124585157.pdf"
     },
     {
+      "code": "9009",
+      "company_name": "京成",
+      "market_cap": 7334.9,
+      "time": "18:00",
+      "title": "株式会社オリエンタルランドが実施する自己株式立会外買付取引による自己株式の買付けへの応募並びに特別利益及び特別損失の計上見込みに関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261124/140120261119583443.pdf"
+    },
+    {
       "code": "8804",
       "company_name": "東建物",
       "market_cap": 6765.2,
       "time": "15:30",
       "title": "固定資産の取得に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261124/140120261120584523.pdf"
+    },
+    {
+      "code": "3291",
+      "company_name": "飯田ＧＨＤ",
+      "market_cap": 5340.1,
+      "time": "19:00",
+      "title": "主要株主の異動に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261124/140120261124585450.pdf"
     },
     {
       "code": "4613",
@@ -468,6 +524,22 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261124/140120261110572179.pdf"
     },
     {
+      "code": "9556",
+      "company_name": "Ｇ－ＩＮＴＬＯＯＰ",
+      "market_cap": 150.6,
+      "time": "18:00",
+      "title": "支配株主等に関する事項について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261124/140120261124585362.pdf"
+    },
+    {
+      "code": "5136",
+      "company_name": "Ｇ－ｔｒｉｐｌａ",
+      "market_cap": 150.3,
+      "time": "17:30",
+      "title": "第10回新株予約権（ストック・オプション）の発行に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261124/140120261124585166.pdf"
+    },
+    {
       "code": "9888",
       "company_name": "ＵＥＸ",
       "market_cap": 145.2,
@@ -530,6 +602,14 @@
       "time": "08:30",
       "title": "「Wallet Station」への不正アクセスによる個人情報漏えいに関するお詫びと緊急点検の状況について（第３報）",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261124/140120261122584562.pdf"
+    },
+    {
+      "code": "6572",
+      "company_name": "オープンＧ",
+      "market_cap": 114.1,
+      "time": "18:00",
+      "title": "主要株主の異動（予定）およびオープングループ株式会社（証券コード：6572）に対する公開買付けに準ずる行為として政令で定める買集め行為に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261124/140120261124585392.pdf"
     },
     {
       "code": "7247",
@@ -668,6 +748,22 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261124/140120261124585237.pdf"
     },
     {
+      "code": "4415",
+      "company_name": "Ｇ－ブロードエンター",
+      "market_cap": 63.4,
+      "time": "17:15",
+      "title": "資金の借入に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261124/140120261124585354.pdf"
+    },
+    {
+      "code": "4415",
+      "company_name": "Ｇ－ブロードエンター",
+      "market_cap": 63.4,
+      "time": "17:15",
+      "title": "資金の借入に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261124/140120261124585357.pdf"
+    },
+    {
       "code": "7049",
       "company_name": "Ｇ－識学",
       "market_cap": 62.6,
@@ -690,6 +786,14 @@
       "time": "10:30",
       "title": "親会社等の決算内容に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261124/140120261120584473.pdf"
+    },
+    {
+      "code": "2195",
+      "company_name": "Ｇ－アミタＨＤ",
+      "market_cap": 57.5,
+      "time": "18:00",
+      "title": "主要株主である筆頭株主の異動に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261124/140120261124585351.pdf"
     },
     {
       "code": "6292",
@@ -722,6 +826,14 @@
       "time": "15:30",
       "title": "連結子会社からの配当金受領に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261124/140120261124585015.pdf"
+    },
+    {
+      "code": "4015",
+      "company_name": "Ｇ－ペイクラウドＨＤ",
+      "market_cap": 49.1,
+      "time": "17:15",
+      "title": "事業計画及び成長可能性に関する事項",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261124/140120261124585320.pdf"
     },
     {
       "code": "3172",
@@ -786,6 +898,14 @@
       "time": "15:30",
       "title": "自己株式の取得状況及び取得終了に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261124/140120261124584714.pdf"
+    },
+    {
+      "code": "206A",
+      "company_name": "Ｇ－ＰＲＩＳＭＢｉｏ",
+      "market_cap": 31.1,
+      "time": "18:00",
+      "title": "小野薬品工業株式会社との共同研究及びライセンス契約の終了に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261124/140120261124584723.pdf"
     },
     {
       "code": "4576",
@@ -932,12 +1052,36 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261124/140120261124585299.pdf"
     },
     {
+      "code": "2901",
+      "company_name": "ウェルディッシュ",
+      "market_cap": 16.0,
+      "time": "18:00",
+      "title": "第70期定時株主総会付議議案の一部取り下げに関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261124/140120261124585426.pdf"
+    },
+    {
+      "code": "2901",
+      "company_name": "ウェルディッシュ",
+      "market_cap": 16.0,
+      "time": "18:00",
+      "title": "（開示事項の中止）代表取締役の異動に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261124/140120261124585397.pdf"
+    },
+    {
       "code": "281A",
       "company_name": "Ｇ－インフォメティス",
       "market_cap": 15.7,
       "time": "16:00",
       "title": "新たな事業の開始に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261124/140120261124584983.pdf"
+    },
+    {
+      "code": "8746",
+      "company_name": "ｕｎｂａｎｋｅｄ",
+      "market_cap": 15.5,
+      "time": "17:15",
+      "title": "監査等委員である取締役の辞任に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261124/140120261124585333.pdf"
     },
     {
       "code": "9399",
@@ -964,6 +1108,22 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261124/140120261124584962.pdf"
     },
     {
+      "code": "2667",
+      "company_name": "イメージワン",
+      "market_cap": 9.6,
+      "time": "19:00",
+      "title": "(開示事項の経過) 資金貸付に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261124/140120261124585446.pdf"
+    },
+    {
+      "code": "9444",
+      "company_name": "トーシンＨＤ",
+      "market_cap": 7.4,
+      "time": "18:00",
+      "title": "内部管理体制の整備及び運用状況等に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261124/140120261124585382.pdf"
+    },
+    {
       "code": "7815",
       "company_name": "東京ボード工業",
       "market_cap": 6.5,
@@ -973,7 +1133,8 @@
     }
   ],
   "notified": {
-    "evening": true
+    "evening": true,
+    "night": true
   },
   "tdnet_available": true
 }
