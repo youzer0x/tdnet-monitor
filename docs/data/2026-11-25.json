@@ -1,7 +1,7 @@
 {
   "date": "2026-11-25",
-  "company_count": 123,
-  "total_count": 148,
+  "company_count": 138,
+  "total_count": 165,
   "items": [
     {
       "code": "285A",
@@ -140,6 +140,30 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261125/140120261125586042.pdf"
     },
     {
+      "code": "3697",
+      "company_name": "ＳＨＩＦＴ",
+      "market_cap": 2843.7,
+      "time": "18:30",
+      "title": "当社子会社（株式会社デケム）の吸収合併（簡易合併）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261125/140120261125586263.pdf"
+    },
+    {
+      "code": "4272",
+      "company_name": "日化薬",
+      "market_cap": 2560.9,
+      "time": "19:00",
+      "title": "組織再編成および役員の異動に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261125/140120261125586207.pdf"
+    },
+    {
+      "code": "4272",
+      "company_name": "日化薬",
+      "market_cap": 2560.9,
+      "time": "19:00",
+      "title": "完全子会社の吸収合併（簡易合併・略式合併）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261125/140120261117582056.pdf"
+    },
+    {
       "code": "6371",
       "company_name": "椿本チエイン",
       "market_cap": 2508.4,
@@ -220,6 +244,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261125/140120261125585884.pdf"
     },
     {
+      "code": "2612",
+      "company_name": "かどや製油",
+      "market_cap": 869.9,
+      "time": "21:15",
+      "title": "（変更）「株式会社ITG-Gホールディングスによる当社株式に対する公開買付けに関する賛同の意見表明及び応募推奨のお知らせ」の一部変更に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261125/140120261125586355.pdf"
+    },
+    {
       "code": "2157",
       "company_name": "コシダカＨＤ",
       "market_cap": 864.7,
@@ -258,6 +290,14 @@
       "time": "16:30",
       "title": "自己株式立会外買付取引（ＴｏＳＴＮｅＴ－３）による自己株式の買付けに関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261125/140120261125586160.pdf"
+    },
+    {
+      "code": "3608",
+      "company_name": "ＴＳＩ　ＨＤ",
+      "market_cap": 673.5,
+      "time": "17:30",
+      "title": "（開示事項の経過）一般財団法人TSIファッション未来財団の設立及び 第三者割当による自己株式の処分に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261125/140120261124585451.pdf"
     },
     {
       "code": "6227",
@@ -444,6 +484,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261125/140120261119583567.pdf"
     },
     {
+      "code": "6584",
+      "company_name": "三桜工",
+      "market_cap": 223.4,
+      "time": "20:00",
+      "title": "連結子会社による子会社（当社孫会社）の設立（特定子会社の異動）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261125/140120261125586270.pdf"
+    },
+    {
       "code": "5592",
       "company_name": "Ｇ－くすりの窓口",
       "market_cap": 214.4,
@@ -628,6 +676,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261125/140120261125585905.pdf"
     },
     {
+      "code": "438A",
+      "company_name": "Ｇ－インフキュリオン",
+      "market_cap": 112.8,
+      "time": "17:30",
+      "title": "「Wallet Station」への不正アクセスに関する提供先のサービス再開状況について（第４報）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261125/140120261125586210.pdf"
+    },
+    {
       "code": "7794",
       "company_name": "Ｇ－イーディーピー",
       "market_cap": 110.8,
@@ -722,6 +778,14 @@
       "time": "15:30",
       "title": "譲渡制限付株式報酬としての自己株式の処分に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261125/140120261124585125.pdf"
+    },
+    {
+      "code": "6161",
+      "company_name": "エスティック",
+      "market_cap": 93.3,
+      "time": "18:00",
+      "title": "2027年3月期 第2四半期 決算説明資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261125/140120261125586223.pdf"
     },
     {
       "code": "7442",
@@ -916,6 +980,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261125/140120261125585994.pdf"
     },
     {
+      "code": "3323",
+      "company_name": "レカム",
+      "market_cap": 58.3,
+      "time": "17:50",
+      "title": "資本準備金の額の減少に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261125/140120261125586231.pdf"
+    },
+    {
       "code": "3988",
       "company_name": "ＳＹＳＨＤ",
       "market_cap": 58.1,
@@ -978,6 +1050,22 @@
       "time": "16:30",
       "title": "AIインフラストラクチャ（AIDC）事業における約１MWのコロケーションサービス利用契約締結に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261125/140120261125585886.pdf"
+    },
+    {
+      "code": "3965",
+      "company_name": "ＣＡＰ",
+      "market_cap": 49.3,
+      "time": "17:30",
+      "title": "資本コストや株価を意識した経営の実現に向けた対応について（アップデート）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261125/140120261125585922.pdf"
+    },
+    {
+      "code": "3965",
+      "company_name": "ＣＡＰ",
+      "market_cap": 49.3,
+      "time": "17:30",
+      "title": "取締役の異動に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261125/140120261125585930.pdf"
     },
     {
       "code": "3042",
@@ -1052,6 +1140,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261125/140120261125585690.pdf"
     },
     {
+      "code": "373A",
+      "company_name": "Ｇ－リップス",
+      "market_cap": 33.4,
+      "time": "20:30",
+      "title": "株主優待クーポンの利用一時停止に関するお詫び",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261125/140120261125586348.pdf"
+    },
+    {
       "code": "7219",
       "company_name": "ＨＫＳ",
       "market_cap": 33.2,
@@ -1068,12 +1164,28 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261125/140120261124584690.pdf"
     },
     {
+      "code": "4893",
+      "company_name": "Ｇ－ノイルイミューン",
+      "market_cap": 32.7,
+      "time": "17:30",
+      "title": "行使価額修正条項付新株予約権の大量行使に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261125/140120261125586198.pdf"
+    },
+    {
       "code": "4068",
       "company_name": "Ｇ－ベイシス",
       "market_cap": 31.7,
       "time": "13:00",
       "title": "第一防災株式会社の株式の取得（子会社化）および資金の借入に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261125/140120261125585642.pdf"
+    },
+    {
+      "code": "3358",
+      "company_name": "Ｔｒａｉｌｈｅａｄ",
+      "market_cap": 31.3,
+      "time": "18:00",
+      "title": "剰余金の配当（中間配当・復配）の効力発生日変更に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261125/140120261125586148.pdf"
     },
     {
       "code": "2330",
@@ -1098,6 +1210,14 @@
       "time": "15:00",
       "title": "譲渡制限付株式報酬としての自己株式の処分に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261125/140120261124584866.pdf"
+    },
+    {
+      "code": "3807",
+      "company_name": "Ｇ－フィスコ",
+      "market_cap": 27.9,
+      "time": "20:00",
+      "title": "当社の主要株主である筆頭株主の異動に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261125/140120261125586236.pdf"
     },
     {
       "code": "3550",
@@ -1164,6 +1284,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261125/140120261124585449.pdf"
     },
     {
+      "code": "2901",
+      "company_name": "ウェルディッシュ",
+      "market_cap": 15.7,
+      "time": "19:00",
+      "title": "現任役員による役員報酬の一部自主返納及び元代表取締役に対する損害賠償請求の検討について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261125/140120261125586296.pdf"
+    },
+    {
       "code": "7067",
       "company_name": "Ｇ－ブランディング",
       "market_cap": 15.3,
@@ -1186,10 +1314,19 @@
       "time": "15:30",
       "title": "（開示事項の経過）資金の借入に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261125/140120261125585752.pdf"
+    },
+    {
+      "code": "9241",
+      "company_name": "Ｇ－ＦＬＮ",
+      "market_cap": 10.0,
+      "time": "18:10",
+      "title": "事業計画及び成長可能性に関する事項について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261125/140120261125586261.pdf"
     }
   ],
   "notified": {
-    "evening": true
+    "evening": true,
+    "night": true
   },
   "tdnet_available": true
 }
