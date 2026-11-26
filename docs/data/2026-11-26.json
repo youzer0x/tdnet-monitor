@@ -1,7 +1,7 @@
 {
   "date": "2026-11-26",
-  "company_count": 120,
-  "total_count": 144,
+  "company_count": 135,
+  "total_count": 160,
   "items": [
     {
       "code": "9983",
@@ -140,6 +140,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261126/140120261126586764.pdf"
     },
     {
+      "code": "8848",
+      "company_name": "レオパレス２１",
+      "market_cap": 3140.6,
+      "time": "17:30",
+      "title": "主要株主の異動に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261126/140120261126586908.pdf"
+    },
+    {
       "code": "8336",
       "company_name": "武蔵野銀",
       "market_cap": 2173.3,
@@ -276,6 +284,22 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261126/140120261126586493.pdf"
     },
     {
+      "code": "2612",
+      "company_name": "かどや製油",
+      "market_cap": 903.0,
+      "time": "19:30",
+      "title": "（株）ITG-Gホールディングスによる公開買付届出書の訂正に伴う「かどや製油（株）の普通株式に対する公開買付けの開始に関するお知らせ」の変更について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261126/140120261126587202.pdf"
+    },
+    {
+      "code": "2612",
+      "company_name": "かどや製油",
+      "market_cap": 903.0,
+      "time": "19:30",
+      "title": "（変更）「株式会社ITG-Gホールディングスによる当社株式に対する公開買付けに関する賛同の意見表明及び応募推奨のお知らせ」の一部変更に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261126/140120261126587203.pdf"
+    },
+    {
       "code": "4464",
       "company_name": "ソフト９９",
       "market_cap": 876.8,
@@ -370,6 +394,14 @@
       "time": "16:00",
       "title": "長期ビジョン2040及び第10次中期経営計画(2027-2030)策定に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261126/140120261126586825.pdf"
+    },
+    {
+      "code": "6425",
+      "company_name": "ユニバーサル",
+      "market_cap": 405.3,
+      "time": "18:30",
+      "title": "子会社の異動に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261126/140120261126587007.pdf"
     },
     {
       "code": "5834",
@@ -548,6 +580,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261126/140120261125585980.pdf"
     },
     {
+      "code": "3662",
+      "company_name": "エイチームＨＤ",
+      "market_cap": 163.6,
+      "time": "17:30",
+      "title": "（訂正）「（訂正）「第９回新株予約権の行使価額及び第１回無担保転換社債型新株予約権付社債の転換価額の調整に関するお知らせ」の訂正について」の訂正",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261126/140120261126587051.pdf"
+    },
+    {
       "code": "5941",
       "company_name": "中西製作所",
       "market_cap": 159.0,
@@ -636,6 +676,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261126/140120261126586918.pdf"
     },
     {
+      "code": "4575",
+      "company_name": "Ｇ－ＣＡＮＢＡＳ",
+      "market_cap": 113.4,
+      "time": "19:05",
+      "title": "（訂正）適時開示書類「第22回新株予約権（行使価額修正条項付）の大量行使に関するお知らせ」 一部訂正について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261126/140120261126587209.pdf"
+    },
+    {
       "code": "4389",
       "company_name": "Ｇ－プロパティＤＢＫ",
       "market_cap": 105.6,
@@ -644,12 +692,28 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261126/140120261125585848.pdf"
     },
     {
+      "code": "5137",
+      "company_name": "Ｇ－スマートドライブ",
+      "market_cap": 103.3,
+      "time": "19:30",
+      "title": "自己株式の取得結果及び取得終了に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261126/140120261126587208.pdf"
+    },
+    {
       "code": "4192",
       "company_name": "Ｇ－スパイダープラス",
       "market_cap": 102.4,
       "time": "17:00",
       "title": "代表取締役の異動並びに執行役員人事に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261126/140120261125586071.pdf"
+    },
+    {
+      "code": "369A",
+      "company_name": "Ｇ－エータイ",
+      "market_cap": 98.6,
+      "time": "18:00",
+      "title": "役付取締役の選定についてのお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261126/140120261126587130.pdf"
     },
     {
       "code": "423A",
@@ -948,12 +1012,28 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261126/140120261126586594.pdf"
     },
     {
+      "code": "7037",
+      "company_name": "テノ．",
+      "market_cap": 35.3,
+      "time": "18:00",
+      "title": "（開示事項の経過）連結子会社の異動（株式譲渡）の実行日変更に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261126/140120261126586394.pdf"
+    },
+    {
       "code": "4918",
       "company_name": "アイビー",
       "market_cap": 33.5,
       "time": "16:00",
       "title": "第三者割当による第６回新株予約権（行使価額修正条項付）の大量行使に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261126/140120261126586477.pdf"
+    },
+    {
+      "code": "373A",
+      "company_name": "Ｇ－リップス",
+      "market_cap": 33.1,
+      "time": "18:00",
+      "title": "取締役の異動及び役員体制に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261126/140120261126587129.pdf"
     },
     {
       "code": "3895",
@@ -1012,6 +1092,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261126/140120261125585610.pdf"
     },
     {
+      "code": "149A",
+      "company_name": "Ｇ－シンカ",
+      "market_cap": 24.9,
+      "time": "19:00",
+      "title": "弊社社内業務システムへの不正アクセスに関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261126/140120261126586941.pdf"
+    },
+    {
       "code": "4881",
       "company_name": "Ｇ－ファンペップ",
       "market_cap": 24.8,
@@ -1042,6 +1130,14 @@
       "time": "13:00",
       "title": "2027年3月期 第2四半期 決算説明資料",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261126/140120261126586638.pdf"
+    },
+    {
+      "code": "7640",
+      "company_name": "トップカルチャ",
+      "market_cap": 22.5,
+      "time": "17:30",
+      "title": "上場維持基準への適合及び当社株式の監理銘柄（確認中）指定解除に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261126/140120261126586923.pdf"
     },
     {
       "code": "2736",
@@ -1084,12 +1180,28 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261126/140120261126586754.pdf"
     },
     {
+      "code": "4444",
+      "company_name": "Ｇ－インフォネットＧ",
+      "market_cap": 19.1,
+      "time": "18:38",
+      "title": "当社子会社が運用するinfoCMSへの不正アクセスに関するお知らせ（第2報）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261126/140120261126587182.pdf"
+    },
+    {
       "code": "7928",
       "company_name": "旭化学",
       "market_cap": 17.7,
       "time": "15:30",
       "title": "2026年８月期決算説明資料及び中期経営計画の進捗状況",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261126/140120261126586861.pdf"
+    },
+    {
+      "code": "3647",
+      "company_name": "アスリナ",
+      "market_cap": 17.3,
+      "time": "17:10",
+      "title": "第11回新株予約権の買取及び消却の完了並びに第三者割当による第12回新株予約権及び第13回新株予約権の発行価額の払込完了に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261126/140120261126587048.pdf"
     },
     {
       "code": "3908",
@@ -1116,6 +1228,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261126/140120261126586478.pdf"
     },
     {
+      "code": "8746",
+      "company_name": "ｕｎｂａｎｋｅｄ",
+      "market_cap": 14.6,
+      "time": "17:30",
+      "title": "改善計画・状況報告書の公表について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261126/140120261126587119.pdf"
+    },
+    {
       "code": "4069",
       "company_name": "Ｇ－ＢｌｕｅＭｅｍｅ",
       "market_cap": 12.9,
@@ -1130,6 +1250,14 @@
       "time": "16:00",
       "title": "臨時株主総会の招集及び付議議案（定款一部変更並びに取締役選任）に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261126/140120261120584041.pdf"
+    },
+    {
+      "code": "6198",
+      "company_name": "Ｇ－キャリア",
+      "market_cap": 12.9,
+      "time": "18:00",
+      "title": "取締役候補者の選任に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261126/140120261126587134.pdf"
     },
     {
       "code": "3174",
@@ -1157,7 +1285,8 @@
     }
   ],
   "notified": {
-    "evening": true
+    "evening": true,
+    "night": true
   },
   "tdnet_available": true
 }
