@@ -1,7 +1,7 @@
 {
   "date": "2026-11-27",
-  "company_count": 162,
-  "total_count": 197,
+  "company_count": 171,
+  "total_count": 209,
   "items": [
     {
       "code": "2914",
@@ -220,6 +220,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261127/140120261126586407.pdf"
     },
     {
+      "code": "7806",
+      "company_name": "Ｇ－ＭＴＧ",
+      "market_cap": 2834.4,
+      "time": "18:00",
+      "title": "自己株式取得に係る事項の決定に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261127/140120261127587702.pdf"
+    },
+    {
       "code": "3105",
       "company_name": "日清紡ＨＤ",
       "market_cap": 2795.7,
@@ -402,6 +410,14 @@
       "time": "16:00",
       "title": "（開示事項の経過）グローバルサウス未来志向型共創等事業費補助金（小規模実証・FS事業） 交付決定に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261127/140120261127587263.pdf"
+    },
+    {
+      "code": "5122",
+      "company_name": "オカモト",
+      "market_cap": 1015.9,
+      "time": "17:30",
+      "title": "2027年3月期中間期決算説明会資料について",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261127/140120261127588035.pdf"
     },
     {
       "code": "4972",
@@ -596,6 +612,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261127/140120261113579174.pdf"
     },
     {
+      "code": "9115",
+      "company_name": "明海グループ",
+      "market_cap": 319.4,
+      "time": "18:00",
+      "title": "固定資産の取得に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261127/140120261127587681.pdf"
+    },
+    {
       "code": "6668",
       "company_name": "アドテック　プラズマ",
       "market_cap": 313.3,
@@ -780,6 +804,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261127/140120261127587337.pdf"
     },
     {
+      "code": "4175",
+      "company_name": "Ｇ－ｃｏｌｙ",
+      "market_cap": 143.6,
+      "time": "18:00",
+      "title": "空株式会社の株式の取得（子会社化）に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261127/140120261127587662.pdf"
+    },
+    {
       "code": "6165",
       "company_name": "パンチ",
       "market_cap": 141.7,
@@ -898,6 +930,22 @@
       "time": "15:00",
       "title": "連結子会社からの配当金受領に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261127/140120261127587670.pdf"
+    },
+    {
+      "code": "2764",
+      "company_name": "ひらまつ",
+      "market_cap": 101.8,
+      "time": "17:30",
+      "title": "2027年3月期第２四半期（中間期）決算説明会資料",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261127/140120261127588040.pdf"
+    },
+    {
+      "code": "8705",
+      "company_name": "日産証券グループ",
+      "market_cap": 99.1,
+      "time": "17:15",
+      "title": "外部委託先システムへの不正アクセスの発生及び情報漏洩に関するお知らせ（第一報）",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261127/140120261127587800.pdf"
     },
     {
       "code": "7373",
@@ -1092,6 +1140,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261127/140120261125586304.pdf"
     },
     {
+      "code": "3323",
+      "company_name": "レカム",
+      "market_cap": 59.9,
+      "time": "17:10",
+      "title": "（訂正・数値データ訂正） 「2026年９月期 決算短信〔ＩＦＲＳ〕(連結)」の一部変更に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261127/140120261127588019.pdf"
+    },
+    {
       "code": "7065",
       "company_name": "ユーピーアール",
       "market_cap": 57.8,
@@ -1154,6 +1210,22 @@
       "time": "16:00",
       "title": "主要株主の異動に関するお知らせ",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261127/140120261127587921.pdf"
+    },
+    {
+      "code": "2338",
+      "company_name": "クオンタムＳ",
+      "market_cap": 53.2,
+      "time": "19:00",
+      "title": "連結子会社によるAIインフラに係る計算サービス（Tokens（トークン））の購入に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261127/140120261127588118.pdf"
+    },
+    {
+      "code": "2338",
+      "company_name": "クオンタムＳ",
+      "market_cap": 53.2,
+      "time": "19:00",
+      "title": "連結子会社における資金の借入れに関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261127/140120261126586484.pdf"
     },
     {
       "code": "3848",
@@ -1234,6 +1306,22 @@
       "time": "15:30",
       "title": "支配株主等に関する事項について",
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261127/140120261127587684.pdf"
+    },
+    {
+      "code": "2304",
+      "company_name": "ＣＳＳＨＤ",
+      "market_cap": 43.0,
+      "time": "17:55",
+      "title": "2026年9月期 通期決算説明動画公開のお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261127/140120261127588018.pdf"
+    },
+    {
+      "code": "4395",
+      "company_name": "Ｇ－アクリート",
+      "market_cap": 41.1,
+      "time": "18:10",
+      "title": "第三者委員会の委員の選任に関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261127/140120261127588074.pdf"
     },
     {
       "code": "9835",
@@ -1444,6 +1532,14 @@
       "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261127/140120261127587802.pdf"
     },
     {
+      "code": "2345",
+      "company_name": "ＨＯＤＬ１",
+      "market_cap": 18.8,
+      "time": "17:15",
+      "title": "有価証券届出書の取下げに関するお知らせ",
+      "pdf_url": "https://github.com/youzer0x/tdnet-monitor/releases/download/pdf-20261127/140120261127588059.pdf"
+    },
+    {
       "code": "3133",
       "company_name": "Ｇ－海帆",
       "market_cap": 18.1,
@@ -1581,7 +1677,8 @@
     }
   ],
   "notified": {
-    "evening": true
+    "evening": true,
+    "night": true
   },
   "tdnet_available": true
 }
